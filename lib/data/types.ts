@@ -102,12 +102,26 @@ export interface Classification {
   /** Which rule decided the category, for audit. */
   rule: string;
   confidence: "high" | "medium" | "low";
+  /** What decided the category: the matched phrase and where it came from. Null when nothing matched. */
+  evidence: { source: "label" | "subject" | "text" | "pdf"; phrase: string } | null;
   /** True only when a rule positively identifies paperwork that doesn't move a stock. */
   routine: boolean;
   /** Which routine rule matched, e.g. "routine:trading-window". */
   routineRule?: string;
   /** True when no rule recognised the filing; it must not be treated as routine. */
   needsReview: boolean;
+}
+
+/** Text read from page 1 of the filing's PDF attachment. Used only to classify; the PDF itself is not committed. */
+export interface AttachmentExcerpt {
+  status: "ok" | "failed";
+  /** Normalised page-1 text, capped at 1,500 characters. Empty when status is "failed". */
+  text: string;
+  page: 1;
+  url: string;
+  extractedAt: string;
+  /** Why extraction failed. A failure never changes a filing's classification. */
+  reason?: string;
 }
 
 export interface Announcement {
@@ -119,6 +133,10 @@ export interface Announcement {
   nseDesc: string;
   /** NSE's own subject text, verbatim. */
   text: string;
+  /** The event subject NSE embeds in the text, e.g. "Store Opening". Null when the text names none. */
+  subject: string | null;
+  /** Page-1 text of the attachment, present only for filings that needed it to be classified. */
+  attachmentExcerpt: AttachmentExcerpt | null;
   attachmentUrl: string | null;
   attachmentSize: string | null;
   /** When NSE says it was announced (ISO, UTC). Source time is IST. */
@@ -136,6 +154,8 @@ export interface AnnouncementSnapshot {
   window: { from: string; to: string };
   count: number;
   items: Announcement[];
+  /** Present after `npm run enrich`. */
+  enrichment?: { at: string; attempted: number; ok: number; failed: number };
 }
 
 export interface ManifestEntry {

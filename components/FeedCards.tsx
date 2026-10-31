@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { CATEGORY_LABEL, ago, change, inr, pct, tone } from "@/lib/format";
-import type { FeedItem, ResultsRow } from "@/lib/types";
+import type { EvidenceRef, FeedItem, ResultsRow } from "@/lib/types";
 import { Pill, SampleTag, Sparkline } from "./ui";
 
 export function digHref(item: FeedItem) {
@@ -11,6 +11,15 @@ export function digHref(item: FeedItem) {
 }
 
 const pillText = (item: FeedItem) => item.label ?? CATEGORY_LABEL[item.cat];
+
+const EVIDENCE_LABEL: Record<EvidenceRef["kind"], string> = {
+  nse_label: "NSE label",
+  filing_text: "Filing text",
+  pdf_excerpt: "PDF page 1",
+  screener: "screener.in",
+  yahoo: "Yahoo",
+  rule: "Rule",
+};
 
 function Delta({ cur, base }: { cur: number | null; base: number | null }) {
   const d = cur != null && base != null ? change(cur, base) : NaN;
@@ -43,9 +52,7 @@ function ResultsBody({ item }: { item: FeedItem }) {
       <div className="mt-3 rounded-xl border border-dashed border-line bg-s2 p-3">
         <p className="eyebrow">{r.periodLabel}</p>
         <p className="mt-1.5 text-[13px] leading-snug text-mute">
-          <span className="mr-1.5 rounded border border-dashed border-dim px-1.5 py-[1px] text-[9.5px] uppercase tracking-wider text-dim">
-            Numbers unavailable
-          </span>
+          <span className="mr-1.5 rounded border border-dashed border-dim px-1.5 py-[1px] text-[9.5px] uppercase tracking-wider text-dim">Numbers unavailable</span>
           {r.pending}
         </p>
       </div>
@@ -97,6 +104,23 @@ function ResultsBody({ item }: { item: FeedItem }) {
         </table>
       )}
       {r.extras.some((e) => e.reason) && <p className="mt-1 text-[11px] text-dim">{r.extras.find((e) => e.reason)!.reason}</p>}
+
+      {r.trend.length > 0 && (
+        <div className="mt-3 grid grid-cols-2 gap-3 border-t border-line/70 pt-3">
+          {r.trend.map((t) => {
+            const vals = t.values.filter((v): v is number => v != null);
+            return (
+              <div key={t.label}>
+                <p className="text-[10.5px] uppercase tracking-wider text-dim">{t.label}</p>
+                {vals.length > 1 ? <Sparkline data={vals} width={110} height={26} /> : <p className="text-[11px] text-dim">n/a</p>}
+                <p className="num text-[10px] text-dim">
+                  {t.periods[0]} to {t.periods[t.periods.length - 1]}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       <button onClick={() => setDefs(!defs)} aria-expanded={defs} className="mt-2 text-[11.5px] text-mute underline underline-offset-4 hover:text-fg">
         {defs ? "Hide definitions" : "Definitions and sources"}
@@ -169,6 +193,7 @@ function MoveBody({ item }: { item: FeedItem }) {
   );
 }
 
+/** Every filing folded into this card stays one tap away, with the reason it was merged. */
 function Related({ item }: { item: FeedItem }) {
   const [open, setOpen] = useState(false);
   if (!item.related?.length) return null;
@@ -178,17 +203,20 @@ function Related({ item }: { item: FeedItem }) {
         {open ? "Hide" : "Show"} {item.related.length} related filing{item.related.length > 1 ? "s" : ""}
       </button>
       {open && (
-        <ul className="rise mt-2 space-y-1.5">
+        <ul className="rise mt-2 space-y-2">
           {item.related.map((r, i) => (
-            <li key={i} className="flex items-baseline gap-2 text-[12px] text-mute">
-              <span className="num w-12 shrink-0 text-[11px] text-dim">{ago(r.hoursAgo)}</span>
-              {r.url ? (
-                <a href={r.url} target="_blank" rel="noreferrer" className="min-w-0 flex-1 truncate hover:text-fg">
-                  {r.title} ↗
-                </a>
-              ) : (
-                <span className="min-w-0 flex-1 truncate">{r.title}</span>
-              )}
+            <li key={i} className="text-[12px] text-mute">
+              <div className="flex items-baseline gap-2">
+                <span className="num w-12 shrink-0 text-[11px] text-dim">{ago(r.hoursAgo)}</span>
+                {r.url ? (
+                  <a href={r.url} target="_blank" rel="noreferrer" className="min-w-0 flex-1 truncate hover:text-fg">
+                    {r.title} ↗
+                  </a>
+                ) : (
+                  <span className="min-w-0 flex-1 truncate">{r.title}</span>
+                )}
+              </div>
+              <p className="pl-14 text-[10.5px] text-dim">Grouped because: {r.reason}</p>
             </li>
           ))}
         </ul>
@@ -197,13 +225,77 @@ function Related({ item }: { item: FeedItem }) {
   );
 }
 
+/** The itemised score and the evidence behind it. Nothing here is interpretation. */
+function ScoreDetails({ item }: { item: FeedItem }) {
+  const [open, setOpen] = useState(false);
+  if (item.sample) {
+    return <p className="mt-3 text-[11.5px] leading-snug text-dim">Sample item: not scored.</p>;
+  }
+  return (
+    <div className="mt-3">
+      <p className="text-[11.5px] leading-snug text-dim">
+        <span className="uppercase tracking-wider text-mute">Ranked here: </span>
+        {item.why}
+      </p>
+      <button onClick={() => setOpen(!open)} aria-expanded={open} className="mt-1 text-[11.5px] text-mute underline underline-offset-4 hover:text-fg">
+        {open ? "Hide" : "Show"} score breakdown and evidence
+      </button>
+      {open && (
+        <div className="rise mt-2 rounded-xl border border-line bg-s2 p-3">
+          <table className="num w-full text-[12px]">
+            <tbody>
+              {item.reasons.map((r, i) => (
+                <tr key={i} className="border-t border-line/60 first:border-0 align-top">
+                  <td className="py-1.5 pr-2 text-fg/90">
+                    {r.label}
+                    <span className="block text-[10.5px] text-dim">
+                      {EVIDENCE_LABEL[r.evidence.kind]}: {r.evidence.text}
+                      {r.evidence.url && (
+                        <a href={r.evidence.url} target="_blank" rel="noreferrer" className="ml-1 text-gold/80 hover:text-gold">
+                          ↗
+                        </a>
+                      )}
+                    </span>
+                  </td>
+                  <td className={`py-1.5 text-right ${r.points > 0 ? "text-up" : "text-down"}`}>
+                    {r.points > 0 ? "+" : ""}
+                    {r.points}
+                  </td>
+                </tr>
+              ))}
+              <tr className="border-t border-line">
+                <td className="pt-2 text-mute">Score (Act ≥ 55, Noted ≥ 30)</td>
+                <td className="pt-2 text-right font-medium">{item.score}</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="eyebrow mb-1 mt-3">Evidence</p>
+          <ul className="space-y-1 text-[11.5px] leading-snug text-mute">
+            {item.evidence.map((e, i) => (
+              <li key={i}>
+                <span className="mr-1 rounded border border-line px-1 py-[1px] text-[9.5px] uppercase tracking-wider text-dim">{EVIDENCE_LABEL[e.kind]}</span>
+                {e.text}
+                {e.url && (
+                  <a href={e.url} target="_blank" rel="noreferrer" className="ml-1 text-gold/80 hover:text-gold">
+                    Open ↗
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
 export function ActCard({ item, onDone, onMute }: { item: FeedItem; onDone: () => void; onMute: () => void }) {
   return (
-    <article className="rise rounded-2xl border border-line bg-s1 p-4">
+    <article id={`card-${item.id}`} className="rise scroll-mt-4 rounded-2xl border border-line bg-s1 p-4">
       <div className="flex items-center gap-2">
         <span className="font-mono text-[13px] font-semibold tracking-wide">{item.sym}</span>
         <Pill tone="gold">{pillText(item)}</Pill>
-        {item.sample && <SampleTag />}
+        {item.sample ? <SampleTag /> : <span className="num rounded border border-line px-1.5 py-[1px] text-[10px] text-mute" title="Materiality score out of 100">{item.score}</span>}
         <span className="num ml-auto text-[11.5px] text-dim">{ago(item.hoursAgo)}</span>
       </div>
       <h3 className="mt-2 font-serif text-[22px] leading-[1.15]">{item.title}</h3>
@@ -213,12 +305,8 @@ export function ActCard({ item, onDone, onMute }: { item: FeedItem; onDone: () =
       {item.kind === "mgmt" && <MgmtBody item={item} />}
       {item.kind === "move" && <MoveBody item={item} />}
       <Related item={item} />
-
-      <p className="mt-3 text-[11.5px] leading-snug text-dim">
-        <span className="uppercase tracking-wider text-mute">Ranked here: </span>
-        {item.why}
-      </p>
-      {item.sourceLabel && <p className="mt-1 text-[11px] text-dim">{item.sourceLabel}</p>}
+      <ScoreDetails item={item} />
+      {item.sourceLabel && <p className="mt-1.5 text-[11px] text-dim">{item.sourceLabel}</p>}
 
       <div className="mt-3 flex items-center gap-2 border-t border-line pt-3">
         <Link href={digHref(item)} className="rounded-full bg-gold px-4 py-2 text-[13px] font-medium text-ink">
@@ -243,13 +331,14 @@ export function ActCard({ item, onDone, onMute }: { item: FeedItem; onDone: () =
 export function NoteRow({ item, onDone, onMute }: { item: FeedItem; onDone: () => void; onMute: () => void }) {
   const [open, setOpen] = useState(false);
   return (
-    <div className="border-b border-line/70 last:border-0">
+    <div id={`card-${item.id}`} className="border-b border-line/70 last:border-0">
       <button onClick={() => setOpen(!open)} aria-expanded={open} className="flex w-full items-start gap-3 px-4 py-3 text-left">
         <span className="w-[74px] shrink-0 pt-[1px] font-mono text-[12px] font-semibold">{item.sym}</span>
         <span className="min-w-0 flex-1">
           <span className="block text-[14px] leading-snug">{item.title}</span>
           <span className="mt-0.5 block text-[12px] text-mute">
             {pillText(item)} · {ago(item.hoursAgo)}
+            {item.related?.length ? ` · +${item.related.length} related` : ""}
           </span>
         </span>
         <span className={`mt-1 text-dim transition-transform ${open ? "rotate-90" : ""}`}>›</span>
@@ -257,7 +346,8 @@ export function NoteRow({ item, onDone, onMute }: { item: FeedItem; onDone: () =
       {open && (
         <div className="rise px-4 pb-3 pl-[102px]">
           {item.soWhat && <p className="text-[13px] leading-snug text-fg/85">{item.soWhat}</p>}
-          <p className="mt-1.5 text-[11.5px] text-dim">{item.why}</p>
+          <Related item={item} />
+          <ScoreDetails item={item} />
           {item.sourceLabel && <p className="mt-1 text-[11px] text-dim">{item.sourceLabel}</p>}
           <div className="mt-2.5 flex items-center gap-2">
             <Link href={digHref(item)} className="rounded-full border border-gold/50 px-3 py-1.5 text-[12px] text-gold">

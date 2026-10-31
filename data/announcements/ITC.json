@@ -21,6 +21,8 @@
    "isin": "INE154A01025",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ITC Limited has informed the Exchange regarding Allotment of 1395500 Shares.",
+   "subject": "Allotment of 1395500 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ITC_15102026192000_SE.pdf",
    "attachmentSize": "418.80 KB",
    "announcedAt": "2026-10-15T13:50:08.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -45,6 +51,8 @@
    "isin": "INE154A01025",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "ITC Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ITC_05102026142025_Demat_Remat_quarterly_Sept26.pdf",
    "attachmentSize": "291.54 KB",
    "announcedAt": "2026-10-05T08:51:07.000Z",
@@ -57,10 +65,20 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 0,
+  "ok": 0,
+  "failed": 0
+ }
 }

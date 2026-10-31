@@ -21,6 +21,8 @@
    "isin": "INE736A01011",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "CDSL has informed the Exchange about Presentation for the quarter and half year ended September 30, 2026.",
+   "subject": "Presentation for the quarter and half year ended September 30, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf",
    "attachmentSize": "3.07 MB",
    "announcedAt": "2026-10-31T10:26:44.000Z",
@@ -34,6 +36,10 @@
     ],
     "rule": "kw:results",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "quarter and half year ended"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -45,6 +51,8 @@
    "isin": "INE736A01011",
    "nseDesc": "Press Release",
    "text": "CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf",
    "attachmentSize": "467.12 KB",
    "announcedAt": "2026-10-31T08:57:13.000Z",
@@ -58,6 +66,10 @@
     ],
     "rule": "kw:results",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -69,6 +81,8 @@
    "isin": "INE736A01011",
    "nseDesc": "Outcome of Board Meeting",
    "text": "CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
    "attachmentSize": "10.63 MB",
    "announcedAt": "2026-10-31T08:46:32.000Z",
@@ -81,6 +95,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -92,20 +110,33 @@
    "isin": "INE736A01011",
    "nseDesc": "General Updates",
    "text": "CDSL has informed the Exchange about Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (SEBI Listing Regulations).",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf",
+    "extractedAt": "2026-10-31T16:42:13.832Z",
+    "status": "ok",
+    "text": "Regd. Office: Marathon Futurex, A Wing, 25th Floor, Mafatlal Mills Compound, N M Joshi Marg, Lower Parel (E), Mumbai - 400 013. Phone: 91-22-2302 3333 • Fax: 91-22-2300 2036 • CIN: L67120MH1997PLC112443 Website: www.cdslindia.com Central Depository Services (India) Limited Classification - Public CDSL/CS/NSE/KS/2026/151 October 30, 2026 The Manager, Listing Compliance Department, National Stock Exchange of India Ltd., Exchange Plaza, Bandra Kurla Complex, Bandra (East), Mumbai – 400051. Symbol: CDSL ISIN: INE736A01011 Subject: Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”). Dear Sir/Madam, Pursuant to the provisions of Regulation 30 read with sub para (20) Para A Part A of Schedule III of the SEBI Listing Regulations, we hereby inform that SEBI vide its order dated October 30, 2026, concerning the observations raised during inspection conducted by SEBI for FY 2023-24 imposed a penalty on Central Depository Services (India) Limited (CDSL/the Company) amounting to ₹ 1,00,00,000/- (Rupees One Crore) pursuant to the provisions of Section 15HB of the SEBI Act, 1992 on account of observations relating to operational and Information Technology (IT) related matters. The details pertaining to the above as required under sub para (20) Para A Part A of Schedule III of the SEBI Listing Regulations read with SEBI Circular No. SEBI/HO/CFD/CFD-PoD-1/P/CIR/2023/123 dated"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf",
    "attachmentSize": "329.12 KB",
    "announcedAt": "2026-10-30T13:43:48.000Z",
    "announcedAtRaw": "30-Oct-2026 19:13:48",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "litigation",
     "categories": [
+     "litigation",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:litigation",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "penalty"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -115,6 +146,8 @@
    "isin": "INE736A01011",
    "nseDesc": "Retirement",
    "text": "CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
+   "subject": "Retirement of Shri Ashish Bhatt, Senior Vice President, Operations",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf",
    "attachmentSize": "304.44 KB",
    "announcedAt": "2026-10-28T12:33:47.000Z",
@@ -127,6 +160,10 @@
     ],
     "rule": "desc:retirement",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Retirement"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -138,6 +175,8 @@
    "isin": "INE736A01011",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "CDSL has informed the Exchange about Schedule of Conference Call to be held on Monday, November 02, 2026.",
+   "subject": "Schedule of Conference Call to be held on Monday, November 02, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_27102026172744_NSEIntimation_Concall_02112026_Signed.pdf",
    "attachmentSize": "429.73 KB",
    "announcedAt": "2026-10-27T12:02:39.000Z",
@@ -151,9 +190,19 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Conference Call"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 1,
+  "ok": 1,
+  "failed": 0
+ }
 }

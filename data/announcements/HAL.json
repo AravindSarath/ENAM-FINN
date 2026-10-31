@@ -21,6 +21,8 @@
    "isin": "INE066F01012",
    "nseDesc": "Change in Director(s)",
    "text": "Hindustan Aeronautics Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "subject": "Change in Director(s) of the company",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_28102026180358_changeinmanagement_Dops_Signed.pdf",
    "attachmentSize": "238.19 KB",
    "announcedAt": "2026-10-28T12:34:19.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "desc:change in director(s)",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Director(s)"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -44,6 +50,14 @@
    "isin": "INE066F01012",
    "nseDesc": "Updates",
    "text": "Hindustan Aeronautics Limited has informed the Exchange regarding 'general updates'.",
+   "subject": "general updates",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HAL_22102026131032_GeneralUpdates22102026.pdf",
+    "extractedAt": "2026-10-31T16:42:25.027Z",
+    "status": "ok",
+    "text": "CO/SEC/4(7)/2026-27/ BSE & NSE Filing/42 22nd October, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 National Stock Exchange of India Ltd Listing Department Exchange Plaza, 5th Floor, Plot No C/1, G Block, Bandra-Kurla Complex, Bandra (E), Mumbai – 400051 Dear Sir/ Madam, Sub: General Updates Ref: BSE Scrip Code: 541154, NSE Symbol: HAL *** This is with reference to our Letter No. CO/SEC/4(7)/2026-27/ BSE & NSE Filing/40 dated 7th October, 2026 on the subject “Outcome of the Board Meeting - Change in Directorate”. 2. The designation of Shri Anindya Biswas as mentioned in the brief profile may please be read as “DS & DG (Aero)” instead of “DS & Director RCI”. 3. This is for your information and record, please. Thanking you, Yours Faithfully For Hindustan Aeronautics Ltd (Shailesh Bansal) Company Secretary & Compliance Officer"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_22102026131032_GeneralUpdates22102026.pdf",
    "attachmentSize": "219.82 KB",
    "announcedAt": "2026-10-22T07:40:54.000Z",
@@ -56,6 +70,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -67,6 +82,8 @@
    "isin": "INE066F01012",
    "nseDesc": "Change in Director(s)",
    "text": "Hindustan Aeronautics Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "subject": "Change in Director(s) of the company",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_07102026153915_ChangeInDirectorate_07102026.pdf",
    "attachmentSize": "244.56 KB",
    "announcedAt": "2026-10-07T10:09:32.000Z",
@@ -79,6 +96,10 @@
     ],
     "rule": "desc:change in director(s)",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Director(s)"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -90,6 +111,14 @@
    "isin": "INE066F01012",
    "nseDesc": "Agreements",
    "text": "Hindustan Aeronautics Limited has informed the Exchange about Agreements",
+   "subject": "Agreements",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HAL_02102026194550_AgreementSigned_02102026.pdf",
+    "extractedAt": "2026-10-31T16:43:02.319Z",
+    "status": "ok",
+    "text": "CO/SEC/4(7)/2026-27/ BSE & NSE Filing/39 2nd October, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 National Stock Exchange of India Ltd Listing Department Exchange Plaza, 5th Floor, Plot No C/1, G Block, Bandra-Kurla Complex, Bandra (E), Mumbai – 400051 Sub: Signing of an agreement for acquiring 50% stake of CAE Canada in HATSOFF Helicopter Training Pvt. Ltd. Ref: BSE Scrip Code: 541154, NSE Symbol: HAL *** In terms of Regulation 30 of the SEBI (LODR) Regulations, 2015, we wish to inform that, the Company has entered into an agreement for acquisition of 50% stake in HATSOFF Helicopter Training Pvt. Ltd i.e., 3,84,04,205 (Three Crore Eighty-Four Lakh Four Thousand Two Hundred Five) equity shares each with a face value of Rs 10/- (Rs Ten only) from M/s CAE, Canada, at NIL consideration. 2. Upon transfer of the above referred shares, the HATSOFF Helicopter Training Pvt. Ltd. will become 100% Wholly-Owned Subsidiary of HAL. 3. Other details required to be disclosed are as follows: SI No. Particulars Details 1. Name of the target entity, details in brief such as size, turnover etc HATSOFF Helicopter Training Pvt Ltd (HATSOFF). HATSOFF is operating as a 50:50 Joint Venture between Hindustan Aeronautics Limited (HAL) and M/s CAE, Canada to impart military and civil Helicopter pilot training through operation of simulators. Authorized Capital: ₹ 76.84 Crs Paid-up capital: ₹ 76.80 Crs Turnover FY 2025-26: ₹ 80.95 Crs"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_02102026194550_AgreementSigned_02102026.pdf",
    "attachmentSize": "285.27 KB",
    "announcedAt": "2026-10-02T14:16:03.000Z",
@@ -100,11 +129,21 @@
     "categories": [
      "M&A"
     ],
-    "rule": "desc:agreements",
-    "confidence": "low",
+    "rule": "pdf:kw:mna",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "acquisition"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 2,
+  "ok": 2,
+  "failed": 0
+ }
 }

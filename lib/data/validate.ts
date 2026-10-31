@@ -114,6 +114,18 @@ export function validateSnapshots(dataDir = path.join(process.cwd(), "data")): V
           if (snap.items.some((i) => i.attachmentUrl && !/^https:\/\//.test(i.attachmentUrl))) err(`${s}: non-https attachment URL`);
           if (snap.items.some((i) => !i.classification?.category)) err(`${s}: announcement without classification`);
           if (snap.items.some((i) => i.classification.routine && i.classification.needsReview)) err(`${s}: item both routine and needsReview`);
+          for (const i of snap.items) {
+            const ex = i.attachmentExcerpt;
+            if (ex) {
+              if (ex.text.length > 1500) err(`${s}: excerpt over 1,500 characters for ${i.id}`);
+              if (ex.status === "ok" && ex.text.length < 20) err(`${s}: ok excerpt with no text for ${i.id}`);
+              if (ex.status === "failed" && !ex.reason) err(`${s}: failed excerpt without a reason for ${i.id}`);
+              if (!/^https:\/\//.test(ex.url)) err(`${s}: excerpt without an https source for ${i.id}`);
+              if (ex.status === "failed" && i.classification.routine && !i.classification.routineRule) err(`${s}: failed PDF read produced a routine filing ${i.id}`);
+            }
+            if (i.classification.category !== "unclassified" && !i.classification.evidence) err(`${s}: classified without evidence ${i.id}`);
+            if (i.classification.evidence?.source === "pdf" && i.attachmentExcerpt?.status !== "ok") err(`${s}: PDF-based classification without an excerpt ${i.id}`);
+          }
         }
       } else notes.push(`announcements unavailable: ${ae.reason}`);
     }

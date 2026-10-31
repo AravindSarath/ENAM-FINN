@@ -21,20 +21,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys Announces Expansion of Pocharam Development Center in Hyderabad'.",
+   "subject": "Infosys Announces Expansion of Pocharam Development Center in Hyderabad",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/INFY_30102026185037_PR_30102026.pdf",
+    "extractedAt": "2026-10-31T16:42:13.833Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 30, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys Announces Expansion of Pocharam Development Center in Hyderabad” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/INFY_30102026185037_PR_30102026.pdf",
    "attachmentSize": "3.28 MB",
    "announcedAt": "2026-10-30T13:20:50.000Z",
    "announcedAtRaw": "30-Oct-2026 18:50:50",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -44,6 +57,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/INFY_29102026151445_SE_intimation_Newspaper_ad_2.pdf",
    "attachmentSize": "3.22 MB",
    "announcedAt": "2026-10-29T09:45:01.000Z",
@@ -56,6 +71,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -68,20 +87,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced'.",
+   "subject": "Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
+    "extractedAt": "2026-10-31T16:42:14.897Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 29, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Winners of Qorus-Infosys Finacle Banking Innovation Awards 2026 Announced” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/INFY_29102026150417_PR_29102026.pdf",
    "attachmentSize": "3.28 MB",
    "announcedAt": "2026-10-29T09:35:32.000Z",
    "announcedAtRaw": "29-Oct-2026 15:05:32",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -91,6 +123,14 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Earnings Call Transcript'.",
+   "subject": "Earnings Call Transcript",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
+    "extractedAt": "2026-10-31T16:43:02.848Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 28, 2026 Dear Sir/ Madam, Sub: Transcripts of the press conference and earnings call conducted after the Meeting of Board of directors on October 23, 2026 Please find enclosed the transcripts of the press conference and earnings call conducted after the Board meeting held on October 23, 2026, for your information and records. This information will also be hosted on the Company’s website, at https://www.infosys.com/investors/reports-filings/quarterly-results/2026-2027/q2.html The audio/video recordings of the press conference and earnings call are also made available on the Company’s website, at https://www.infosys.com/investors/reports-filings/quarterly-results/2026- 2027/q2.html This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173824_SE_filing_Earnings_call_transcript.pdf",
    "attachmentSize": "3.57 MB",
    "announcedAt": "2026-10-28T12:08:42.000Z",
@@ -103,6 +143,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Earnings Call"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -114,20 +158,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Canada s UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker'.",
+   "subject": "Canada s UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173120_PR_28102026.pdf",
+    "extractedAt": "2026-10-31T16:42:17.219Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 28, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Canada’s UNI Financial Cooperation Advances Branch Modernization with Infosys Finacle Universal Banker” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_28102026173120_PR_28102026.pdf",
    "attachmentSize": "3.31 MB",
    "announcedAt": "2026-10-28T12:01:34.000Z",
    "announcedAtRaw": "28-Oct-2026 17:31:34",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -137,6 +194,14 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding ' Investor Conference'.",
+   "subject": "Investor Conference",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026225301_SE_filing_Investor_Conference_27102026.pdf",
+    "extractedAt": "2026-10-31T16:43:03.551Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 27, 2026 Dear Sir/ Madam, Sub: Investor meetings This is to inform that the Company’s management/representatives will be participating in the following events. Date Non-Deal Roadshow (NDR)/ Conference Type of meeting Place Participants November 02 & 03, 2026 NDR Group and one on one London Jayesh Sanghrajka – Chief Financial Officer and Sandeep Mahindroo, Financial Controller and Head – Investor Relations November 04, 2026 NDR Group and one on one Edinburgh Jayesh Sanghrajka – Chief Financial Officer and Sandeep Mahindroo, Financial Controller and Head – Investor Relations This is for your information and records. The same will also be hosted on the Company’s website, at www.infosys.com Thanking you, Yours sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No. A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_27102026225301_SE_filing_Investor_Conference_27102026.pdf",
    "attachmentSize": "3.12 MB",
    "announcedAt": "2026-10-27T17:23:15.000Z",
@@ -149,6 +214,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Conference"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -160,20 +229,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business'.",
+   "subject": "Infosys Successfully Delivers Syngenta s Global SAP S/4HANA Transformation for Crop Protection Business",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_27102026163727_PR_27102026.pdf",
+    "extractedAt": "2026-10-31T16:42:21.448Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 27, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys Successfully Delivers Syngenta’s Global SAP S/4HANA Transformation for Crop Protection Business” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_27102026163727_PR_27102026.pdf",
    "attachmentSize": "3.30 MB",
    "announcedAt": "2026-10-27T11:08:30.000Z",
    "announcedAtRaw": "27-Oct-2026 16:38:30",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -183,6 +265,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_24102026194244_Financials_newspaper_ad_SE_filing.pdf",
    "attachmentSize": "12.44 MB",
    "announcedAt": "2026-10-24T14:13:00.000Z",
@@ -195,6 +279,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -207,6 +295,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Report of auditors on financial statements for the quarter and half year ended September 30, 2026 withUDIN'.",
+   "subject": "Report of auditors on financial statements for the quarter and half year ended September 30, 2026 withUDIN",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_23102026200652_SE_filing_Auditors_report_with_UDIN.pdf",
    "attachmentSize": "4.73 MB",
    "announcedAt": "2026-10-23T14:37:11.000Z",
@@ -219,6 +309,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "quarter and half year ended"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -230,6 +324,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Record Date",
    "text": "Infosys Limited has informed the Exchange that Record date for the purpose of Dividend is 03-Nov-2026.",
+   "subject": "Record date for the purpose of Dividend is 03-Nov-2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160926_BM_Outcome_Oct232026_1.pdf",
    "attachmentSize": "25.48 MB",
    "announcedAt": "2026-10-23T10:40:52.000Z",
@@ -242,6 +338,10 @@
     ],
     "rule": "kw:dividend",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Dividend"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -253,6 +353,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Infosys Limited has submitted to the Exchange, Financial Results for the quarter and half year ended September 30, 2026 and declaration of interim dividend",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_23102026160704_BM_Outcome_Oct232026_1.pdf",
    "attachmentSize": "25.48 MB",
    "announcedAt": "2026-10-23T10:38:26.000Z",
@@ -266,6 +368,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -277,20 +383,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys to Announce Second Quarter Results on October 23, 2026'.",
+   "subject": "Infosys to Announce Second Quarter Results on October 23, 2026",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_19102026154028_PR_19102026.pdf",
+    "extractedAt": "2026-10-31T16:42:29.634Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 19, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys to Announce Second Quarter Results on October 23, 2026” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_19102026154028_PR_19102026.pdf",
    "attachmentSize": "3.31 MB",
    "announcedAt": "2026-10-19T10:10:54.000Z",
    "announcedAtRaw": "19-Oct-2026 15:40:54",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -300,20 +419,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India'.",
+   "subject": "Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_19102026153335_PR_19102026_2.pdf",
+    "extractedAt": "2026-10-31T16:42:32.794Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 19, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys and Truist Strengthen Strategic Collaboration to Build a Global Capability Center in India” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_19102026153335_PR_19102026_2.pdf",
    "attachmentSize": "3.33 MB",
    "announcedAt": "2026-10-19T10:04:02.000Z",
    "announcedAtRaw": "19-Oct-2026 15:34:02",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -323,20 +455,33 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys Foundation Enables Over 2.5 Lakh Job Offers Across India Through Infosys Springboard Livelihood Program'.",
+   "subject": "Infosys Foundation Enables Over 2.5 Lakh Job Offers Across India Through Infosys Springboard Livelihood Program",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_13102026122634_PR_13102026.pdf",
+    "extractedAt": "2026-10-31T16:42:37.006Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 13, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys Foundation Enables Over 2.5 Lakh Job Offers Across India Through Infosys Springboard Livelihood Program” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_13102026122634_PR_13102026.pdf",
    "attachmentSize": "3.29 MB",
    "announcedAt": "2026-10-13T06:56:48.000Z",
    "announcedAtRaw": "13-Oct-2026 12:26:48",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -346,6 +491,14 @@
    "isin": "INE009A01021",
    "nseDesc": "General Updates",
    "text": "Infosys Limited has informed the Exchange about General Updates",
+   "subject": "General Updates",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/INFY_10102026224330_Infosys_October102026.pdf",
+    "extractedAt": "2026-10-31T16:42:40.954Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED October 10, 2026 NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE Dear Sir/ Madam, Sub: Company statement on the U.S. Permanent Labor Certification Program Infosys Limited (“the Company”) is aware of the decision announced by the United States Department of Labor concerning the suspension of new and pending applications by certain companies, including Infosys, under the Permanent Labor Certification (“PERM”) program. We welcome the opportunity to work with the Department of Labor and related government agencies to answer any questions they may have. We do not anticipate yesterday's announcement of such suspension to have a material impact on the organization. The Company will make further disclosures, if required, in accordance with applicable regulatory standards. Infosys has invested in building a strong local workforce and technology and innovation hubs in the United States. The Company remains committed to its employees, clients, and communities across the United States and to complying with all applicable laws and regulations. Certain statements in this release, including those concerning the impact of the suspension of PERM applications are “forward looking statements” intended to qualify for the 'safe harbor' under the Private Securities Litigation Reform Act of 1995. Such forward-looking statements are based on our current expectations, assumptions, estimates and projections about the Company, our industry, economic c"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/INFY_10102026224330_Infosys_October102026.pdf",
    "attachmentSize": "3.13 MB",
    "announcedAt": "2026-10-10T17:15:31.000Z",
@@ -358,6 +511,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -369,6 +523,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Infosys Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_09102026101311_SE_Intimation_adv_in_newspaper_1.pdf",
    "attachmentSize": "3.44 MB",
    "announcedAt": "2026-10-09T04:43:20.000Z",
@@ -381,6 +537,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -393,6 +553,8 @@
    "isin": "INE009A01021",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Infosys Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/INFY_01102026222039_SE_filing_Reg_74_Q2FY27.pdf",
    "attachmentSize": "3.40 MB",
    "announcedAt": "2026-10-01T16:50:53.000Z",
@@ -405,6 +567,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -417,21 +583,40 @@
    "isin": "INE009A01021",
    "nseDesc": "Updates",
    "text": "Infosys Limited has informed the Exchange regarding 'Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value'.",
+   "subject": "Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/Infosys_01102026173153_PR_01102026.pdf",
+    "extractedAt": "2026-10-31T16:42:47.987Z",
+    "status": "ok",
+    "text": "TO ALL STOCK EXCHANGES BSE LIMITED NATIONAL STOCK EXCHANGE OF INDIA LIMITED NEW YORK STOCK EXCHANGE October 1, 2026 Dear Sir/ Madam, Sub: Press release Please find enclosed the press release titled “Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value” This information will also be hosted on the Company’s website, at www.infosys.com. This is for your information and records. Yours Sincerely, For Infosys Limited A.G.S. Manikantha Company Secretary Membership No: A21918"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/Infosys_01102026173153_PR_01102026.pdf",
    "attachmentSize": "3.26 MB",
    "announcedAt": "2026-10-01T12:02:39.000Z",
    "announcedAtRaw": "01-Oct-2026 17:32:39",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
+     "press_release",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:press",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Press release"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 11,
+  "ok": 11,
+  "failed": 0
+ }
 }

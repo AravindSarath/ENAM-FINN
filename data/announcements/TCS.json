@@ -21,6 +21,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank'.",
+   "subject": "Press Release - TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_19102026112258_PR_19Oct26_signed.pdf",
    "attachmentSize": "523.38 KB",
    "announcedAt": "2026-10-19T06:00:07.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "kw:press",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -44,6 +50,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_16102026162737_SE16102026_signed.pdf",
    "attachmentSize": "344.43 KB",
    "announcedAt": "2026-10-16T10:59:00.000Z",
@@ -56,6 +64,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -67,6 +79,8 @@
    "isin": "INE467B01029",
    "nseDesc": "General Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about completion of acquisition of BBY Services India LLP",
+   "subject": "completion of acquisition of BBY Services India LLP",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026133009_SEInt15102026.pdf",
    "attachmentSize": "257.40 KB",
    "announcedAt": "2026-10-15T08:00:23.000Z",
@@ -79,6 +93,10 @@
     ],
     "rule": "kw:mna",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "acquisition"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -90,6 +108,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering'.",
+   "subject": "Press Release - TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026112020_PR_15Oct26_signed.pdf",
    "attachmentSize": "556.60 KB",
    "announcedAt": "2026-10-15T06:00:07.000Z",
@@ -102,6 +122,10 @@
     ],
     "rule": "kw:press",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -113,6 +137,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Transcript",
+   "subject": "Transcript",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf",
    "attachmentSize": "706.51 KB",
    "announcedAt": "2026-10-14T10:30:08.000Z",
@@ -126,6 +152,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Transcript"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -137,6 +167,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release -MyState Limited selects TCS BaNCSTM to transform core banking operations'.",
+   "subject": "Press Release -MyState Limited selects TCS BaNCSTM to transform core banking operations",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026112025_PR_14Oct26_signed.pdf",
    "attachmentSize": "510.17 KB",
    "announcedAt": "2026-10-14T06:00:06.000Z",
@@ -149,6 +181,10 @@
     ],
     "rule": "kw:press",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -160,6 +196,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_10102026180525_SEInt10102026_signed.pdf",
    "attachmentSize": "314.25 KB",
    "announcedAt": "2026-10-10T12:36:21.000Z",
@@ -172,6 +210,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -184,6 +226,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_10102026175539_SEInt10102026_signed.pdf",
    "attachmentSize": "1.16 MB",
    "announcedAt": "2026-10-10T12:26:32.000Z",
@@ -196,6 +240,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -208,6 +256,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026184305_SEInt09102026_Signed.pdf",
    "attachmentSize": "341.37 KB",
    "announcedAt": "2026-10-09T13:13:52.000Z",
@@ -220,6 +270,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -232,6 +286,14 @@
    "isin": "INE467B01029",
    "nseDesc": "Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program'.",
+   "subject": "Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026080757_SE_TCS_Statement_f.pdf",
+    "extractedAt": "2026-10-31T16:42:42.811Z",
+    "status": "ok",
+    "text": "9th Floor Nirmal Building Nariman Point Mumbai 400 021 Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 Corporate Identity No. (CIN): L22210MH1995PLC084781 TCS/SE/104/2026-27 October 9, 2026 National Stock Exchange of India Limited BSE Limited Exchange Plaza, C-1, Block G, P. J. Towers, Bandra Kurla Complex, Bandra (East) Dalal Street, Mumbai - 400051 Mumbai - 400001 Symbol - TCS Scrip Code No. 532540 Dear Sirs, Sub: Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program In response to the above-mentioned announcement by the US Government, a statement of the Company is given below: “We have noted the announcement by the US Government on the Permanent Labor Certification Program (PERM) and TCS will comply with any directive from the Department of Labor. Our workforce strategy in the US is anchored in hiring local talent, supported by a robust campus recruitment model. We have built a significant local workforce across 31 offices and delivery centers throughout the country. As we had announced earlier, we intend to hire an additional 15,000 people in the US over the next five years, to further augment our local workforce. Our PERM applications were in single digits in the last two years and hence we do not expect the suspension of the program to impact our workforce strategy and customer engagements. ”"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026080757_SE_TCS_Statement_f.pdf",
    "attachmentSize": "217.74 KB",
    "announcedAt": "2026-10-09T02:38:19.000Z",
@@ -244,6 +306,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -255,6 +318,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026223847_SEInt09072026_signed.pdf",
    "attachmentSize": "218.00 KB",
    "announcedAt": "2026-10-08T17:08:59.000Z",
@@ -267,6 +332,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -278,6 +347,14 @@
    "isin": "INE467B01029",
    "nseDesc": "General Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Date of Payment of Dividend.",
+   "subject": "Date of Payment of Dividend",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154436_Post_BM_SE_Letter_fin.pdf",
+    "extractedAt": "2026-10-31T16:43:10.145Z",
+    "status": "ok",
+    "text": "9th Floor Nirmal Building Nariman Point Mumbai 400 021 Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 Corporate Identity No. (CIN): L22210MH1995PLC084781 TCS/BM/100/SE/2026-27 October 8, 2026 National Stock Exchange of India Limited BSE Limited Exchange Plaza, C-1, Block G, P. J. Towers, Bandra Kurla Complex, Bandra (East) Dalal Street, Mumbai - 400051 Mumbai - 400001 Symbol - TCS Scrip Code No. 532540 Dear Sirs, Sub: Financial Results for the quarter and six-month period ended September 30, 2026 and declaration of second interim dividend We enclose the audited standalone financial results of the Company and audited consolidated financial results of the Company and its subsidiaries, under Indian Accounting Standards, along with the Auditor’s Reports of the Company for the quarter and six-month period ended September 30, 2026, which have been approved and taken on record at a meeting of the Board of Directors of the Company held today. We would like to inform you that at the Board Meeting held today, the Directors have declared a second interim dividend of INR 12 per Equity Share of INR 1 each of the Company, for the financial year 2026-27. The second interim dividend shall be paid on Friday, October 30, 2026, to the equity shareholders of the Company, whose names appear on the Register of Members or in the records of the Depositories as beneficial owners of th"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154436_Post_BM_SE_Letter_fin.pdf",
    "attachmentSize": "622.55 KB",
    "announcedAt": "2026-10-08T10:14:45.000Z",
@@ -290,6 +367,10 @@
     ],
     "rule": "kw:dividend",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Dividend"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -301,6 +382,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Press Release",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
    "attachmentSize": "806.35 KB",
    "announcedAt": "2026-10-08T10:13:32.000Z",
@@ -313,6 +396,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -324,6 +411,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Dividend",
    "text": "Tata Consultancy Services Limited has informed the Exchange that Board of Directors at its meeting held on October 8, 2026, declared Interim Dividend of Rs. 12 per equity share.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154152_Post_BM_SE_Letter_fin.pdf",
    "attachmentSize": "622.55 KB",
    "announcedAt": "2026-10-08T10:12:03.000Z",
@@ -336,6 +425,10 @@
     ],
     "rule": "desc:dividend",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Dividend"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -347,6 +440,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
    "attachmentSize": "622.55 KB",
    "announcedAt": "2026-10-08T10:10:12.000Z",
@@ -359,6 +454,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -370,6 +469,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Press Release",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Best Buy s Global Capability Center in India to transition to TCS\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026214236_Signed_PRSEInt01102026.pdf",
    "attachmentSize": "392.42 KB",
    "announcedAt": "2026-10-01T16:12:54.000Z",
@@ -382,6 +483,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -393,6 +498,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026200753_Signed_SEInt01102026.pdf",
    "attachmentSize": "377.21 KB",
    "announcedAt": "2026-10-01T14:38:34.000Z",
@@ -405,6 +512,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -416,6 +527,8 @@
    "isin": "INE467B01029",
    "nseDesc": "Acquisition",
    "text": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
+   "subject": "Acquisition",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf",
    "attachmentSize": "268.53 KB",
    "announcedAt": "2026-10-01T13:11:18.000Z",
@@ -428,6 +541,10 @@
     ],
     "rule": "desc:acquisition",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Acquisition"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -439,21 +556,40 @@
    "isin": "INE467B01029",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf",
+    "extractedAt": "2026-10-31T16:42:47.854Z",
+    "status": "ok",
+    "text": "9th Floor Nirmal Building Nariman Point Mumbai 400 021 Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 Corporate Identity No. (CIN): L22210MH1995PLC084781 TCS/SE/94/2026-27 October 1, 2026 National Stock Exchange of India Limited BSE Limited Exchange Plaza, P. J. Towers, Bandra Kurla Complex, Dalal Street, Mumbai-400051 Mumbai-400001 Symbol: TCS Scrip Code No. 532540 Dear Sirs, Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) Pursuant to Regulation 30 of SEBI Listing Regulations, we wish to inform you regarding the acquisition of 100% partnership interest in BBY Services India LLP, a limited liability partnership firm. In this regard, the Agreement for proposed transfer of partnership interest (“Agreement”) has been executed today. The completion of the acquisition is subject to fulfilment of conditions precedent as specified in the Agreement. We are enclosing herewith the brief details of the above as prescribed under SEBI Listing Regulations as Annexure A. The meeting of the Investment Committee (as empowered by the Board of Directors) held today to approve the aforesaid acquisition, commenced at 3:35 p.m. and concluded at 4:05 p.m. The above information is also available on the website of the Company www.tcs.com. Thanking you, Yours faithfully, For Tata Consultancy Se"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf",
    "attachmentSize": "268.53 KB",
    "announcedAt": "2026-10-01T13:09:47.000Z",
    "announcedAtRaw": "01-Oct-2026 18:39:47",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "M&A",
     "categories": [
+     "M&A",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:mna",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "acquisition"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 3,
+  "ok": 3,
+  "failed": 0
+ }
 }

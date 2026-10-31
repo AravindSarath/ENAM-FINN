@@ -99,7 +99,7 @@ describe("buildBrief never substitutes missing data", () => {
     const ann: AnnouncementSnapshot = {
       schema: 1, symbol: "XYZ", window: { from: "a", to: "b" }, count: 1,
       source: { name: "NSE", url: "u", fetchedAt: "t", asOf: null, status: "ok" },
-      items: [{ id: "1", symbol: "XYZ", company: null, isin: null, nseDesc: "Outcome of Board Meeting", text, attachmentUrl: "https://x/y.pdf", attachmentSize: null, announcedAt: "2026-10-30T10:00:00Z", announcedAtRaw: "30-Oct-2026 15:30:00", hasXbrl: false, classification: classify("Outcome of Board Meeting", text) }],
+      items: [{ id: "1", symbol: "XYZ", company: null, isin: null, nseDesc: "Outcome of Board Meeting", text, subject: null, attachmentExcerpt: null, attachmentUrl: "https://x/y.pdf", attachmentSize: null, announcedAt: "2026-10-30T10:00:00Z", announcedAtRaw: "30-Oct-2026 15:30:00", hasXbrl: false, classification: classify("Outcome of Board Meeting", text) }],
     };
     const b = buildBrief({ ...input, announcements: { XYZ: ann } });
     const card = b.feed.find((f) => f.kind === "results")!;

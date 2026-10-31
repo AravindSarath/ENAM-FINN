@@ -19,6 +19,20 @@ export type Category =
 
 export type Tier = "act" | "note" | "routine";
 
+/** A pointer to what supports a statement: where it came from and the exact text or figure. */
+export interface EvidenceRef {
+  kind: "nse_label" | "filing_text" | "pdf_excerpt" | "screener" | "yahoo" | "rule";
+  text: string;
+  url?: string;
+}
+
+/** One line of a materiality score: what it adds or removes, and why. */
+export interface Reason {
+  label: string;
+  points: number;
+  evidence: EvidenceRef;
+}
+
 export interface ResultsRow {
   label: string;
   /** Short definition shown under the label, so no figure's meaning is ambiguous. */
@@ -40,6 +54,8 @@ export interface ResultsCard {
   extras: ResultsRow[];
   /** Operating margin on screener's revenue, so numerator and denominator share one definition. */
   margin: { cur: number; prevQ: number | null } | null;
+  /** Last eight quarters of screener revenue and net profit, for a trend line. */
+  trend: { label: string; periods: string[]; values: (number | null)[] }[];
   notes: string[];
   sourceUrls: string[];
   /** Set when a results filing exists but the numbers are not yet available. */
@@ -55,8 +71,16 @@ export interface FeedItem {
   title: string;
   hoursAgo: number;
   tier: Tier;
-  /** Why it ranks where it does: the explainable part of the score. */
+  /** One-line summary of the top reasons, e.g. "Management change +60, senior role +10". */
   why: string;
+  /** Materiality score, 0–100. Deterministic; see docs/PUSH_INTELLIGENCE.md. */
+  score: number;
+  /** Itemised score. Points sum to `score` (after floors and ceilings, which appear as their own lines). */
+  reasons: Reason[];
+  /** What supports the classification and the numbers on this card. */
+  evidence: EvidenceRef[];
+  /** When the primary filing was announced (ISO, UTC). Absent for sample items. */
+  at?: string;
   /** Detail line: computed facts for results/moves, the filing's own text otherwise. May be empty. */
   soWhat: string;
   kind: "results" | "mgmt" | "move" | "generic";
@@ -67,7 +91,7 @@ export interface FeedItem {
   /** True when the content is illustrative rather than from a real filing. */
   sample: boolean;
   /** Other filings folded into this card (e.g. the press release and deck behind a results card). */
-  related?: { title: string; url: string | null; hoursAgo: number }[];
+  related?: { title: string; url: string | null; hoursAgo: number; reason: string }[];
   results?: ResultsCard;
   mgmt?: {
     role: string;

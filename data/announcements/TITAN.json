@@ -21,6 +21,8 @@
    "isin": "INE280A01010",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Titan Company Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_28102026172546_SEnewspaperadlossofshares.pdf",
    "attachmentSize": "4.03 MB",
    "announcedAt": "2026-10-28T11:56:00.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -45,6 +51,8 @@
    "isin": "INE280A01010",
    "nseDesc": "Acquisition",
    "text": "Titan Company Limited has informed the Exchange about the Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_28102026134838_SEIntimation_-_Canada_Incorporation.pdf",
    "attachmentSize": "325.52 KB",
    "announcedAt": "2026-10-28T08:19:00.000Z",
@@ -57,6 +65,10 @@
     ],
     "rule": "desc:acquisition",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Acquisition"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -68,6 +80,8 @@
    "isin": "INE280A01010",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Titan Company Limited has informed the Exchange about Earnings call for Q2 and half year ended FY 2026-27",
+   "subject": "Earnings call for Q2 and half year ended FY 2026-27",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_23102026195704_SEQ2FY27EarningCall.pdf",
    "attachmentSize": "431.92 KB",
    "announcedAt": "2026-10-23T14:28:53.000Z",
@@ -81,6 +95,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Earnings call"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -92,6 +110,14 @@
    "isin": "INE280A01010",
    "nseDesc": "General Updates",
    "text": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+   "subject": "Redemption of Commercial Paper",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TITAN_19102026161128_SECPRedemption16102026.pdf",
+    "extractedAt": "2026-10-31T16:43:07.290Z",
+    "status": "ok",
+    "text": "Titan Company Limited `INTEGRITY` #193 Veerasandra Electronics City P.O. Off Hosur Main Road, Bangalore 560100 India. Tel: 9180 6704 7000 Fax: 9180 6704 6262 Registered Office 3, Sipcot Industrial Complex Hosur 635 126 TN India. Tel-91 4344 664 199 Fax 91 4344 276037, CIN: L74999TZ1984PLC001456 www.titancompany.in SEC 79 / 2026-27 19th October 2026 BSE Limited Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 Maharashtra, India Scrip Code: 500114 Dear Sir, Sub: Redemption of Commercial Paper In terms of the SEBI Operational Circular No. SEBI/HO/DDHS/P/CIR/2021/613 dated 10th August 2021, regarding issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper, we wish to inform you that the Company has fully redeemed the Commercial Papers (CPs) of ₹ 1000 crore (Rupees One Thousand Crore) bearing ISIN - INE280A14591 issued on 21st July 2026. The maturity proceeds of the CPs have been duly paid to all the holders today. A copy of this intimation is also being made available on the Company’s website at www.titancompany.in This is for your information and records. Yours truly, For TITAN COMPANY LIMITED Dinesh Shetty General Counsel & Company Secretary"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_19102026161128_SECPRedemption16102026.pdf",
    "attachmentSize": "174.17 KB",
    "announcedAt": "2026-10-19T10:41:44.000Z",
@@ -104,6 +130,10 @@
     ],
     "rule": "kw:fund-raise",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Commercial Paper"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -115,6 +145,8 @@
    "isin": "INE280A01010",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Titan Company Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_13102026102335_SERegulation745.pdf",
    "attachmentSize": "181.92 KB",
    "announcedAt": "2026-10-13T04:53:55.000Z",
@@ -127,6 +159,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -139,6 +175,14 @@
    "isin": "INE280A01010",
    "nseDesc": "Updates",
    "text": "Titan Company Limited has informed the Exchange regarding 'Redemption of Commercial Paper'.",
+   "subject": "Redemption of Commercial Paper",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TITAN_08102026161235_SECPRedemption08102026.pdf",
+    "extractedAt": "2026-10-31T16:43:09.870Z",
+    "status": "ok",
+    "text": "Titan Company Limited `INTEGRITY` #193 Veerasandra Electronics City P.O. Off Hosur Main Road, Bangalore 560100 India. Tel: 9180 6704 7000 Fax: 9180 6704 6262 Registered Office 3, Sipcot Industrial Complex Hosur 635 126 TN India. Tel-91 4344 664 199 Fax 91 4344 276037, CIN: L74999TZ1984PLC001456 www.titancompany.in SEC 77 / 2026-27 8th October 2026 BSE Limited Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 Maharashtra, India Scrip Code: 500114 Dear Sir, Sub: Redemption of Commercial Paper In terms of the SEBI Operational Circular No. SEBI/HO/DDHS/P/CIR/2021/613 dated 10th August 2021, regarding issue and listing of Non-convertible Securities, Securitised Debt Instruments, Security Receipts, Municipal Debt Securities and Commercial Paper, we wish to inform you that the Company has fully redeemed the Commercial Papers (CPs) of ₹ 825 crore (Rupees Eight Hundred Twenty Five Crore) bearing ISIN- INE280A14583 issued on 10th July 2026. The maturity proceeds of the CPs have been duly paid to all the holders today. A copy of this intimation is also being made available on the Company’s website at www.titancompany.in This is for your information and records. Yours truly, For TITAN COMPANY LIMITED Dinesh Shetty General Counsel & Company Secretary"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_08102026161235_SECPRedemption08102026.pdf",
    "attachmentSize": "174.23 KB",
    "announcedAt": "2026-10-08T10:42:50.000Z",
@@ -151,6 +195,10 @@
     ],
     "rule": "kw:fund-raise",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Commercial Paper"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -162,21 +210,33 @@
    "isin": "INE280A01010",
    "nseDesc": "Updates",
    "text": "Titan Company Limited has informed the Exchange regarding 'Quarterly Update Q2 FY 2026-27'.",
+   "subject": "Quarterly Update Q2 FY 2026-27",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_06102026182232_Q2update202627.pdf",
    "attachmentSize": "542.31 KB",
    "announcedAt": "2026-10-06T12:52:46.000Z",
    "announcedAtRaw": "06-Oct-2026 18:22:46",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "press_release",
     "categories": [
-     "unclassified"
+     "press_release"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "kw:business-update",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Quarterly Update"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 2,
+  "ok": 2,
+  "failed": 0
+ }
 }

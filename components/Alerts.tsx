@@ -5,6 +5,7 @@ import { useMemo, useState } from "react";
 import type { BriefData } from "@/lib/data/view";
 import { CATEGORY_LABEL, ago } from "@/lib/format";
 import { DEFAULT_RULES, WATCHABLE, evaluate, useRules } from "@/lib/rules";
+import { useTriage } from "@/lib/triage";
 import type { Hit } from "@/lib/types";
 import { Chip, DataNotice, PageHeader, Pill } from "./ui";
 
@@ -71,11 +72,17 @@ export default function Alerts({ data }: { data: BriefData }) {
   const { feed: FEED, holdings: HOLDINGS } = data;
   const [rules, setRules] = useRules();
   const [sim, setSim] = useState<Hit | null>(null);
+  const triage = useTriage();
 
   const hits = useMemo(() => {
-    const real = evaluate(rules, HOLDINGS, FEED, 24);
+    // Alerts for cards you marked Done, or whose type you muted, stay quiet.
+    const byId = new Map(FEED.map((f) => [f.id, f]));
+    const real = evaluate(rules, HOLDINGS, FEED, 24).filter((h) => {
+      const f = h.itemId ? byId.get(h.itemId) : undefined;
+      return !f || (!triage.done.includes(f.id) && !triage.muted.includes(`${f.sym}:${f.cat}`));
+    });
     return sim ? [sim, ...real] : real;
-  }, [rules, sim, HOLDINGS, FEED]);
+  }, [rules, sim, HOLDINGS, FEED, triage.done, triage.muted]);
 
   const simulate = () =>
     setSim({
@@ -187,6 +194,32 @@ export default function Alerts({ data }: { data: BriefData }) {
           </button>
         )}
       </section>
+
+      {(triage.muted.length > 0 || triage.done.length > 0) && (
+        <section className="mt-8 px-4">
+          <h2 className="eyebrow pb-2">Handled and muted</h2>
+          <div className="rounded-2xl border border-line bg-s1 p-4">
+            {triage.muted.length > 0 && (
+              <div className="mb-3">
+                <p className="text-[12px] text-mute">Muted types (stay quiet in the Brief and here)</p>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {triage.muted.map((m) => (
+                    <button key={m} onClick={() => triage.unmute(m)} className="rounded-full border border-line px-3 py-1.5 font-mono text-[11.5px] text-mute hover:text-fg" title="Tap to unmute">
+                      {m.replace(":", " · ")} ✕
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+            <div className="flex items-center justify-between text-[12px] text-mute">
+              <span>{triage.done.length} card{triage.done.length === 1 ? "" : "s"} marked Done, {triage.seen.length} marked seen</span>
+              <button onClick={() => triage.reset()} className="rounded-full border border-gold/50 px-3 py-1.5 text-gold">
+                Restore all
+              </button>
+            </div>
+          </div>
+        </section>
+      )}
     </>
   );
 }

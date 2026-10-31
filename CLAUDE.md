@@ -49,8 +49,14 @@ specs/          the brief (read-only)
 - Operating profit is never EBITDA. A test fails if the UI says EBITDA without "not".
 - Null with a reason, never a substitute. `npm run validate` and `npm test` must pass before a commit.
 
+## Push intelligence rules (Stage 3)
+- Scores are additive, itemised and deterministic. Never use portfolio weights (illustrative) or the clock. Change a weight in `lib/data/materiality.ts` and `docs/PUSH_INTELLIGENCE.md` together; a test enforces it.
+- Group filings only on strong evidence (same attachment, specific subject, near-identical text, same stated period). Keep every original reachable.
+- A failed or missing PDF read must never make a filing routine. Routine needs a positive rule.
+- Generated text states facts and sizes only: no beat/miss/strong/weak language. A test scans for it.
+
 ## Definition of done (per feature)
 Works on a 390px-wide viewport, works offline-from-APIs via snapshot, has a loading + empty + error state, numbers verified against a source, no console errors.
 
 ## Commands (fill in as scaffolded)
-Working: `npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint` · `npm test` · `npm run ingest [-- --sym X --only prices|ann|fund --refresh]` · `npm run validate`. Planned: `npm run prewarm`.
+Working: `npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint` · `npm test` · `npm run ingest [-- --sym X --only prices|ann|fund --refresh]` · `npm run enrich` · `npm run validate`. Planned: `npm run prewarm`.

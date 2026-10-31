@@ -21,6 +21,8 @@
    "isin": "INE040A01018",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "HDFC Bank Limited has informed the Exchange regarding Allotment of 4675598 Shares.",
+   "subject": "Allotment of 4675598 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf",
    "attachmentSize": "279.26 KB",
    "announcedAt": "2026-10-30T07:54:25.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -45,20 +51,33 @@
    "isin": "INE040A01018",
    "nseDesc": "General Updates",
    "text": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
+    "extractedAt": "2026-10-31T16:42:24.479Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/139 October 27, 2026 BSE Limited National Stock Exchange of India Limited Dept of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza Dalal Street, Fort, Bandra Kurla Complex, Mumbai 400 001 Mumbai 400 051 Scrip code: 500180 Scrip code: HDFCBANK Dear Sir/Madam, Sub: Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”)- Change in Managing Director and Chief Executive Officer (“MD & CEO”) of the Bank In continuation to our earlier intimations on the captioned subject, this is to inform that Mr. Sashidhar Jagdishan has vacated the office as the MD & CEO of the Bank from the close of business hours on October 26, 2026 on account of completion of his tenure and Mr. Anup Bagchi has assumed charge as MD & CEO of the Bank effective today i.e. October 27, 2026. The Bank would like to place on record its sincere appreciation for the strategic vision and unwavering commitment demonstrated by Mr. Jagdishan throughout his distinguished tenure. His stewardship has been instrumental in strengthening the Bank’s performance, culture, and customer‑centric approach. The Bank also acknowledges his pivotal role in steering the successful completion of one of the largest mergers in corporate India. The Bank expresses its p"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
    "attachmentSize": "290.95 KB",
    "announcedAt": "2026-10-27T02:32:54.000Z",
    "announcedAtRaw": "27-Oct-2026 08:02:54",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "M&A",
     "categories": [
+     "M&A",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:mna",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "merger"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -68,6 +87,8 @@
    "isin": "INE040A01018",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379 Options.",
+   "subject": "Grant of 1302379 Options",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf",
    "attachmentSize": "299.41 KB",
    "announcedAt": "2026-10-24T16:57:22.000Z",
@@ -80,6 +101,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -92,6 +117,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "HDFC Bank Limited has informed the Exchange about Transcript",
+   "subject": "Transcript",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf",
    "attachmentSize": "468.74 KB",
    "announcedAt": "2026-10-23T17:20:22.000Z",
@@ -105,6 +132,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Transcript"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -116,6 +147,8 @@
    "isin": "INE040A01018",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "HDFC Bank Limited has informed the Exchange regarding Allotment of 9138522 Shares.",
+   "subject": "Allotment of 9138522 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_22102026135701_SELetterESOP22102026.pdf",
    "attachmentSize": "285.79 KB",
    "announcedAt": "2026-10-22T08:27:50.000Z",
@@ -128,6 +161,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -140,6 +177,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_22102026115451_PB_adv_22102026.pdf",
    "attachmentSize": "5.47 MB",
    "announcedAt": "2026-10-22T06:25:18.000Z",
@@ -152,6 +191,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -164,6 +207,14 @@
    "isin": "INE040A01018",
    "nseDesc": "Shareholders meeting",
    "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "subject": "Notice of Postal Ballot",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
+    "extractedAt": "2026-10-31T16:43:06.693Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/132 October 21, 2026 BSE Limited National Stock Exchange of India Limited Dept. of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza, Dalal Street, Fort, Bandra Kurla Complex, Mumbai – 400 001 Mumbai – 400 051 Scrip Code: 500180 Scrip Symbol: HDFCBANK Dear Sir, Sub: Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) - Notice of Postal Ballot Pursuant to Regulation 30 of the SEBI Listing Regulations and in furtherance to our intimation dated October 17, 2026, please find enclosed herewith a copy of the Postal Ballot Notice dated October 17, 2026 (“Notice”) together with the Explanatory Statement thereto, seeking approval of the Members of HDFC Bank Limited (“the Bank”) on the resolution specified therein, by means of electronic voting (remote e-voting) in compliance with the relevant circulars issued by the Ministry of Corporate Affairs and the Securities and Exchange Board of India. In compliance with the applicable circulars, the Notice is being sent to all Members whose names appear in the Register of Members / Register of Beneficial Owners maintained by the Depositories viz. National Securities Depository Limited (“NSDL”) and Central Depository Services (India) Limited as on Friday, October 16"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
    "attachmentSize": "573.38 KB",
    "announcedAt": "2026-10-21T06:22:36.000Z",
@@ -176,6 +227,10 @@
     ],
     "rule": "kw:postal-ballot",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Postal Ballot"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -187,6 +242,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "HDFC Bank Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026220738_SEintimation-RECORDING-17oct2026.pdf",
    "attachmentSize": "238.06 KB",
    "announcedAt": "2026-10-17T16:39:24.000Z",
@@ -199,6 +256,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -210,20 +271,33 @@
    "isin": "INE040A01018",
    "nseDesc": "General Updates",
    "text": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf",
+    "extractedAt": "2026-10-31T16:42:35.110Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/130 October 17, 2026 BSE Limited National Stock Exchange of India Limited Dept of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza Dalal Street, Fort, Bandra Kurla Complex, Mumbai 400 001 Mumbai 400 051 Scrip code: 500180 Scrip code: HDFCBANK Dear Sir/Madam, Ref: Disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) The Board of Directors of the Bank, at its meeting held today, based on the recommendation of the Governance, Nomination and Remuneration Committee (“GNRC”), considered and approved the re-appointment of Mrs. Lily Vadera (DIN: 09400410) as an Independent Director of the Bank for a period of 3 (three) years with effect from November 26, 2026 to November 25, 2029 (both days inclusive), subject to approval of the shareholders of the Bank. We wish to inform you that Mrs. Vadera is not related to any other Directors or Key Managerial Personnel of the Bank. Further, she is not debarred from holding the office of a Director, by virtue of any order passed by SEBI or any other such authority. The aforesaid re-appointment shall be placed before the shareholders of the Bank for their approval, shortly. We further inform that Mr. Kaizad Bharucha (DIN: 02490648), Deputy Managing Director, HDFC Bank h"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf",
    "attachmentSize": "299.21 KB",
    "announcedAt": "2026-10-17T10:44:18.000Z",
    "announcedAtRaw": "17-Oct-2026 16:14:18",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "litigation",
     "categories": [
+     "litigation",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:litigation",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "order passed"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -233,6 +307,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "HDFC Bank Limited has informed the Exchange about Presentation",
+   "subject": "Presentation",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026151509_SE_Intimation_earningcall_presentation17oct2026.pdf",
    "attachmentSize": "284.68 KB",
    "announcedAt": "2026-10-17T09:45:29.000Z",
@@ -245,6 +321,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -256,6 +336,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Outcome of Board Meeting",
    "text": "HDFC Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf",
    "attachmentSize": "1.14 MB",
    "announcedAt": "2026-10-17T08:26:22.000Z",
@@ -268,6 +350,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -279,6 +365,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "HDFC Bank Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16102026162906_SEintimatiomReg74_530Sep2025.pdf",
    "attachmentSize": "516.03 KB",
    "announcedAt": "2026-10-16T11:05:12.000Z",
@@ -291,6 +379,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -303,6 +395,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13102026161935_SE_Intimation_-_Earnings_call.pdf",
    "attachmentSize": "604.27 KB",
    "announcedAt": "2026-10-13T10:49:52.000Z",
@@ -315,6 +409,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -326,20 +424,33 @@
    "isin": "INE040A01018",
    "nseDesc": "General Updates",
    "text": "HDFC Bank Limited has informed the Exchange about General Updates",
+   "subject": "General Updates",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf",
+    "extractedAt": "2026-10-31T16:42:42.981Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/121 October 8, 2026 BSE Limited National Stock Exchange of India Limited Dept. of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza, Dalal Street, Fort, Bandra Kurla Complex, Mumbai – 400 001. Mumbai – 400 051 Scrip Code: 500180 Scrip Symbol: HDFCBANK Dear Sir, Sub: Newspaper publication confirming the dispatch of Postal Ballot Notice In continuation to our earlier intimation dated October 7, 2026 regarding issue of Postal Ballot Notice dated October 1, 2026, please find enclosed the newspaper clipping of the advertisement published on October 8, 2026 in the newspapers viz. Business Standard (English) and Navshakti (Marathi). This is for your information and necessary dissemination. Thank you, Yours truly, For HDFC Bank Limited Ajay Agarwal Company Secretary Group Head – Secretarial & Group Oversight Encl.: as above CIN: L65920MH1994PLC080618 Email: shareholder.grievances@hdfc.bank.in Website: www.hdfc.bank.in HDFC Bank Limited, HDFC House, H T Parekh Marg, 165-166 Backbay Reclamation, Churchgate, Mumbai- 400 020 Tel. No.:022-66316000"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf",
    "attachmentSize": "6.14 MB",
    "announcedAt": "2026-10-08T06:53:50.000Z",
    "announcedAtRaw": "08-Oct-2026 12:23:50",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "postal_ballot",
     "categories": [
+     "postal_ballot",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:postal-ballot",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Postal Ballot"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -349,6 +460,14 @@
    "isin": "INE040A01018",
    "nseDesc": "Shareholders meeting",
    "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "subject": "Notice of Postal Ballot",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
+    "extractedAt": "2026-10-31T16:43:11.755Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/120 October 7, 2026 BSE Limited National Stock Exchange of India Limited Dept. of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza, Dalal Street, Fort, Bandra Kurla Complex, Mumbai – 400 001 Mumbai – 400 051 Scrip Code: 500180 Scrip Symbol: HDFCBANK Dear Sir, Sub: Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) - Notice of Postal Ballot Pursuant to Regulation 30 of the SEBI Listing Regulations and in furtherance to our intimation dated October 1, 2026 please find enclosed herewith a copy of the Postal Ballot Notice dated October 1, 2026 (“Notice”) together with the Explanatory Statement thereto, seeking approval of the Members of HDFC Bank Limited (“the Bank”) on the resolution specified therein, by means of electronic voting (remote e-voting) in compliance with the relevant circulars issued by the Ministry of Corporate Affairs and the Securities and Exchange Board of India. In compliance with the applicable circulars, the Notice is being sent to all Members whose names appear in the Register of Members / Register of Beneficial Owners maintained by the Depositories viz. National Securities Depository Limited (“NSDL”) and Central Depository Services (India) Limited as on Friday, October 2, 202"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
    "attachmentSize": "596.13 KB",
    "announcedAt": "2026-10-07T10:40:26.000Z",
@@ -361,6 +480,10 @@
     ],
     "rule": "kw:postal-ballot",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Postal Ballot"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -372,6 +495,14 @@
    "isin": "INE040A01018",
    "nseDesc": "General Updates",
    "text": "HDFC Bank Limited has informed the Exchange regarding intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "subject": "intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf",
+    "extractedAt": "2026-10-31T16:42:43.671Z",
+    "status": "ok",
+    "text": "Regd. Office: HDFC Bank Limited, HDFC Bank House, Senapati Bapat Marg, Lower Parel (West), Mumbai – 400 013 Ref. No. SE/2026-27/118 October 4, 2026 BSE Limited National Stock Exchange of India Limited Dept. of Corporate Services The Listing Department Phiroze Jeejeebhoy Towers, Exchange Plaza, Dalal Street, Fort, Bandra Kurla Complex, Mumbai – 400 001 Mumbai – 400 051 Scrip Code:500180 Scrip Symbol: HDFCBANK Dear Sir / Madam, Sub: Intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 In accordance with SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information in terms of Regulation 8 of SEBI (Prohibition of Insider Trading) Regulations, 2015, we would like to intimate the following: 1) The Bank’s average advances under management (advances grossing up for inter-bank participation certificates, bills rediscounted and securitisation / assignment) were ₹ 31,872 billion for the September 2026 quarter, a growth of around 14.0% over ₹ 27,946 billion for the corresponding September 2025 period. The Bank’s period end advances under management were approximately ₹ 33,075 billion as of September 30, 2026, a growth of around 15.3% over ₹ 28,688 billion as of September 30, 2025. The Bank’s period end gross advances aggregated to approximately ₹ 32,195 billion as of September 30, 2026, a growth of around 16.3% over ₹ 27,692 billion as of Se"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf",
    "attachmentSize": "748.92 KB",
    "announcedAt": "2026-10-04T16:33:36.000Z",
@@ -384,6 +515,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -395,6 +527,8 @@
    "isin": "INE040A01018",
    "nseDesc": "Change in Director(s)",
    "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "subject": "Change in Director(s) of the company",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
    "attachmentSize": "689.71 KB",
    "announcedAt": "2026-10-01T12:53:52.000Z",
@@ -407,9 +541,19 @@
     ],
     "rule": "desc:change in director(s)",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Director(s)"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 6,
+  "ok": 6,
+  "failed": 0
+ }
 }

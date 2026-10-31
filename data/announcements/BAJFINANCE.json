@@ -21,20 +21,26 @@
    "isin": "INE296A01016",
    "nseDesc": "Allotment of Securities",
    "text": "Bajaj Finance Limited has informed the Exchange regarding allotment of 2,06,950 securities pursuant to Non Convertible Securities at its meeting held on October 30, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_30102026145301_REG30_Allotment_intimation.pdf",
    "attachmentSize": "261.29 KB",
    "announcedAt": "2026-10-30T09:23:37.000Z",
    "announcedAtRaw": "30-Oct-2026 14:53:37",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "fund_raise",
     "categories": [
-     "unclassified"
+     "fund_raise"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Non Convertible Securities"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -44,6 +50,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_26102026192457_BSENSE_Intimation_Investor_meet.pdf",
    "attachmentSize": "239.40 KB",
    "announcedAt": "2026-10-26T13:56:31.000Z",
@@ -56,6 +64,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -67,6 +79,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Transcript",
+   "subject": "Transcript",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_23102026145254_BFL_Investor_Call_outcome_Transcript_for_filing.pdf",
    "attachmentSize": "399.33 KB",
    "announcedAt": "2026-10-23T09:23:17.000Z",
@@ -80,6 +94,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Transcript"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -91,20 +109,26 @@
    "isin": "INE296A01016",
    "nseDesc": "Allotment of Securities",
    "text": "Bajaj Finance Limited has informed the Exchange regarding allotment of 2,12,000 securities pursuant to Non Convertible Securities at its meeting held on October 21, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_21102026122914_REG30_Allotment_intimation.pdf",
    "attachmentSize": "243.94 KB",
    "announcedAt": "2026-10-21T06:59:52.000Z",
    "announcedAtRaw": "21-Oct-2026 12:29:52",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "fund_raise",
     "categories": [
-     "unclassified"
+     "fund_raise"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Non Convertible Securities"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -114,6 +138,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026205822_Outcome_of_investor_call_-_Q2FY27.pdf",
    "attachmentSize": "233.04 KB",
    "announcedAt": "2026-10-19T15:30:04.000Z",
@@ -126,6 +152,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -137,6 +167,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Change in Management",
    "text": "Bajaj Finance Limited has informed the Exchange about change in Management",
+   "subject": "change in Management",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175648_Change_in_SMT_Prashant_Verma_CISO_signed.pdf",
    "attachmentSize": "246.41 KB",
    "announcedAt": "2026-10-19T12:27:20.000Z",
@@ -149,6 +181,10 @@
     ],
     "rule": "desc:change in management",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Management"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -160,6 +196,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Issue of Securities",
    "text": "Bajaj Finance Limited has informed the Exchange about issue of Securities",
+   "subject": "issue of Securities",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026175355_Issue_of_Securities_19102026.pdf",
    "attachmentSize": "224.68 KB",
    "announcedAt": "2026-10-19T12:27:20.000Z",
@@ -172,6 +210,10 @@
     ],
     "rule": "desc:issue of securities",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Issue of Securities"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -183,6 +225,14 @@
    "isin": "INE296A01016",
    "nseDesc": "Investor Presentation",
    "text": "Bajaj Finance Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf",
+    "extractedAt": "2026-10-31T16:42:58.100Z",
+    "status": "ok",
+    "text": "Registered Office: 4th Floor, Bajaj Finserv House, Off Pune-Ahmednagar Road, Viman Nagar, Pune – 411014 Corporate Office Extn.: 3rd Floor, Panchshil Tech Park, Viman Nagar, Pune - 411 014 Tel: +91 20 7157 6403 | Fax: +91 20 7157 6364 Corporate ID No.: L65910MH1987PLC042961 | Email ID: investor.service@bajajfinserv.in https://www.aboutbajajfinserv.com/finance-about-us 19 October 2026 Dear Sir/Madam, Sub: Investor Presentation for the quarter ended 30 September 2026 Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed herewith Presentation to be made to analyst/investor for the quarter ended 30 September 2026. Please access the live webcast of conference call scheduled to be held today i.e., 19 October 2026 at 6.00 p.m. IST at Registration| Bajaj Finance Limited Q2 FY2027 Earnings Conference Call. We request you to kindly take the same on record. Thanking you, For Bajaj Finance Limited R. Vijay Company Secretary Email ID: investor.service@bajajfinserv.in Encl.: As above To The Manager Listing Department BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 To The Manager Listing Department National Stock Exchange of India Limited Exchange Plaza, C-1. Block G, Bandra - Kurla Complex, Bandra (East) Mumbai - 400 051 SCRIP CODE: 500034 SCRIP CODE: BAJFINANCE – EQ"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172612_SEIntimation_InvestorPPT_19102026.pdf",
    "attachmentSize": "979.72 KB",
    "announcedAt": "2026-10-19T11:56:39.000Z",
@@ -191,12 +241,17 @@
    "classification": {
     "category": "results",
     "categories": [
-     "results"
+     "results",
+     "earnings_call"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "quarter ended"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -206,6 +261,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Bajaj Finance Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_19102026172017_BMOutcome_19102026.pdf",
    "attachmentSize": "18.40 MB",
    "announcedAt": "2026-10-19T11:50:38.000Z",
@@ -218,6 +275,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -229,6 +290,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_16102026160340_SE_Analyst_Meet.pdf",
    "attachmentSize": "392.96 KB",
    "announcedAt": "2026-10-16T10:36:42.000Z",
@@ -241,6 +304,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -252,6 +319,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_16102026160355_SE_Analyst_Meet.pdf",
    "attachmentSize": "392.96 KB",
    "announcedAt": "2026-10-16T10:36:42.000Z",
@@ -264,6 +333,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -275,6 +348,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about Schedule of Investor Meet",
+   "subject": "Schedule of Investor Meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_13102026115736_BSENSE_Intimation_Investor_meet_13102026.pdf",
    "attachmentSize": "431.79 KB",
    "announcedAt": "2026-10-13T06:28:02.000Z",
@@ -287,6 +362,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -298,6 +377,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Bajaj Finance Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_10102026171855_SEIntimationnewspaperadvt_Sd.pdf",
    "attachmentSize": "1.72 MB",
    "announcedAt": "2026-10-10T11:49:27.000Z",
@@ -310,6 +391,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -322,6 +407,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Shareholders meeting",
    "text": "Bajaj Finance Limited has informed the Exchange regarding Notice of Extraordinary General Meeting to be held on November 02, 2026",
+   "subject": "Notice of Extraordinary General Meeting to be held on November 02, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_09102026224649_SEIntimationEGMNotice.pdf",
    "attachmentSize": "880.35 KB",
    "announcedAt": "2026-10-09T17:17:29.000Z",
@@ -334,6 +421,10 @@
     ],
     "rule": "kw:agm",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Extraordinary General Meeting"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -345,20 +436,26 @@
    "isin": "INE296A01016",
    "nseDesc": "Allotment of Securities",
    "text": "Bajaj Finance Limited has informed the Exchange regarding allotment of 51000 securities pursuant to Non Convertible Securities at its meeting held on October 09, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_09102026121406_REG30_Allotment_intimation_T7.pdf",
    "attachmentSize": "247.24 KB",
    "announcedAt": "2026-10-09T06:44:37.000Z",
    "announcedAtRaw": "09-Oct-2026 12:14:37",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "fund_raise",
     "categories": [
-     "unclassified"
+     "fund_raise"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Non Convertible Securities"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -368,6 +465,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Bajaj Finance Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_07102026185211_74_5__sd.pdf",
    "attachmentSize": "611.49 KB",
    "announcedAt": "2026-10-07T13:22:28.000Z",
@@ -380,6 +479,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -392,6 +495,8 @@
    "isin": "INE296A01016",
    "nseDesc": "General Updates",
    "text": "Bajaj Finance Limited has informed the Exchange about information under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015 r/w Schedule A of Regulation 8 of SEBI (Prohibition of Insider Trading) Regulations, 2015",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_03102026110139_BFL_Pre-results_earning_intimation_Q2FY2027.pdf",
    "attachmentSize": "247.76 KB",
    "announcedAt": "2026-10-03T05:32:00.000Z",
@@ -404,6 +509,10 @@
     ],
     "rule": "kw:insider",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Prohibition of Insider Trading"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -415,6 +524,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Qualified Institutional Placement",
    "text": "Bajaj Finance Limited has informed the Exchange about qualified Institutional Placement",
+   "subject": "qualified Institutional Placement",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf",
    "attachmentSize": "272.01 KB",
    "announcedAt": "2026-10-01T17:54:08.000Z",
@@ -427,6 +538,10 @@
     ],
     "rule": "desc:qualified institutional placement",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Qualified Institutional Placement"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -438,6 +553,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Preferential issue",
    "text": "Bajaj Finance Limited has informed the Exchange about Preferential issue",
+   "subject": "Preferential issue",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf",
    "attachmentSize": "272.01 KB",
    "announcedAt": "2026-10-01T17:51:29.000Z",
@@ -450,6 +567,10 @@
     ],
     "rule": "desc:preferential issue",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Preferential issue"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -461,6 +582,8 @@
    "isin": "INE296A01016",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Bajaj Finance Limited has informed the Exchange regarding Outcome of Board Meeting held on October 01, 2026 - Capital raise through QIP and Preferential Issue.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf",
    "attachmentSize": "272.01 KB",
    "announcedAt": "2026-10-01T17:47:02.000Z",
@@ -473,9 +596,19 @@
     ],
     "rule": "kw:fund-raise",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "QIP"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 1,
+  "ok": 1,
+  "failed": 0
+ }
 }

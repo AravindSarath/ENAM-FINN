@@ -21,6 +21,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Elxsi Limited has informed the Exchange about Transcript",
+   "subject": "Transcript",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_19102026145522_Reg30Transcripts.pdf",
    "attachmentSize": "450.53 KB",
    "announcedAt": "2026-10-19T09:25:35.000Z",
@@ -34,6 +36,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Transcript"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -45,6 +51,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Tata Elxsi Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_14102026111526_NPAdvtSEFiling.pdf",
    "attachmentSize": "3.06 MB",
    "announcedAt": "2026-10-14T05:45:37.000Z",
@@ -57,6 +65,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -69,6 +81,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Elxsi Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026203825_AudioRecording13102026.pdf",
    "attachmentSize": "240.21 KB",
    "announcedAt": "2026-10-13T15:08:37.000Z",
@@ -81,6 +95,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -92,6 +110,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Change in Auditors",
    "text": "Tata Elxsi Limited has informed the Exchange regarding Change in Auditors of the company.",
+   "subject": "Change in Auditors of the company",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026182411_SEIntimationStatutoryAuditor.pdf",
    "attachmentSize": "248.57 KB",
    "announcedAt": "2026-10-13T12:54:30.000Z",
@@ -104,6 +124,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Change in Auditors"
+    },
     "routine": true,
     "routineRule": "routine:auditor",
     "needsReview": false
@@ -116,6 +140,14 @@
    "isin": "INE670A01012",
    "nseDesc": "Updates",
    "text": "Tata Elxsi Limited has informed the Exchange regarding 'Allotment of equty shares'.",
+   "subject": "Allotment of equty shares",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026181909_PSOPAllotment.pdf",
+    "extractedAt": "2026-10-31T16:42:36.243Z",
+    "status": "ok",
+    "text": "October 13, 2026 BSE Limited National Stock Exchange of India Limited Phiroze Jeejeebhoy Towers Exchange Plaza, Plot No. C-1, Block G Dalal Street Mumbai – 400 001 Scrip Code: 500408 Bandra – Kurla Complex Bandra (East) Mumbai – 400 051 NSE Symbol: TATAELXSI Dear Sirs/Madam, Sub: Allotment of equity shares This is to inform that the Board of Directors of the Company has allotted 686 equity shares on October 13, 2026, pursuant to the exercise of performance stock options by the eligible employees, under ‘Tata Elxsi Limited Performance Stock Option Plan 2023’. Consequent to this allotment, the paid-up equity share Capital of the Company stands increased to Rs. 62,30,64,170 divided into 6,23,06,417 equity shares of Rs. 10/- each from Rs. 62,30,57,310 divided into 6,23,05,731 equity shares of Rs. 10/- each. You are requested to please take the same on record. The aforesaid disclosure is also available on the Company’s website at www.tataelxsi.com. Yours faithfully, For Tata Elxsi Limited Sneha V Company Secretary & Compliance Officer"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026181909_PSOPAllotment.pdf",
    "attachmentSize": "237.42 KB",
    "announcedAt": "2026-10-13T12:49:26.000Z",
@@ -128,6 +160,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -139,6 +172,14 @@
    "isin": "INE670A01012",
    "nseDesc": "Investor Presentation",
    "text": "Tata Elxsi Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026180649_Reg30InvestorPresentation13102026.pdf",
+    "extractedAt": "2026-10-31T16:43:00.533Z",
+    "status": "ok",
+    "text": "October 13, 2026 BSE Limited National Stock Exchange of India Limited Phiroze Jeejeebhoy Towers Exchange Plaza, Plot No. C-1, Block G Dalal Street Mumbai – 400 001 Scrip Code: 500408 Bandra – Kurla Complex Bandra (East) Mumbai – 400 051 NSE Symbol: TATAELXSI Dear Sirs/Madam, Sub: Investors Presentation Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed herewith the Investors Presentation and Fact Sheet on the Financial Results of Tata Elxsi Limited (the “Company”) for the quarter and half-year ended September 30, 2026. The aforesaid disclosure is also available on the Company’s website at www.tataelxsi.com. This is for your information and records. Thanking you, Yours faithfully, For Tata Elxsi Limited Sneha V Company Secretary & Compliance Officer Encl: As above"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026180649_Reg30InvestorPresentation13102026.pdf",
    "attachmentSize": "3.07 MB",
    "announcedAt": "2026-10-13T12:37:03.000Z",
@@ -149,10 +190,14 @@
     "categories": [
      "results"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Financial Results"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -162,6 +207,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Press Release",
    "text": "Tata Elxsi Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Tata Elxsi delivers healthy revenue growth of 3.4% QoQ and 15% YoY in Q2 FY 27\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026175717_SEintimationPR13102026.pdf",
    "attachmentSize": "489.97 KB",
    "announcedAt": "2026-10-13T12:27:27.000Z",
@@ -174,6 +221,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -185,6 +236,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Tata Elxsi Limited has informed the Exchange regarding appointment of Statutory Auditors of the Company.",
+   "subject": "appointment of Statutory Auditors of the Company",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026175249_SEIntimationStatutoryAuditor.pdf",
    "attachmentSize": "248.57 KB",
    "announcedAt": "2026-10-13T12:23:18.000Z",
@@ -197,6 +250,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "appointment of Statutory Auditors"
+    },
     "routine": true,
     "routineRule": "routine:auditor",
     "needsReview": false
@@ -209,6 +266,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Tata Elxsi Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026173405_BMOutcome13102026.pdf",
    "attachmentSize": "2.16 MB",
    "announcedAt": "2026-10-13T12:05:36.000Z",
@@ -221,6 +280,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -232,6 +295,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Tata Elxsi Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_07102026181621_Reg74Certificate.pdf",
    "attachmentSize": "450.69 KB",
    "announcedAt": "2026-10-07T12:46:38.000Z",
@@ -244,6 +309,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -256,6 +325,8 @@
    "isin": "INE670A01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Tata Elxsi Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_06102026170421_Analystcall_Intimation.pdf",
    "attachmentSize": "342.00 KB",
    "announcedAt": "2026-10-06T11:34:33.000Z",
@@ -268,9 +339,19 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 2,
+  "ok": 2,
+  "failed": 0
+ }
 }

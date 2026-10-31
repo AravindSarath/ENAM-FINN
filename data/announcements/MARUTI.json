@@ -21,6 +21,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Press Release",
    "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Maruti Suzuki, India s No. 1 Electric Vehicle exporter, crosses EV exports of 50,000 units\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_29102026104658_StxIntimation_EVExports.pdf",
    "attachmentSize": "1.97 MB",
    "announcedAt": "2026-10-29T05:20:48.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -44,6 +50,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_28102026103729_STxIntimation_NP_27Oct2026.pdf",
    "attachmentSize": "2.90 MB",
    "announcedAt": "2026-10-28T05:08:47.000Z",
@@ -56,6 +64,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -68,6 +80,8 @@
    "isin": "INE585B01010",
    "nseDesc": "General Updates",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Audio Recording of the investors' call held on 27th October 2026.",
+   "subject": "Audio Recording of the investors' call held on 27th October 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf",
    "attachmentSize": "291.86 KB",
    "announcedAt": "2026-10-27T15:00:49.000Z",
@@ -80,6 +94,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Audio Recording"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -91,6 +109,14 @@
    "isin": "INE585B01010",
    "nseDesc": "Investor Presentation",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf",
+    "extractedAt": "2026-10-31T16:42:56.411Z",
+    "status": "ok",
+    "text": "MSIL: COS: NSE&BSE: 2026/10_13 27th October 2026 Vice President National Stock Exchange of India Limited “Exchange Plaza”, Bandra – Kurla Complex Bandra (E) Mumbai – 400 051 General Manager Department of Corporate Services BSE Limited Phiroze Jeejeebhoy Towers Dalal Street, Mumbai – 400 001 Sub: Investor Presentation on the financial results for the quarter ended 30th September 2026 Dear Sir(s), Pursuant to the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed herewith the investor presentation on financial results for the quarter ended 30th September 2026. Kindly take the same on record. Thanking You, Yours truly, For Maruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf",
    "attachmentSize": "635.65 KB",
    "announcedAt": "2026-10-27T10:14:33.000Z",
@@ -101,10 +127,14 @@
     "categories": [
      "results"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "financial results"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -114,6 +144,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Press Release",
    "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2026-27\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf",
    "attachmentSize": "430.69 KB",
    "announcedAt": "2026-10-27T10:09:59.000Z",
@@ -127,6 +159,10 @@
     ],
     "rule": "kw:results",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -138,6 +174,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Maruti Suzuki India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf",
    "attachmentSize": "16.92 MB",
    "announcedAt": "2026-10-27T09:57:51.000Z",
@@ -150,6 +188,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -161,6 +203,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Acquisition",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
+   "subject": "Incorporation of Wholly Owned Subsidiary",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf",
    "attachmentSize": "332.20 KB",
    "announcedAt": "2026-10-27T07:48:06.000Z",
@@ -173,6 +217,10 @@
     ],
     "rule": "desc:acquisition",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Acquisition"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -184,6 +232,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Press Release",
    "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 24, 2026, titled \"Maruti Suzuki VICTORIS AURUM Edition Launched to Celebrate 1 Year of Record Sales Success\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf",
    "attachmentSize": "1.86 MB",
    "announcedAt": "2026-10-24T04:55:13.000Z",
@@ -196,6 +246,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -207,6 +261,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_21102026153744_STxIntimation_EarningsCall_27Oct2026.pdf",
    "attachmentSize": "1.41 MB",
    "announcedAt": "2026-10-21T10:09:05.000Z",
@@ -219,6 +275,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -230,6 +290,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Action(s) taken or orders passed",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
+   "subject": "Action(s) taken or orders passed",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_15102026191103_Intimation_15102026.pdf",
    "attachmentSize": "1.60 MB",
    "announcedAt": "2026-10-15T13:43:00.000Z",
@@ -242,6 +304,10 @@
     ],
     "rule": "desc:action(s) taken or orders passed",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Action(s) taken or orders passed"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -253,6 +319,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_13102026131220_NP_13102026.pdf",
    "attachmentSize": "3.33 MB",
    "announcedAt": "2026-10-13T07:45:47.000Z",
@@ -265,6 +333,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -277,6 +349,14 @@
    "isin": "INE585B01010",
    "nseDesc": "General Updates",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf",
+    "extractedAt": "2026-10-31T16:42:40.835Z",
+    "status": "ok",
+    "text": "MARUTT\\lSsuzurl MSIL: COS: NSE & BSE:2026110 05 12th October 2026 Vice President National Stock Exchange of India Limited \"Exchange Plaza\", Bandra-Kurla Complex, Bandra (East), Mumbai - 400 051 General Manager Department of Corporate Services BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai - 400 001 Subject: Intimation under Regulation 30 of the Securities and Exchanse Board of India (Listins Oblisations and Disclosure Requirements) Resulations. 2015 Dear Sirs, This is in funherance to our disclosure dated 28th Septemb er 2026 regarding the ongoing matter with the Competition Commission of India (CCf which was adjoumed and listed for hearing for 02nd November 2026. We would like to inform that we have received a notice from the Hon'ble National Company Law Appellate Tribunal (NCLAT), notifying that the matter will not be taken up on 02nd November 2026.As per the notice, the next date of hearing before the NCLAT would be notified in due course. You are requested to kindly note the same. Thanking you, Yours sincerely For Maruti Suzuki India Limited Sanjeev Grover Executive Officer and Company Secretary MARUTI SUZUKI INDIA LIMITED Reglstered and Head Ofice: Marutl Suanki lndia Limited, 1, NElson Mandela Road, Vasant Kuni, Nerr Delhi - 110070, lndia Tel: 011-'[6781000 Emall id r contact@larutl,co.ln, www.marutlsualkl.com CIN : 134103DL1981P1C011375"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf",
    "attachmentSize": "1.72 MB",
    "announcedAt": "2026-10-12T10:46:31.000Z",
@@ -289,6 +369,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -300,6 +381,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_05102026163802_STxIntimation_InvstConcall_8Sep2026.pdf",
    "attachmentSize": "1.52 MB",
    "announcedAt": "2026-10-05T11:11:53.000Z",
@@ -312,6 +395,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -323,6 +410,14 @@
    "isin": "INE585B01010",
    "nseDesc": "General Updates",
    "text": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: September 2026",
+   "subject": "Maruti Suzuki Production Volume: September 2026",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
+    "extractedAt": "2026-10-31T16:42:49.074Z",
+    "status": "ok",
+    "text": "MSIL: COS: NSE&BSE:2026110 02 0l't October 2026 Vice President National Stock Exchange of India Limited o'Exchange Plaza\", Bandra- Kurla Complex Bandra (E), Mumbai - 400 051 MARUTI\\lSsuzurt General Manager Department of Corporate Services BSE Limited Phiroze Jeejeebhoy Towers Dalal Street, Mumbai - 400 001 Suh: Pmduction Sentember2026 Dear Sir(s), Please find enclosed herewith as Annexuro -\"A\", the production figures of the Company for the month of September 2026. Kindly take the same on record. Thanking You, Yours truly, ForMaruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary MARUTI SUZUKI INDIA LIMITED Registered and Head Ofice: Maruti Suanki lndia Limited, 1, Nelson Mandela Road, Vasant Kunj, Nent Delhi - 11d)70, lndia Tel: 011-46781000 Email ld : contact@naruti,co.in, www.marutlsuarkl.com CIN : 134103DL1981P1C011375"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
    "attachmentSize": "1.49 MB",
    "announcedAt": "2026-10-01T08:04:01.000Z",
@@ -335,6 +430,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -346,6 +442,8 @@
    "isin": "INE585B01010",
    "nseDesc": "Press Release",
    "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\".",
+   "subject": "a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\"",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026125916_Sales.pdf",
    "attachmentSize": "1.47 MB",
    "announcedAt": "2026-10-01T07:29:33.000Z",
@@ -358,9 +456,19 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 3,
+  "ok": 3,
+  "failed": 0
+ }
 }

@@ -1,6 +1,7 @@
 import { classify } from "../data/classify";
+import { extractSubject } from "../data/enrich";
 import { istToIso, nseDate } from "../data/normalize";
-import type { Announcement, AnnouncementSnapshot } from "../data/types";
+import type { Announcement, AnnouncementSnapshot, AttachmentExcerpt } from "../data/types";
 import { request } from "./http";
 
 export const nseAnnouncementsUrl = (symbol: string, from: Date, to: Date) =>
@@ -22,7 +23,7 @@ interface RawAnnouncement {
 /** Pure parser. Records without an id or a parseable timestamp are skipped and counted in `reason`. */
 export function parseNseAnnouncements(
   json: unknown,
-  ctx: { symbol: string; url: string; fetchedAt: string; from: string; to: string },
+  ctx: { symbol: string; url: string; fetchedAt: string; from: string; to: string; prior?: Map<string, AttachmentExcerpt> },
 ): AnnouncementSnapshot {
   const window = { from: ctx.from, to: ctx.to };
   const mk = (items: Announcement[], status: "ok" | "partial" | "unavailable", reason?: string): AnnouncementSnapshot => ({
@@ -57,6 +58,9 @@ export function parseNseAnnouncements(
     seen.add(id);
     const text = (r.attchmntText ?? "").replace(/\s+/g, " ").trim();
     const nseDesc = (r.desc ?? "").trim();
+    const subject = extractSubject(text);
+    // Excerpts read in an earlier enrichment run are carried over so re-ingesting never loses them.
+    const excerpt = ctx.prior?.get(id) ?? null;
     items.push({
       id,
       symbol: ctx.symbol,
@@ -64,12 +68,14 @@ export function parseNseAnnouncements(
       isin: r.sm_isin ?? null,
       nseDesc,
       text,
+      subject,
+      attachmentExcerpt: excerpt,
       attachmentUrl: r.attchmntFile?.trim() || null,
       attachmentSize: r.attFileSize ?? null,
       announcedAt: at,
       announcedAtRaw: r.an_dt!,
       hasXbrl: !!r.hasXbrl,
-      classification: classify(nseDesc, text),
+      classification: classify(nseDesc, text, { subject, excerpt: excerpt?.status === "ok" ? excerpt.text : null }),
     });
   }
   items.sort((a, b) => b.announcedAt.localeCompare(a.announcedAt));
@@ -78,7 +84,7 @@ export function parseNseAnnouncements(
     : mk(items, "ok");
 }
 
-export async function fetchAnnouncements(symbol: string, days = 30, opts: { refresh?: boolean; now?: Date } = {}) {
+export async function fetchAnnouncements(symbol: string, days = 30, opts: { refresh?: boolean; now?: Date; prior?: Map<string, AttachmentExcerpt> } = {}) {
   const to = opts.now ?? new Date();
   const from = new Date(to.getTime() - days * 86400_000);
   const url = nseAnnouncementsUrl(symbol, from, to);
@@ -86,7 +92,7 @@ export async function fetchAnnouncements(symbol: string, days = 30, opts: { refr
     headers: { Referer: "https://www.nseindia.com/", Accept: "application/json" },
     cacheTtlMs: opts.refresh ? 0 : 6 * 3600_000,
   });
-  const ctx = { symbol, url, fetchedAt: res.fetchedAt, from: nseDate(from), to: nseDate(to) };
+  const ctx = { symbol, url, fetchedAt: res.fetchedAt, from: nseDate(from), to: nseDate(to), prior: opts.prior };
   if (res.status !== 200) return parseNseAnnouncements({ error: res.status }, ctx);
   try {
     return parseNseAnnouncements(JSON.parse(res.body.toString("utf8")), ctx);

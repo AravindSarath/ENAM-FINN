@@ -1,4 +1,5 @@
 import type { ResultsCard, ResultsRow } from "../types";
+import { pctChange } from "./derive";
 import { headlineResults } from "./derive";
 import type { FilingFacts, ScreenerSnapshot } from "./types";
 
@@ -94,13 +95,38 @@ export function buildResultsCard(fund: ScreenerSnapshot, facts: FilingFacts | nu
 
   const urls = [f?.source.url, f?.source.altUrl, h.sourceUrls.cur].filter((u): u is string => !!u);
 
+  // Last eight quarters of revenue and net profit as printed by screener (real values, shown as a trend line).
+  const from = Math.max(0, q.periods.length - 8);
+  const trendRow = (key: "revenue" | "pat", label: string) => {
+    const r = q.rows.find((x) => x.key === key);
+    return r ? { label, periods: q.periods.slice(from).map((p) => p.label), values: r.values.slice(from) } : null;
+  };
+  const trend = [trendRow("revenue", "Revenue (screener)"), trendRow("pat", "Net profit (screener)")].filter((t): t is NonNullable<typeof t> => !!t);
+
   return {
     periodLabel: `${fiscalQuarter(h.periodEnds.cur)} · ${h.periods.cur}`,
     basis: fund.basis,
     rows: [revenueRow, opRow, pbtRow, patRow],
     extras,
     margin,
+    trend,
     notes,
     sourceUrls: [...new Set(urls)],
   };
+}
+
+/**
+ * The largest absolute change among Operating profit, PBT and PAT, quarter on quarter or year on year.
+ * It measures size only; it says nothing about whether the change is good or bad.
+ */
+export function maxProfitChange(card: ResultsCard): { pct: number; text: string } | null {
+  let best: { pct: number; text: string } | null = null;
+  for (const row of card.rows) {
+    if (!/^(Operating profit|PBT|PAT|Net profit)/.test(row.label)) continue;
+    for (const [base, name] of [[row.prevQ, "QoQ"], [row.yearAgo, "YoY"]] as const) {
+      const d = pctChange(row.cur, base);
+      if (d != null && (best == null || Math.abs(d) > Math.abs(best.pct))) best = { pct: d, text: `${row.label} ${d > 0 ? "+" : ""}${d.toFixed(1)}% ${name} (${card.periodLabel})` };
+    }
+  }
+  return best ? { pct: Math.abs(best.pct), text: best.text } : null;
 }

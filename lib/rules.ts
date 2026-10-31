@@ -41,10 +41,13 @@ export function evaluate(rules: Rules, holdings: Holding[], feed: FeedItem[], wi
   for (const h of holdings) {
     const when = h.priceAsOf ? `${shortDate(h.priceAsOf)} close` : undefined;
     const ago = h.closeHoursAgo ?? 0;
-    if (h.volX != null && h.volX >= rules.volX)
-      hits.push({ id: `v-${h.sym}`, sym: h.sym, kind: "volume", text: `Volume ${h.volX.toFixed(1)}× the 20-day average`, hoursAgo: ago, whenLabel: when });
-    if (h.dayPct != null && Math.abs(h.dayPct) >= rules.movePct)
-      hits.push({ id: `m-${h.sym}`, sym: h.sym, kind: "move", text: `Price ${pct(h.dayPct)} on the day`, hoursAgo: ago, whenLabel: when });
+    const vol = h.volX != null && h.volX >= rules.volX ? `volume ${h.volX.toFixed(1)}× the 20-day average` : null;
+    const move = h.dayPct != null && Math.abs(h.dayPct) >= rules.movePct ? `price ${pct(h.dayPct)} on the day` : null;
+    // One alert per stock per session, however many thresholds it crossed.
+    if (vol || move) {
+      const text = [move, vol].filter(Boolean).join(", ");
+      hits.push({ id: `p-${h.sym}`, sym: h.sym, kind: move ? "move" : "volume", text: text.charAt(0).toUpperCase() + text.slice(1), hoursAgo: ago, whenLabel: when });
+    }
   }
   for (const f of feed) {
     if (f.sample || f.tier === "routine" || f.hoursAgo > windowHours || !rules.cats[f.cat]) continue;

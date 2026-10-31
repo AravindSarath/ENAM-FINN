@@ -21,6 +21,8 @@
    "isin": "INE018A01030",
    "nseDesc": "General Updates",
    "text": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf",
    "attachmentSize": "3.28 MB",
    "announcedAt": "2026-10-31T07:30:35.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "kw:subsidiary",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Wholly owned Subsidiary"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -44,6 +50,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Larsen & Toubro Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_28102026194657_NewspaperAdvtSep2026.pdf",
    "attachmentSize": "3.43 MB",
    "announcedAt": "2026-10-28T14:17:25.000Z",
@@ -56,6 +64,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -68,6 +80,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Larsen & Toubro Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026221257_Intimation27102026.pdf",
    "attachmentSize": "1.28 MB",
    "announcedAt": "2026-10-27T16:43:16.000Z",
@@ -80,6 +94,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -91,6 +109,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Updates",
    "text": "Larsen & Toubro Limited has informed the Exchange regarding 'Analyst Presentation.- Q2 / H1 FY27'.",
+   "subject": "Analyst Presentation.- Q2 / H1 FY27",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf",
+    "extractedAt": "2026-10-31T16:42:20.592Z",
+    "status": "ok",
+    "text": "Larsen & Toubro Limited Secretarial Department L&T House, Ballard Estate Narottam Morarjee Marg Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 Fax: +91 22 6752 5858 www.Larsentoubro.com Email: igrc@larsentoubro.com CIN:L99999MH1946PLC004768 SEC/2026 October 27, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Sub.: Analyst Presentation.- Q2 / H1 FY27 Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we enclose herewith a copy of Analyst Presentation on financials of Q2 / H1 FY27 which will be uploaded to our Investor Website https://investors.larsentoubro.com. We request you to take note of the same. Thanking you, Yours sincerely, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) Encl. As above. e LARSEN & TOUBRO An ISO 9001:2015 Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf",
    "attachmentSize": "5.28 MB",
    "announcedAt": "2026-10-27T13:07:19.000Z",
@@ -103,6 +129,7 @@
     ],
     "rule": "none",
     "confidence": "low",
+    "evidence": null,
     "routine": false,
     "needsReview": true
    }
@@ -114,6 +141,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf",
    "attachmentSize": "3.05 MB",
    "announcedAt": "2026-10-27T11:43:09.000Z",
@@ -126,6 +155,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "audited financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -137,6 +170,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Allotment of Securities",
    "text": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf",
    "attachmentSize": "1.28 MB",
    "announcedAt": "2026-10-27T07:59:18.000Z",
@@ -149,6 +184,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "ESOP"
+    },
     "routine": true,
     "routineRule": "routine:esop",
     "needsReview": false
@@ -161,6 +200,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Bagging/Receiving of orders/contracts",
    "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_27102026101631_PressRelease27102026.pdf",
+    "extractedAt": "2026-10-31T16:43:06.083Z",
+    "status": "ok",
+    "text": "Registered Office: Larsen & Toubro Limited L&T House, Ballard Estate, Narottam Morarjee Marg, Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 www.Larsentoubro.com CIN: L99999MH1946PLC004768 Larsen & Toubro Limited Secretarial Department Landmark, 'A' Wing, Gr. Floor, Suren Road Off Andheri-Kurla Road, Chakala Andheri (East), Mumbai - 400 093, INDIA Tel: +91 022 6134 2655 Email: IGRC@Larsentoubro.com SEC/2026 October 27, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Re : L&T Wins Orders (Major*) for Dhaka Metro We enclose herewith a copy of Press Release that is being issued by the Company today, in connection with the above. We request you to take note of the same. Thanking you, Yours faithfully, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) e LARSEN & TOUBRO An ISO 9001:2015 Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026101631_PressRelease27102026.pdf",
    "attachmentSize": "1.36 MB",
    "announcedAt": "2026-10-27T04:46:48.000Z",
@@ -173,6 +220,10 @@
     ],
     "rule": "desc:bagging/receiving of orders/contracts",
     "confidence": "medium",
+    "evidence": {
+     "source": "label",
+     "phrase": "Bagging/Receiving of orders/contracts"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -184,6 +235,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Bagging/Receiving of orders/contracts",
    "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_21102026094637_PressRelease21102026.pdf",
+    "extractedAt": "2026-10-31T16:43:06.912Z",
+    "status": "ok",
+    "text": "Larsen & Toubro Limited Secretarial Department L&T House, Ballard Estate Narottam Morarjee Marg Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 Fax: +91 22 6752 5858 www.Larsentoubro.com Email: igrc@larsentoubro.com CIN:L99999MH1946PLC004768 SEC/2026 October 21, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Re : L&T Wins Orders (*Large) in New Delhi and Andhra Pradesh We enclose herewith a copy of Press Release that is being issued by the Company today, in connection with the above. We request you to take note of the same. Thanking you, Yours faithfully, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) e LARSEN & TOUBRO An ISO 9001:201S Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_21102026094637_PressRelease21102026.pdf",
    "attachmentSize": "3.23 MB",
    "announcedAt": "2026-10-21T04:16:52.000Z",
@@ -196,6 +255,10 @@
     ],
     "rule": "desc:bagging/receiving of orders/contracts",
     "confidence": "medium",
+    "evidence": {
+     "source": "label",
+     "phrase": "Bagging/Receiving of orders/contracts"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -207,6 +270,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Bagging/Receiving of orders/contracts",
    "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_19102026101805_PressRelease19102026.pdf",
+    "extractedAt": "2026-10-31T16:43:07.829Z",
+    "status": "ok",
+    "text": "Larsen & Toubro Limited Secretarial Department L&T House, Ballard Estate Narottam Morarjee Marg Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 Fax: +91 22 6752 5858 www.Larsentoubro.com Email: igrc@larsentoubro.com CIN:L99999MH1946PLC004768 SEC/2026 October 19, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Re : L&T Commences Initial Activities for New Tashkent International Airport (Ultra-mega*) Project We enclose herewith a copy of Press Release that is being issued by the Company today, in connection with the above. We request you to take note of the same. Thanking you, Yours faithfully, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) e LARSEN & TOUBRO An /50 9001:2015 Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_19102026101805_PressRelease19102026.pdf",
    "attachmentSize": "3.25 MB",
    "announcedAt": "2026-10-19T04:48:20.000Z",
@@ -219,6 +290,10 @@
     ],
     "rule": "desc:bagging/receiving of orders/contracts",
     "confidence": "medium",
+    "evidence": {
+     "source": "label",
+     "phrase": "Bagging/Receiving of orders/contracts"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -230,6 +305,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_16102026170806_Intimation16102026.pdf",
    "attachmentSize": "3.17 MB",
    "announcedAt": "2026-10-16T11:39:10.000Z",
@@ -242,6 +319,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -253,6 +334,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Larsen & Toubro Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_12102026183004_Intimation745Sep2026.pdf",
    "attachmentSize": "3.38 MB",
    "announcedAt": "2026-10-12T13:00:27.000Z",
@@ -265,6 +348,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -277,6 +364,8 @@
    "isin": "INE018A01030",
    "nseDesc": "Change in Management",
    "text": "Larsen & Toubro Limited has informed the Exchange about change in Management",
+   "subject": "change in Management",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf",
    "attachmentSize": "3.33 MB",
    "announcedAt": "2026-10-07T15:59:23.000Z",
@@ -289,6 +378,10 @@
     ],
     "rule": "desc:change in management",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Management"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -300,6 +393,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Bagging/Receiving of orders/contracts",
    "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_07102026101304_PressRelease07102026.pdf",
+    "extractedAt": "2026-10-31T16:43:12.237Z",
+    "status": "ok",
+    "text": "Larsen & Toubro Limited Secretarial Department L&T House, Ballard Estate Narottam Morarjee Marg Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 Fax: +91 22 6752 5858 www.Larsentoubro.com Email: igrc@larsentoubro.com CIN:L99999MH1946PLC004768 SEC/2026 October 7, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Re : L&T Energy CarbonLite Solutions Secures LNTP for 1,600 MW Thermal Power Plant (Major*) Order We enclose herewith a copy of Press Release that is being issued by the Company today, in connection with the above. We request you to take note of the same. Thanking you, Yours faithfully, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) e LARSEN & TOUBRO An /50 9001:2015 Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_07102026101304_PressRelease07102026.pdf",
    "attachmentSize": "3.26 MB",
    "announcedAt": "2026-10-07T04:43:23.000Z",
@@ -312,6 +413,10 @@
     ],
     "rule": "desc:bagging/receiving of orders/contracts",
     "confidence": "medium",
+    "evidence": {
+     "source": "label",
+     "phrase": "Bagging/Receiving of orders/contracts"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -323,6 +428,14 @@
    "isin": "INE018A01030",
    "nseDesc": "Bagging/Receiving of orders/contracts",
    "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "subject": "Bagging/Receiving of orders/contracts",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/PAM_05102026093512_PressRelease05102026.pdf",
+    "extractedAt": "2026-10-31T16:43:13.057Z",
+    "status": "ok",
+    "text": "Larsen & Toubro Limited Secretarial Department L&T House, Ballard Estate Narottam Morarjee Marg Mumbai - 400 001, INDIA Tel: +91 22 6752 5656 Fax: +91 22 6752 5858 www.Larsentoubro.com Email: igrc@larsentoubro.com CIN:L99999MH1946PLC004768 SEC/2026 October 5, 2026 BSE Limited Phiroze Jejeebhoy Towers, Dalal Street, MUMBAI - 400 001 STOCK CODE: 500510 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No.C/1, G Block Bandra-Kurla Complex Bandra (E), Mumbai - 400 051 STOCK CODE: LT Dear Sirs, Re : L&T Wins Orders (Mega*) for Power Transmission & Distribution Business We enclose herewith a copy of Press Release that is being issued by the Company today, in connection with the above. We request you to take note of the same. Thanking you, Yours faithfully, for LARSEN & TOUBRO LIMITED SUBRAMANIAN NARAYAN COMPANY SECRETARY & COMPLIANCE OFFICER (ACS 16354) e LARSEN & TOUBRO An /50 9001:2015 Certified Department"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_05102026093512_PressRelease05102026.pdf",
    "attachmentSize": "3.24 MB",
    "announcedAt": "2026-10-05T04:05:26.000Z",
@@ -335,9 +448,19 @@
     ],
     "rule": "desc:bagging/receiving of orders/contracts",
     "confidence": "medium",
+    "evidence": {
+     "source": "label",
+     "phrase": "Bagging/Receiving of orders/contracts"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 6,
+  "ok": 6,
+  "failed": 0
+ }
 }

@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { classify } from "../lib/data/classify";
-import { tierFor } from "../lib/data/score";
+import { scoreItem } from "../lib/data/materiality";
 import { periodEndFromText } from "../lib/data/view";
 
 describe("NSE structured labels are authoritative (real labels seen in the 22-company snapshot)", () => {
@@ -42,22 +42,26 @@ describe("NSE structured labels are authoritative (real labels seen in the 22-co
     }
   });
 
-  it("explains the routine rule in the tier reason", () => {
+  it("explains the routine rule in the score reasons", () => {
     const c = classify("ESOP/ESOS/ESPS", "");
-    expect(tierFor({ category: c.category, classification: c, reaction: null }).why).toMatch(/Routine paperwork \(esop-desc\)/);
+    const r = scoreItem({ category: c.category, classification: c, nseDesc: "ESOP/ESOS/ESPS", text: "", subject: null, kind: "filing" });
+    expect(r.tier).toBe("routine");
+    expect(r.reasons.some((x) => /routine paperwork \(esop-desc\)/i.test(x.label))).toBe(true);
   });
 
   it("a director completing a scheduled term is Noted, not Act", () => {
     const text = "Prof. X completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently ceased to be a Director";
     const c = classify("Cessation", text);
-    const t = tierFor({ category: c.category, classification: c, text, reaction: null });
-    expect(t.tier).toBe("note");
-    expect(t.why).toMatch(/scheduled term/);
+    const r = scoreItem({ category: c.category, classification: c, nseDesc: "Cessation", text, subject: null, kind: "filing" });
+    expect(r.tier).toBe("note");
+    expect(r.reasons.some((x) => /scheduled term/i.test(x.label))).toBe(true);
   });
 
-  it("a resignation stays Act", () => {
-    const c = classify("Resignation", "the CFO has resigned with immediate effect");
-    expect(tierFor({ category: c.category, classification: c, text: "the CFO has resigned", reaction: null }).tier).toBe("act");
+  it("a CFO resignation is Act", () => {
+    const text = "the Chief Financial Officer has resigned with immediate effect";
+    const c = classify("Resignation", text);
+    const r = scoreItem({ category: c.category, classification: c, nseDesc: "Resignation", text, subject: null, kind: "filing" });
+    expect(r.tier).toBe("act");
   });
 });
 

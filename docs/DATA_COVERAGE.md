@@ -35,3 +35,28 @@ Ingested at 31 Oct 2026, 9:28 pm IST. 22 companies (18 portfolio, 4 research). *
 - **Filing-verified figures** (reported Revenue from Operations, PBT, PAT incl. NCI, owners' profit): RELIANCE only (`data/filings/RELIANCE.json`). Every other results card shows screener's figures under labels that say so, and "Profit attributable to owners" as unavailable.
 - **Rule-based classification** is coarse: 33 of the 206 real feed items are "unclassified" and shown as Noted, which is deliberate (never silently routine). Another 37 unclassified items are positively identified routine paperwork.
 - **Not available anywhere yet**: management-change bios, per-filing summaries, concall and annual-report analysis (LLM stage).
+
+## Stage 3: before and after (31 Oct 2026)
+
+| Measure | Before (Stage 2) | After (Stage 3) | Note |
+|---|---|---|---|
+| NSE filings, 22 companies | 298 | 298 | same data |
+| Unclassified and not routine | 44 | 9 | label + subject + text + PDF page 1 |
+| Flagged for review | 55 | 9 |  |
+| Positively identified routine | 66 | 67 |  |
+| Filings with an extracted subject | n/a | 191 | new |
+| PDF page-1 excerpts read (ok / failed) | n/a | 60 / 0 | 60 queued, none failed |
+| Filings classified using a PDF excerpt | n/a | 37 | medium confidence, scored -5 |
+| Results cards (with numbers) | 14 (14) | 15 (15) | ETERNAL added via its PDF |
+| Cards for 257 portfolio filings (18 companies) | 205 | 233 | stricter grouping: more cards by design |
+| Filings represented across cards and related lists | 257 | 257 | every filing kept |
+| Act / Noted / Routine cards, 30 days | 41/85/79 | 47/88/99 |  |
+| Window 24h: cards (Act) | 5 (2) | 4 (1) | baseline counted 1 sample card |
+| Window 72h: cards (Act) | 26 (11) | 26 (9) | baseline counted 1 sample card |
+| Window 7d: cards (Act) | 60 (22) | 69 (20) | baseline counted 1 sample card |
+
+Reading the table:
+- **Classification improved sharply.** Unclassified non-routine filings fell from 44 to 9 and review flags from 55 to 9, using NSE's structured labels, quoted subjects and page 1 of 60 attachments (no read failed). 37 filings now carry a PDF-derived category, shown with the matched phrase and a lower score.
+- **Grouping got stricter, so there are more cards, on purpose.** Stage 2 folded any repeated NSE label within 72 hours into one card (for example seven POLYCAB insolvency filings into three). Stage 3 merges only on the same attachment, the same specific subject, near-identical text, or the same stated reporting period. Cards per filing went from 0.80 to 0.91. Every original filing stays one tap away with the reason it was grouped.
+- **Act in a window:** 72h went from 11 to 9 and 7d from 22 to 20 (the baseline included one sample Act card), while the 30-day Act total rose from 41 to 47 because grouping is stricter. The Brief shows the top 5 Act cards by score, then "show more", and every Act card has an itemised score.
+- **Window counts are not exactly comparable:** the Stage 2 baseline windows included the 1 sample card; Stage 3 excludes sample cards from every figure.

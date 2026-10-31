@@ -39,7 +39,7 @@ const KEYWORDS: KeywordRule[] = [
   { id: "kw:results", cat: "results", re: /financial results|unaudited.*results|audited.*results|results for the (quarter|half|year)|quarter(ly)? (and (half|nine|year)[- ]?\w* )?ended/i },
   { id: "kw:dividend", cat: "dividend", re: /\bdividend\b/i },
   { id: "kw:bonus-split", cat: "bonus_split", re: /\bbonus (issue|shares)\b|stock split|sub-?division of (equity )?shares/i },
-  { id: "kw:fund-raise", cat: "fund_raise", re: /debentures?|\bNCDs?\b|rights issue|\bQIP\b|preferential (issue|allotment)|buy-?back|commercial paper|fund ?raising|raising of funds/i },
+  { id: "kw:fund-raise", cat: "fund_raise", re: /debentures?|non[- ]convertible (securities|debentures)|\bNCDs?\b|rights issue|\bQIP\b|preferential (issue|allotment)|buy-?back|commercial paper|fund ?raising|raising of funds/i },
   { id: "kw:ipo", cat: "M&A", re: /initial public offer|red herring prospectus|\bIPO\b/i },
   { id: "kw:mna", cat: "M&A", re: /acquisition|acquire|merger|amalgamation|demerger|scheme of arrangement|joint venture|\bstrategic (partnership|alliance)\b/i },
   { id: "kw:subsidiary", cat: "M&A", re: /step-down subsidiary|wholly[- ]owned subsidiary|\bsubsidiary\b.*(incorporat|dissol|struck off|wound up|voluntar)/i },
@@ -53,6 +53,9 @@ const KEYWORDS: KeywordRule[] = [
   { id: "kw:investor-meet", cat: "investor_meetings", re: /institutional investors?.? meeting|investor (conference|meet)|analyst(s)? (meet|day)|one[- ]on[- ]one/i },
   { id: "kw:postal-ballot", cat: "postal_ballot", re: /postal ballot/i },
   { id: "kw:agm", cat: "agm_egm", re: /annual general meeting|extra-?ordinary general meeting|\bAGM\b|\bEGM\b|voting results/i },
+  { id: "kw:store-opening", cat: "press_release", re: /store opening|new store|inaugurat/i },
+  { id: "kw:business-update", cat: "press_release", re: /company update at the end of quarter|business update|quarterly update/i },
+  { id: "kw:shareholder-letter", cat: "results", re: /shareholders?['’]? letter/i },
   { id: "kw:press", cat: "press_release", re: /media (statement|release)|press release|news item|clarification|rumou?r/i },
 ];
 
@@ -65,6 +68,8 @@ const ROUTINE: { id: string; re: RegExp; where: "desc" | "text" | "both" }[] = [
   { id: "routine:compliance", re: /compliance certificate|secretarial (audit|compliance)|certificate under (regulation|sebi)|reconciliation of share capital/i, where: "both" },
   { id: "routine:auditor", re: /appointment of (statutory |secretarial |internal )?auditors?|change in auditors/i, where: "both" },
   { id: "routine:esop-desc", re: /^(esop\/esos\/esps|options to purchase securities)$/i, where: "desc" },
+  { id: "routine:esg", re: /\bESG\b (rating|report|disclosure)|business responsibility (and sustainability )?report/i, where: "text" },
+  { id: "routine:share-certificate", re: /loss of share certificate|duplicate share certificate/i, where: "text" },
   { id: "routine:monitoring-agency", re: /monitoring agency report/i, where: "desc" },
 ];
 
@@ -112,54 +117,91 @@ const DESC_FALLBACK: Record<string, { cat: Category; confidence: Classification[
   "analysts/institutional investor meet/con. call updates": { cat: "investor_meetings", confidence: "medium" },
 };
 
-export function classify(nseDesc: string, text: string): Classification {
+export interface ClassifyContext {
+  /** Event subject extracted from NSE's text. */
+  subject?: string | null;
+  /** Page-1 text of the attachment. Can add or confirm a category; can never make a filing routine. */
+  excerpt?: string | null;
+}
+
+const phrase = (re: RegExp, s: string) => s.match(re)?.[0].replace(/\s+/g, " ").trim().slice(0, 80) ?? "";
+
+export function classify(nseDesc: string, text: string, ctx: ClassifyContext = {}): Classification {
   const desc = nseDesc.trim();
   const descKey = desc.toLowerCase();
-  const hay = `${desc} ${text}`;
+  const subject = ctx.subject ?? "";
+  const body = `${text} ${subject}`;
+  const hay = `${desc} ${body}`;
 
-  const routineIds = ROUTINE.filter((r) => {
-    const target = r.where === "desc" ? desc : r.where === "text" ? text : hay;
-    return r.re.test(target);
-  }).map((r) => r.id);
+  // Routine is decided only from NSE's label, text and subject, never from the PDF and never by a failed read.
+  const routineHits = ROUTINE.filter((r) => r.re.test(r.where === "desc" ? desc : r.where === "text" ? body : hay));
+  const routineIds = routineHits.map((r) => r.id);
   const routine = routineIds.length > 0;
   const routineRule = routineIds[0];
 
   // Trading-window notices cite the insider-trading regulations but are not insider trades.
   const hits = KEYWORDS.filter(
-    (k) => k.re.test(k.textOnly ? text : hay) && !(k.cat === "insider_trading" && routineIds.includes("routine:trading-window")),
+    (k) => k.re.test(k.textOnly ? body : hay) && !(k.cat === "insider_trading" && routineIds.includes("routine:trading-window")),
   );
   const cats = [...new Set(hits.map((h) => h.cat))].sort((a, b) => PRIORITY.indexOf(a) - PRIORITY.indexOf(b));
+  const evidenceFor = (h: KeywordRule | undefined): Classification["evidence"] => {
+    if (!h) return null;
+    const inSubject = subject && h.re.test(subject) && !h.re.test(text);
+    const src = inSubject ? subject : h.textOnly ? body : hay;
+    return { source: inSubject ? "subject" : "text", phrase: phrase(h.re, src) };
+  };
 
-  const auth = AUTHORITY[descKey];
-  if (auth) {
-    const secondary = cats.filter((c) => c !== auth.cat);
-    return {
-      category: auth.cat,
-      categories: [auth.cat, ...secondary],
-      rule: `desc:${descKey}`,
-      confidence: auth.confidence,
-      routine,
-      routineRule,
-      needsReview: !!auth.needsReview,
-    };
-  }
-
-  if (cats.length > 0) {
-    const primary = cats[0];
-    const rule = hits.find((h) => h.cat === primary)!.id;
+  const base = ((): Classification => {
+    const auth = AUTHORITY[descKey];
+    if (auth) {
+      return {
+        category: auth.cat,
+        categories: [auth.cat, ...cats.filter((c) => c !== auth.cat)],
+        rule: `desc:${descKey}`,
+        confidence: auth.confidence,
+        evidence: { source: "label", phrase: desc },
+        routine,
+        routineRule,
+        needsReview: !!auth.needsReview,
+      };
+    }
+    if (cats.length > 0) {
+      const primary = cats[0];
+      const hit = hits.find((h) => h.cat === primary);
+      const fb = DESC_FALLBACK[descKey];
+      // Agreement between NSE's label and our keywords raises confidence.
+      const confidence: Classification["confidence"] = fb && cats.includes(fb.cat) ? "high" : "medium";
+      return { category: primary, categories: cats, rule: hit!.id, confidence, evidence: evidenceFor(hit), routine, routineRule, needsReview: false };
+    }
     const fb = DESC_FALLBACK[descKey];
-    // Agreement between NSE's label and our keywords raises confidence.
-    const confidence: Classification["confidence"] = fb && cats.includes(fb.cat) ? "high" : "medium";
-    return { category: primary, categories: cats, rule, confidence, routine, routineRule, needsReview: false };
-  }
+    if (fb) {
+      return { category: fb.cat, categories: [fb.cat], rule: `desc:${descKey}`, confidence: fb.confidence, evidence: { source: "label", phrase: desc }, routine, routineRule, needsReview: fb.confidence === "low" };
+    }
+    if (routine) {
+      return { category: "unclassified", categories: ["unclassified"], rule: "routine-only", confidence: "medium", evidence: { source: "text", phrase: phrase(routineHits[0].re, hay) }, routine: true, routineRule, needsReview: false };
+    }
+    return { category: "unclassified", categories: ["unclassified"], rule: "none", confidence: "low", evidence: null, routine: false, needsReview: true };
+  })();
 
-  const fb = DESC_FALLBACK[descKey];
-  if (fb) {
-    return { category: fb.cat, categories: [fb.cat], rule: `desc:${descKey}`, confidence: fb.confidence, routine, routineRule, needsReview: fb.confidence === "low" };
+  // Page-1 excerpt: may resolve or confirm an uncertain classification. Never applied to routine filings.
+  const excerpt = ctx.excerpt ?? "";
+  if (excerpt && !base.routine && (base.needsReview || base.confidence === "low")) {
+    const pdfHits = KEYWORDS.filter((k) => k.re.test(excerpt) && !(k.cat === "insider_trading"));
+    const pdfCats = [...new Set(pdfHits.map((h) => h.cat))].sort((a, b) => PRIORITY.indexOf(a) - PRIORITY.indexOf(b));
+    const confirm = pdfCats.includes(base.category);
+    const target = confirm ? base.category : base.category === "unclassified" ? pdfCats[0] : null;
+    if (target) {
+      const hit = pdfHits.find((h) => h.cat === target)!;
+      return {
+        ...base,
+        category: target,
+        categories: [...new Set([target, ...base.categories, ...pdfCats])],
+        rule: `pdf:${hit.id}`,
+        confidence: "medium",
+        evidence: { source: "pdf", phrase: phrase(hit.re, excerpt) },
+        needsReview: false,
+      };
+    }
   }
-
-  if (routine) {
-    return { category: "unclassified", categories: ["unclassified"], rule: "routine-only", confidence: "medium", routine: true, routineRule, needsReview: false };
-  }
-  return { category: "unclassified", categories: ["unclassified"], rule: "none", confidence: "low", routine: false, needsReview: true };
+  return base;
 }

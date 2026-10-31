@@ -21,6 +21,8 @@
    "isin": "INE044A01028",
    "nseDesc": "General Updates",
    "text": "Completion and Results of Postal Ballot dated 01 October 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026201341_SEIntimationforVR_-_31_October_2026.pdf",
    "attachmentSize": "265.56 KB",
    "announcedAt": "2026-10-31T14:44:24.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "kw:postal-ballot",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Postal Ballot"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -44,6 +50,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_31102026173121_SEIntimationforFinancialResultsNewspaperadvertisement.pdf",
    "attachmentSize": "3.21 MB",
    "announcedAt": "2026-10-31T12:02:02.000Z",
@@ -56,6 +64,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -68,6 +80,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_30102026201207_IntimationSE20261030_Q2FY27_Call_Recording_Signed.pdf",
    "attachmentSize": "276.50 KB",
    "announcedAt": "2026-10-30T14:43:58.000Z",
@@ -80,6 +94,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -91,6 +109,8 @@
    "isin": "INE044A01028",
    "nseDesc": "General Updates",
    "text": "Appointment of Statutory Auditors Pursuant to Mandatory Auditor Rotation",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026151827_BMOutcome30102026_Conclusion.pdf",
    "attachmentSize": "284.17 KB",
    "announcedAt": "2026-10-30T09:48:46.000Z",
@@ -103,6 +123,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Appointment of Statutory Auditors"
+    },
     "routine": true,
     "routineRule": "routine:auditor",
     "needsReview": false
@@ -115,6 +139,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Unaudited Financial Results for the quarter and half year ended 30 September 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026141321_BMOutcomeFinancialoct26signed.pdf",
    "attachmentSize": "15.31 MB",
    "announcedAt": "2026-10-30T08:45:10.000Z",
@@ -127,6 +153,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Unaudited Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -138,6 +168,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Press Release",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 30, 2026, titled \"ILUMYA® (tildrakizumab-asmn) approved in the U.S. for the Treatment of Adults with Active Psoriatic Arthritis\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_30102026080437_SE_Intimation_of_Press_Release_ILUMYA_PsA_Approval.pdf",
    "attachmentSize": "521.97 KB",
    "announcedAt": "2026-10-30T02:35:47.000Z",
@@ -150,6 +182,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -161,20 +197,26 @@
    "isin": "INE044A01028",
    "nseDesc": "Allotment of Securities",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding allotment of 781600 securities pursuant to Non Convertible Securities at its meeting held on October 26, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_26102026122925_SE_Intimation_of_allotment_of_NCDs_26_Oct_2026.pdf",
    "attachmentSize": "369.91 KB",
    "announcedAt": "2026-10-26T07:00:34.000Z",
    "announcedAtRaw": "26-Oct-2026 12:30:34",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "fund_raise",
     "categories": [
-     "unclassified"
+     "fund_raise"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Non Convertible Securities"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -184,6 +226,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Press Release",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 23, 2026.",
+   "subject": "a press release dated October 23, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_23102026180028_SE_Intimation_of_Press_Release_-_ESMO.pdf",
    "attachmentSize": "562.54 KB",
    "announcedAt": "2026-10-23T12:31:41.000Z",
@@ -196,6 +240,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -207,6 +255,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Press Release",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 20, 2026.",
+   "subject": "a press release dated October 20, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_20102026173321_SE_Intimation_of_Press_Release_on_NCCN_Gudelines_Update.pdf",
    "attachmentSize": "407.36 KB",
    "announcedAt": "2026-10-20T12:05:31.000Z",
@@ -219,6 +269,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -230,6 +284,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNPHARMA456_15102026181814_IntimationSE20261015_Q2FY27_Earnings_Call_Signed.pdf",
    "attachmentSize": "310.96 KB",
    "announcedAt": "2026-10-15T12:48:52.000Z",
@@ -242,6 +298,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -253,6 +313,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_14102026173741_SEintimationfor74signed.pdf",
    "attachmentSize": "356.60 KB",
    "announcedAt": "2026-10-14T12:08:55.000Z",
@@ -265,6 +327,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Certificate under SEBI"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -277,6 +343,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Credit Rating",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Credit Rating",
+   "subject": "Credit Rating",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_13102026175414_Intimation_to_SE_-_NCDs_Credit_Ratings.pdf",
    "attachmentSize": "1.45 MB",
    "announcedAt": "2026-10-13T12:24:34.000Z",
@@ -289,6 +357,10 @@
     ],
     "rule": "desc:credit rating",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Credit Rating"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -300,6 +372,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Resignation of Director/KMP/SMP",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange about Resignation of Director/KMP/SMP",
+   "subject": "Resignation of Director/KMP/SMP",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNPHARMA_ROID_100278_KMP_Doc.zip",
    "attachmentSize": "70.63 KB",
    "announcedAt": "2026-10-12T15:04:43.000Z",
@@ -312,6 +386,10 @@
     ],
     "rule": "desc:resignation of director/kmp/smp",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Resignation of Director/KMP/SMP"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -323,6 +401,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Resignation",
    "text": "Resignation of Director of the Company",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026200413_BMOutcome12October2026.pdf",
    "attachmentSize": "392.48 KB",
    "announcedAt": "2026-10-12T14:35:00.000Z",
@@ -335,6 +415,10 @@
     ],
     "rule": "desc:resignation",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Resignation"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -346,20 +430,33 @@
    "isin": "INE044A01028",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Outcome of the Board Meeting held on 12 October 2026",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf",
+    "extractedAt": "2026-10-31T16:42:40.393Z",
+    "status": "ok",
+    "text": "Sun Pharmaceutical Industries Limited SUN HOUSE, Plot No. 201 B/1, Western Express Highway, Goregaon (E), Mumbai 400063, India Tel.: (91-22) 4324 4324 Fax.: (91-22) 4324 4343 Website: www.sunpharma.com Email: secretarial@sunpharma.com CIN: L24230GJ1993PLC019050 Registered Office: SPARC, Tandalja, Vadodara – 390 012, Gujarat, INDIA Reaching People. Touching Lives 12 October 2026 National Stock Exchange of India Limited BSE Limited NSE Code: SUNPHARMA BSE Code: 524715 Outcome of the Board Meeting held today, i.e., 12 October 2026 Further to the communication dated 07 October 2026, this is to inform that the meeting of the Board of Directors of the Company (“Board”) was held today, i.e. 12 October 2026, which commenced at 05:00 P.M. and concluded at 05:50 P.M., IST. The Board, inter alia, considered and approved the following: 1. Issuance of Non-Convertible Debentures The Board of Directors has approved the issuance of listed, rated, unsecured, redeemable non- convertible debentures (\"NCDs\"), on a private placement basis, in one or more tranches and/or series, for an aggregate amount not exceeding INR 10,000 Crore. The Board has also approved the related issuance framework and authorised the Finance Committee to determine and approve the tranche-specific terms and conditions of the NCDs, including matters relating to their issuance, allocation and allotment, within the framework approved by the Board. The disclosures required under Regulation 30 of the SEBI (Listing Obligations "
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_12102026195625_BMOutcome12October2026.pdf",
    "attachmentSize": "392.48 KB",
    "announcedAt": "2026-10-12T14:27:07.000Z",
    "announcedAtRaw": "12-Oct-2026 19:57:07",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "fund_raise",
     "categories": [
+     "fund_raise",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:fund-raise",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Non-Convertible Debentures"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -369,6 +466,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Press Release",
    "text": "Sun Pharma Establishes Endowed Professorship at Mount Sinai to Advance Dermatologic Care",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_06102026182517_SEintimationPRforMSP.pdf",
    "attachmentSize": "413.35 KB",
    "announcedAt": "2026-10-06T12:55:27.000Z",
@@ -381,6 +480,10 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -392,6 +495,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Newspaper Publication about Postal Ballot/E-voting October 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_02102026171502_SE_intimation_for_PB_Newspaper_Advertisement.pdf",
    "attachmentSize": "4.41 MB",
    "announcedAt": "2026-10-02T11:45:38.000Z",
@@ -404,6 +509,10 @@
     ],
     "rule": "kw:postal-ballot",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Postal Ballot"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -416,6 +525,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Shareholders meeting",
    "text": "Notice of Postal Ballot October 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_01102026184724_SEintimationfornoticeofpostalballot.pdf",
    "attachmentSize": "654.38 KB",
    "announcedAt": "2026-10-01T13:21:31.000Z",
@@ -428,6 +539,10 @@
     ],
     "rule": "kw:postal-ballot",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Postal Ballot"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -439,6 +554,8 @@
    "isin": "INE044A01028",
    "nseDesc": "Press Release",
    "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"New LEQSELVI® (deuruxolitinib) Two-YearData in Severe Alopecia Areata Showed Sustained Efficacy and Safety at EADV Congress 2026\".",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNPHARMA123_01102026174411_SEIntimationPR_1Oct2026.pdf",
    "attachmentSize": "525.33 KB",
    "announcedAt": "2026-10-01T12:17:03.000Z",
@@ -451,9 +568,19 @@
     ],
     "rule": "kw:press",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Press Release"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 1,
+  "ok": 1,
+  "failed": 0
+ }
 }

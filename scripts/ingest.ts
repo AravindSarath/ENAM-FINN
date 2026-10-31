@@ -6,7 +6,7 @@
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import type { Manifest, ManifestEntry, UniverseEntry } from "../lib/data/types";
+import type { AnnouncementSnapshot, AttachmentExcerpt, Manifest, ManifestEntry, UniverseEntry } from "../lib/data/types";
 import { fetchAnnouncements } from "../lib/sources/nse";
 import { fetchPrices } from "../lib/sources/yahoo";
 import { fetchScreener } from "../lib/sources/screener";
@@ -65,7 +65,11 @@ async function main() {
 
     if (!only || only === "ann") {
       try {
-        const s = await fetchAnnouncements(u.symbol, 30, { refresh });
+        // Carry over PDF excerpts from the previous snapshot so re-ingesting never loses enrichment.
+        const prev = await readJson<AnnouncementSnapshot>(path.join(DATA, `announcements/${u.symbol}.json`));
+        const prior = new Map<string, AttachmentExcerpt>(prev?.items.flatMap((i) => (i.attachmentExcerpt ? [[i.id, i.attachmentExcerpt] as const] : [])) ?? []);
+        const s = await fetchAnnouncements(u.symbol, 30, { refresh, prior });
+        if (prev?.enrichment) s.enrichment = prev.enrichment;
         await writeJson(`announcements/${u.symbol}.json`, s);
         m.announcements = entry(`announcements/${u.symbol}.json`, s);
         console.log(`  announcements: ${s.source.status} · ${s.count} items · newest ${s.source.asOf}`);

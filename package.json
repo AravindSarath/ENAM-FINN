@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "ingest": "tsx scripts/ingest.ts",
     "test": "vitest run",
-    "validate": "tsx scripts/validate.ts"
+    "validate": "tsx scripts/validate.ts",
+    "enrich": "tsx scripts/enrich.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

@@ -21,6 +21,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_31102026192630_NewspaperAdvertisement31101026.pdf",
    "attachmentSize": "1.55 MB",
    "announcedAt": "2026-10-31T14:02:44.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Unaudited Financial Results"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -45,6 +51,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
+   "subject": "Link of Recording",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf",
    "attachmentSize": "646.23 KB",
    "announcedAt": "2026-10-30T15:02:52.000Z",
@@ -57,6 +65,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -68,6 +80,14 @@
    "isin": "INE935N01012",
    "nseDesc": "Investor Presentation",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf",
+    "extractedAt": "2026-10-31T16:42:50.915Z",
+    "status": "ok",
+    "text": "Dixon Technologies (India) Limited 30th October, 2026 To Secretary Listing Department BSE Limited Department of Corporate Services Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 To Secretary Listing Department National Stock Exchange of India Limited Exchange Plaza, Bandra Kurla Complex Mumbai – 400 051 Scrip Code - 540699 ISIN: INE935N01020 Scrip Code- DIXON ISIN: INE935N01020 Dear Sir/Madam, Sub: Outcome of Board Meeting held on 30th October, 2026 In furtherance to our intimation dated 23rd October, 2026, we hereby inform you that the Board of Directors of Dixon Technologies (India) Limited (“Company”) at its Meeting held today i.e. Friday, 30th October, 2026, inter-alia considered and approved, the following business: i. Un-Audited Financial Results (Standalone and Consolidated) of the Company for the Quarter and Half year ended 30th September, 2026. Following are the key highlights on consolidated basis: Particulars Quarter ended 30.09.2026 Half year ended 30.09.2026 As compared to the corresponding period of the previous year Amount (In Rs. Crores) Up/ Down Amount (In Rs. Crores) Up/Down ( /) ( /) Revenue from Operations (including other income) 21,863 42% 37,938 35% EBIDTA 666 37% 1,657 8% PBT 532 42% 1,401 9% PAT 411 45% 1,129 10% The detailed format of the Un-Audited Financial Results (Standalone and Consolidated) together with the Limited Review Report is enclosed for your records. A copy of the same is also being uploaded on the Company's Webs"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf",
    "attachmentSize": "6.46 MB",
    "announcedAt": "2026-10-30T10:49:57.000Z",
@@ -78,10 +98,14 @@
     "categories": [
      "results"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Audited Financial Results (Standalone and Consolidated) of the Company for the Q"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -91,6 +115,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Change in Management",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+   "subject": "change in Management",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
    "attachmentSize": "3.82 MB",
    "announcedAt": "2026-10-30T10:40:12.000Z",
@@ -103,6 +129,10 @@
     ],
     "rule": "desc:change in management",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Management"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -114,6 +144,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Outcome of Board Meeting",
    "text": "Dixon Technologies (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
    "attachmentSize": "3.82 MB",
    "announcedAt": "2026-10-30T10:37:23.000Z",
@@ -126,6 +158,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -137,6 +173,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+   "subject": "Schedule of meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_23102026181003_Q2ResultsConferenceCallIntimation30102026.pdf",
    "attachmentSize": "887.19 KB",
    "announcedAt": "2026-10-23T12:40:54.000Z",
@@ -149,6 +187,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -160,20 +202,33 @@
    "isin": "INE935N01012",
    "nseDesc": "Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Giving of guarantees or indemnity or becoming a surety for any third party'.",
+   "subject": "Giving of guarantees or indemnity or becoming a surety for any third party",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf",
+    "extractedAt": "2026-10-31T16:42:25.550Z",
+    "status": "ok",
+    "text": "Dixon Technologies (India) Limited 21st October, 2026 To, Secretary Listing Department BSE Limited Department of Corporate Services Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 To, Secretary Listing Department National Stock Exchange of India Limited Exchange Plaza, Bandra Kurla Complex Mumbai – 400 051 Scrip Code – 540699 ISIN: INE935N01020 Scrip Code – DIXON ISIN: INE935N01020 Dear Sir/Madam, Sub: Giving of guarantees or indemnity or becoming a surety for any third party Ref: Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) and SEBI Master Circular No. HO/49/14/14(7)2025-CFD-POD2/I/3762/2026 dated 30th January, 2026 (“SEBI Circular”) This is to inform you that Dixon Technologies (India) Limited (“Dixon”) in compliance with the SEBI Listing Regulations and relevant SEBI Circular is hereby disclosing details of the Guarantee issued by Dixon for its unlisted material wholly owned subsidiary, Padget Electronics Private Limited, in favor of Quanta Computer Inc. Please note that the details as mentioned above and as required under the SEBI Circular, are being furnished in an Annexure-A, attached hereto. We request you to kindly take this on your record and oblige. Thanking You, For DIXON TECHNOLOGIES (INDIA) LIMITED _________ Ashish Kumar President- Chief Legal Counsel & Group Company Secretary Encl: As above Regd. Office: B-14 & 15, Phase-II, Noida-201305, (U.P.) India, Ph.:0120-4737200 E-mail"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf",
    "attachmentSize": "627.29 KB",
    "announcedAt": "2026-10-21T13:11:55.000Z",
    "announcedAtRaw": "21-Oct-2026 18:41:55",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "M&A",
     "categories": [
+     "M&A",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:subsidiary",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "wholly owned subsidiary"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -183,6 +238,8 @@
    "isin": "INE935N01012",
    "nseDesc": "General Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange ESG Rating by Crisil ESG Ratings & Analystics Ltd.",
+   "subject": "ESG Rating by Crisil ESG Ratings & Analystics Ltd",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_14102026182232_ESGRatingDisclousureCrisil14102026.pdf",
    "attachmentSize": "618.12 KB",
    "announcedAt": "2026-10-14T12:55:23.000Z",
@@ -193,10 +250,15 @@
     "categories": [
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
-    "routine": false,
-    "needsReview": true
+    "rule": "routine-only",
+    "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "ESG Rating"
+    },
+    "routine": true,
+    "routineRule": "routine:esg",
+    "needsReview": false
    }
   },
   {
@@ -206,6 +268,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
+   "subject": "Outcome of Analyst/ Institutional Investor Meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_10102026134116_InvestorMeetOutcome10102026.pdf",
    "attachmentSize": "619.60 KB",
    "announcedAt": "2026-10-10T08:11:35.000Z",
@@ -218,6 +282,10 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -229,6 +297,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Certificate under 74(5) SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended on 30th September, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_09102026182235_Reg74_5_Disclosure09102026.pdf",
    "attachmentSize": "836.90 KB",
    "announcedAt": "2026-10-09T12:53:50.000Z",
@@ -241,6 +311,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "quarter ended"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -253,6 +327,14 @@
    "isin": "INE935N01012",
    "nseDesc": "Agreements",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
+    "extractedAt": "2026-10-31T16:43:00.564Z",
+    "status": "ok",
+    "text": "Dixon Technologies (India) Limited Regd. Office: B-14 & 15, Phase-II, Noida-201305, (U.P.) India, Ph.:0120-4737200 E-mail: info@dixoninfo.com • Website: http://www.dixoninfo.com, Fax: 0120-4737263 CIN: L32101UP1993PLC066581 7th October, 2026 To Secretary Listing Department BSE Limited Department of Corporate Services Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai – 400 001 To Secretary Listing Department National Stock Exchange of India Limited Exchange Plaza, Bandra Kurla Complex Mumbai – 400 051 Scrip Code – 540699 ISIN: INE935N01020 Scrip Code - DIXON ISIN: INE935N01020 Dear Sir/Madam, Subject: Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 and in continuation of our earlier intimation dated June 9, 2026. This is in continuation of our earlier intimation dated June 9, 2026, whereby Dixon Technologies (India) Limited (“Company”) informed the stock exchanges that the Company, Gemtek Technology Co., Ltd. (“Gemtek”), and Dixon Electroconnect Private Limited (“Dixon Electroconnect”), wholly owned subsidiary of the Company as on the date, proposed joint venture company (collectively the “Parties”), had entered into a binding term sheet on June 9, 2026 in relation to the proposed joint venture arrangement. Pursuant to the provisions of Regulation 30 read with Part A of Schedule III of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI LODR Regulation"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
    "attachmentSize": "743.11 KB",
    "announcedAt": "2026-10-07T09:31:51.000Z",
@@ -263,10 +345,14 @@
     "categories": [
      "M&A"
     ],
-    "rule": "desc:agreements",
-    "confidence": "low",
+    "rule": "pdf:kw:mna",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "joint venture"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -276,6 +362,8 @@
    "isin": "INE935N01012",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
+   "subject": "Outcome of Analyst/ Institutional Investors Meet",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_01102026155912_InvestorMeetOutcome01102026.pdf",
    "attachmentSize": "620.37 KB",
    "announcedAt": "2026-10-01T10:29:23.000Z",
@@ -288,9 +376,19 @@
     ],
     "rule": "kw:investor-meet",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Investor Meet"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 3,
+  "ok": 3,
+  "failed": 0
+ }
 }

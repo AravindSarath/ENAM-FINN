@@ -21,6 +21,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 109039 Shares.",
+   "subject": "Allotment of 109039 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_30102026101600_Lettertoexchange.pdf",
    "attachmentSize": "353.95 KB",
    "announcedAt": "2026-10-30T04:46:13.000Z",
@@ -33,6 +35,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -45,6 +51,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 1063398 Shares.",
+   "subject": "Allotment of 1063398 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_27102026103348_Letter_to_exchange.pdf",
    "attachmentSize": "354.28 KB",
    "announcedAt": "2026-10-27T05:04:04.000Z",
@@ -57,6 +65,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -69,6 +81,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Credit Rating",
    "text": "ICICI Bank Limited has informed the Exchange about Credit Rating",
+   "subject": "Credit Rating",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_24102026134600_NSEBSE24102026.pdf",
    "attachmentSize": "1.11 MB",
    "announcedAt": "2026-10-24T08:16:13.000Z",
@@ -81,6 +95,10 @@
     ],
     "rule": "desc:credit rating",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Credit Rating"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -92,6 +110,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "ICICI Bank Limited has informed the Exchange about transcript of the call with media and of earnings call with analysts and investors on the financial results for the quarter and six months ended September 30, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_23102026175603_NSEBSE23102026.pdf",
    "attachmentSize": "626.46 KB",
    "announcedAt": "2026-10-23T12:30:27.000Z",
@@ -106,6 +126,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "transcript"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -117,6 +141,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 24096 Shares.",
+   "subject": "Allotment of 24096 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_22102026164514_Lettertoexchange.pdf",
    "attachmentSize": "435.96 KB",
    "announcedAt": "2026-10-22T11:15:26.000Z",
@@ -129,6 +155,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -141,6 +171,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "ICICI Bank Limited has informed the Exchange about link of audio recording of the call with media and of earnings call with analysts and investors on the financial results for quarter and six months ended September 30, 2026",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026202758_NSEBSE_17102026.pdf",
    "attachmentSize": "179.06 KB",
    "announcedAt": "2026-10-17T15:05:19.000Z",
@@ -155,6 +187,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "audio recording"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -166,6 +202,14 @@
    "isin": "INE090A01013",
    "nseDesc": "Investor Presentation",
    "text": "ICICI Bank Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf",
+    "extractedAt": "2026-10-31T16:42:59.385Z",
+    "status": "ok",
+    "text": "October 17, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 National Stock Exchange of India Limited Listing Department Exchange Plaza, 5th floor Plot No. C/1, G Block Bandra-Kurla Complex Bandra (East) Mumbai 400 051 Dear Sir/Madam, Sub: Investor Presentation Please find attached the investor presentation which will be referred during the earnings call with analysts and investors for the financial results of the Bank for the quarter and six months ended September 30, 2026. The said presentation is being uploaded on the website of the Bank and can be accessed at https://www.icici.bank.in/about-us/qfr This is for your information and records. Yours sincerely, For ICICI Bank Limited Vivek Ranjan Leadership Team Encl. : as above. Copy to: (i) New York Stock Exchange (ii) SIX Swiss Exchange Limited (iii) Singapore Stock Exchange (iv) Japan Securities Dealers Association"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026164525_BSENSE17102026.pdf",
    "attachmentSize": "1.15 MB",
    "announcedAt": "2026-10-17T11:16:02.000Z",
@@ -174,12 +218,17 @@
    "classification": {
     "category": "results",
     "categories": [
-     "results"
+     "results",
+     "earnings_call"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "financial results"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -189,20 +238,33 @@
    "isin": "INE090A01013",
    "nseDesc": "Outcome of Board Meeting",
    "text": "ICICI Bank Limited has informed the Exchange that the Board at its meeting held today, inter alia, approved the filing of an application with RBI seeking its approval for the continuation of Mr. Pradeep Kumar Sinha as a Non-executive Part-time Chairperson of the Bank for a further period from July 1, 2027 till February 16, 2029 which is within his tenure as Independent Director approved by the Board and shareholders. This information is being filed in continuation of the disclosures filed by the Bank on February 17, 2024 and May 24, 2024.",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152608_NSEBSE17102026.pdf",
+    "extractedAt": "2026-10-31T16:42:35.379Z",
+    "status": "ok",
+    "text": "October 17, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 National Stock Exchange of India Limited Listing Department Exchange Plaza, 5th Floor Plot No. C/1, G Block Bandra-Kurla Complex Bandra (East) Mumbai 400 051 Dear Sir/Madam, Sub: Outcome of Board Meeting held on October 17, 2026 In terms of the applicable provisions of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, as amended, (“SEBI Listing Regulations”), we write to inform you that the Board of Directors of ICICI Bank Limited (“the Bank”), at its meeting held today, inter alia, approved the following: 1. Unaudited financial results of the Bank (standalone and consolidated) for the quarter and six months ended September 30, 2026. We enclose herewith the following as Annexure I : o Unaudited financial results (standalone and consolidated) for the quarter and six months ended September 30, 2026; o Limited review reports on the unaudited financial results (standalone and consolidated) issued by M/s. B S R & Co. LLP, Chartered Accountants and M/s. C N K & Associates LLP, Chartered Accountants, the joint statutory auditors of the Bank; and o News Release on the unaudited financial results for the quarter and six months ended September 30, 2026. 2. Filing of an application with Reserve Bank of India (RBI) seeking its approval for the continuation of Mr. Pradeep Kumar Sinha (DIN: 00145126) as a Non-executive Part-time Chairperson of the Bank for a fur"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152608_NSEBSE17102026.pdf",
    "attachmentSize": "5.87 MB",
    "announcedAt": "2026-10-17T09:58:05.000Z",
    "announcedAtRaw": "17-Oct-2026 15:28:05",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "results",
     "categories": [
+     "results",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Unaudited financial results of the Bank (standalone and consolidated) for the qu"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -212,6 +274,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Outcome of Board Meeting",
    "text": "ICICI Bank Limited has submitted to the Exchange, the unaudited financial results of the Bank (standalone and consolidated) for the quarter and six months ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_17102026152039_NSEBSE17102026.pdf",
    "attachmentSize": "5.87 MB",
    "announcedAt": "2026-10-17T09:51:44.000Z",
@@ -224,6 +288,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "unaudited financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -235,6 +303,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 113464 Shares.",
+   "subject": "Allotment of 113464 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_15102026142254_Lettertoexchange.pdf",
    "attachmentSize": "353.61 KB",
    "announcedAt": "2026-10-15T08:53:05.000Z",
@@ -247,6 +317,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -259,6 +333,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 749099 Shares.",
+   "subject": "Allotment of 749099 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_13102026100508_Lettertoexchange.pdf",
    "attachmentSize": "354.17 KB",
    "announcedAt": "2026-10-13T04:35:24.000Z",
@@ -271,6 +347,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -283,6 +363,8 @@
    "isin": "INE090A01013",
    "nseDesc": "General Updates",
    "text": "ICICI Bank Limited has informed the Exchange about Call with media on financial results for the quarter and six months ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_12102026180729_BSENSE_12102026.pdf",
    "attachmentSize": "336.95 KB",
    "announcedAt": "2026-10-12T12:38:35.000Z",
@@ -295,6 +377,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -306,6 +392,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "ICICI Bank Limited has informed the Exchange about Earnings call on financial results for the quarter and six months ended September 30, 2026.",
+   "subject": "Earnings call on financial results for the quarter and six months ended September 30, 2026",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_12102026180004_BSENSE_12102026.pdf",
    "attachmentSize": "336.95 KB",
    "announcedAt": "2026-10-12T12:33:03.000Z",
@@ -320,6 +408,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Earnings call"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -331,6 +423,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 80255 Shares.",
+   "subject": "Allotment of 80255 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026175523_LETTERTOSTOCKEXCHANGE.pdf",
    "attachmentSize": "339.88 KB",
    "announcedAt": "2026-10-08T12:26:36.000Z",
@@ -343,6 +437,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -355,6 +453,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026, received from 3i Infotech Limited, Registrar to an Issue and Share Transfer Agent for bonds /debentures of the Bank.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026173642_Regulation_74_5__Certificate_NSE_BSE_20260930-BONDS.pdf",
    "attachmentSize": "713.66 KB",
    "announcedAt": "2026-10-08T12:07:19.000Z",
@@ -368,6 +468,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "quarter ended"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -380,6 +484,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
    "text": "ICICI Bank Limited has informed the Exchange about Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, for the quarter ended September 30, 2026 received from Kfin Technologies Limited, Registrar to an Issue and Share Transfer Agent for equity shares of the Bank.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_08102026172408_Regulation_74_5__Certificate_BSE_NSE_20260930-EQUITY.pdf",
    "attachmentSize": "587.12 KB",
    "announcedAt": "2026-10-08T11:55:49.000Z",
@@ -392,6 +498,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "quarter ended"
+    },
     "routine": true,
     "routineRule": "routine:compliance",
     "needsReview": false
@@ -404,6 +514,8 @@
    "isin": "INE090A01013",
    "nseDesc": "ESOP/ESOS/ESPS",
    "text": "ICICI Bank Limited has informed the Exchange regarding Allotment of 202836 Shares.",
+   "subject": "Allotment of 202836 Shares",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_06102026102442_Lettertoexchange.pdf",
    "attachmentSize": "354.18 KB",
    "announcedAt": "2026-10-06T04:55:00.000Z",
@@ -416,6 +528,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": ""
+    },
     "routine": true,
     "routineRule": "routine:esop-desc",
     "needsReview": false
@@ -428,20 +544,33 @@
    "isin": "INE090A01013",
    "nseDesc": "General Updates",
    "text": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_02102026174507_NSEBSE_02102026.pdf",
+    "extractedAt": "2026-10-31T16:42:45.366Z",
+    "status": "ok",
+    "text": "October 2, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 National Stock Exchange of India Limited Listing Department Exchange Plaza, 5th floor Plot No. C/1, G Block Bandra-Kurla Complex Bandra (East) Mumbai 400 051 Dear Sir/Madam, Sub:Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 The Board of Directors of ICICI Life Insurance Limited (ICICI Life), at its meeting held today, took on record the resignation tendered by Mr. Anup Bagchi (DIN: 00105962) as the Managing Director & CEO of ICICI Life with effect from the close of business hours of October 13, 2026. It also approved the appointment of Mr. Sidharatha Mishra (DIN: 06524169) as its Managing Director & CEO with effect from October 14, 2026 or the date of receipt of Insurance Regulatory and Development Authority of India approval, whichever is later, for a period of five consecutive years, subject to requisite approvals. As part of the transition, the Board of ICICI Life has also approved the appointment of Mr. Sidharatha Mishra as the Chief Operating Officer of ICICI Life with effect from October 6, 2026. The disclosure filed by ICICI Life is attached as Annexure. Pursuant to the above, Mr. Sidharatha Mishra will be transferred from ICICI Bank Limited (the Bank) to ICICI Life and will be relieved from his responsibilities at the Bank from the close of business hours of October 5, 2026 and consequently, shall cease t"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_02102026174507_NSEBSE_02102026.pdf",
    "attachmentSize": "3.43 MB",
    "announcedAt": "2026-10-02T12:17:37.000Z",
    "announcedAtRaw": "02-Oct-2026 17:47:37",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "management_change",
     "categories": [
+     "management_change",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:mgmt",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "resign"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -451,20 +580,33 @@
    "isin": "INE090A01013",
    "nseDesc": "General Updates",
    "text": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf",
+    "extractedAt": "2026-10-31T16:42:48.093Z",
+    "status": "ok",
+    "text": "October 1, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 National Stock Exchange of India Limited Listing Department Exchange Plaza, 5th floor Plot No. C/1, G Block Bandra-Kurla Complex Bandra (East) Mumbai 400 051 Dear Sir/Madam, Sub: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 On September 30, 2026 at 05:57 p.m., ICICI Bank Limited (the Bank) has received a show cause notice (SCN) under Section 73 of Maharashtra Goods and Services Tax Act, 2017 from Additional Commissioner, CGST and C. Ex, Division-IV, Mumbai East Commissionerate raising a GST demand amounting to ₹ 229,14,35,396/- along with interest and penalty as applicable, on services provided by the Bank to customers maintaining specified minimum balances in their accounts. While the Bank is in litigation (including writ petition) on a similar issue raised in orders/SCNs in the past, since the aggregate/cumulative amount involved in the above crosses the materiality threshold, this matter is being reported. The Bank will file a reply to the said SCN within prescribed timelines. Please take the above information on record. Yours sincerely, For ICICI Bank Limited Prachiti Lalingkar Company Secretary Copy to: (i) New York Stock Exchange (ii) SIX Swiss Exchange Limited (iii) Singapore Stock Exchange (iv) Japan Securities Dealers Association"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf",
    "attachmentSize": "331.26 KB",
    "announcedAt": "2026-10-01T11:32:41.000Z",
    "announcedAtRaw": "01-Oct-2026 17:02:41",
    "hasXbrl": true,
    "classification": {
-    "category": "unclassified",
+    "category": "litigation",
     "categories": [
+     "litigation",
      "unclassified"
     ],
-    "rule": "none",
-    "confidence": "low",
+    "rule": "pdf:kw:litigation",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "show cause"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -474,6 +616,8 @@
    "isin": "INE090A01013",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "ICICI Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+   "subject": "Copy of Newspaper Publication",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_01102026135523_Special_Window_Disclosure_01102026.pdf",
    "attachmentSize": "455.71 KB",
    "announcedAt": "2026-10-01T08:27:13.000Z",
@@ -486,10 +630,20 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 4,
+  "ok": 4,
+  "failed": 0
+ }
 }

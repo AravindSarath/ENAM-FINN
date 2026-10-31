@@ -21,6 +21,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_31102026173331_SE_31102026_AR.pdf",
    "attachmentSize": "233.36 KB",
    "announcedAt": "2026-10-31T12:04:03.000Z",
@@ -35,6 +37,10 @@
     ],
     "rule": "kw:transcript",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Audio recording"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -46,6 +52,14 @@
    "isin": "INE002A01018",
    "nseDesc": "Investor Presentation",
    "text": "Reliance Industries Limited has informed the Exchange about Investor Presentation",
+   "subject": "Investor Presentation",
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
+    "extractedAt": "2026-10-31T16:42:50.559Z",
+    "status": "ok",
+    "text": "Regd. Office: 3rd Floor, Maker Chambers IV, 222, Nariman Point, Mumbai- 400 021, India Phone #: +91-22-3555 5000, Telefax: +91-22-2204 2268. E-mail: investor.relations@ril.com, Website: www.ril.com CIN- L17110MH1973PLC019786 October 30, 2026 BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai 400 001 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, G Block, Bandra - Kurla Complex, Bandra (East), Mumbai 400 051 Scrip Code: 500325 Trading Symbol: RELIANCE Dear Sirs, Sub: Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Presentation on the Unaudited Financial Results The presentation on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, to be made today, at the analyst meet, is attached and also available on the website of the Company at https://www.ril.com/investors/financial-reporting. This is for information and records. Thanking you Yours faithfully, For Reliance Industries Limited Savithri Parekh Company Secretary and Compliance Officer Encl.: as above Copy to: Luxembourg Stock Exchange 35A Boulevard Joseph II, L-1840 Luxembourg Singapore Exchange Limited 2 Shenton Way, #02-02 SGX Centre 1, Singapore 068804"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
    "attachmentSize": "1.98 MB",
    "announcedAt": "2026-10-30T14:17:12.000Z",
@@ -54,12 +68,17 @@
    "classification": {
     "category": "results",
     "categories": [
-     "results"
+     "results",
+     "investor_meetings"
     ],
-    "rule": "desc:investor presentation",
-    "confidence": "low",
+    "rule": "pdf:kw:results",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "Unaudited Financial Results The presentation on the Unaudited Financial Results"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -69,6 +88,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Press Release",
    "text": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
    "attachmentSize": "1.07 MB",
    "announcedAt": "2026-10-30T14:13:24.000Z",
@@ -82,6 +103,10 @@
     ],
     "rule": "kw:results",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "Unaudited Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -93,6 +118,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Outcome of Board Meeting",
    "text": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
    "attachmentSize": "8.41 MB",
    "announcedAt": "2026-10-30T14:10:11.000Z",
@@ -106,6 +133,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "unaudited Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -117,6 +148,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Outcome of Board Meeting",
    "text": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
    "attachmentSize": "8.41 MB",
    "announcedAt": "2026-10-30T14:10:11.000Z",
@@ -130,6 +163,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "unaudited Financial Results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -141,6 +178,14 @@
    "isin": "INE002A01018",
    "nseDesc": "Other Restructuring",
    "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+   "subject": null,
+   "attachmentExcerpt": {
+    "page": 1,
+    "url": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
+    "extractedAt": "2026-10-31T16:42:56.145Z",
+    "status": "ok",
+    "text": "Regd. Office: 3rd Floor, Maker Chambers IV, 222, Nariman Point, Mumbai- 400 021, India Phone #: +91-22-3555 5000, Telefax: +91-22-2204 2268. E-mail: investor.relations@ril.com, Website: www.ril.com CIN- L17110MH1973PLC019786 October 29, 2026 BSE Limited Phiroze Jeejeebhoy Towers, Dalal Street, Mumbai 400 001 National Stock Exchange of India Limited Exchange Plaza, Plot No. C/1, G Block, Bandra - Kurla Complex, Bandra (East), Mumbai 400 051 Scrip Code: 500325 Trading Symbol: RELIANCE Dear Sirs, Sub: Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 – Voluntary strike off of Hamleys (Franchising) Limited This is to inform that in the application for voluntary strike off filed by Hamleys (Franchising) Limited (“HFL”), a step-down subsidiary of the Company, the Registrar of Companies, United Kingdom has published a notice in the gazette stating that unless cause is shown to the contrary, HFL will be struck off the register and dissolved not less than 2 months from October 27, 2026. The turnover of HFL for the calendar year 2025 was Rs. 56.08 crore and its contribution to the consolidated turnover of the Company for the financial year 2025-26 was 0.0048%. It had Nil networth as on December 31, 2025. The above intimation was received by the Company on October 28, 2026 at 3:11 p.m. (IST). This is for information and records. Thanking you Yours faithfully, For Reliance Industries Limited Sa"
+   },
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
    "attachmentSize": "277.36 KB",
    "announcedAt": "2026-10-29T03:25:40.000Z",
@@ -151,10 +196,14 @@
     "categories": [
      "M&A"
     ],
-    "rule": "desc:other restructuring",
-    "confidence": "low",
+    "rule": "pdf:kw:subsidiary",
+    "confidence": "medium",
+    "evidence": {
+     "source": "pdf",
+     "phrase": "step-down subsidiary"
+    },
     "routine": false,
-    "needsReview": true
+    "needsReview": false
    }
   },
   {
@@ -164,6 +213,8 @@
    "isin": "INE002A01018",
    "nseDesc": "General Updates",
    "text": "Trading in equity shares of Jio Platforms Limited (JPL) will commence from October 28, 2026.Further, a meeting of board of directors of JPL is scheduled to be held on Friday, October 30, 2026, inter alia, to consider and approve the standalone and consolidated unaudited financial results of JPL for the quarter and half year ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026220855_RIL_SELETTER_271026.pdf",
    "attachmentSize": "495.16 KB",
    "announcedAt": "2026-10-27T16:41:29.000Z",
@@ -176,6 +227,10 @@
     ],
     "rule": "kw:results",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "unaudited financial results"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -187,6 +242,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
    "text": "The meeting of the Board of Directors of the Company is scheduled on October 30, 2026, inter alia, to consider and approve a. the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2026; and b. raising of funds by way of issuance of listed, secured / unsecured, redeemable non-convertible debentures on private placement basis, in one or more tranches. The Company will hold an analyst meet, post the Board Meeting, to discuss the financial results for the quarter and half year ended September 30, 2026.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026191700_SE_27102026.pdf",
    "attachmentSize": "250.61 KB",
    "announcedAt": "2026-10-27T13:47:10.000Z",
@@ -201,6 +258,10 @@
     ],
     "rule": "kw:results",
     "confidence": "high",
+    "evidence": {
+     "source": "text",
+     "phrase": "unaudited financial results of the Company for the quarter and half year ended S"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -212,6 +273,8 @@
    "isin": "INE002A01018",
    "nseDesc": "General Updates",
    "text": "Initial Public Offer of Jio Platforms Limited",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_24102026214355_RIL_SE_241026.pdf",
    "attachmentSize": "279.40 KB",
    "announcedAt": "2026-10-24T16:18:04.000Z",
@@ -224,6 +287,10 @@
     ],
     "rule": "kw:ipo",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Initial Public Offer"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -235,6 +302,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Updates",
    "text": "Please find attached a media statement issued by the Company.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_21102026224413_SE_21102026.pdf",
    "attachmentSize": "411.70 KB",
    "announcedAt": "2026-10-21T17:14:39.000Z",
@@ -247,6 +316,10 @@
     ],
     "rule": "kw:press",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "media statement"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -258,6 +331,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Credit Rating",
    "text": "Reliance Industries Limited has informed the Exchange about Credit Rating",
+   "subject": "Credit Rating",
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf",
    "attachmentSize": "679.18 KB",
    "announcedAt": "2026-10-21T15:13:30.000Z",
@@ -270,6 +345,10 @@
     ],
     "rule": "desc:credit rating",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Credit Rating"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -281,6 +360,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Updates",
    "text": "The newspaper clippings of the advertisement on the captioned subject published today are enclosed.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_17102026193113_RIL_SE_171026.pdf",
    "attachmentSize": "2.69 MB",
    "announcedAt": "2026-10-17T14:02:52.000Z",
@@ -293,6 +374,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "newspaper clipping"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -305,6 +390,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Newspaper Clippings Proposed Initial Public Offer of Jio Platforms Limited - Reservation for eligible RIL shareholders",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_16102026205736_RILSELetter_16102026.pdf",
    "attachmentSize": "10.51 MB",
    "announcedAt": "2026-10-16T15:28:26.000Z",
@@ -317,6 +404,10 @@
     ],
     "rule": "kw:ipo",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Initial Public Offer"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -329,6 +420,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Copy of Newspaper Publication",
    "text": "Newspaper clippings Special Window for transfer and dematerialisation (demat) of physical sharesThe newspaper clippings of the advertisement on the captioned subject published today i.e., October 15, 2026 in the newspapers viz. The Indian Express (English), Financial Express (English), Loksatta (Marathi) and Jansatta (Hindi) are enclosed for information and records.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_15102026180155_RILSpecialWindowAdvt.pdf",
    "attachmentSize": "8.72 MB",
    "announcedAt": "2026-10-15T12:36:36.000Z",
@@ -341,6 +434,10 @@
     ],
     "rule": "routine-only",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Newspaper Publication"
+    },
     "routine": true,
     "routineRule": "routine:newspaper",
     "needsReview": false
@@ -353,6 +450,8 @@
    "isin": "INE002A01018",
    "nseDesc": "General Updates",
    "text": "Proposed Initial Public Offer of Jio Platforms Limited.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026201111_RIL_SE_14102026_.pdf",
    "attachmentSize": "289.91 KB",
    "announcedAt": "2026-10-14T14:42:49.000Z",
@@ -365,6 +464,10 @@
     ],
     "rule": "kw:ipo",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Initial Public Offer"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -376,6 +479,8 @@
    "isin": "INE002A01018",
    "nseDesc": "General Updates",
    "text": "Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026183404_RIL_SE14102026.pdf",
    "attachmentSize": "281.45 KB",
    "announcedAt": "2026-10-14T13:05:12.000Z",
@@ -388,6 +493,10 @@
     ],
     "rule": "kw:ipo",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Initial Public Offer"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -399,6 +508,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Action(s) taken or orders passed",
    "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 is attached.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf",
    "attachmentSize": "280.74 KB",
    "announcedAt": "2026-10-07T17:06:08.000Z",
@@ -411,6 +522,10 @@
     ],
     "rule": "desc:action(s) taken or orders passed",
     "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Action(s) taken or orders passed"
+    },
     "routine": false,
     "needsReview": false
    }
@@ -422,6 +537,8 @@
    "isin": "INE002A01018",
    "nseDesc": "Allotment of Securities",
    "text": "We wish to inform that the Company has today allotted 13,00,000 Unsecured, Redeemable, Non-Convertible Debentures (\"NCDs\") of the face value of Rs. 1,00,000 each (\"PPD Series R\"), issued on private placement basis.",
+   "subject": null,
+   "attachmentExcerpt": null,
    "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_01102026150203_SE_01102026.pdf",
    "attachmentSize": "270.27 KB",
    "announcedAt": "2026-10-01T09:32:20.000Z",
@@ -434,9 +551,19 @@
     ],
     "rule": "kw:fund-raise",
     "confidence": "medium",
+    "evidence": {
+     "source": "text",
+     "phrase": "Non-Convertible Debentures"
+    },
     "routine": false,
     "needsReview": false
    }
   }
- ]
+ ],
+ "enrichment": {
+  "at": "2026-10-31T16:43:15.360Z",
+  "attempted": 2,
+  "ok": 2,
+  "failed": 0
+ }
 }
