@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env*.local
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+# raw downloaded PDFs (extracted text is cached instead)
+data/cache/pdf/
+coverage/
+build/
+*.pem
