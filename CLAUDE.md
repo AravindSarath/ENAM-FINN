@@ -55,6 +55,12 @@ specs/          the brief (read-only)
 - A failed or missing PDF read must never make a filing routine. Routine needs a positive rule.
 - Generated text states facts and sizes only: no beat/miss/strong/weak language. A test scans for it.
 
+## Research rules (Stage 4)
+- Pull content comes only from the annual report and concall transcripts. Every fact: verbatim quote + page; every call statement: speaker taken from the transcript header in code, analyst questions never attributed to management.
+- Never infer or repair a management statement's numerical meaning. Comparators (more than, at least, approximately, up to) are preserved or the structured claim is dropped.
+- Metrics and guidance verdicts are computed in code; a verdict only when definition, scope, period and basis match. Synthesis runs last, cites existing fact/metric IDs, and is badged model-written; unsupported points are discarded.
+- Commands: `npm run research:extract | research:reverify | research:build`. The key lives in `.env.local` only; a test fails if it appears in any file. Log only token counts.
+
 ## Definition of done (per feature)
 Works on a 390px-wide viewport, works offline-from-APIs via snapshot, has a loading + empty + error state, numbers verified against a source, no console errors.
 

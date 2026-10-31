@@ -3,14 +3,14 @@
  "symbol": "ITC",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ITC&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:30.179Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ITC&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:06.985Z",
   "asOf": "2026-10-15T13:50:08.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
  "count": 2,
  "items": [

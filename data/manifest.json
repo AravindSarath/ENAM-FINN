@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "ingestedAt": "2026-10-31T16:42:03.492Z",
+ "ingestedAt": "2026-10-31T18:42:16.841Z",
  "symbols": {
   "RELIANCE": {
    "prices": {
@@ -11,7 +11,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:41:29.657Z",
+    "fetchedAt": "2026-10-31T18:41:59.740Z",
     "asOf": "2026-10-31T12:04:03.000Z",
     "file": "announcements/RELIANCE.json"
    },
@@ -31,8 +31,8 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:49:47.006Z",
-    "asOf": "2026-10-30T07:54:25.000Z",
+    "fetchedAt": "2026-10-31T18:42:00.506Z",
+    "asOf": "2026-10-31T16:46:44.000Z",
     "file": "announcements/HDFCBANK.json"
    },
    "fundamentals": {
@@ -51,7 +51,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:49:48.231Z",
+    "fetchedAt": "2026-10-31T18:42:01.366Z",
     "asOf": "2026-10-30T04:46:13.000Z",
     "file": "announcements/ICICIBANK.json"
    },
@@ -71,7 +71,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:49:55.147Z",
+    "fetchedAt": "2026-10-31T18:42:02.166Z",
     "asOf": "2026-10-19T06:00:07.000Z",
     "file": "announcements/TCS.json"
    },
@@ -91,7 +91,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:01.492Z",
+    "fetchedAt": "2026-10-31T18:42:02.916Z",
     "asOf": "2026-10-30T13:20:50.000Z",
     "file": "announcements/INFY.json"
    },
@@ -111,7 +111,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:06.994Z",
+    "fetchedAt": "2026-10-31T18:42:03.749Z",
     "asOf": "2026-10-31T14:44:24.000Z",
     "file": "announcements/SUNPHARMA.json"
    },
@@ -131,7 +131,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:12.522Z",
+    "fetchedAt": "2026-10-31T18:42:04.560Z",
     "asOf": "2026-10-29T05:20:48.000Z",
     "file": "announcements/MARUTI.json"
    },
@@ -151,7 +151,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:18.870Z",
+    "fetchedAt": "2026-10-31T18:42:05.386Z",
     "asOf": "2026-10-28T11:56:00.000Z",
     "file": "announcements/TITAN.json"
    },
@@ -171,7 +171,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:23.940Z",
+    "fetchedAt": "2026-10-31T18:42:06.211Z",
     "asOf": "2026-10-31T07:30:35.000Z",
     "file": "announcements/LT.json"
    },
@@ -191,7 +191,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:30.179Z",
+    "fetchedAt": "2026-10-31T18:42:06.985Z",
     "asOf": "2026-10-15T13:50:08.000Z",
     "file": "announcements/ITC.json"
    },
@@ -211,7 +211,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:36.838Z",
+    "fetchedAt": "2026-10-31T18:42:07.858Z",
     "asOf": "2026-10-30T09:23:37.000Z",
     "file": "announcements/BAJFINANCE.json"
    },
@@ -231,7 +231,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:42.278Z",
+    "fetchedAt": "2026-10-31T18:42:08.578Z",
     "asOf": "2026-10-27T11:22:27.000Z",
     "file": "announcements/ETERNAL.json"
    },
@@ -251,7 +251,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:48.113Z",
+    "fetchedAt": "2026-10-31T18:42:09.391Z",
     "asOf": "2026-10-31T14:02:44.000Z",
     "file": "announcements/DIXON.json"
    },
@@ -271,7 +271,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:50:53.630Z",
+    "fetchedAt": "2026-10-31T18:42:10.181Z",
     "asOf": "2026-10-30T06:50:09.000Z",
     "file": "announcements/POLYCAB.json"
    },
@@ -291,7 +291,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:00.212Z",
+    "fetchedAt": "2026-10-31T18:42:11.058Z",
     "asOf": "2026-10-31T12:55:33.000Z",
     "file": "announcements/KPITTECH.json"
    },
@@ -311,7 +311,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:04.623Z",
+    "fetchedAt": "2026-10-31T18:42:11.826Z",
     "asOf": "2026-10-28T12:34:19.000Z",
     "file": "announcements/HAL.json"
    },
@@ -331,7 +331,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:10.881Z",
+    "fetchedAt": "2026-10-31T18:42:12.623Z",
     "asOf": "2026-10-30T12:52:36.000Z",
     "file": "announcements/SUZLON.json"
    },
@@ -351,7 +351,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:16.797Z",
+    "fetchedAt": "2026-10-31T18:42:13.639Z",
     "asOf": "2026-10-29T12:08:49.000Z",
     "file": "announcements/VEDL.json"
    },
@@ -371,7 +371,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:22.971Z",
+    "fetchedAt": "2026-10-31T18:42:14.301Z",
     "asOf": "2026-10-29T15:48:39.000Z",
     "file": "announcements/ASIANPAINT.json"
    },
@@ -391,7 +391,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:29.233Z",
+    "fetchedAt": "2026-10-31T18:42:15.107Z",
     "asOf": "2026-10-30T12:33:05.000Z",
     "file": "announcements/DMART.json"
    },
@@ -411,7 +411,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:34.884Z",
+    "fetchedAt": "2026-10-31T18:42:15.910Z",
     "asOf": "2026-10-31T10:26:44.000Z",
     "file": "announcements/CDSL.json"
    },
@@ -431,7 +431,7 @@
    },
    "announcements": {
     "status": "ok",
-    "fetchedAt": "2026-10-31T15:51:40.931Z",
+    "fetchedAt": "2026-10-31T18:42:16.746Z",
     "asOf": "2026-10-19T09:25:35.000Z",
     "file": "announcements/TATAELXSI.json"
    },

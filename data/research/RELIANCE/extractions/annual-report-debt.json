@@ -1,0 +1,344 @@
+{
+ "topic": "debt",
+ "pages": [
+  131,
+  142,
+  167,
+  168
+ ],
+ "facts": [
+  {
+   "id": "RELIANCE:annual_report:FY26:p131:d8885d77",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Standalone",
+   "statement": null,
+   "quote": "Interest Rate Risk Borrowings - 2,545 40 Non-Current Borrowings",
+   "page": 131,
+   "speaker": null,
+   "context": "…andalone Financial Statements for the year ended 31st March, 2026 Hedged Items (H in crore) Particulars Carrying Amount Changes in Fair Value Line Item in Balance SheetAssets Liabilities As at 31st March, 2026 Foreign Currency Risk Import Firm Commitments - 4,821 (6,068) Other Financial Liabilities Interest Rate Risk Borrowings - 2,545 40 Non-Current Borrowings Commodity Price Risk Firm Commitments for purchase of feedstock and freight - 295 (295) Other Current Assets/Liabilities Firm Commitments for sale of CBM Gas 66 - 66 Other Current Assets/Liabilities Firm Commitments for sale of products 7,766 1 7,765 Other Current Assets/Liabilities Inventories 1,8…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 2545"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p131:ae691d07",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Standalone",
+   "statement": "Foreign currency risk component borrowings have a nominal value of 1,32,353 crore rupees as at 31st March, 2026.",
+   "quote": "Foreign Currency Risk Component -Borrowings 1,32,353 - 1,58,465 (15,677) 30th June 2026 to 31st March 2062 Borrowings",
+   "page": 131,
+   "speaker": null,
+   "context": "…in crore) Particulars Nominal Value Carrying amount Changes in Fair Value Hedge Maturity Line Item in Balance SheetAssets Liabilities As at 31st March, 2026 Foreign Currency Risk Foreign Currency Risk Component -Trade Payables 25,338 - 28,451 (2,674) 30th June 2026 to 31st March 2029 Trade Payables Foreign Currency Risk Component -Borrowings 1,32,353 - 1,58,465 (15,677) 30th June 2026 to 31st March 2062 Borrowings Interest Rate Risk Interest Rate Swaps 23,187 - 49 6 02nd April 2027 to 31st July 2029 Other Financial Liabilities As at 31st March, 2025 Foreign Currency Risk Foreign Currency Risk Component -Trade Payables 24,702 - 25,643 (561) 30thJune 2025 to 31st March 2028 Trade Payables Foreign Currency Risk…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 132353"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:44904d64",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,66,222 7,990 22,504 2,96,716",
+   "page": 142,
+   "speaker": null,
+   "context": "…(Previous Year I 2,156 crore). @ I 9,97,360 (Previous Year I 22,00,000). Consolidated Statement of Cash FlowsFor the year ended 31st March, 2026 Change in Liability Arising from Financing Activities (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,66,222 7,990 22,504 2,96,716 Borrowings - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705 Total 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 296716"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:e8e64b1c",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Borrowings - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705",
+   "page": 142,
+   "speaker": null,
+   "context": "… FlowsFor the year ended 31st March, 2026 Change in Liability Arising from Financing Activities (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,66,222 7,990 22,504 2,96,716 Borrowings - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705 Total 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222 Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 77705"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:bc66ce8a",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Total 3,47,530 2,819 24,072 3,74,421",
+   "page": 142,
+   "speaker": null,
+   "context": "…sing from Financing Activities (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,66,222 7,990 22,504 2,96,716 Borrowings - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705 Total 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222 Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,308 Total 3,24,622 19,247 3,661 3,47,…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 374421"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:427256c6",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222",
+   "page": 142,
+   "speaker": null,
+   "context": "…ings - Non-current (including Current Maturities) (Refer Note 16) 2,66,222 7,990 22,504 2,96,716 Borrowings - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705 Total 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222 Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,308 Total 3,24,622 19,247 3,661 3,47,530 Cash flow from Supplier Financing Arrangement (Refer Note 44) (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Carrying amount of financial liabiliti…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 266222"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:a7c1676a",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,308",
+   "page": 142,
+   "speaker": null,
+   "context": "…ngs - Current (Refer Note 20) 81,308 (5,171) 1,568 77,705 Total 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222 Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,308 Total 3,24,622 19,247 3,661 3,47,530 Cash flow from Supplier Financing Arrangement (Refer Note 44) (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Carrying amount of financial liabilities that are part of a supplier finance arrangement - Presente…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 81308"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p142:418ec767",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Total 3,24,622 19,247 3,661 3,47,530",
+   "page": 142,
+   "speaker": null,
+   "context": "…al 3,47,530 2,819 24,072 3,74,421 (I in crore) Particulars 1st April, 2024 Cash flow Foreign exchange movement/Others 31st March, 2025 Borrowings - Non-current (including Current Maturities) (Refer Note 16) 2,67,980 (5,377) 3,619 2,66,222 Borrowings - Current (Refer Note 20) 56,642 24,624 42 81,308 Total 3,24,622 19,247 3,661 3,47,530 Cash flow from Supplier Financing Arrangement (Refer Note 44) (I in crore) Particulars 1st April, 2025 Cash flow Foreign exchange movement/Others 31st March, 2026 Carrying amount of financial liabilities that are part of a supplier finance arrangement - Presented in Trade and Other Payables 92,223 …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 347530"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p167:f30390bd",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Foreign Currency Risk Components - Borrowings 1,32,962 - 1,59,135 (15,737) April 2026 to March 2062 Borrowings",
+   "page": 167,
+   "speaker": null,
+   "context": "…ments (I in crore) Particulars Nominal Value Carrying Amount Changes in Fair Value Hedge Maturity Line Item in Balance SheetAssets Liabilities As at 31st March, 2026 Foreign Currency Risk Foreign Currency Risk Components - Trade Payable 25,338 - 28,451 (2,674) June 2026 to March 2029 Trade Payables Foreign Currency Risk Components - Borrowings 1,32,962 - 1,59,135 (15,737) April 2026 to March 2062 Borrowings Forward Contracts 54,128 3,216 132 3,251 April 2026 to May 2028 Other Financial Assets / Liabilities - Current Interest Rate Risk Interest Rate Swaps 40,044 12 70 8 March 2027 to July 2029 Other Financial Liabilities As at 31st March, 2025 Foreign Currency Risk Foreign Currency Risk Components - Tr…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 132962"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p168:1fc1e37f",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Foreign Currency Borrowings 51,705 5,088 - Non-Current Borrowings",
+   "page": 168,
+   "speaker": null,
+   "context": "…solidated Financial Statements for the year ended 31st March, 2026 Hedged Items (I in crore) Particulars Nominal Value Changes in Fair Value Hedge Reserve Line Item in Balance Sheet As at 31st March, 2026 Foreign Currency Risk Highly Probable Forecasted Exports 1,58,300 18,411 (33,490) Other Equity Foreign Currency Borrowings 51,705 5,088 - Non-Current Borrowings Interest accrued but not due on Foreign Currency Borrowings 59 - - Other Financial Liabilities Future Interest liability on Foreign Currency Borrowings 2,364 - 58 Other Financial Liabilities Interest Rate Risk Borrowings 23,187 6 (44) Other Equity Borrowings 16,857 (2) 99 Non-Current Borrowings As …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 51705"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p168:3ee3b656",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Interest Rate Risk Borrowings 23,187 6 (44) Other Equity",
+   "page": 168,
+   "speaker": null,
+   "context": "…orts 1,58,300 18,411 (33,490) Other Equity Foreign Currency Borrowings 51,705 5,088 - Non-Current Borrowings Interest accrued but not due on Foreign Currency Borrowings 59 - - Other Financial Liabilities Future Interest liability on Foreign Currency Borrowings 2,364 - 58 Other Financial Liabilities Interest Rate Risk Borrowings 23,187 6 (44) Other Equity Borrowings 16,857 (2) 99 Non-Current Borrowings As at 31st March, 2025 Foreign Currency Risk Highly Probable Forecasted Exports 1,65,488 3,503 (17,313) Other Equity Foreign Currency Borrowings 40,757 878 - Non Current Borrowings Interest accrued but not due on Foreign Currency Borrowings 43 - - Oth…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 23187"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p168:caf95136",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "debt",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "Borrowings 16,857 (2) 99 Non-Current Borrowings",
+   "page": 168,
+   "speaker": null,
+   "context": "…cy Borrowings 51,705 5,088 - Non-Current Borrowings Interest accrued but not due on Foreign Currency Borrowings 59 - - Other Financial Liabilities Future Interest liability on Foreign Currency Borrowings 2,364 - 58 Other Financial Liabilities Interest Rate Risk Borrowings 23,187 6 (44) Other Equity Borrowings 16,857 (2) 99 Non-Current Borrowings As at 31st March, 2025 Foreign Currency Risk Highly Probable Forecasted Exports 1,65,488 3,503 (17,313) Other Equity Foreign Currency Borrowings 40,757 878 - Non Current Borrowings Interest accrued but not due on Foreign Currency Borrowings 43 - - Other Financial Liabilities Future Interest liabili…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 16857"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "duplicate",
+   "quote": "Interest Rate Risk Borrowings - 2,545 40 Non-Current Borrowings",
+   "page": 167
+  }
+ ],
+ "proposed": 13,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 6443,
+  "outputTokens": 2048,
+  "thoughtTokens": 0,
+  "totalTokens": 8491,
+  "latencyMs": 4711,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "annual-report-v1",
+ "rule": "5 pages in the second half with the most mentions of \"borrowings\" (at least 5)",
+ "extractedAt": "2026-10-31T18:42:07.272Z",
+ "reverifiedAt": "2026-10-31T18:44:08.207Z"
+}

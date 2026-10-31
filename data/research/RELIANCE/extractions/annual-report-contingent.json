@@ -1,0 +1,267 @@
+{
+ "topic": "contingent",
+ "pages": [
+  101,
+  102,
+  126,
+  127,
+  128,
+  144,
+  145,
+  163,
+  164
+ ],
+ "facts": [
+  {
+   "id": "RELIANCE:annual_report:FY26:p127:713b4979",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Standalone",
+   "statement": null,
+   "quote": "(i) In respect of Joint Arrangements 1,692 1,458",
+   "page": 127,
+   "speaker": null,
+   "context": "…at 31st March, 2025 Exploration & Evaluation (E&E) Cost Other Exploration Cost 13 52 Exploration Cost for the year 13 52 (H in crore) 2025-26 2024-25 35. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Company / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 1,143 1,045 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Subsidiaries/ Associates/ Joint Ventures / Others 17,617 11,755 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for:…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 1692"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p127:ec87cf53",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Standalone",
+   "statement": null,
+   "quote": "(ii) In respect of Others 1,143 1,045",
+   "page": 127,
+   "speaker": null,
+   "context": "…) Cost Other Exploration Cost 13 52 Exploration Cost for the year 13 52 (H in crore) 2025-26 2024-25 35. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Company / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 1,143 1,045 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Subsidiaries/ Associates/ Joint Ventures / Others 17,617 11,755 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for: (i) In respect of Joint Arrangements …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 1143"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p127:fe08ead7",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Standalone",
+   "statement": null,
+   "quote": "(i) On behalf of Joint Arrangements 1,318 1,078",
+   "page": 127,
+   "speaker": null,
+   "context": "…for the year 13 52 (H in crore) 2025-26 2024-25 35. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Company / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 1,143 1,045 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Subsidiaries/ Associates/ Joint Ventures / Others 17,617 11,755 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for: (i) In respect of Joint Arrangements 4,875 1,624 (ii) In respect of Others 51,340 22,418 (B) Other C…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 1318"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p127:579409cf",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Standalone",
+   "statement": null,
+   "quote": "(ii) On behalf of Subsidiaries/ Associates/ Joint Ventures / Others 17,617 11,755",
+   "page": 127,
+   "speaker": null,
+   "context": "…35. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Company / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 1,143 1,045 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Subsidiaries/ Associates/ Joint Ventures / Others 17,617 11,755 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for: (i) In respect of Joint Arrangements 4,875 1,624 (ii) In respect of Others 51,340 22,418 (B) Other Commitments (i) Investments 297 290 (III) The Income Tax Assessments of the Company…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 17617"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p163:d17ad535",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "(ii) In respect of Others 3,840 5,512",
+   "page": 163,
+   "speaker": null,
+   "context": "… considers above demand/disputes as remote. (I in crore) As at 31st March, 2026 As at 31st March, 2025 34. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Group / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 3,840 5,512 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Associates / Joint Ventures / Others 5,799 5,880 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for: (i) In respect of Joint Arrangements 4,875 1,624 (ii…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 3840"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p163:674dd0e6",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Consolidated",
+   "statement": null,
+   "quote": "(ii) On behalf of Associates / Joint Ventures / Others 5,799 5,880",
+   "page": 163,
+   "speaker": null,
+   "context": "…5 34. Contingent Liabilities and Commitments (I) Contingent Liabilities (A) Claims against the Group / disputed liabilities not acknowledged as debts (i) In respect of Joint Arrangements 1,692 1,458 (ii) In respect of Others 3,840 5,512 (B) Guarantees (i) On behalf of Joint Arrangements 1,318 1,078 (ii) On behalf of Associates / Joint Ventures / Others 5,799 5,880 (II) Commitments (A) Estimated amount of contracts remaining to be executed on capital account and not provided for: (i) In respect of Joint Arrangements 4,875 1,624 (ii) In respect of Others 61,642 30,005 (B) Other Commitments (i) Investments 4,705 3,895 (III) On December 16, 2010, SEBI issued a s…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 31",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 5799"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p164:96e4a020",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Consolidated",
+   "statement": "Hathway Cable and Datacom Limited received SCNs from DOT for license fees aggregating to 3,202 crore including penalty and interest.",
+   "quote": "Hathway Cable and Datacom Limited has received Show Cause cum Demand notices (\"SCNs\") from the Department of Telecommunications (\"DOT\"), Government of India towards license fees aggregating to H 3,202 crore which includes penalty and interest thereon",
+   "page": 164,
+   "speaker": null,
+   "context": "…ourt. RIL has filed an appeal in the Hon'ble Supreme Court of India against the order dated December 4, 2023, of SAT. Both the appeals of RIL were tagged by the Hon'ble Supreme Court and the arguments are complete. The Hon'ble Supreme Court on January 30, 2026, reserved the same for judgement. (IV) Hathway Cable and Datacom Limited has received Show Cause cum Demand notices (\"SCNs\") from the Department of Telecommunications (\"DOT\"), Government of India towards license fees aggregating to H 3,202 crore which includes penalty and interest thereon (March 31, 2025: I 3,202 crore including penalty and interest). The Group has made representations to DOT contesting the basis of such demands. Based on opinion of legal expert, the Group is confident that it has good grounds on merit to defend itself in the above matter. Accordingly, the Group is …",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 3202,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p164:af555983",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "contingent_liability",
+   "scope": "Consolidated",
+   "statement": "Den Networks Limited received demand of 628 crore from DOT during provisional assessment towards license fees.",
+   "quote": "Den Networks Limited (\"DEN\") has received demand of H 628 crore from the Department of Telecom (DOT) during provisional assessment towards the license fees for the years 2010-11 to 2015-16",
+   "page": 164,
+   "speaker": null,
+   "context": "… representations to DOT contesting the basis of such demands. Based on opinion of legal expert, the Group is confident that it has good grounds on merit to defend itself in the above matter. Accordingly, the Group is of the view that no provision is necessary in respect of the aforesaid matter. (V) Den Networks Limited (\"DEN\") has received demand of H 628 crore from the Department of Telecom (DOT) during provisional assessment towards the license fees for the years 2010-11 to 2015-16 considering revenue from the cable business and other income for the purpose of calculating AGR or license fees. Demand was initially raised on DEN; however, revised demand of H 2,157 crore including interest and penalty calculated up till date has been raised on Den Broadband Limited (wholly owned…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 628,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "duplicate",
+   "quote": "(i) In respect of Joint Arrangements 1,692 1,458",
+   "page": 163
+  },
+  {
+   "reason": "duplicate",
+   "quote": "(i) On behalf of Joint Arrangements 1,318 1,078",
+   "page": 163
+  }
+ ],
+ "proposed": 10,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 16762,
+  "outputTokens": 1950,
+  "thoughtTokens": 0,
+  "totalTokens": 18712,
+  "latencyMs": 4695,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "annual-report-v1",
+ "rule": "pages naming contingent liabilities, plus the page after each (max 10)",
+ "extractedAt": "2026-10-31T18:42:14.529Z",
+ "reverifiedAt": "2026-10-31T18:44:08.272Z"
+}

@@ -3,17 +3,46 @@
  "symbol": "HDFCBANK",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HDFCBANK&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:49:47.006Z",
-  "asOf": "2026-10-30T07:54:25.000Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HDFCBANK&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:00.506Z",
+  "asOf": "2026-10-31T16:46:44.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
  "count": 17,
  "items": [
+  {
+   "id": "106838688",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Change in Management",
+   "text": "HDFC Bank Limited has informed the Exchange about change in Management",
+   "subject": "change in Management",
+   "attachmentExcerpt": null,
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_31102026221631_SE_INTIMATION-_Sanjay_Dsouza.pdf",
+   "attachmentSize": "611.38 KB",
+   "announcedAt": "2026-10-31T16:46:44.000Z",
+   "announcedAtRaw": "31-Oct-2026 22:16:44",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in management",
+    "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Change in Management"
+    },
+    "routine": false,
+    "needsReview": false
+   }
+  },
   {
    "id": "106836184",
    "symbol": "HDFCBANK",
@@ -518,35 +547,6 @@
     "evidence": null,
     "routine": false,
     "needsReview": true
-   }
-  },
-  {
-   "id": "106805308",
-   "symbol": "HDFCBANK",
-   "company": "HDFC Bank Limited",
-   "isin": "INE040A01018",
-   "nseDesc": "Change in Director(s)",
-   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
-   "subject": "Change in Director(s) of the company",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
-   "attachmentSize": "689.71 KB",
-   "announcedAt": "2026-10-01T12:53:52.000Z",
-   "announcedAtRaw": "01-Oct-2026 18:23:52",
-   "hasXbrl": true,
-   "classification": {
-    "category": "management_change",
-    "categories": [
-     "management_change"
-    ],
-    "rule": "desc:change in director(s)",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Change in Director(s)"
-    },
-    "routine": false,
-    "needsReview": false
    }
   }
  ],

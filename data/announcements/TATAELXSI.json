@@ -3,14 +3,14 @@
  "symbol": "TATAELXSI",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TATAELXSI&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:51:40.931Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TATAELXSI&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:16.746Z",
   "asOf": "2026-10-19T09:25:35.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
  "count": 11,
  "items": [

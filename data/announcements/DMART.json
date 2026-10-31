@@ -3,14 +3,14 @@
  "symbol": "DMART",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DMART&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:51:29.233Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DMART&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:15.107Z",
   "asOf": "2026-10-30T12:33:05.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
  "count": 11,
  "items": [

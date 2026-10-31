@@ -1,0 +1,95 @@
+{
+ "model": "gemini-3.5-flash",
+ "promptVersion": "synthesis-v2",
+ "business": [
+  {
+   "text": "Reliance Industries Limited (RIL) is India's largest private sector enterprise with business activities spanning energy and materials, digital services, retail, and media.",
+   "cites": [
+    "RELIANCE:annual_report:FY26:p41:b3355931",
+    "RELIANCE:annual_report:FY26:p42:db52a0ec",
+    "RELIANCE:annual_report:FY26:p42:e5755138"
+   ]
+  },
+  {
+   "text": "Reliance Retail operates 20,160 stores covering 78.3 million square feet of retail area, serving 387 million registered customers as of FY26.",
+   "cites": [
+    "RELIANCE:annual_report:FY26:p45:204486b9"
+   ]
+  },
+  {
+   "text": "Jio delivers digital and telecommunication services, ending FY26 with over 524 million digital subscribers.",
+   "cites": [
+    "RELIANCE:transcript:apr-2026:p4:adba6d79",
+    "RELIANCE:annual_report:FY26:p41:8d6d963d"
+   ]
+  }
+ ],
+ "bull": [
+  {
+   "text": "Net profit growth rebounded to 17.8% in FY26, alongside free cash flow rising to Rs.70,023 crore and cash from operations reaching Rs.1,92,113 crore.",
+   "cites": [
+    "M:pat_growth_yoy",
+    "M:fcf",
+    "M:cfo"
+   ]
+  },
+  {
+   "text": "Management noted that an IPO for Jio is fairly imminent, and expects ARPU to increase even without tariff hikes.",
+   "cites": [
+    "RELIANCE:transcript:apr-2026:p27:0804a644",
+    "RELIANCE:transcript:apr-2026:p28:c2494621"
+   ]
+  }
+ ],
+ "bear": [
+  {
+   "text": "Borrowings reached Rs.4,02,962 crore in FY26, while interest cover declined steadily from 7.4x in FY22 to 6.6x in FY26.",
+   "cites": [
+    "M:borrowings",
+    "M:interest_cover"
+   ]
+  },
+  {
+   "text": "Auditors identified key audit matters regarding legal proceedings provisions, IT controls reliance, and valuation of Rs.77,852 crore preference shares in Jio Digital Fibre Private Limited.",
+   "cites": [
+    "RELIANCE:annual_report:FY26:p91:5b127d42",
+    "RELIANCE:annual_report:FY26:p91:2a8fb67b",
+    "RELIANCE:annual_report:FY26:p92:7d68f480"
+   ]
+  },
+  {
+   "text": "The company's cash conversion cycle elongated to 25 days in FY26 from -8 days in FY25, alongside a drop in days payable to 84 days.",
+   "cites": [
+    "M:cash_conversion_cycle",
+    "M:days_payable"
+   ]
+  }
+ ],
+ "dropped": [
+  {
+   "section": "bull",
+   "text": "Digital Services segment EBITDA expanded 17.8% year-on-year in FY26 to Rs.76,560 crore, while Media and Entertainment EBITDA surged 218.7% to Rs.5,842 crore.",
+   "reason": "uses a term its cited items do not contain (year-on-year)"
+  },
+  {
+   "section": "bull",
+   "text": "Management expects retail online sales to accelerate revenue growth and foresees continued dark store network expansion over the next 9 to 12 months.",
+   "reason": "contains the number 9, which is not in its cited items"
+  },
+  {
+   "section": "bear",
+   "text": "Management reported a 4% lower throughput in O2C due to physical crude availability issues, alongside muted 8% Q4 FY26 retail EBITDA growth caused by scaling hyperlocal e-commerce.",
+   "reason": "contains the number 2, which is not in its cited items"
+  }
+ ],
+ "usage": {
+  "promptTokens": 6464,
+  "outputTokens": 764,
+  "thoughtTokens": 0,
+  "latencyMs": 24901,
+  "attempts": 2,
+  "retriedStatuses": [
+   503
+  ]
+ }
+}

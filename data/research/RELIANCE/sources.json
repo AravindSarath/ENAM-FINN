@@ -1,0 +1,128 @@
+{
+ "docs": [
+  {
+   "id": "RELIANCE:transcript:jul-2026",
+   "kind": "transcript",
+   "title": "Earnings call transcript, Jul 2026 (Q1 FY27)",
+   "label": "Jul 2026",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+   "periodLabel": "Q1 FY27",
+   "periodEnd": "2026-06-30",
+   "pages": 32,
+   "bytes": 607452,
+   "fetchedAt": "2026-10-31T18:27:05.103Z"
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026",
+   "kind": "transcript",
+   "title": "Earnings call transcript, Apr 2026 (Q4 FY26)",
+   "label": "Apr 2026",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
+   "periodLabel": "Q4 FY26",
+   "periodEnd": "2026-03-31",
+   "pages": 31,
+   "bytes": 1799089,
+   "fetchedAt": "2026-10-31T18:37:14.776Z"
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026",
+   "kind": "transcript",
+   "title": "Earnings call transcript, Jan 2026 (Q3 FY26)",
+   "label": "Jan 2026",
+   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
+   "periodLabel": "Q3 FY26",
+   "periodEnd": "2025-12-31",
+   "pages": 38,
+   "bytes": 525002,
+   "fetchedAt": "2026-10-31T18:37:15.695Z"
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26",
+   "kind": "annual_report",
+   "title": "Integrated Annual Report 2025-26",
+   "label": "Annual Report 2026",
+   "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cc08294f-ec68-4f15-aaa4-c14a3c4bdfb2.pdf",
+   "periodLabel": "FY26",
+   "periodEnd": "2026-03-31",
+   "pages": 187,
+   "bytes": 11007429,
+   "fetchedAt": "2026-10-31T18:38:21.246Z"
+  }
+ ],
+ "unavailable": [
+  {
+   "what": "Earnings call transcript, Oct 2026",
+   "reason": "screener.in lists the call but has no transcript link yet"
+  }
+ ],
+ "annualReportSelection": [
+  {
+   "topic": "business_mdna",
+   "pages": [
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+   ],
+   "rule": "first run of pages headed \"Management Discussion and Analysis\" (44-56), with 3 lead-in pages and 1 after"
+  },
+  {
+   "topic": "debt",
+   "pages": [
+    131,
+    142,
+    167,
+    168
+   ],
+   "rule": "5 pages in the second half with the most mentions of \"borrowings\" (at least 5)"
+  },
+  {
+   "topic": "contingent",
+   "pages": [
+    101,
+    102,
+    126,
+    127,
+    128,
+    144,
+    145,
+    163,
+    164
+   ],
+   "rule": "pages naming contingent liabilities, plus the page after each (max 10)"
+  },
+  {
+   "topic": "auditor",
+   "pages": [
+    91,
+    92,
+    133,
+    134,
+    135,
+    137
+   ],
+   "rule": "7 pages with the most auditor-report headings (at least 3)"
+  }
+ ],
+ "tokensThisRun": {
+  "calls": 10,
+  "promptTokens": 132868,
+  "outputTokens": 25592,
+  "thoughtTokens": 0,
+  "retriedStatuses": []
+ },
+ "writtenAt": "2026-10-31T18:42:23.210Z"
+}

@@ -3,16 +3,16 @@
  "symbol": "TCS",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TCS&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:49:55.147Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TCS&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:02.166Z",
   "asOf": "2026-10-19T06:00:07.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 19,
+ "count": 15,
  "items": [
   {
    "id": "106821698",
@@ -457,129 +457,6 @@
     "evidence": {
      "source": "text",
      "phrase": "financial results"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805688",
-   "symbol": "TCS",
-   "company": "Tata Consultancy Services Limited",
-   "isin": "INE467B01029",
-   "nseDesc": "Press Release",
-   "text": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Best Buy s Global Capability Center in India to transition to TCS\".",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026214236_Signed_PRSEInt01102026.pdf",
-   "attachmentSize": "392.42 KB",
-   "announcedAt": "2026-10-01T16:12:54.000Z",
-   "announcedAtRaw": "01-Oct-2026 21:42:54",
-   "hasXbrl": true,
-   "classification": {
-    "category": "press_release",
-    "categories": [
-     "press_release"
-    ],
-    "rule": "kw:press",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Press Release"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805600",
-   "symbol": "TCS",
-   "company": "Tata Consultancy Services Limited",
-   "isin": "INE467B01029",
-   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "text": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
-   "subject": "Schedule of meet",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026200753_Signed_SEInt01102026.pdf",
-   "attachmentSize": "377.21 KB",
-   "announcedAt": "2026-10-01T14:38:34.000Z",
-   "announcedAtRaw": "01-Oct-2026 20:08:34",
-   "hasXbrl": true,
-   "classification": {
-    "category": "investor_meetings",
-    "categories": [
-     "investor_meetings"
-    ],
-    "rule": "kw:investor-meet",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Investor Meet"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805372",
-   "symbol": "TCS",
-   "company": "Tata Consultancy Services Limited",
-   "isin": "INE467B01029",
-   "nseDesc": "Acquisition",
-   "text": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
-   "subject": "Acquisition",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf",
-   "attachmentSize": "268.53 KB",
-   "announcedAt": "2026-10-01T13:11:18.000Z",
-   "announcedAtRaw": "01-Oct-2026 18:41:18",
-   "hasXbrl": true,
-   "classification": {
-    "category": "M&A",
-    "categories": [
-     "M&A"
-    ],
-    "rule": "desc:acquisition",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Acquisition"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805363",
-   "symbol": "TCS",
-   "company": "Tata Consultancy Services Limited",
-   "isin": "INE467B01029",
-   "nseDesc": "Outcome of Board Meeting",
-   "text": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
-   "subject": null,
-   "attachmentExcerpt": {
-    "page": 1,
-    "url": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf",
-    "extractedAt": "2026-10-31T16:42:47.854Z",
-    "status": "ok",
-    "text": "9th Floor Nirmal Building Nariman Point Mumbai 400 021 Tel 91 22 6778 9595 Fax 91 22 6630 3672 e-mail corporate.office@tcs.com website www.tcs.com Registered Office 9th Floor Nirmal Building Nariman Point Mumbai 400 021 Corporate Identity No. (CIN): L22210MH1995PLC084781 TCS/SE/94/2026-27 October 1, 2026 National Stock Exchange of India Limited BSE Limited Exchange Plaza, P. J. Towers, Bandra Kurla Complex, Dalal Street, Mumbai-400051 Mumbai-400001 Symbol: TCS Scrip Code No. 532540 Dear Sirs, Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”) Pursuant to Regulation 30 of SEBI Listing Regulations, we wish to inform you regarding the acquisition of 100% partnership interest in BBY Services India LLP, a limited liability partnership firm. In this regard, the Agreement for proposed transfer of partnership interest (“Agreement”) has been executed today. The completion of the acquisition is subject to fulfilment of conditions precedent as specified in the Agreement. We are enclosing herewith the brief details of the above as prescribed under SEBI Listing Regulations as Annexure A. The meeting of the Investment Committee (as empowered by the Board of Directors) held today to approve the aforesaid acquisition, commenced at 3:35 p.m. and concluded at 4:05 p.m. The above information is also available on the website of the Company www.tcs.com. Thanking you, Yours faithfully, For Tata Consultancy Se"
-   },
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf",
-   "attachmentSize": "268.53 KB",
-   "announcedAt": "2026-10-01T13:09:47.000Z",
-   "announcedAtRaw": "01-Oct-2026 18:39:47",
-   "hasXbrl": true,
-   "classification": {
-    "category": "M&A",
-    "categories": [
-     "M&A",
-     "unclassified"
-    ],
-    "rule": "pdf:kw:mna",
-    "confidence": "medium",
-    "evidence": {
-     "source": "pdf",
-     "phrase": "acquisition"
     },
     "routine": false,
     "needsReview": false

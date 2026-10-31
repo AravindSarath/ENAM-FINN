@@ -823,7 +823,7 @@
     },
     {
      "label": "Other Liabilities",
-     "key": null,
+     "key": "other_liabilities",
      "unit": "INR_crore",
      "values": [
       13948,
@@ -861,7 +861,7 @@
     },
     {
      "label": "Fixed Assets",
-     "key": null,
+     "key": "fixed_assets",
      "unit": "INR_crore",
      "values": [
       15303,
@@ -880,7 +880,7 @@
     },
     {
      "label": "CWIP",
-     "key": null,
+     "key": "cwip",
      "unit": "INR_crore",
      "values": [
       2700,
@@ -899,7 +899,7 @@
     },
     {
      "label": "Investments",
-     "key": null,
+     "key": "investments",
      "unit": "INR_crore",
      "values": [
       6943,
@@ -918,7 +918,7 @@
     },
     {
      "label": "Other Assets",
-     "key": null,
+     "key": "other_assets",
      "unit": "INR_crore",
      "values": [
       21006,
@@ -1096,7 +1096,7 @@
     },
     {
      "label": "Net Cash Flow",
-     "key": null,
+     "key": "net_cash_flow",
      "unit": "INR_crore",
      "values": [
       -93,
@@ -1236,7 +1236,7 @@
    "rows": [
     {
      "label": "Debtor Days",
-     "key": null,
+     "key": "debtor_days",
      "unit": "days",
      "values": [
       19,
@@ -1255,7 +1255,7 @@
     },
     {
      "label": "Inventory Days",
-     "key": null,
+     "key": "inventory_days",
      "unit": "days",
      "values": [
       212,
@@ -1274,7 +1274,7 @@
     },
     {
      "label": "Days Payable",
-     "key": null,
+     "key": "days_payable",
      "unit": "days",
      "values": [
       50,
@@ -1293,8 +1293,8 @@
     },
     {
      "label": "Cash Conversion Cycle",
-     "key": null,
-     "unit": "INR_crore",
+     "key": "cash_conversion_cycle",
+     "unit": "days",
      "values": [
       181,
       199,
@@ -1312,7 +1312,7 @@
     },
     {
      "label": "Working Capital Days",
-     "key": null,
+     "key": "working_capital_days",
      "unit": "days",
      "values": [
       -6,
@@ -1331,7 +1331,7 @@
     },
     {
      "label": "ROCE %",
-     "key": null,
+     "key": "roce_pct",
      "unit": "percent",
      "values": [
       47,

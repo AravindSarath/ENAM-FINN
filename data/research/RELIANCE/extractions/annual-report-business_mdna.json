@@ -1,0 +1,734 @@
+{
+ "topic": "business_mdna",
+ "pages": [
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57
+ ],
+ "facts": [
+  {
+   "id": "RELIANCE:annual_report:FY26:p41:b3355931",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "business",
+   "scope": "Group",
+   "statement": "Reliance Industries Limited is India's largest private sector enterprise spanning energy, materials, digital services, retail, media, entertainment, green technologies, and AI.",
+   "quote": "Reliance Industries Limited (RIL) is India's largest private sector enterprise through sustained investment, disciplined execution and a long-term commitment to the country. A Fortune 500 company, its businesses today span energy and materials, digital services, retail, media and entertainment, green technologies and AI, collectively serving Millions of Indians across the economy.",
+   "page": 41,
+   "speaker": null,
+   "context": "Reliance Industries Limited (RIL) is India's largest private sector enterprise through sustained investment, disciplined execution and a long-term commitment to the country. A Fortune 500 company, its businesses today span energy and materials, digital services, retail, media and entertainment, green technologies and AI, collectively serving Millions of Indians across the economy. As the country charts an ambitious path forward, Reliance continues to expand and transform in step with national priorities -anchored in its enduring philosophy that 'Growth is Life'. Long Arc of Value Creation Market capitalisation has grown at a CAGR of ~29% since listing in FY 1977-78 #1 on For…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p41:a2ab4380",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "business",
+   "scope": "Group",
+   "statement": "Market capitalisation has grown at a CAGR of approximately 29 percent since listing in FY 1977-78.",
+   "quote": "Long Arc of Value Creation Market capitalisation has grown at a CAGR of ~29% since listing in FY 1977-78",
+   "page": 41,
+   "speaker": null,
+   "context": "…, media and entertainment, green technologies and AI, collectively serving Millions of Indians across the economy. As the country charts an ambitious path forward, Reliance continues to expand and transform in step with national priorities -anchored in its enduring philosophy that 'Growth is Life'. Long Arc of Value Creation Market capitalisation has grown at a CAGR of ~29% since listing in FY 1977-78 #1 on Fortune 500 India #88 on the Fortune Global 500 - highest-ranked Indian company #45 on the Forbes Global 2000 - highest-ranked Indian company Building India's Capabilities Gigawatt-scale Integrated clean energy ecosystem under development 6,800+ patents filed across next generation digital te…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p41:8d6d963d",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "business",
+   "scope": "Group",
+   "statement": "Jio has over 524 million digital subscribers.",
+   "quote": "524 Mn+ Digital subscribers of Jio, one of the world's largest digital platforms",
+   "page": 41,
+   "speaker": null,
+   "context": "…att-scale Integrated clean energy ecosystem under development 6,800+ patents filed across next generation digital technologies driving India's progress in technological innovation A workforce of 4,19,911 supporting operations across diversified business segments Democratising Access and Opportunity 524 Mn+ Digital subscribers of Jio, one of the world's largest digital platforms 387 Mn Registered Customers - a testament to Reliance Retail's scale and its enduring connect with consumers across India We see India as a land of opportunities for our people to build globally competitive assets for the nation. We see India as a reservoir of tremendous intellectual and human capi…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p41:33008e83",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "business",
+   "scope": "Group",
+   "statement": "Reliance Retail has 387 million registered customers.",
+   "quote": "387 Mn Registered Customers - a testament to Reliance Retail's scale and its enduring connect with consumers across India",
+   "page": 41,
+   "speaker": null,
+   "context": "…d across next generation digital technologies driving India's progress in technological innovation A workforce of 4,19,911 supporting operations across diversified business segments Democratising Access and Opportunity 524 Mn+ Digital subscribers of Jio, one of the world's largest digital platforms 387 Mn Registered Customers - a testament to Reliance Retail's scale and its enduring connect with consumers across India We see India as a land of opportunities for our people to build globally competitive assets for the nation. We see India as a reservoir of tremendous intellectual and human capital, with its people impatient for growth and change. Shri. Dhirubhai H. Ambani Founder Chairman Forward-looking Statement…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 387,
+    "valueHigh": null,
+    "unit": "other",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:b75448f2",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Retail",
+   "statement": null,
+   "quote": "Revenue J3,71,085 Crore 12.1%",
+   "page": 42,
+   "speaker": null,
+   "context": "…A key contributor to India's Exploration and Production sector, with an upstream portfolio comprising deep-water and ultra-deep-water oil and gas fields, alongside coal bed methane assets supporting domestic energy supply. Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Cr…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:fc2d9a55",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Retail",
+   "statement": null,
+   "quote": "EBITDA J27,034 Crore 7.7%",
+   "page": 42,
+   "speaker": null,
+   "context": "…oduction sector, with an upstream portfolio comprising deep-water and ultra-deep-water oil and gas fields, alongside coal bed methane assets supporting domestic energy supply. Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 C…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:db52a0ec",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Digital Services",
+   "statement": null,
+   "quote": "Revenue J1,76,164 Crore 14.3%",
+   "page": 42,
+   "speaker": null,
+   "context": "…o comprising deep-water and ultra-deep-water oil and gas fields, alongside coal bed methane assets supporting domestic energy supply. Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:9ef71a66",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Digital Services",
+   "statement": null,
+   "quote": "EBITDA J76,560 Crore 17.8%",
+   "page": 42,
+   "speaker": null,
+   "context": "…l and gas fields, alongside coal bed methane assets supporting domestic energy supply. Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainme…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:e5755138",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Media and Entertainment",
+   "statement": null,
+   "quote": "Revenue J40,682 Crore 96.6%",
+   "page": 42,
+   "speaker": null,
+   "context": "…e assets supporting domestic energy supply. Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment p…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:0dd24b65",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Media and Entertainment",
+   "statement": null,
+   "quote": "EBITDA J5,842 Crore 218.7%",
+   "page": 42,
+   "speaker": null,
+   "context": "…Capabilities Exploration, Field Development, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment platform, engaging audiences at scale across…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:95bba692",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Oil to Chemicals",
+   "statement": null,
+   "quote": "Revenue J6,62,401 Crore 5.7%",
+   "page": 42,
+   "speaker": null,
+   "context": "…, Field Management and Operations Revenue J3,71,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment platform, engaging audiences at scale across a mobile-first, multi-screen, multi-media en…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:d00e20d7",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Oil to Chemicals",
+   "statement": null,
+   "quote": "EBITDA J60,546 Crore 10.1%",
+   "page": 42,
+   "speaker": null,
+   "context": "…1,085 Crore 12.1% US$ 39.1 Billion EBITDA J27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment platform, engaging audiences at scale across a mobile-first, multi-screen, multi-media environment. Note - FY 2024-25 figures for Jio…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:57889ab2",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Oil and Gas",
+   "statement": null,
+   "quote": "Revenue J23,861 Crore 5.4%",
+   "page": 42,
+   "speaker": null,
+   "context": "…27,034 Crore 7.7% US$ 2.9 Billion Revenue J1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment platform, engaging audiences at scale across a mobile-first, multi-screen, multi-media environment. Note - FY 2024-25 figures for JioStar are for the period November 14, 2024 -…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p42:7daf66d4",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Oil and Gas",
+   "statement": null,
+   "quote": "EBITDA J19,050 Crore 10.1%",
+   "page": 42,
+   "speaker": null,
+   "context": "…1,76,164 Crore 14.3% US$ 18.6 Billion EBITDA J76,560 Crore 17.8% US$ 8.1 Billion Revenue J40,682 Crore 96.6% US$ 4.3 Billion EBITDA J5,842 Crore 218.7% US$ 0.6 Billion Revenue J6,62,401 Crore 5.7% US$ 69.9 Billion EBITDA J60,546 Crore 10.1% US$ 6.4 Billion Revenue J23,861 Crore 5.4% US$ 2.5 Billion EBITDA J19,050 Crore 10.1% US$ 2.0 Billion Media and Entertainment India's largest Media and Entertainment platform, engaging audiences at scale across a mobile-first, multi-screen, multi-media environment. Note - FY 2024-25 figures for JioStar are for the period November 14, 2024 - March 31, 2025 Media Platforms Entertainme…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p43:9ba23699",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": null,
+   "quote": "In FY 2025-26, we delivered consolidated revenues of H 11,75,919 crore, EBITDA of H 2,07,911 crore, and net profit of H 95,754 crore.",
+   "page": 43,
+   "speaker": null,
+   "context": "…ple truth: Our vision is global, but our purpose remains deeply Indian. Scale with Strength, Growth with Discipline Our financial performance reflects not just growth, but the strength and discipline that underpin it. RIL has become the first Indian company to cross $10 billion in annual net profit In FY 2025-26, we delivered consolidated revenues of H 11,75,919 crore, EBITDA of H 2,07,911 crore, and net profit of H 95,754 crore. These results are a testament to our ability to execute consistently in the face of global uncertainty. India stands at the forefront of this transformation. With its scale, demographic strength, digital depth, and entrepreneurial energy, India is not merely participating in the global economy-it i…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 1175919,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term RIL"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p44:8b36e152",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": null,
+   "quote": "Consolidated revenue grew by 9.8% Y-o-Y, at H 11,75,919 crore (US$ 124.0 billion), driven by robust double-digit growth in Digital Services, Retail and Media & Entertainment businesses.",
+   "page": 44,
+   "speaker": null,
+   "context": "…he ongoing growth recovery. Performance Overview RIL successfully navigated complex global scenarios, benefitting from its diversified business portfolio, operational agility and robust Indian market demand. The Company delivered a strong financial performance marked by record revenues and profits. Consolidated revenue grew by 9.8% Y-o-Y, at H 11,75,919 crore (US$ 124.0 billion), driven by robust double-digit growth in Digital Services, Retail and Media & Entertainment businesses. Exports for the year was H 2,78,808 crore. EBITDA for FY 2025-26 was at H 2,07,911 crore (US$ 21.9 billion), expanding 13.4% Y-o-Y, boosted by strong performances in Digital Services and O2C segments. PAT at H 95,754 crore (US$ 10.1 billion), was up 17.8% as compared to the previous financial year.…",
+   "quantified": {
+    "metric": "revenue_growth_yoy",
+    "direction": "increase",
+    "value": 9.8,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "quote"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p44:c33df574",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": "EBITDA for FY 2025-26 was INR 2,07,911 crore, expanding 13.4 percent year-on-year.",
+   "quote": "EBITDA for FY 2025-26 was at H 2,07,911 crore (US$ 21.9 billion), expanding 13.4% Y-o-Y, boosted by strong performances in Digital Services and O2C segments.",
+   "page": 44,
+   "speaker": null,
+   "context": "… a strong financial performance marked by record revenues and profits. Consolidated revenue grew by 9.8% Y-o-Y, at H 11,75,919 crore (US$ 124.0 billion), driven by robust double-digit growth in Digital Services, Retail and Media & Entertainment businesses. Exports for the year was H 2,78,808 crore. EBITDA for FY 2025-26 was at H 2,07,911 crore (US$ 21.9 billion), expanding 13.4% Y-o-Y, boosted by strong performances in Digital Services and O2C segments. PAT at H 95,754 crore (US$ 10.1 billion), was up 17.8% as compared to the previous financial year. Consolidated cash-profits for the year increased to H 1,71,258 crore growing 16.6% Y-o-Y. Segment Performance Digital Services (EBITDA up 17.8%): Jio solidified its leadership in the Indian digital ec…",
+   "quantified": {
+    "metric": "ebitda_growth_yoy",
+    "direction": "increase",
+    "value": 13.4,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "quote"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p44:344adb57",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": null,
+   "quote": "PAT at H 95,754 crore (US$ 10.1 billion), was up 17.8% as compared to the previous financial year.",
+   "page": 44,
+   "speaker": null,
+   "context": "…en by robust double-digit growth in Digital Services, Retail and Media & Entertainment businesses. Exports for the year was H 2,78,808 crore. EBITDA for FY 2025-26 was at H 2,07,911 crore (US$ 21.9 billion), expanding 13.4% Y-o-Y, boosted by strong performances in Digital Services and O2C segments. PAT at H 95,754 crore (US$ 10.1 billion), was up 17.8% as compared to the previous financial year. Consolidated cash-profits for the year increased to H 1,71,258 crore growing 16.6% Y-o-Y. Segment Performance Digital Services (EBITDA up 17.8%): Jio solidified its leadership in the Indian digital ecosystem, crossing several operational milestones. The business delivered strong performance led by …",
+   "quantified": {
+    "metric": "pat_growth_yoy",
+    "direction": "increase",
+    "value": 17.8,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "context"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p44:3b42908c",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": "Gross debt as on March 31, 2026 was INR 3,74,421 crore and Net debt stood at INR 1,24,717 crore.",
+   "quote": "Gross debt as on March 31, 2026 was H 3,74,421 crore (US$ 39.5 billion) and Net debt stood at H 1,24,717 crore (US$ 13.2 billion).",
+   "page": 44,
+   "speaker": null,
+   "context": "… witnessed a moderation in revenues and EBITDA, in line with natural decline in production in the KG D6 block and softer gas prices. Consolidated Net Debt RIL maintained a robust balance sheet with strong internal cash-flow generation, disciplined capital allocation and prudent leverage management. Gross debt as on March 31, 2026 was H 3,74,421 crore (US$ 39.5 billion) and Net debt stood at H 1,24,717 crore (US$ 13.2 billion). Capex RIL's capital expenditure for FY 2025-26 stood at H 1,44,271 crore (US$ 15.2 billion) as compared to H 1,31,107 crore in the previous financial year. Capex requirements were adequately funded by cash profits. Capex was principally directed towards growth projects in the O2C and New Energy bus…",
+   "quantified": {
+    "metric": "borrowings",
+    "direction": null,
+    "value": 374421,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p44:010439bb",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Group",
+   "statement": "RIL's capital expenditure for FY 2025-26 stood at INR 1,44,271 crore compared to INR 1,31,107 crore in the previous financial year.",
+   "quote": "RIL's capital expenditure for FY 2025-26 stood at H 1,44,271 crore (US$ 15.2 billion) as compared to H 1,31,107 crore in the previous financial year.",
+   "page": 44,
+   "speaker": null,
+   "context": "…olidated Net Debt RIL maintained a robust balance sheet with strong internal cash-flow generation, disciplined capital allocation and prudent leverage management. Gross debt as on March 31, 2026 was H 3,74,421 crore (US$ 39.5 billion) and Net debt stood at H 1,24,717 crore (US$ 13.2 billion). Capex RIL's capital expenditure for FY 2025-26 stood at H 1,44,271 crore (US$ 15.2 billion) as compared to H 1,31,107 crore in the previous financial year. Capex requirements were adequately funded by cash profits. Capex was principally directed towards growth projects in the O2C and New Energy business, along with continuing growth initiatives in Digital Services and Retail businesses. Standalone Performance Standalone revenue for RIL was H 5,46,852 …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p45:f6afdaec",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Retail",
+   "statement": "During the year, Reliance Retail recorded Gross Revenue of INR 3,71,085 crore, reflecting a growth of 12.1 percent over the previous year.",
+   "quote": "During the year, Reliance Retail recorded Gross Revenue of H 3,71,085 crore, reflecting a growth of 12.1% over the previous year.",
+   "page": 45,
+   "speaker": null,
+   "context": "…ity experiences across categories. Fast fashion is reshaping demand patterns, with shorter trend cycles and faster inventory turns driving apparel consumption. Social media and platform-led discovery are accelerating impulse purchases and increasing wardrobe turnover frequency. Business Performance During the year, Reliance Retail recorded Gross Revenue of H 3,71,085 crore, reflecting a growth of 12.1% over the previous year. EBITDA for the year stood at H 27,034 crore, translating into an EBITDA margin of 8.2%, slight moderation due to growing contribution of hyper-local commerce. 20,160 RETAIL STORES 78.3 Million sq. ft. RETAIL AREA 387 Million REGISTERED CUSTOMER BASE ~1.9 Billion TRANSACTIONS 2,90,293 PEOPLE Relianc…",
+   "quantified": {
+    "metric": "segment_revenue_growth_yoy",
+    "direction": "increase",
+    "value": 12.1,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": "FY26",
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p45:ac1286a6",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Retail",
+   "statement": null,
+   "quote": "EBITDA for the year stood at H 27,034 crore, translating into an EBITDA margin of 8.2%, slight moderation due to growing contribution of hyper-local commerce.",
+   "page": 45,
+   "speaker": null,
+   "context": "… driving apparel consumption. Social media and platform-led discovery are accelerating impulse purchases and increasing wardrobe turnover frequency. Business Performance During the year, Reliance Retail recorded Gross Revenue of H 3,71,085 crore, reflecting a growth of 12.1% over the previous year. EBITDA for the year stood at H 27,034 crore, translating into an EBITDA margin of 8.2%, slight moderation due to growing contribution of hyper-local commerce. 20,160 RETAIL STORES 78.3 Million sq. ft. RETAIL AREA 387 Million REGISTERED CUSTOMER BASE ~1.9 Billion TRANSACTIONS 2,90,293 PEOPLE Reliance Industries Limited Integrated Annual Report 2025-2610 11Management Discussion and Analysis - Business Overview Management Discussion and Analysis - Business …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: company-wide metric operating_margin used for scope \"Retail\""
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p45:204486b9",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "business",
+   "scope": "Retail",
+   "statement": "Reliance Retail operates 20,160 stores across 78.3 million square feet of retail area.",
+   "quote": "20,160 RETAIL STORES 78.3 Million sq. ft. RETAIL AREA 387 Million REGISTERED CUSTOMER BASE ~1.9 Billion TRANSACTIONS 2,90,293 PEOPLE",
+   "page": 45,
+   "speaker": null,
+   "context": "…erformance During the year, Reliance Retail recorded Gross Revenue of H 3,71,085 crore, reflecting a growth of 12.1% over the previous year. EBITDA for the year stood at H 27,034 crore, translating into an EBITDA margin of 8.2%, slight moderation due to growing contribution of hyper-local commerce. 20,160 RETAIL STORES 78.3 Million sq. ft. RETAIL AREA 387 Million REGISTERED CUSTOMER BASE ~1.9 Billion TRANSACTIONS 2,90,293 PEOPLE Reliance Industries Limited Integrated Annual Report 2025-2610 11Management Discussion and Analysis - Business Overview Management Discussion and Analysis - Business Overview Performance was supported by network expansion, improved category mix, private label contribution and operating efficiencies…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 20160,
+    "valueHigh": null,
+    "unit": "other",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p48:4b4e11c8",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "segment",
+   "scope": "Digital Services",
+   "statement": null,
+   "quote": "EBITDA 76,560 65,001 17.8%",
+   "page": 48,
+   "speaker": null,
+   "context": "…y has significantly increased market reach and the capacity to connect premises with fibre-like fixed broadband Business Performance Financial Performance (J Crore) FY 2025-26 FY 2024-25 Y-o-Y Change Value of Sales and Services 1,76,164 1,54,119 14.3% Revenue from Operations 1,49,965 1,31,336 14.2% EBITDA 76,560 65,001 17.8% EBITDA margin* 51.1% 49.5% 160 bps *EBITDA margin is calculated on Revenue from Operations Revenue and EBITDA growth for the Digital Services business in FY 2025-26 were 14.3% and 17.8% Y-o-Y, led by healthy subscriber addition, ARPU growth and scale-up of digital services. Customer engagement on t…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": true,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 26",
+     "quantified_dropped: unit \"inr_crore\" is not stated next to 76560"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v1"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "quote_not_found",
+   "quote": "Value of Sales and Services 1,76,164 154,119 14.3%",
+   "page": 45
+  }
+ ],
+ "proposed": 25,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 28493,
+  "outputTokens": 4513,
+  "thoughtTokens": 0,
+  "totalTokens": 33006,
+  "latencyMs": 9519,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "annual-report-v1",
+ "rule": "first run of pages headed \"Management Discussion and Analysis\" (44-56), with 3 lead-in pages and 1 after",
+ "extractedAt": "2026-10-31T18:42:00.028Z",
+ "reverifiedAt": "2026-10-31T18:44:08.192Z"
+}

@@ -1,0 +1,255 @@
+{
+ "doc": {
+  "id": "RELIANCE:transcript:apr-2026",
+  "kind": "transcript",
+  "title": "Earnings call transcript, Apr 2026 (Q4 FY26)",
+  "label": "Apr 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971d8c86-397a-4780-b843-5a84d3006d0b.pdf",
+  "periodLabel": "Q4 FY26",
+  "periodEnd": "2026-03-31"
+ },
+ "facts": [
+  {
+   "id": "RELIANCE:transcript:apr-2026:p22:03c23c09",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Fuel retail",
+   "statement": "Management states that they will continue to supply products to the domestic market without any curtailments.",
+   "quote": "So, it is a kind of a view that we continue to supply products to domestic market we will not be making any curtailments there.",
+   "page": 22,
+   "speaker": {
+    "name": "Srinivas Tuttagunta",
+    "role": "management",
+    "designation": "COO - Refining & Marketing, Reliance Industries Limited",
+    "header": "Company Speaker (Srinivas Tuttagunta)"
+   },
+   "context": "…because they have 95% of the share. We have a lesser share and then if we just step away from a quarter to quarter, and look at long term. Probably this is a market which will continue with the fossil fuels for maybe a longer period, let us say than Europe or some other places, which will be there. So, it is a kind of a view that we continue to supply products to domestic market we will not be making any curtailments there. All right, Sir. Thanks for your time. Good evening. Thanks for the opportunity. My question is again on the refining side only. So, as you had indicated that in the month of March, in the Q4, we did see some volatility in terms of procurement, freight, and other factors. So how is the situation now…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p22:2069a2f3",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Refining",
+   "statement": "Management expects that refining will remain structurally reasonably strong due to tight market conditions and product availability apprehensions.",
+   "quote": "The way we would look at it is refining is tight. The market has apprehensions of availability of product. So, we think structurally it is likely to remain reasonably strong. I would tend to say that.",
+   "page": 22,
+   "speaker": {
+    "name": "Srinivas Tuttagunta",
+    "role": "management",
+    "designation": "COO - Refining & Marketing, Reliance Industries Limited",
+    "header": "Company Speaker (Srinivas Tuttagunta)"
+   },
+   "context": "…ody really knows what is going to happen. In a lighter vein, I do not know if I have to pray to God, maybe things will start improving but having said that, situation is slightly better, but it can just change. We are seeing that every day it changes. So, my guess is as good as anyone's guess here. The way we would look at it is refining is tight. The market has apprehensions of availability of product. So, we think structurally it is likely to remain reasonably strong. I would tend to say that. Thanks Sir, one more, if I may. What percentage of our production is impacted by SAED? See, I think the entire DTA refinery is exposed to the SAED. So, whenever SAED, like in the past SAED was introduced on gasoline, diesel, jet fuel and things like that. Like I mentioned, we are, most of the produ…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p26:8d91bfdd",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Retail",
+   "statement": "Management states that store square footage and number of stores will continue to increase.",
+   "quote": "But you should expect square footage to grow as well as number of stores to grow.",
+   "page": 26,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Company Speaker (Dinesh Taluja)"
+   },
+   "context": "…at is a regular exercise. But on net, net, you will continue to see store square footage of stores increasing. And you will also continue to see the productivity increasing. Mid single digit would be a good estimate for square footage growth? Again, I will not be able to comment on forward looking. But you should expect square footage to grow as well as number of stores to grow. Sure. Thank you so much. I have questions on Reliance Jio. So, the first question is, if I look at the JPL number ex of Jio, the EBITDA was somewhere between Rs. 800 Crores to Rs. 900 Crores a quarter, that has increased to almost Rs. 1300 Crores in this quarter. So, what is driving that increase? …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p27:0804a644",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Jio",
+   "statement": "Management states the Jio IPO is fairly imminent and they are working towards it.",
+   "quote": "On your second and third question on IPO, we have a statement in today's press release as well. It is fairly imminent. We are working towards it, and we will keep you posted.",
+   "page": 27,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "…uctured like that and that is leading to the margin expansion in digital services. Okay, but I mean so actually increase in EBITDA is more than increase in revenue? So, I think if you look at the consol JPL minus RJIL, we need to check. I do not think it is more than that. I will take that offline. On your second and third question on IPO, we have a statement in today's press release as well. It is fairly imminent. We are working towards it, and we will keep you posted. A lot of the work has been done. So, we will keep you posted in the coming days and on the third question around the AI data centers. So firstly, I would like to clarify that the AI data centers are not being done in Jio Platforms Limited. They are going to be part of the intelligence business, so …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p28:fc49513c",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Jio",
+   "statement": "Management expects digital services to grow faster due to starting from a smaller base.",
+   "quote": "That is expected to grow faster, just because it is growing off a smaller base, the percentage growth will be faster.",
+   "page": 28,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "… you will expect to see higher growth there. We are launching more services. We have spoken about our data center offering, Meghraj, where the scale of that customer update has picked up quite a bit. Our AI cloud offering plus some of the new products we have launched, plus our enterprise offering. That is expected to grow faster, just because it is growing off a smaller base, the percentage growth will be faster. Not to say that Jio or the connectivity piece will not grow, that will also continue to grow, but you expect digital services to grow faster. And on the second one, look, there is certain organic growth which we will expect both in realizations because people will continue to use more services. Peo…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p28:c2494621",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Jio",
+   "statement": "Management expects ARPU to increase even without tariff hikes through organic usage growth and plan upgrades.",
+   "quote": "So, you should expect some increase in the ARPU even without any tariff increases",
+   "page": 28,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "…ces to grow faster. And on the second one, look, there is certain organic growth which we will expect both in realizations because people will continue to use more services. People will tend to upgrade in the plans that they use and subscribe to some of the additional services that we are offering. So, you should expect some increase in the ARPU even without any tariff increases and we spoke about this 4% to 5 % kind of number that we have been observing over the last few quarters. That kind of growth happens even without any tariff increases. And then of course, the subscriber growth rate will be there. We do expect to continue to gain market share in the market. We have …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p28:e8a20c62",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": null,
+   "quote": "and we spoke about this 4% to 5 % kind of number that we have been observing over the last few quarters. That kind of growth happens even without any tariff increases.",
+   "page": 28,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "…hich we will expect both in realizations because people will continue to use more services. People will tend to upgrade in the plans that they use and subscribe to some of the additional services that we are offering. So, you should expect some increase in the ARPU even without any tariff increases and we spoke about this 4% to 5 % kind of number that we have been observing over the last few quarters. That kind of growth happens even without any tariff increases. And then of course, the subscriber growth rate will be there. We do expect to continue to gain market share in the market. We have a differentiated better offering with much better 5G than what the other operators have been able to establish. So, we do expect to gain market share in the market. I h…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term ARPU",
+     "quantified_dropped: comparator \"approx\" does not match the wording (\"range\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:apr-2026:p28:5cb4ffba",
+   "docId": "RELIANCE:transcript:apr-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Jio",
+   "statement": "Management expects to continue gaining market share in the market.",
+   "quote": "We do expect to continue to gain market share in the market.",
+   "page": 28,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "…ld expect some increase in the ARPU even without any tariff increases and we spoke about this 4% to 5 % kind of number that we have been observing over the last few quarters. That kind of growth happens even without any tariff increases. And then of course, the subscriber growth rate will be there. We do expect to continue to gain market share in the market. We have a differentiated better offering with much better 5G than what the other operators have been able to establish. So, we do expect to gain market share in the market. I have one question on the media business. So JioHotstar has five times the MAUs of Netflix. I mean, has it had a break even? …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  }
+ ],
+ "dropped": [],
+ "proposed": 8,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 7352,
+  "outputTokens": 853,
+  "thoughtTokens": 0,
+  "totalTokens": 8205,
+  "latencyMs": 2580,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "transcript-v4",
+ "section": "qa",
+ "extractedAt": "2026-10-31T18:51:50.174Z"
+}

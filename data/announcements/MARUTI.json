@@ -3,16 +3,16 @@
  "symbol": "MARUTI",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=MARUTI&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:12.522Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=MARUTI&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:04.560Z",
   "asOf": "2026-10-29T05:20:48.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 15,
+ "count": 13,
  "items": [
   {
    "id": "106833712",
@@ -398,67 +398,6 @@
     "evidence": {
      "source": "text",
      "phrase": "Investor Meet"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106804641",
-   "symbol": "MARUTI",
-   "company": "Maruti Suzuki India Limited",
-   "isin": "INE585B01010",
-   "nseDesc": "General Updates",
-   "text": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: September 2026",
-   "subject": "Maruti Suzuki Production Volume: September 2026",
-   "attachmentExcerpt": {
-    "page": 1,
-    "url": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
-    "extractedAt": "2026-10-31T16:42:49.074Z",
-    "status": "ok",
-    "text": "MSIL: COS: NSE&BSE:2026110 02 0l't October 2026 Vice President National Stock Exchange of India Limited o'Exchange Plaza\", Bandra- Kurla Complex Bandra (E), Mumbai - 400 051 MARUTI\\lSsuzurt General Manager Department of Corporate Services BSE Limited Phiroze Jeejeebhoy Towers Dalal Street, Mumbai - 400 001 Suh: Pmduction Sentember2026 Dear Sir(s), Please find enclosed herewith as Annexuro -\"A\", the production figures of the Company for the month of September 2026. Kindly take the same on record. Thanking You, Yours truly, ForMaruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary MARUTI SUZUKI INDIA LIMITED Registered and Head Ofice: Maruti Suanki lndia Limited, 1, Nelson Mandela Road, Vasant Kunj, Nent Delhi - 11d)70, lndia Tel: 011-46781000 Email ld : contact@naruti,co.in, www.marutlsuarkl.com CIN : 134103DL1981P1C011375"
-   },
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
-   "attachmentSize": "1.49 MB",
-   "announcedAt": "2026-10-01T08:04:01.000Z",
-   "announcedAtRaw": "01-Oct-2026 13:34:01",
-   "hasXbrl": true,
-   "classification": {
-    "category": "unclassified",
-    "categories": [
-     "unclassified"
-    ],
-    "rule": "none",
-    "confidence": "low",
-    "evidence": null,
-    "routine": false,
-    "needsReview": true
-   }
-  },
-  {
-   "id": "106804586",
-   "symbol": "MARUTI",
-   "company": "Maruti Suzuki India Limited",
-   "isin": "INE585B01010",
-   "nseDesc": "Press Release",
-   "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\".",
-   "subject": "a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\"",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026125916_Sales.pdf",
-   "attachmentSize": "1.47 MB",
-   "announcedAt": "2026-10-01T07:29:33.000Z",
-   "announcedAtRaw": "01-Oct-2026 12:59:33",
-   "hasXbrl": true,
-   "classification": {
-    "category": "press_release",
-    "categories": [
-     "press_release"
-    ],
-    "rule": "kw:press",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Press Release"
     },
     "routine": false,
     "needsReview": false

@@ -891,7 +891,7 @@
     },
     {
      "label": "Other Liabilities",
-     "key": null,
+     "key": "other_liabilities",
      "unit": "INR_crore",
      "values": [
       34181,
@@ -931,7 +931,7 @@
     },
     {
      "label": "Fixed Assets",
-     "key": null,
+     "key": "fixed_assets",
      "unit": "INR_crore",
      "values": [
       3225,
@@ -951,7 +951,7 @@
     },
     {
      "label": "CWIP",
-     "key": null,
+     "key": "cwip",
      "unit": "INR_crore",
      "values": [
       0,
@@ -971,7 +971,7 @@
     },
     {
      "label": "Investments",
-     "key": null,
+     "key": "investments",
      "unit": "INR_crore",
      "values": [
       149454,
@@ -991,7 +991,7 @@
     },
     {
      "label": "Other Assets",
-     "key": null,
+     "key": "other_assets",
      "unit": "INR_crore",
      "values": [
       454417,
@@ -1172,7 +1172,7 @@
     },
     {
      "label": "Net Cash Flow",
-     "key": null,
+     "key": "net_cash_flow",
      "unit": "INR_crore",
      "values": [
       -3387,

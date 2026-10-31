@@ -3,14 +3,14 @@
  "symbol": "KPITTECH",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=KPITTECH&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:51:00.212Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=KPITTECH&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:11.058Z",
   "asOf": "2026-10-31T12:55:33.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
  "count": 14,
  "items": [
@@ -103,6 +103,64 @@
    }
   },
   {
+   "id": "106831890",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Acquisition",
+   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+   "subject": null,
+   "attachmentExcerpt": null,
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:acquisition",
+    "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Acquisition"
+    },
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831891",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Sale or disposal",
+   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+   "subject": null,
+   "attachmentExcerpt": null,
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:sale or disposal",
+    "confidence": "high",
+    "evidence": {
+     "source": "label",
+     "phrase": "Sale or disposal"
+    },
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
    "id": "106831889",
    "symbol": "KPITTECH",
    "company": "KPIT Technologies Limited",
@@ -163,64 +221,6 @@
     "evidence": {
      "source": "pdf",
      "phrase": "audited Consolidated Financial Resu lts and Standalone Financial Resu lts for th"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106831890",
-   "symbol": "KPITTECH",
-   "company": "KPIT Technologies Limited",
-   "isin": "INE04I401011",
-   "nseDesc": "Acquisition",
-   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
-   "attachmentSize": "1.48 MB",
-   "announcedAt": "2026-10-28T07:58:05.000Z",
-   "announcedAtRaw": "28-Oct-2026 13:28:05",
-   "hasXbrl": true,
-   "classification": {
-    "category": "M&A",
-    "categories": [
-     "M&A"
-    ],
-    "rule": "desc:acquisition",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Acquisition"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106831891",
-   "symbol": "KPITTECH",
-   "company": "KPIT Technologies Limited",
-   "isin": "INE04I401011",
-   "nseDesc": "Sale or disposal",
-   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
-   "attachmentSize": "1.48 MB",
-   "announcedAt": "2026-10-28T07:58:05.000Z",
-   "announcedAtRaw": "28-Oct-2026 13:28:05",
-   "hasXbrl": true,
-   "classification": {
-    "category": "M&A",
-    "categories": [
-     "M&A"
-    ],
-    "rule": "desc:sale or disposal",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Sale or disposal"
     },
     "routine": false,
     "needsReview": false

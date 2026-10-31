@@ -3,16 +3,16 @@
  "symbol": "DIXON",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DIXON&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:48.113Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DIXON&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:09.391Z",
   "asOf": "2026-10-31T14:02:44.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 12,
+ "count": 11,
  "items": [
   {
    "id": "106838529",
@@ -350,35 +350,6 @@
     "evidence": {
      "source": "pdf",
      "phrase": "joint venture"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106804868",
-   "symbol": "DIXON",
-   "company": "Dixon Technologies (India) Limited",
-   "isin": "INE935N01012",
-   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
-   "text": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
-   "subject": "Outcome of Analyst/ Institutional Investors Meet",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_01102026155912_InvestorMeetOutcome01102026.pdf",
-   "attachmentSize": "620.37 KB",
-   "announcedAt": "2026-10-01T10:29:23.000Z",
-   "announcedAtRaw": "01-Oct-2026 15:59:23",
-   "hasXbrl": true,
-   "classification": {
-    "category": "investor_meetings",
-    "categories": [
-     "investor_meetings"
-    ],
-    "rule": "kw:investor-meet",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Investor Meet"
     },
     "routine": false,
     "needsReview": false

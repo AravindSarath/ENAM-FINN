@@ -3,16 +3,16 @@
  "symbol": "SUNPHARMA",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=SUNPHARMA&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:06.994Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=SUNPHARMA&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:03.749Z",
   "asOf": "2026-10-31T14:44:24.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 19,
+ "count": 17,
  "items": [
   {
    "id": "106838574",
@@ -515,64 +515,6 @@
     },
     "routine": true,
     "routineRule": "routine:newspaper",
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805399",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "isin": "INE044A01028",
-   "nseDesc": "Shareholders meeting",
-   "text": "Notice of Postal Ballot October 2026",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNSEC_01102026184724_SEintimationfornoticeofpostalballot.pdf",
-   "attachmentSize": "654.38 KB",
-   "announcedAt": "2026-10-01T13:21:31.000Z",
-   "announcedAtRaw": "01-Oct-2026 18:51:31",
-   "hasXbrl": true,
-   "classification": {
-    "category": "postal_ballot",
-    "categories": [
-     "postal_ballot"
-    ],
-    "rule": "kw:postal-ballot",
-    "confidence": "medium",
-    "evidence": {
-     "source": "text",
-     "phrase": "Postal Ballot"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805144",
-   "symbol": "SUNPHARMA",
-   "company": "Sun Pharmaceutical Industries Limited",
-   "isin": "INE044A01028",
-   "nseDesc": "Press Release",
-   "text": "Sun Pharmaceutical Industries Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"New LEQSELVI® (deuruxolitinib) Two-YearData in Severe Alopecia Areata Showed Sustained Efficacy and Safety at EADV Congress 2026\".",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUNPHARMA123_01102026174411_SEIntimationPR_1Oct2026.pdf",
-   "attachmentSize": "525.33 KB",
-   "announcedAt": "2026-10-01T12:17:03.000Z",
-   "announcedAtRaw": "01-Oct-2026 17:47:03",
-   "hasXbrl": true,
-   "classification": {
-    "category": "press_release",
-    "categories": [
-     "press_release"
-    ],
-    "rule": "kw:press",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Press Release"
-    },
-    "routine": false,
     "needsReview": false
    }
   }

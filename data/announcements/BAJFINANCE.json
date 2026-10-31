@@ -3,16 +3,16 @@
  "symbol": "BAJFINANCE",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=BAJFINANCE&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:36.838Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=BAJFINANCE&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:07.858Z",
   "asOf": "2026-10-30T09:23:37.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 20,
+ "count": 17,
  "items": [
   {
    "id": "106836343",
@@ -512,93 +512,6 @@
     "evidence": {
      "source": "text",
      "phrase": "Prohibition of Insider Trading"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805792",
-   "symbol": "BAJFINANCE",
-   "company": "Bajaj Finance Limited",
-   "isin": "INE296A01016",
-   "nseDesc": "Qualified Institutional Placement",
-   "text": "Bajaj Finance Limited has informed the Exchange about qualified Institutional Placement",
-   "subject": "qualified Institutional Placement",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232348_Outcome_post_SE_Intimation_01102026_Final.pdf",
-   "attachmentSize": "272.01 KB",
-   "announcedAt": "2026-10-01T17:54:08.000Z",
-   "announcedAtRaw": "01-Oct-2026 23:24:08",
-   "hasXbrl": true,
-   "classification": {
-    "category": "fund_raise",
-    "categories": [
-     "fund_raise"
-    ],
-    "rule": "desc:qualified institutional placement",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Qualified Institutional Placement"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805791",
-   "symbol": "BAJFINANCE",
-   "company": "Bajaj Finance Limited",
-   "isin": "INE296A01016",
-   "nseDesc": "Preferential issue",
-   "text": "Bajaj Finance Limited has informed the Exchange about Preferential issue",
-   "subject": "Preferential issue",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026232111_Outcome_post_SE_Intimation_01102026_Final.pdf",
-   "attachmentSize": "272.01 KB",
-   "announcedAt": "2026-10-01T17:51:29.000Z",
-   "announcedAtRaw": "01-Oct-2026 23:21:29",
-   "hasXbrl": true,
-   "classification": {
-    "category": "fund_raise",
-    "categories": [
-     "fund_raise"
-    ],
-    "rule": "desc:preferential issue",
-    "confidence": "high",
-    "evidence": {
-     "source": "label",
-     "phrase": "Preferential issue"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805785",
-   "symbol": "BAJFINANCE",
-   "company": "Bajaj Finance Limited",
-   "isin": "INE296A01016",
-   "nseDesc": "Outcome of Board Meeting",
-   "text": "Bajaj Finance Limited has informed the Exchange regarding Outcome of Board Meeting held on October 01, 2026 - Capital raise through QIP and Preferential Issue.",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/BAJFINANCE_01102026231622_Outcome_post_SE_Intimation_01102026_Final.pdf",
-   "attachmentSize": "272.01 KB",
-   "announcedAt": "2026-10-01T17:47:02.000Z",
-   "announcedAtRaw": "01-Oct-2026 23:17:02",
-   "hasXbrl": true,
-   "classification": {
-    "category": "fund_raise",
-    "categories": [
-     "fund_raise"
-    ],
-    "rule": "kw:fund-raise",
-    "confidence": "medium",
-    "evidence": {
-     "source": "text",
-     "phrase": "QIP"
     },
     "routine": false,
     "needsReview": false

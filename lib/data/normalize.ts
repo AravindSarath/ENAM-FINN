@@ -87,6 +87,18 @@ export function rowKey(label: string): string | null {
     "cash from investing activity": "cfi",
     "cash from financing activity": "cff",
     "free cash flow": "fcf",
+    "net cash flow": "net_cash_flow",
+    "other liabilities": "other_liabilities",
+    "fixed assets": "fixed_assets",
+    cwip: "cwip",
+    investments: "investments",
+    "other assets": "other_assets",
+    "debtor days": "debtor_days",
+    "inventory days": "inventory_days",
+    "days payable": "days_payable",
+    "cash conversion cycle": "cash_conversion_cycle",
+    "working capital days": "working_capital_days",
+    "roce %": "roce_pct",
   };
   return map[l] ?? null;
 }
@@ -95,7 +107,7 @@ export function rowUnit(label: string): "INR_crore" | "INR" | "percent" | "ratio
   const l = label.toLowerCase();
   if (l.includes("%")) return "percent";
   if (l.startsWith("eps")) return "INR";
-  if (l.includes("days")) return "days";
+  if (l.includes("days") || l.includes("cycle")) return "days";
   if (l.includes("ratio") || l === "roce %") return "ratio";
   return "INR_crore";
 }

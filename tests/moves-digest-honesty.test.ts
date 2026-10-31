@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { buildDigest } from "../lib/data/digest";
 import { moveFacts, moveStats, stdev } from "../lib/data/moves";
 import type { PriceBar } from "../lib/data/types";
+import { loadAnnouncements, loadUniverse } from "../lib/data/load";
 import { loadBrief } from "../lib/data/view";
 import { parseTriage } from "../lib/triage";
 import type { FeedItem } from "../lib/types";
@@ -161,7 +162,10 @@ describe("noise statistics on the real feed", () => {
 
   it("every filing is represented exactly once across cards and their related lists", () => {
     const filings = real.filter((f) => f.kind !== "move").reduce((s, f) => s + 1 + (f.related?.length ?? 0), 0);
-    expect(filings).toBe(257); // 18 portfolio companies; the 4 research tickers have no feed
+    // Every filing of the 18 portfolio companies, read straight from the snapshots (the 4 research tickers have no feed).
+    const portfolio = new Set(loadUniverse().filter((u) => u.group === "portfolio").map((u) => u.symbol));
+    const expected = [...portfolio].reduce((s, sym) => s + (loadAnnouncements(sym)?.items.length ?? 0), 0);
+    expect(filings).toBe(expected);
   });
 
   it("has far fewer Act cards than raw filings", () => {

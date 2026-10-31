@@ -1,0 +1,887 @@
+{
+ "doc": {
+  "id": "RELIANCE:transcript:jan-2026",
+  "kind": "transcript",
+  "title": "Earnings call transcript, Jan 2026 (Q3 FY26)",
+  "label": "Jan 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
+  "periodLabel": "Q3 FY26",
+  "periodEnd": "2025-12-31"
+ },
+ "facts": [
+  {
+   "id": "RELIANCE:transcript:jan-2026:p3:1206bc61",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail revenue growth was 8% and overall EBITDA growth was 1.3%.",
+   "quote": "And on the retail side, revenue growth has been about 8%, and overall EBITDA growth has been 1.3%",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "… open it up for individual businesses. So, starting from the consumer businesses side, customer addition strong at about 9 million, taking the total to about 515 million customers. Very good traction on the home side with about 25 million that we have. And we saw a significant margin expansion too. And on the retail side, revenue growth has been about 8%, and overall EBITDA growth has been 1.3% and we will go through what has been unique in this particular quarter. Overall store count at close to 20,000 stores and having added about 430 stores. We will talk through in that presentation about how the quick commerce is progressing. And as one of the important data points is the fact that we…",
+   "quantified": {
+    "metric": "segment_revenue_growth_yoy",
+    "direction": "increase",
+    "value": 8,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": "approx",
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p3:e14178e5",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail overall EBITDA growth was 1.3%.",
+   "quote": "and overall EBITDA growth has been 1.3% and we will go through what has been unique in this particular quarter.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…he consumer businesses side, customer addition strong at about 9 million, taking the total to about 515 million customers. Very good traction on the home side with about 25 million that we have. And we saw a significant margin expansion too. And on the retail side, revenue growth has been about 8%, and overall EBITDA growth has been 1.3% and we will go through what has been unique in this particular quarter. Overall store count at close to 20,000 stores and having added about 430 stores. We will talk through in that presentation about how the quick commerce is progressing. And as one of the important data points is the fact that we have now 1.6 million orders run rate that is what we are doing, and ver…",
+   "quantified": {
+    "metric": "segment_ebitda_growth_yoy",
+    "direction": "increase",
+    "value": 1.3,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p3:01b2c9f4",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "FMCG",
+   "statement": null,
+   "quote": "And we are at more than 5,000 Crores of turnover, and this is 60% up on a year-on-year basis.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…t presentation about how the quick commerce is progressing. And as one of the important data points is the fact that we have now 1.6 million orders run rate that is what we are doing, and very much on track to be the second largest QC player. On the FMCG side, the demerger happened on 1st December. And we are at more than 5,000 Crores of turnover, and this is 60% up on a year-on-year basis. A lot of purchases of brands that we have, which we will talk through in those slides. Media continues to do exceptionally well, and even though it was not the sports season and MAUs at about 450 million. On the energy business side, strong growth, 15% and you saw the, of course, we saw that the de…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term FMCG",
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p3:4e6925e1",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Consolidated revenue is up 10%.",
+   "quote": "Revenue is up 10%, EBITDA up about 6%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…as oil and gasoline. And the EBITDA on E&P was lower on the back of lower volumes and a bit on the price side. And on the new energy side, Karan will take us through the progress that we are making in terms of getting to the 10-gigawatts of integrated solar chain. These are the results on a glance. Revenue is up 10%, EBITDA up about 6%. And overall, PAT at 22,290 crores, which was also up about 1.6%. So again, a strong growth. Revenue has been obviously led by digital services, to some extent retail, EBITDA fundamentally driven by strong O2C performance, 15% higher. Digital service up 16%. And consol profit was muted because of hi…",
+   "quantified": {
+    "metric": "revenue_growth_yoy",
+    "direction": "increase",
+    "value": 10,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p3:e335cbeb",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Consolidated PAT is at 22,290 crores, up about 1.6%.",
+   "quote": "And overall, PAT at 22,290 crores, which was also up about 1.6%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…E&P was lower on the back of lower volumes and a bit on the price side. And on the new energy side, Karan will take us through the progress that we are making in terms of getting to the 10-gigawatts of integrated solar chain. These are the results on a glance. Revenue is up 10%, EBITDA up about 6%. And overall, PAT at 22,290 crores, which was also up about 1.6%. So again, a strong growth. Revenue has been obviously led by digital services, to some extent retail, EBITDA fundamentally driven by strong O2C performance, 15% higher. Digital service up 16%. And consol profit was muted because of higher finance and depreciation, Jio depreciation with capitalizati…",
+   "quantified": {
+    "metric": "pat_growth_yoy",
+    "direction": "increase",
+    "value": 1.6,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": "approx",
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p4:db94e53e",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Nine-month revenue shows a 9% growth.",
+   "quote": "A 9% growth in revenues, and when you now see the EBITDA, it is up 18% on a nine-month equivalent basis and PAT 28%.",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…de and others have been lower because last time same time we had very strong performance on treasury side so that is where you see the reduction on a year-on-year basis. And I just thought I will put the context of the nine months so that we can see the performance for the nine months that went by. A 9% growth in revenues, and when you now see the EBITDA, it is up 18% on a nine-month equivalent basis and PAT 28%. Even if you back out the exceptional, it is up between 13% and 14%. And even the individual segments, when you see business-wise, O2C up 15% on a nine-month basis. E&P, slightly lower, digital services up 18%, and retail close to 10%. And balance sheet remains fairly steady. You can see there is no…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p4:560a21ed",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Nine-month EBITDA is up 18%.",
+   "quote": "and when you now see the EBITDA, it is up 18% on a nine-month equivalent basis and PAT 28%.",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:03 - 00:06:06 (Group Performance)"
+   },
+   "context": "…ower because last time same time we had very strong performance on treasury side so that is where you see the reduction on a year-on-year basis. And I just thought I will put the context of the nine months so that we can see the performance for the nine months that went by. A 9% growth in revenues, and when you now see the EBITDA, it is up 18% on a nine-month equivalent basis and PAT 28%. Even if you back out the exceptional, it is up between 13% and 14%. And even the individual segments, when you see business-wise, O2C up 15% on a nine-month basis. E&P, slightly lower, digital services up 18%, and retail close to 10%. And balance sheet remains fairly steady. You can see there is no…",
+   "quantified": {
+    "metric": "ebitda_growth_yoy",
+    "direction": "increase",
+    "value": 18,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "context"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p5:609bc6b4",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio ended the quarter with 515 million plus subscribers and 8.9 million net adds.",
+   "quote": "we ended the quarter with 515 million plus subscribers, 8.9 million net adds during the quarter.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…scale these up. And we have now proven them at scale and on cost, which is where we see a lot of both organic efficiencies coming in as well as opportunities for us to really use these technologies beyond just the Jio network and Jio companies. Getting on to some of the key numbers for the quarter, we ended the quarter with 515 million plus subscribers, 8.9 million net adds during the quarter. We continue to have very healthy growth rate on subscriber additions. 5G user base has been growing very rapidly and quite well, 253 million plus 5G subscribers as well on our network. Homes, we continue to add almost a million homes every month. In fact, more than a million homes every month over …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p5:4f04a051",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio has 253 million plus 5G subscribers.",
+   "quote": "5G user base has been growing very rapidly and quite well, 253 million plus 5G subscribers as well on our network.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "… really use these technologies beyond just the Jio network and Jio companies. Getting on to some of the key numbers for the quarter, we ended the quarter with 515 million plus subscribers, 8.9 million net adds during the quarter. We continue to have very healthy growth rate on subscriber additions. 5G user base has been growing very rapidly and quite well, 253 million plus 5G subscribers as well on our network. Homes, we continue to add almost a million homes every month. In fact, more than a million homes every month over the last seven months. Now we maintain that run rate, 25 million plus fixed broadband connects, and 11.5 million JioAirFiber homes. So, these are homes where we are using our own propri…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p5:4ef24a22",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio has 25 million plus fixed broadband connects.",
+   "quote": "Now we maintain that run rate, 25 million plus fixed broadband connects, and 11.5 million JioAirFiber homes.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…ry healthy growth rate on subscriber additions. 5G user base has been growing very rapidly and quite well, 253 million plus 5G subscribers as well on our network. Homes, we continue to add almost a million homes every month. In fact, more than a million homes every month over the last seven months. Now we maintain that run rate, 25 million plus fixed broadband connects, and 11.5 million JioAirFiber homes. So, these are homes where we are using our own proprietary technology, as well as our 5G network, the 5G based FWA technology to connect these homes. And bulk of the connections are now really happening through these wireless technologies in the last mile. Revenues crossed 37,000 Crores during the …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p5:37071a4e",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio revenues crossed 37,000 Crores during the quarter with a 52% EBITDA margin.",
+   "quote": "Revenues crossed 37,000 Crores during the quarter, and with a fairly healthy EBITDA margin of 52%, and broadband subscriber share of over 50% in the country.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…nects, and 11.5 million JioAirFiber homes. So, these are homes where we are using our own proprietary technology, as well as our 5G network, the 5G based FWA technology to connect these homes. And bulk of the connections are now really happening through these wireless technologies in the last mile. Revenues crossed 37,000 Crores during the quarter, and with a fairly healthy EBITDA margin of 52%, and broadband subscriber share of over 50% in the country. So, mobility, we continue to get market share. The 5G deployment, the 5G expansion across the country is helping us win more customers. We have 65% share of 5G subscribers in India. And if you look at the chart on the right, the growth rate has been quite tremendous. Every quarter, we are getting a…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p6:545b7263",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio has 65% share of 5G subscribers in India.",
+   "quote": "We have 65% share of 5G subscribers in India.",
+   "page": 6,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…mile. Revenues crossed 37,000 Crores during the quarter, and with a fairly healthy EBITDA margin of 52%, and broadband subscriber share of over 50% in the country. So, mobility, we continue to get market share. The 5G deployment, the 5G expansion across the country is helping us win more customers. We have 65% share of 5G subscribers in India. And if you look at the chart on the right, the growth rate has been quite tremendous. Every quarter, we are getting around 20 to 25 million consumers who are converting to 5G or coming into our networks to avail our 5G services, more than 50%. So, 53% of our traffic on the network has now moved to …",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 65,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p6:637dbdd3",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "53% of Jio's traffic on the network has moved to 5G.",
+   "quote": "So, 53% of our traffic on the network has now moved to 5G.",
+   "page": 6,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…ustomers. We have 65% share of 5G subscribers in India. And if you look at the chart on the right, the growth rate has been quite tremendous. Every quarter, we are getting around 20 to 25 million consumers who are converting to 5G or coming into our networks to avail our 5G services, more than 50%. So, 53% of our traffic on the network has now moved to 5G. And that has eased a lot of pressure on our 4G network, created more capacity for more customers, improved the customer experience. In fact, one of the things that is not included in a slide in this deck is the Ookla ratings which came in earlier today where they rated us as the best network on pre…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 53,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p6:abaf5b41",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio gained over 800 basis point market share in homes in the last 12 months.",
+   "quote": "We have gained over 800 basis point market share in the last 12 months.",
+   "page": 6,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…consumers and there is a very good value share arrangement as well between us. So, it is a win-win for both of us. Homes, I spoke about, we continue with our early growth trends on adding new homes and we are doing this across multiple technologies, fiber, fixed wireless 5G, and fixed wireless UBR. We have gained over 800 basis point market share in the last 12 months. And that rate, if anything, is only picking up. We have crossed 25 million home broadband subscribers. Now 70% of the incremental fixed broadband subscriber addition is happening through the Jio network. And then, if you see at the end, very importantly, most of these new connections are now happen…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 800,
+    "valueHigh": null,
+    "unit": "bps",
+    "comparator": "at_least",
+    "period": null,
+    "horizon": "last 12 months",
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p8:014a73fd",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio customer base reached 515.3 million at the end of the quarter.",
+   "quote": "customer base 515.3 million at the end of the quarter.",
+   "page": 8,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…PN kind of service on the network. So, it is secured on the network. Now these are some of the differentiated things that we are doing, and which are becoming more popular with enterprise customers, and we are seeing good traction with these. With that I will come to the operating numbers for RJIL- customer base 515.3 million at the end of the quarter. So fairly healthy subscriber addition and that pace continues to be quite good. Net customer addition of 8.9 million. The VLR customer addition, again as some of you like it, would be higher. ARPUs at 213.7. So, improvement in ARPU. There is no impact of tariff increase in any of this. So, this is …",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 515.3,
+    "valueHigh": null,
+    "unit": "other",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p8:5ef768a6",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": null,
+   "quote": "ARPUs at 213.7.",
+   "page": 8,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "… that I will come to the operating numbers for RJIL- customer base 515.3 million at the end of the quarter. So fairly healthy subscriber addition and that pace continues to be quite good. Net customer addition of 8.9 million. The VLR customer addition, again as some of you like it, would be higher. ARPUs at 213.7. So, improvement in ARPU. There is no impact of tariff increase in any of this. So, this is just organic ARPU increase based on more offerings that we are giving to customers, the change in the customer mix, the change in the tariff plans. So completely driven by organic means, only no tariff increa…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 213.7,
+    "valueHigh": null,
+    "unit": "other",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term ARPU"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p8:9277c993",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": null,
+   "quote": "11.8% increase in operating revenues year-on-year and 16.5% increase in EBITDA to 18,408 Crores, 56.2% EBITDA margin.",
+   "page": 8,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "… But this is being caused also because of the transition to faster networks and more use cases that people are finding. The churn is coming down, which would be expected given the quality of network and service that we are providing to our customers. Financial results for RJIL good healthy increase 11.8% increase in operating revenues year-on-year and 16.5% increase in EBITDA to 18,408 Crores, 56.2% EBITDA margin. The operating leverage, of course, we have spoken about that in the past and that you see happening every quarter. And as we monetize our assets more, as we monetize our network more, these numbers should see the right trend. JPL consolidated financials for the quarter ended. We reported operating …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term RJIL",
+     "quantified_dropped: metric segment_revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p8:80876338",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": null,
+   "quote": "We reported operating revenues of 37,262 Crores, that is 12.7% year-on-year increase.",
+   "page": 8,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:06:08 - 00:20:37 (Jio Platforms)"
+   },
+   "context": "…, 56.2% EBITDA margin. The operating leverage, of course, we have spoken about that in the past and that you see happening every quarter. And as we monetize our assets more, as we monetize our network more, these numbers should see the right trend. JPL consolidated financials for the quarter ended. We reported operating revenues of 37,262 Crores, that is 12.7% year-on-year increase. EBITDA of 19,303 Crores and consol EBITDA margin at 51.8%. So, we saw a fairly healthy growth in digital services revenues as well and margin expansion primarily coming out of the connectivity business. Profit after tax grew to 7629 Crores for the quarter. I will handover to Dinesh now to cover the…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term JPL",
+     "quantified_dropped: metric segment_revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p9:f17a24c1",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Reliance Retail had the highest ever revenue at 97,600 Crores, up 8.1%.",
+   "quote": "In the retail business, this quarter we had the highest ever revenue at 97,600 Crores. The revenue was up 8.1%.",
+   "page": 9,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Sh Dinesh Taluja 00:20:40 - 00:31:12 (Reliance Retail)"
+   },
+   "context": "… services revenues as well and margin expansion primarily coming out of the connectivity business. Profit after tax grew to 7629 Crores for the quarter. I will handover to Dinesh now to cover the results for the retail business. I will come back at the end to take questions. Good evening, everyone. In the retail business, this quarter we had the highest ever revenue at 97,600 Crores. The revenue was up 8.1%. There are a few things which are factored in here. There was a GST rate rationalization, which kicked in on 22nd September. Festive demand, this time the festival season was split between Q2 and Q3, whereas last year the entire festival season was in Q3. So, if you remember, we had a very strong Q2…",
+   "quantified": {
+    "metric": "segment_revenue_growth_yoy",
+    "direction": "increase",
+    "value": 8.1,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p9:c4e6a8a6",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail EBITDA came in at 6,915 Crores with an 8% margin.",
+   "quote": "EBITDA came in at 6,915 Crores. The margin stands at 8%.",
+   "page": 9,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Sh Dinesh Taluja 00:20:40 - 00:31:12 (Reliance Retail)"
+   },
+   "context": "…Q3. So, if you remember, we had a very strong Q2 growth. Some of the sales, which was built in Q3 last year was in Q2. And then the third part is the RCPL demerger, which was effective during the quarter. So RCPL's entire revenue was included in Q2. Now that revenue has gone out of retail business. EBITDA came in at 6,915 Crores. The margin stands at 8%. There are three specific factors impacting margin. One is the festive offers and promotions that we did during the quarter to drive sales. The second is the investments in the hyperlocal commerce business where we are growing pretty rapidly. And then there is a one-time impact of the new labour cod…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: company-wide metric operating_margin used for scope \"Retail\""
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p10:cd84e1a6",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Ajio average order value is up 21% on a year-on-year basis.",
+   "quote": "Our average value, which has been the focus for us, it is up 21% on a Y-O-Y basis.",
+   "page": 10,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Sh Dinesh Taluja 00:20:40 - 00:31:12 (Reliance Retail)"
+   },
+   "context": "…ultiple categories of whether Western women wear, ethnic wear, party wear. We are launching new products in multiple of these categories to strengthen our position and using celebrity-led positioning to reach out to the target customer base. Our digital fashion business, Ajio, continues to do well. Our average value, which has been the focus for us, it is up 21% on a Y-O-Y basis. So, the bill values are amongst the highest in the industry. We continue to expand our catalog. We have over 2.8 million options which are live on the platform. More than half a million options have just been added in the last 12 months itself. Ajio Rush, which is our, effectively equivalent of a q…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 21,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p11:6a4c44d9",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Reliance Jewels average bill values are up 73%.",
+   "quote": "The average bill values are up 73% and that has primarily been driven by the gold price increase.",
+   "page": 11,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Sh Dinesh Taluja 00:20:40 - 00:31:12 (Reliance Retail)"
+   },
+   "context": "…e we are partnering with the brands and reaching out to customers in new ways. In the jewels business, the gold prices have gone up substantially, which is reflecting in the strong growth across the industry players are seeing pretty rapid growth. We also had a pretty strong growth in the business. The average bill values are up 73% and that has primarily been driven by the gold price increase. We had the best ever Dhanteras with 21% LFL growth. While people are using old gold as an exchange of medium, so that has gone up from 21% to 29%. But still, just given the sharp increase in gold prices and average value, the cash investment per bill is also significantly high. But in order to use …",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 73,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jan-2026:p12:0a373b69",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "FMCG",
+   "statement": null,
+   "quote": "We continue our momentum for this quarter; we added 5,000 Crores as revenue. And our YTD numbers stand at 15,000 Crores.",
+   "page": 12,
+   "speaker": {
+    "name": "Ketan Mody",
+    "role": "management",
+    "designation": "Executive Director, Reliance Consumer Products",
+    "header": "Sh Ketan Mody 00:31:17 - 00:36:49 (FMCG)"
+   },
+   "context": "…he country, the focus is on more on increasing the depth of engagement and increasing the wallet share in this base, which is what is driving the growth of this business. I now invite Ketan to cover the FMCG business. Good evening. So RCPL became the direct subsidiary of RIL from 1st December 2025. We continue our momentum for this quarter; we added 5,000 Crores as revenue. And our YTD numbers stand at 15,000 Crores. Our important category is daily essentials, where we have grown 1.5 times on year-on-year basis. And our Independence brand has crossed 1,500. We continue to gain momentum in beverages, where we continue to have double-digit shares in key markets. Our energy portfolio has been growing very strong, …",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 5000,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term RCPL"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "duplicate",
+   "quote": "Revenue is up 10%, EBITDA up about 6%.",
+   "page": 3
+  },
+  {
+   "reason": "duplicate",
+   "quote": "and when you now see the EBITDA, it is up 18% on a nine-month equivalent basis and PAT 28%.",
+   "page": 4
+  },
+  {
+   "reason": "duplicate",
+   "quote": "Now we maintain that run rate, 25 million plus fixed broadband connects, and 11.5 million JioAirFiber homes.",
+   "page": 5
+  },
+  {
+   "reason": "duplicate",
+   "quote": "Revenues crossed 37,000 Crores during the quarter, and with a fairly healthy EBITDA margin of 52%, and broadband subscriber share of over 50% in the country.",
+   "page": 5
+  },
+  {
+   "reason": "duplicate",
+   "quote": "Revenues crossed 37,000 Crores during the quarter, and with a fairly healthy EBITDA margin of 52%, and broadband subscriber share of over 50% in the country.",
+   "page": 5
+  },
+  {
+   "reason": "duplicate",
+   "quote": "11.8% increase in operating revenues year-on-year and 16.5% increase in EBITDA to 18,408 Crores, 56.2% EBITDA margin.",
+   "page": 8
+  },
+  {
+   "reason": "duplicate",
+   "quote": "11.8% increase in operating revenues year-on-year and 16.5% increase in EBITDA to 18,408 Crores, 56.2% EBITDA margin.",
+   "page": 8
+  }
+ ],
+ "proposed": 30,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 17629,
+  "outputTokens": 4976,
+  "thoughtTokens": 0,
+  "totalTokens": 22605,
+  "latencyMs": 10497,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "transcript-v4",
+ "section": "presentation",
+ "extractedAt": "2026-10-31T18:52:04.202Z"
+}

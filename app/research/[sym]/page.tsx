@@ -2,6 +2,7 @@ import Dossier from "@/components/Dossier";
 import { buildDossierView } from "@/lib/data/dossier";
 import { loadFilingFacts, loadFundamentals, loadUniverse } from "@/lib/data/load";
 import { pctChange } from "@/lib/data/derive";
+import { loadDossier, toClient } from "@/lib/research/load";
 
 export default async function DossierPage(props: PageProps<"/research/[sym]">) {
   const { sym } = await props.params;
@@ -15,5 +16,7 @@ export default async function DossierPage(props: PageProps<"/research/[sym]">) {
   const facts = u ? loadFilingFacts(clean) : null;
   const reportedRevYoY = facts ? pctChange(facts.revenueFromOperations[0], facts.revenueFromOperations[2]) : null;
 
-  return <Dossier key={clean} reportedRevYoY={reportedRevYoY} sym={clean} from={typeof from === "string" ? from.slice(0, 160) : undefined} view={view} />;
+  const research = u ? loadDossier(clean) : null;
+
+  return <Dossier key={clean} reportedRevYoY={reportedRevYoY} research={research ? toClient(research) : null} sym={clean} from={typeof from === "string" ? from.slice(0, 160) : undefined} view={view} />;
 }

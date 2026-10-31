@@ -1,0 +1,67 @@
+{
+ "doc": {
+  "id": "RELIANCE:transcript:jan-2026",
+  "kind": "transcript",
+  "title": "Earnings call transcript, Jan 2026 (Q3 FY26)",
+  "label": "Jan 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26290395-526a-441f-a347-c8ac12e4adf3.pdf",
+  "periodLabel": "Q3 FY26",
+  "periodEnd": "2025-12-31"
+ },
+ "facts": [
+  {
+   "id": "RELIANCE:transcript:jan-2026:p32:584d605b",
+   "docId": "RELIANCE:transcript:jan-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Retail",
+   "statement": "Dinesh Taluja states that dark stores are still less than 30% of the total store count.",
+   "quote": "number of dark stores we have about 800 as of now, the total store count I mentioned that is there on the network is about 3000, so dark stores is still less than 30% of the total store count",
+   "page": 32,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Corporate Development, Reliance Retail",
+    "header": "Company Speaker (Dinesh Taluja)"
+   },
+   "context": "…vice through your network? That is right. Lastly, in quick Commerce what is the dark store count now and other players have raised cash and are heavily discounting so how are you managing to get to contribution breakeven because even the number two player is right now not contribution breakeven? So number of dark stores we have about 800 as of now, the total store count I mentioned that is there on the network is about 3000, so dark stores is still less than 30% of the total store count and my bigger store the order contribution is much higher because dark stores are typically smaller in size. I would not be able to comment on the other players, but remember that we have pretty good margins, we have a pretty large grocery business, we are one of the largest vendors for most of the…",
+   "quantified": {
+    "metric": "other",
+    "direction": null,
+    "value": 30,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": "at_most",
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  }
+ ],
+ "dropped": [],
+ "proposed": 1,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 7975,
+  "outputTokens": 205,
+  "thoughtTokens": 0,
+  "totalTokens": 8180,
+  "latencyMs": 1400,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "transcript-v4",
+ "section": "qa",
+ "extractedAt": "2026-10-31T18:52:08.228Z"
+}

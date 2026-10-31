@@ -3,16 +3,16 @@
  "symbol": "RELIANCE",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:41:29.657Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:41:59.740Z",
   "asOf": "2026-10-31T12:04:03.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 18,
+ "count": 17,
  "items": [
   {
    "id": "106838338",
@@ -525,35 +525,6 @@
     "evidence": {
      "source": "label",
      "phrase": "Action(s) taken or orders passed"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106804744",
-   "symbol": "RELIANCE",
-   "company": "Reliance Industries Limited",
-   "isin": "INE002A01018",
-   "nseDesc": "Allotment of Securities",
-   "text": "We wish to inform that the Company has today allotted 13,00,000 Unsecured, Redeemable, Non-Convertible Debentures (\"NCDs\") of the face value of Rs. 1,00,000 each (\"PPD Series R\"), issued on private placement basis.",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_01102026150203_SE_01102026.pdf",
-   "attachmentSize": "270.27 KB",
-   "announcedAt": "2026-10-01T09:32:20.000Z",
-   "announcedAtRaw": "01-Oct-2026 15:02:20",
-   "hasXbrl": true,
-   "classification": {
-    "category": "fund_raise",
-    "categories": [
-     "fund_raise"
-    ],
-    "rule": "kw:fund-raise",
-    "confidence": "medium",
-    "evidence": {
-     "source": "text",
-     "phrase": "Non-Convertible Debentures"
     },
     "routine": false,
     "needsReview": false

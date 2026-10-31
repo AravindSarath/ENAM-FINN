@@ -1,0 +1,211 @@
+{
+ "topic": "auditor",
+ "pages": [
+  91,
+  92,
+  133,
+  134,
+  135,
+  137
+ ],
+ "facts": [
+  {
+   "id": "RELIANCE:annual_report:FY26:p91:5b127d42",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Standalone",
+   "statement": "Litigation matters is identified as a key audit matter in the standalone audit report.",
+   "quote": "Due to complexity involved in these litigation matters, management's judgement regarding recognition, measurement and disclosure of provisions for these legal proceedings is inherently uncertain and might change over time as the outcomes of the legal cases are determined. Accordingly, it has been considered as a key audit matter.",
+   "page": 91,
+   "speaker": null,
+   "context": "…nnection with trades by the Company in the stock exchanges in 2007 in the shares of Reliance Petroleum Limited, then subsidiary of the Company, against which an appeal has been filed with the Hon'ble Supreme Court of India which is pending. Refer Note 35 (IV) to the Standalone Financial Statements. Due to complexity involved in these litigation matters, management's judgement regarding recognition, measurement and disclosure of provisions for these legal proceedings is inherently uncertain and might change over time as the outcomes of the legal cases are determined. Accordingly, it has been considered as a key audit matter. • Assessed the objectivity and competence of the Company's legal counsel involved in the process. • Reviewed the disclosures made by the Company in the Standalone Financial Statements. • Obtained Management representation letter on the assessment of these matters. 2. Fair Valuation of Investments A…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p91:2a8fb67b",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Standalone",
+   "statement": "Fair valuation of investments in preference shares of Jio Digital Fibre Private Limited is a key audit matter.",
+   "quote": "As at 31st March, 2026, the Company has investments of H 77,852 crore in Preference Shares of Jio Digital Fibre Private Limited ('JDFPL') which are measured at fair value as per Ind AS 109 read with Ind AS 113.",
+   "page": 91,
+   "speaker": null,
+   "context": "…. • Assessed the objectivity and competence of the Company's legal counsel involved in the process. • Reviewed the disclosures made by the Company in the Standalone Financial Statements. • Obtained Management representation letter on the assessment of these matters. 2. Fair Valuation of Investments As at 31st March, 2026, the Company has investments of H 77,852 crore in Preference Shares of Jio Digital Fibre Private Limited ('JDFPL') which are measured at fair value as per Ind AS 109 read with Ind AS 113. These investments are Level 3 investments as per the fair value hierarchy in Ind AS 113 and accordingly determination of fair value is based on a high degree of judgement and input from data that is not directly observable in the market. Further, the fair value is significantly influenced by the ex…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric borrowings is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p92:7d68f480",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Standalone",
+   "statement": "Information Technology systems and controls over financial reporting is identified as a key audit matter.",
+   "quote": "We identified IT systems and controls over financial reporting as a key audit matter for the Company because its financial accounting and reporting systems are fundamentally reliant on IT systems and IT controls to process significant transaction volumes, specifically with respect to revenue and raw material consumption.",
+   "page": 92,
+   "speaker": null,
+   "context": "…gement Representation Letter as regards to fair valuation of these investments. Reliance Industries Limited Integrated Annual Report 2025-26102 103Standalone Financial Statements Sr. No. Key Audit Matter Auditor's Response 3. Information Technology (IT) systems and controls over financial reporting We identified IT systems and controls over financial reporting as a key audit matter for the Company because its financial accounting and reporting systems are fundamentally reliant on IT systems and IT controls to process significant transaction volumes, specifically with respect to revenue and raw material consumption. Also, due to such large transaction volumes and the increasing challenge to protect the integrity of the Company's systems and data, cyber security has become more significant. Automated accounting procedures and IT environment controls, which include IT governance, IT general controls over program…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p133:59634154",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Group",
+   "statement": "Fair Valuation of Investments in Jio Digital Fibre Private Limited is a key audit matter in the consolidated report.",
+   "quote": "As at 31st March, 2026, the Parent has investments of H 77,852 crore in Preference Shares of Jio Digital Fibre Private Limited ('JDFPL') which are measured at fair value as per Ind AS 109 read with Ind AS 113.",
+   "page": 133,
+   "speaker": null,
+   "context": "…. • Assessed the objectivity and competence of the Parent's legal counsel involved in the process. • Reviewed the disclosures made by the Parent in the Consolidated Financial Statements. • Obtained Management Representation Letter on the assessment of these matters. 2. Fair Valuation of Investments As at 31st March, 2026, the Parent has investments of H 77,852 crore in Preference Shares of Jio Digital Fibre Private Limited ('JDFPL') which are measured at fair value as per Ind AS 109 read with Ind AS 113. These investments are Level 3 investments as per the fair value hierarchy in Ind AS 113 and accordingly determination of fair value is based on a high degree of judgement and input from data that is not directly observable in the market. Further, the fair value is significantly influenced by the ex…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": true,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric borrowings is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p134:14134c73",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Group",
+   "statement": "Revenue recognition is reported as a key audit matter by the auditors of Reliance Jio Infocomm Limited.",
+   "quote": "The auditors of Reliance Jio Infocomm Limited ('RJIL'), a step-down subsidiary of the Parent, have reported revenue recognition as a key audit matter due to the high volumes of data processed by the IT systems and the complexity of those IT systems.",
+   "page": 134,
+   "speaker": null,
+   "context": "…e Consolidated Financial Statements. • Obtained Management Representation Letter as regards to fair valuation of these investments. Consolidated Financial StatementsReliance Industries Limited Integrated Annual Report 2025-26186 187 Sr. No. Key Audit Matter Auditor's Response 3. Revenue Recognition The auditors of Reliance Jio Infocomm Limited ('RJIL'), a step-down subsidiary of the Parent, have reported revenue recognition as a key audit matter due to the high volumes of data processed by the IT systems and the complexity of those IT systems. In respect of the key audit matter reported to us by the auditors of RJIL, we performed inquiry of and oversight on the audit procedures performed by them to address the key audit matter. As reported by the subsidiary auditors, the audit procedures performed by them included and were not limited to…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p134:60f9ea11",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Group",
+   "statement": "Information Technology systems and controls over financial reporting is a key audit matter in the consolidated report.",
+   "quote": "We identified IT systems and controls over financial reporting as a key audit matter for the Parent because its financial accounting and reporting systems are fundamentally reliant on IT systems and IT controls to process significant transaction volumes, specifically with respect to revenue and raw material consumption.",
+   "page": 134,
+   "speaker": null,
+   "context": "…nd other relevant support systems. • Tested collections and the reconciliation between revenue per the billing system and the financial records. Performed procedures to test the computation of revenue and deferred revenue. 4. Information Technology (IT) systems and controls over financial reporting We identified IT systems and controls over financial reporting as a key audit matter for the Parent because its financial accounting and reporting systems are fundamentally reliant on IT systems and IT controls to process significant transaction volumes, specifically with respect to revenue and raw material consumption. Also, due to such large transaction volumes and the increasing challenge to protect the integrity of the Parent's systems and data, cyber security has become more significant. Automated accounting procedures and IT environment controls, which include IT governance, IT general controls over program …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  },
+  {
+   "id": "RELIANCE:annual_report:FY26:p134:21eb7a61",
+   "docId": "RELIANCE:annual_report:FY26",
+   "docKind": "annual_report",
+   "kind": "auditor_remark",
+   "scope": "Group",
+   "statement": "Impairment of brands with an indefinite useful life and goodwill related to Media - General Entertainment CGU is a key audit matter.",
+   "quote": "As at 31st March, 2026, the carrying amount of brands and goodwill related to a Cash Generating Unit (CGU) viz., Media -General Entertainment aggregate H 44,456 crore.",
+   "page": 134,
+   "speaker": null,
+   "context": "…ta transmission through the different IT systems to the financial reporting systems by engaging IT specialists. Sr. No. Key Audit Matter Auditor's Response 5. Impairment of Brands with an indefinite useful life and Goodwill related to a Cash Generating Unit (CGU) viz., Media - General Entertainment As at 31st March, 2026, the carrying amount of brands and goodwill related to a Cash Generating Unit (CGU) viz., Media -General Entertainment aggregate H 44,456 crore. Brands with an indefinite useful life and goodwill, in line with Ind AS 36 - Impairment of Assets, should be tested for impairment annually whether there are indicators of impairment or not. Judgment is required in estimating the recoverable amount of the CGU. The estimation of recoverable amount i…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric borrowings is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "annual-report-v2"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "quote_too_long",
+   "quote": "In our opinion and to the best of our information and according to the explanations given to us, the aforesaid Standalone Financial Statements give the informat",
+   "page": 91
+  },
+  {
+   "reason": "quote_too_long",
+   "quote": "In our opinion and to the best of our information and according to the explanations given to us, and based on the consideration of reports of the other auditors",
+   "page": 133
+  },
+  {
+   "reason": "duplicate",
+   "quote": "Due to complexity involved in these litigation matters, management's judgement regarding recognition, measurement and disclosure of provisions for these legal p",
+   "page": 134
+  }
+ ],
+ "proposed": 10,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 10189,
+  "outputTokens": 1611,
+  "thoughtTokens": 0,
+  "totalTokens": 11800,
+  "latencyMs": 5423,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "annual-report-v2",
+ "rule": "7 pages with the most auditor-report headings (at least 3)",
+ "extractedAt": "2026-10-31T18:44:39.784Z"
+}

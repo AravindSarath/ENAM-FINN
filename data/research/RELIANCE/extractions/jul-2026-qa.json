@@ -1,0 +1,208 @@
+{
+ "doc": {
+  "id": "RELIANCE:transcript:jul-2026",
+  "kind": "transcript",
+  "title": "Earnings call transcript, Jul 2026 (Q1 FY27)",
+  "label": "Jul 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+  "periodLabel": "Q1 FY27",
+  "periodEnd": "2026-06-30"
+ },
+ "facts": [
+  {
+   "id": "RELIANCE:transcript:jul-2026:p22:ee1ee9de",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Management states that on a purely organic basis without tariff action, ARPU improvement has been 4-5%.",
+   "quote": "on a purely organic basis without tariff action, we have been having a 4-5% ARPU improvement and seen happening practically on the ground.",
+   "page": 22,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Company Speaker (Anshuman Thakur)"
+   },
+   "context": "… not under pressure. We are still in the ARPU mix improving, if you are referring to homes, etc. as you would have seen. We are promoting that service. Therefore, the ARPU is not necessarily higher there than mobility. So that is one impact that we see. Otherwise, I have spoken in the past as well, on a purely organic basis without tariff action, we have been having a 4-5% ARPU improvement and seen happening practically on the ground. So, it is not because of any pressure in the ARPU. We are more or less in the similar trend, except that we have some of the promotional offers going on in the Homes business at this point in time. Thank you. My last question to maybe Dinesh on Quick Commerce, this presentation you certainly spent …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p22:62d33d2e",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Reliance Retail",
+   "statement": "Management states they will continue the expansion of their dark store network for at least the next 12 months.",
+   "quote": "we will continue our expansion of our dark store network. At least next 12 months, I think in the next nine to 10 months it will continue.",
+   "page": 22,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Head of Corporate Development, Reliance Retail",
+    "header": "Company Speaker (Dinesh Taluja)"
+   },
+   "context": "…xt of high competitive intensity in that space, if you can again maybe remind us of one or two places where you are differentiated versus your competition or what could help you do better in terms of profitability or growth versus competition? Sure, so I think without getting into specific numbers, we will continue our expansion of our dark store network. At least next 12 months, I think in the next nine to 10 months it will continue. We are focusing on expanding the network going deeper into the markets so that investment will happen. The fixed cost investment is not very high, but when you go capex is not very high, but when you go you set up a dark store, you add the fixed cost and then the order ramp up, etc., happens over a…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p27:0e1220c4",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "forward_looking",
+   "scope": "Reliance Retail",
+   "statement": "Management states that as online share grows, revenue growth is expected to accelerate.",
+   "quote": "Online can be scaled up much faster, so, as the share of online grows, one would expect revenue growth to accelerate from where it is today.",
+   "page": 27,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Head of Corporate Development, Reliance Retail",
+    "header": "Company Speaker (Dinesh Taluja)"
+   },
+   "context": "…uble digits, all the consumption baskets are doing well, that is a good thing. So, I think, as we are looking up at scaling up of digital commerce, right, that can be scaled disproportionate, it is not limited. Setting up stores takes time physically, right, you have to set up each and every store. Online can be scaled up much faster, so, as the share of online grows, one would expect revenue growth to accelerate from where it is today. Thank you so much. Hi, Sir. This is Prabal here from ISEC. Three questions. Firstly, on the energy front, in terms of the refining business, is it possible to quantify how the LPG to propylene mix has sort of moved in the sense that how much has our LPG yield improved if we look at the quarterly ru…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p28:59f67ec8",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Reliance Retail",
+   "statement": "Management states that over the last three to four quarters they have maintained 100% plus growth in the number of orders.",
+   "quote": "If you look at over the last several quarters now, I guess three to four quarters at least we have maintained 100% plus growth in the number of orders.",
+   "page": 28,
+   "speaker": {
+    "name": "Dinesh Taluja",
+    "role": "management",
+    "designation": "CFO & Head of Corporate Development, Reliance Retail",
+    "header": "Company Speaker (Dinesh Taluja)"
+   },
+   "context": "…y the orders that we are getting on from the digital hyper local segment compared to let us say competitors or a range that you want to mention? See, we do not disclose the number of orders. I guess what we disclose is how we are going on a year-on-year basis and the growth continues to be healthy. If you look at over the last several quarters now, I guess three to four quarters at least we have maintained 100% plus growth in the number of orders. Got it Sir. Thank you very much. So, just wanted to decompose the O2C performance to understand how the trajectory would be say now for this quarter. So, is it fair to say that crude availability challenge is lesser right now, number one. Number two, there would be some kind of impact due to invent…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p30:6a9521e0",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "target",
+   "scope": "Reliance Consumer Products Limited",
+   "statement": "Management states the target to take the business to Rs.1 lakh Crores by FY2030.",
+   "quote": "we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030.",
+   "page": 30,
+   "speaker": {
+    "name": "Ketan Mody",
+    "role": "management",
+    "designation": "Executive Director, Reliance Consumer Products Limited",
+    "header": "Company Speaker (Ketan Mody)"
+   },
+   "context": "…for the essentials part, I think earlier presentations, you have given revenue of independence as a brand, where does that stand and what is Independence and what is the others part of that essentials? So, like we have announced, the target continues to kind of grow leadership in all categories and we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030. We continue to kind of build on capacities, working to gain leadership. EBITDA, I would put it across since the concentration there, yes, we are breakeven on EBITDA terms, but EBITDA will improve as a scale and all the supply chain is kind of put it across but yes, right now the concentration more …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p30:378dce6d",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Reliance Consumer Products Limited",
+   "statement": "Management states they are breakeven on EBITDA terms.",
+   "quote": "EBITDA, I would put it across since the concentration there, yes, we are breakeven on EBITDA terms, but EBITDA will improve as a scale and all the supply chain is kind of put it across",
+   "page": 30,
+   "speaker": {
+    "name": "Ketan Mody",
+    "role": "management",
+    "designation": "Executive Director, Reliance Consumer Products Limited",
+    "header": "Company Speaker (Ketan Mody)"
+   },
+   "context": "…is the others part of that essentials? So, like we have announced, the target continues to kind of grow leadership in all categories and we have anyway announced the target is to kind of take this to Rs.1 lakh Crores on FY2030. We continue to kind of build on capacities, working to gain leadership. EBITDA, I would put it across since the concentration there, yes, we are breakeven on EBITDA terms, but EBITDA will improve as a scale and all the supply chain is kind of put it across but yes, right now the concentration more on the market share and on the daily essentials part, we have Independence, we have equally Good Life also, so it is all put together. Any number of Independence like you used to give in the last two quarters? So, we can share that later. So, this was the t…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  }
+ ],
+ "dropped": [
+  {
+   "reason": "quote_not_found",
+   "quote": "yes, that growth number is increasing so there is scope for far more monetization of digital services and the point I was making was it is higher than connectiv",
+   "page": 21
+  },
+  {
+   "reason": "in_analyst_turn",
+   "quote": "the guidance that you shared on 2x EBITDA over the next three years, how confident are you and what are the intermediate checkpoints for the next three-year jou",
+   "page": 23,
+   "detail": "Vivekanand S"
+  }
+ ],
+ "proposed": 8,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 7932,
+  "outputTokens": 838,
+  "thoughtTokens": 0,
+  "totalTokens": 8770,
+  "latencyMs": 2606,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "transcript-v4",
+ "section": "qa",
+ "extractedAt": "2026-10-31T18:51:30.854Z"
+}

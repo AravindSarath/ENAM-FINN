@@ -1,0 +1,908 @@
+{
+ "doc": {
+  "id": "RELIANCE:transcript:jul-2026",
+  "kind": "transcript",
+  "title": "Earnings call transcript, Jul 2026 (Q1 FY27)",
+  "label": "Jul 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d3d96a-8b04-4b41-b454-3f98d1f90702.pdf",
+  "periodLabel": "Q1 FY27",
+  "periodEnd": "2026-06-30"
+ },
+ "facts": [
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:58e9457a",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Topline was up 25% primarily because of oil prices.",
+   "quote": "topline up 25% primarily because of oil prices",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…d of supply chain dislocation that happened. And in that context is where when you look at the overall performance, I do want to say that it has been an extraordinary performance too. The kind of agility we have shown has been incredible and I will tell you why it is. But starting with the numbers, topline up 25% primarily because of oil prices, but it is also a fact that Jio topline was also up 12%, even retail was up close to 12%. So, it is not just about O2C. EBITDA has been strong and when you look at EBITDA and recurring EBITDA, because last time, same time, we had the Rs.8,900 Crores of Asian paints and that is why right through the…",
+   "quantified": {
+    "metric": "revenue_growth_yoy",
+    "direction": "increase",
+    "value": 25,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:5bafac68",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio topline was up 12%.",
+   "quote": "Jio topline was also up 12%",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…hen you look at the overall performance, I do want to say that it has been an extraordinary performance too. The kind of agility we have shown has been incredible and I will tell you why it is. But starting with the numbers, topline up 25% primarily because of oil prices, but it is also a fact that Jio topline was also up 12%, even retail was up close to 12%. So, it is not just about O2C. EBITDA has been strong and when you look at EBITDA and recurring EBITDA, because last time, same time, we had the Rs.8,900 Crores of Asian paints and that is why right through the presentation I have backed it out, otherwise it just do…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 12,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:d644e565",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail topline was up close to 12%.",
+   "quote": "retail was up close to 12%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…mance, I do want to say that it has been an extraordinary performance too. The kind of agility we have shown has been incredible and I will tell you why it is. But starting with the numbers, topline up 25% primarily because of oil prices, but it is also a fact that Jio topline was also up 12%, even retail was up close to 12%. So, it is not just about O2C. EBITDA has been strong and when you look at EBITDA and recurring EBITDA, because last time, same time, we had the Rs.8,900 Crores of Asian paints and that is why right through the presentation I have backed it out, otherwise it just does not make comparable numbers and…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 12,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": "approx",
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:fdac50c6",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Overall EBITDA is more than Rs.54,000 Crores, up 10%.",
+   "quote": "our overall EBITDA is more than Rs.54,000 Crores, so we are up 10%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "… and recurring EBITDA, because last time, same time, we had the Rs.8,900 Crores of Asian paints and that is why right through the presentation I have backed it out, otherwise it just does not make comparable numbers and it does not make sense with those numbers like that. So, when you look at that, our overall EBITDA is more than Rs.54,000 Crores, so we are up 10%. Net profit at almost close to 23,200, again up 6%. And when you see the numbers, strong performance, by O2C up 17%, JPL 15%. And that is really those where they stand out performance. And we will also talk about the other businesses. So again, consumer businesses is now again back to, it is about 5…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"at_least\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:d206494d",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Net profit is almost close to 23,200, up 6%.",
+   "quote": "Net profit at almost close to 23,200, again up 6%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…,900 Crores of Asian paints and that is why right through the presentation I have backed it out, otherwise it just does not make comparable numbers and it does not make sense with those numbers like that. So, when you look at that, our overall EBITDA is more than Rs.54,000 Crores, so we are up 10%. Net profit at almost close to 23,200, again up 6%. And when you see the numbers, strong performance, by O2C up 17%, JPL 15%. And that is really those where they stand out performance. And we will also talk about the other businesses. So again, consumer businesses is now again back to, it is about 50% of the overall mix. And, cash flows continue to …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: comparator \"approx\" does not match the wording (\"exact\")"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:333bf2cf",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "O2C",
+   "statement": "O2C performance was up 17%.",
+   "quote": "performance, by O2C up 17%",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "… it out, otherwise it just does not make comparable numbers and it does not make sense with those numbers like that. So, when you look at that, our overall EBITDA is more than Rs.54,000 Crores, so we are up 10%. Net profit at almost close to 23,200, again up 6%. And when you see the numbers, strong performance, by O2C up 17%, JPL 15%. And that is really those where they stand out performance. And we will also talk about the other businesses. So again, consumer businesses is now again back to, it is about 50% of the overall mix. And, cash flows continue to be strong, more than from a cash profit point of view, really fu…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric segment_ebitda_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:18bd9707",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "JPL",
+   "statement": "JPL performance was up 15%.",
+   "quote": "JPL 15%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…oes not make comparable numbers and it does not make sense with those numbers like that. So, when you look at that, our overall EBITDA is more than Rs.54,000 Crores, so we are up 10%. Net profit at almost close to 23,200, again up 6%. And when you see the numbers, strong performance, by O2C up 17%, JPL 15%. And that is really those where they stand out performance. And we will also talk about the other businesses. So again, consumer businesses is now again back to, it is about 50% of the overall mix. And, cash flows continue to be strong, more than from a cash profit point of view, really funding the …",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric segment_ebitda_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:5a990eca",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "O2C",
+   "statement": null,
+   "quote": "30% up on revenue basis.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "… performance. And we will also talk about the other businesses. So again, consumer businesses is now again back to, it is about 50% of the overall mix. And, cash flows continue to be strong, more than from a cash profit point of view, really funding the overall capex. Moving on to O2C specifically, 30% up on revenue basis. Rs.17,000 Crores and that's up 17%. And when you see the components of the performance, starting with, of course, high distillate margins, we saw that. Significant 250% more, 300% more, but I just wanted to say that those numbers are there, but I think those numbers are on a flat crude basis, and i…",
+   "quantified": {
+    "metric": "segment_revenue_growth_yoy",
+    "direction": "increase",
+    "value": 30,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 2"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p3:ebcd7168",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "O2C",
+   "statement": null,
+   "quote": "Rs.17,000 Crores and that's up 17%.",
+   "page": 3,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "… also talk about the other businesses. So again, consumer businesses is now again back to, it is about 50% of the overall mix. And, cash flows continue to be strong, more than from a cash profit point of view, really funding the overall capex. Moving on to O2C specifically, 30% up on revenue basis. Rs.17,000 Crores and that's up 17%. And when you see the components of the performance, starting with, of course, high distillate margins, we saw that. Significant 250% more, 300% more, but I just wanted to say that those numbers are there, but I think those numbers are on a flat crude basis, and it does not provide for the fact that…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds number 2",
+     "quantified_dropped: metric segment_revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:2cd99bb1",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Oil and Gas",
+   "statement": "Oil and gas year-on-year revenues are up 3%.",
+   "quote": "Overall oil and gas, year-on-year revenues up 3%",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…, requirement. Also, gas had to be diverted for the other priority sector, which means that we had to use more of liquids to run the refinery. This, I am saying all this to lay the context about this performance is after providing for all this. So, in that sense is what I said, it is extraordinary. Overall oil and gas, year-on-year revenues up 3%, almost EBITDA flat, slightly lower. And in a sense, KGD6 production was lower, KGD6 price realization was lower, but kind of offset because CBM production was higher and actually the realization on CBM was higher and the liquid, even though it is small, the significant jump in liquid price meant t…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric segment_revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:aaa63754",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail revenue is Rs.90,000 Crores, which is 12% higher.",
+   "quote": "Rs.90,000 Crores, so it is 12% higher.",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…%. So, it also helped pull, and that came on the back of content, cloud, compute, IoT, and managed services, which Anshuman will take you through. But now also traction on the FWA and of the 29 million fixed broadband subscriber base, now half of it is through JioAirFiber. On moving to retail side, Rs.90,000 Crores, so it is 12% higher. If you were to remove the impact of RCPL, which was there last time, so it is 12%. EBITDA is Rs 6,309 crore, which is slightly lower on a year-on-year basis. And here, two points I wanted to mention that this reduction is a conscious play. We are focusing on ramping up digital commerce across verti…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: metric segment_revenue_growth_yoy is not named in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:74956228",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Retail",
+   "statement": "Retail EBITDA is Rs.6,309 crore.",
+   "quote": "EBITDA is Rs 6,309 crore",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…n will take you through. But now also traction on the FWA and of the 29 million fixed broadband subscriber base, now half of it is through JioAirFiber. On moving to retail side, Rs.90,000 Crores, so it is 12% higher. If you were to remove the impact of RCPL, which was there last time, so it is 12%. EBITDA is Rs 6,309 crore, which is slightly lower on a year-on-year basis. And here, two points I wanted to mention that this reduction is a conscious play. We are focusing on ramping up digital commerce across verticals. And as we focus on the hyperlocal delivery infrastructure. So, it is about trying to create significan…",
+   "quantified": {
+    "metric": "segment_ebitda_growth_yoy",
+    "direction": null,
+    "value": 6309,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "context"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:46ea59ba",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "JioStar",
+   "statement": "JioStar income from operations is up 30%.",
+   "quote": "income from operations up 30%",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…arters. We want to build this and build the digital business, which I think then sets the stage for us for creating opportunities in the future. And Dinesh will take you through the strategy that we have. JioStar actually did well, Rs.13,000 Crores topline and income from operations, when I look at income from operations up 30%, again, very, very strong performance in the context of what was happening in terms of ads, etc. And RCPL continues to do well, and this is at Rs.8,600 Crores is 2x of what it was. Again, each of the brands that we have built on Independence, on the beverages side, on Campa, very, very strong growt…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 30,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:8a2942a3",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "RCPL",
+   "statement": null,
+   "quote": "this is at Rs.8,600 Crores is 2x of what it was.",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…ake you through the strategy that we have. JioStar actually did well, Rs.13,000 Crores topline and income from operations, when I look at income from operations up 30%, again, very, very strong performance in the context of what was happening in terms of ads, etc. And RCPL continues to do well, and this is at Rs.8,600 Crores is 2x of what it was. Again, each of the brands that we have built on Independence, on the beverages side, on Campa, very, very strong growth there and the focus there, as you know, is building the robust manufacturing and the supply chain infrastructure. So those initiatives are absolutely going full swing. So, I am no…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "statement_dropped: adds term RCPL",
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:ba5f062a",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Finance cost is up 19%.",
+   "quote": "finance cost up 19%",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…the numbers, overall, as you can see, 25% up revenues, about 10% on EBITDA, and PAT 6%. As I said, same time, last time was Rs.8,900 Crores plus of Asian paints. So it is, you know, if I were to back out for that, this is the kind of overall numbers. You are seeing finance cost and depreciation up, finance cost up 19%, and depreciation up 9%. Primarily, arising on account of the capitalization in Jio. As you know, between March 2025 and March 2026, more than a lakh crore of assets were capitalized. So therefore, it means higher depreciation. It means that the interest that was getting capitalized now flows throu…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 19,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p4:531d384f",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Depreciation is up 9%.",
+   "quote": "depreciation up 9%.",
+   "page": 4,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…you can see, 25% up revenues, about 10% on EBITDA, and PAT 6%. As I said, same time, last time was Rs.8,900 Crores plus of Asian paints. So it is, you know, if I were to back out for that, this is the kind of overall numbers. You are seeing finance cost and depreciation up, finance cost up 19%, and depreciation up 9%. Primarily, arising on account of the capitalization in Jio. As you know, between March 2025 and March 2026, more than a lakh crore of assets were capitalized. So therefore, it means higher depreciation. It means that the interest that was getting capitalized now flows through the P&L. So that reall…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 9,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:7c4d9a72",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Net debt is slightly lower than what it was in March at Rs.1,23,000 Crores odd.",
+   "quote": "net debt point of view, it is slightly lower than what it was in March, Rs 1,23,000 Crores odd.",
+   "page": 5,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…lows through the P&L. So that really more reflects what we have done in terms of the Jio capitalization. And overall, we talked through these numbers on O2C, oil and gas. I am not going to spend time because each of the individual businesses will also talk about it. And overall, when you see from a net debt point of view, it is slightly lower than what it was in March, Rs 1,23,000 Crores odd. And capex of about close to Rs.39,000 Crores. So, we had an upgrade in the Moody's rating to Baa1 and, of course, with S&P at A-. So overall the balance sheet is healthy and supporting our capex initiative both in the O2C side, New Energy side and also as we build more on the hyper local strategy o…",
+   "quantified": {
+    "metric": "borrowings",
+    "direction": "decrease",
+    "value": 123000,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:88fe332f",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Group",
+   "statement": "Capex is about close to Rs.39,000 Crores.",
+   "quote": "capex of about close to Rs.39,000 Crores.",
+   "page": 5,
+   "speaker": {
+    "name": "V Srikanth",
+    "role": "management",
+    "designation": "CFO, Reliance Industries Limited",
+    "header": "Sh V Srikanth 00:00:01 - 00:09:45 (Group Performance)"
+   },
+   "context": "…ion. And overall, we talked through these numbers on O2C, oil and gas. I am not going to spend time because each of the individual businesses will also talk about it. And overall, when you see from a net debt point of view, it is slightly lower than what it was in March, Rs 1,23,000 Crores odd. And capex of about close to Rs.39,000 Crores. So, we had an upgrade in the Moody's rating to Baa1 and, of course, with S&P at A-. So overall the balance sheet is healthy and supporting our capex initiative both in the O2C side, New Energy side and also as we build more on the hyper local strategy on retail and of course on RCPL and the data ce…",
+   "quantified": {
+    "metric": "capex",
+    "direction": null,
+    "value": 39000,
+    "valueHigh": null,
+    "unit": "inr_crore",
+    "comparator": "approx",
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:3630547c",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio has 533 million subscribers in connectivity, a net addition of 35.2 million over the last 12 months.",
+   "quote": "533 million subscribers in connectivity. That is a net addition of 35.2 million over the last 12 months.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…ld more on the hyper local strategy on retail and of course on RCPL and the data center. So, the cash flow momentum is enormously valuable to support those capex. With this, Anshuman. Thank you, Srikanth. Good evening, everyone. Update on the Jio results. Some key highlight numbers for the quarter, 533 million subscribers in connectivity. That is a net addition of 35.2 million over the last 12 months. Out of these, 285 million are 5G users, so which is an addition of 73 million in the last 12 months of 5G users. The home broadband, fixed broadband connects has increased to 28.6 million, out of which 14 million are AirFiber homes. So now a lot of the growth is really coming through the AirFiber c…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:70440ba2",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio has 285 million 5G users, an addition of 73 million in the last 12 months.",
+   "quote": "285 million are 5G users, so which is an addition of 73 million in the last 12 months of 5G users.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…enormously valuable to support those capex. With this, Anshuman. Thank you, Srikanth. Good evening, everyone. Update on the Jio results. Some key highlight numbers for the quarter, 533 million subscribers in connectivity. That is a net addition of 35.2 million over the last 12 months. Out of these, 285 million are 5G users, so which is an addition of 73 million in the last 12 months of 5G users. The home broadband, fixed broadband connects has increased to 28.6 million, out of which 14 million are AirFiber homes. So now a lot of the growth is really coming through the AirFiber connectivity, and we are also kind of encouraging that because the last mile becomes much more economical and time…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: direction \"increase\" has no matching wording in the quote"
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:9a78d1d9",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Home fixed broadband connects increased to 28.6 million, out of which 14 million are AirFiber homes.",
+   "quote": "home broadband, fixed broadband connects has increased to 28.6 million, out of which 14 million are AirFiber homes.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…ryone. Update on the Jio results. Some key highlight numbers for the quarter, 533 million subscribers in connectivity. That is a net addition of 35.2 million over the last 12 months. Out of these, 285 million are 5G users, so which is an addition of 73 million in the last 12 months of 5G users. The home broadband, fixed broadband connects has increased to 28.6 million, out of which 14 million are AirFiber homes. So now a lot of the growth is really coming through the AirFiber connectivity, and we are also kind of encouraging that because the last mile becomes much more economical and time efficient in being able to do that. Financial numbers, Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year gro…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 28.6,
+    "valueHigh": null,
+    "unit": "other",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:2034e122",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio revenue is Rs.39,173 Crores, an 11.8% year-on-year growth.",
+   "quote": "Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…sed to 28.6 million, out of which 14 million are AirFiber homes. So now a lot of the growth is really coming through the AirFiber connectivity, and we are also kind of encouraging that because the last mile becomes much more economical and time efficient in being able to do that. Financial numbers, Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth, EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%. That is 150 basis points higher than the same quarter last year. And 69.4 exabytes of total data traffic on the network, so 27% growth year-on-year. So, all of these metrics showing fairly healthy perf…",
+   "quantified": {
+    "metric": "segment_revenue_growth_yoy",
+    "direction": "increase",
+    "value": 11.8,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "quote"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:7adeb8fb",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio EBITDA is Rs.20,865 Crores, a 15.1% year-on-year growth.",
+   "quote": "EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…ow a lot of the growth is really coming through the AirFiber connectivity, and we are also kind of encouraging that because the last mile becomes much more economical and time efficient in being able to do that. Financial numbers, Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth, EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%. That is 150 basis points higher than the same quarter last year. And 69.4 exabytes of total data traffic on the network, so 27% growth year-on-year. So, all of these metrics showing fairly healthy performance and growth momentum continues. So, in terms of performanc…",
+   "quantified": {
+    "metric": "segment_ebitda_growth_yoy",
+    "direction": "increase",
+    "value": 15.1,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": "yoy",
+    "basisSource": "quote"
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:e85419a5",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Jio EBITDA margin is 53.3%, 150 basis points higher year-on-year.",
+   "quote": "EBITDA margin of 53.3%. That is 150 basis points higher than the same quarter last year.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "…, and we are also kind of encouraging that because the last mile becomes much more economical and time efficient in being able to do that. Financial numbers, Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth, EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%. That is 150 basis points higher than the same quarter last year. And 69.4 exabytes of total data traffic on the network, so 27% growth year-on-year. So, all of these metrics showing fairly healthy performance and growth momentum continues. So, in terms of performance highlights, double-digit EBITDA growth and this is when we have now, as we had spoken last quart…",
+   "quantified": null,
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": [
+     "quantified_dropped: company-wide metric operating_margin used for scope \"Jio\""
+    ]
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  },
+  {
+   "id": "RELIANCE:transcript:jul-2026:p5:61c4f0f6",
+   "docId": "RELIANCE:transcript:jul-2026",
+   "docKind": "transcript",
+   "kind": "commentary",
+   "scope": "Jio",
+   "statement": "Total data traffic on the network was 69.4 exabytes, a 27% growth year-on-year.",
+   "quote": "69.4 exabytes of total data traffic on the network, so 27% growth year-on-year.",
+   "page": 5,
+   "speaker": {
+    "name": "Anshuman Thakur",
+    "role": "management",
+    "designation": "Head of Strategy, Reliance Jio Infocomm Limited",
+    "header": "Sh Anshuman Thakur 00:09:51 - 00:20:53 (Jio Platforms)"
+   },
+   "context": "… and time efficient in being able to do that. Financial numbers, Rs.39,173 Crores is the revenue, that is, 11.8% year-on-year growth, EBITDA at Rs.20,865 Crores, that is a 15.1% year-on-year growth, with an EBITDA margin of 53.3%. That is 150 basis points higher than the same quarter last year. And 69.4 exabytes of total data traffic on the network, so 27% growth year-on-year. So, all of these metrics showing fairly healthy performance and growth momentum continues. So, in terms of performance highlights, double-digit EBITDA growth and this is when we have now, as we had spoken last quarter, all of the 5G-related expenses and assets have been fully capitalized. So, all o…",
+   "quantified": {
+    "metric": "other",
+    "direction": "increase",
+    "value": 27,
+    "valueHigh": null,
+    "unit": "percent",
+    "comparator": null,
+    "period": null,
+    "horizon": null,
+    "basis": null,
+    "basisSource": null
+   },
+   "verification": {
+    "quoteVerbatim": true,
+    "pageCorrected": false,
+    "speakerSource": "code",
+    "adjustments": []
+   },
+   "extractedBy": {
+    "model": "gemini-3.5-flash-lite",
+    "promptVersion": "transcript-v4"
+   }
+  }
+ ],
+ "dropped": [],
+ "proposed": 25,
+ "usage": {
+  "model": "gemini-3.5-flash-lite",
+  "promptTokens": 15322,
+  "outputTokens": 3944,
+  "thoughtTokens": 0,
+  "totalTokens": 19266,
+  "latencyMs": 8414,
+  "attempts": 1,
+  "retriedStatuses": []
+ },
+ "promptVersion": "transcript-v4",
+ "section": "presentation",
+ "extractedAt": "2026-10-31T18:51:25.667Z"
+}

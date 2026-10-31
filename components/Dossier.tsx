@@ -1,9 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState } from "react";
 import type { DossierView } from "@/lib/data/dossier";
 import { change, inr, pct, tone } from "@/lib/format";
+import type { ClientDossier } from "@/lib/research/load";
+import { CiteProvider } from "./research/Cite";
+import ResearchSections from "./research/ResearchSections";
+import { Legend, Pending, Section } from "./research/Section";
 import { Pill, SampleTag, Sparkline } from "./ui";
 
 /** A citation chip that opens its supporting excerpt inline. */
@@ -39,36 +43,6 @@ function Cite({ doc, loc, quote, href, sample }: { doc: string; loc?: string; qu
   );
 }
 
-function Section({
-  id,
-  title,
-  badge,
-  defaultOpen = true,
-  children,
-}: {
-  id: string;
-  title: string;
-  badge?: ReactNode;
-  defaultOpen?: boolean;
-  children: ReactNode;
-}) {
-  const [open, setOpen] = useState(defaultOpen);
-  return (
-    <section id={id} className="scroll-mt-16 border-t border-line px-4 py-4">
-      <button onClick={() => setOpen(!open)} aria-expanded={open} className="flex w-full items-center gap-2 text-left">
-        <h2 className="font-serif text-[22px] leading-none">{title}</h2>
-        {badge}
-        <span className={`ml-auto text-dim transition-transform ${open ? "rotate-90" : ""}`}>›</span>
-      </button>
-      {open && <div className="rise mt-3">{children}</div>}
-    </section>
-  );
-}
-
-function Pending({ children }: { children: ReactNode }) {
-  return <div className="rounded-xl border border-dashed border-line px-3.5 py-4 text-[12.5px] leading-snug text-mute">{children}</div>;
-}
-
 function Stat({ label, value, sub, subTone, data }: { label: string; value: string; sub: string; subTone: number | null; data: (number | null)[] }) {
   const clean = data.filter((v): v is number => v != null);
   return (
@@ -90,7 +64,7 @@ const VERDICT = {
 
 const NEXT = <SampleTag label="Next stage" />;
 
-function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; reportedRevYoY: number | null }) {
+function Sections({ v, from, reportedRevYoY, research }: { v: DossierView; from?: string; reportedRevYoY: number | null; research: ClientDossier | null }) {
   const n = v.quarters.length - 1;
   const last = <T,>(a: (T | null)[]) => a[n] ?? null;
   const rev = last(v.revenue);
@@ -187,6 +161,8 @@ function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; 
         </div>
       </Section>
 
+      {!research && (
+        <>
       <Section id="promised" title="Promised vs delivered" defaultOpen={isReliance} badge={isReliance ? undefined : NEXT}>
         {isReliance ? (
           <>
@@ -226,6 +202,8 @@ function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; 
           <Pending>What management promised on recent concalls, set against what the numbers delivered. Needs transcript extraction (LLM stage).</Pending>
         )}
       </Section>
+        </>
+      )}
 
       <Section id="trajectory" title="Trajectory" badge={<Pill>{v.quarters.length} quarters</Pill>}>
         <p className="eyebrow mb-2">{v.marginLabel} by quarter, %</p>
@@ -267,6 +245,9 @@ function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; 
         </div>
       </Section>
 
+      {research && <ResearchSections d={research} />}
+      {!research && (
+        <>
       <Section id="bullbear" title="Bull vs bear" defaultOpen={isReliance} badge={isReliance ? <Pill>from numbers on screen</Pill> : NEXT}>
         {isReliance && finite(revYoY) ? (
           <>
@@ -303,6 +284,8 @@ function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; 
       <Section id="guidance" title="Guidance" defaultOpen={false} badge={NEXT}>
         <Pending>Explicit forward statements on growth, margins and capex, each with its transcript page and the date it was made.</Pending>
       </Section>
+        </>
+      )}
     </>
   );
 }
@@ -350,7 +333,7 @@ function Unavailable({ sym }: { sym: string }) {
   );
 }
 
-const NAV = [
+const NAV_BASIC = [
   ["snapshot", "Snapshot"],
   ["promised", "Promised vs delivered"],
   ["trajectory", "Trajectory"],
@@ -360,8 +343,21 @@ const NAV = [
   ["guidance", "Guidance"],
 ];
 
-export default function Dossier({ sym, from, view, reportedRevYoY = null }: { sym: string; from?: string; view: DossierView | null; reportedRevYoY?: number | null }) {
-  return (
+const NAV_RESEARCH = [
+  ["snapshot", "Snapshot"],
+  ["business", "Business"],
+  ["trajectory", "Quarterly trend"],
+  ["trajectory-annual", "Trajectory"],
+  ["balance", "Balance sheet"],
+  ["cash", "Cash flow"],
+  ["promised", "Promised vs delivered"],
+  ["bullbear", "Bull vs bear"],
+  ["sources", "Sources"],
+];
+
+export default function Dossier({ sym, from, view, reportedRevYoY = null, research = null }: { sym: string; from?: string; view: DossierView | null; reportedRevYoY?: number | null; research?: ClientDossier | null }) {
+  const NAV = research ? NAV_RESEARCH : NAV_BASIC;
+  const body = (
     <>
       <header className="px-4 pb-3 pt-5">
         <Link href="/research" className="text-[12px] text-mute hover:text-fg">
@@ -372,7 +368,7 @@ export default function Dossier({ sym, from, view, reportedRevYoY = null }: { sy
             <p className="font-mono text-[13px] font-semibold tracking-wide text-gold">{sym}</p>
             <h1 className="font-serif text-[32px] leading-none">{view?.name ?? sym}</h1>
           </div>
-          {view && <Pill tone="warn">{view.sym === "RELIANCE" ? "Real numbers · sample commentary" : "Real numbers · analysis next"}</Pill>}
+          {view && <Pill tone={research ? "up" : "warn"}>{research ? "Researched from filings and calls" : "Real numbers · analysis next"}</Pill>}
         </div>
       </header>
 
@@ -386,7 +382,9 @@ export default function Dossier({ sym, from, view, reportedRevYoY = null }: { sy
         </nav>
       )}
 
-      {view ? <Sections v={view} from={from} reportedRevYoY={reportedRevYoY} /> : <Unavailable sym={sym} />}
+      {research && <div className="pt-3"><Legend /></div>}
+      {view ? <Sections v={view} from={from} reportedRevYoY={reportedRevYoY} research={research} /> : <Unavailable sym={sym} />}
     </>
   );
+  return research ? <CiteProvider d={research}>{body}</CiteProvider> : body;
 }

@@ -3,16 +3,16 @@
  "symbol": "ICICIBANK",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ICICIBANK&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:49:48.231Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ICICIBANK&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:01.366Z",
   "asOf": "2026-10-30T04:46:13.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 20,
+ "count": 18,
  "items": [
   {
    "id": "106835822",
@@ -570,72 +570,6 @@
      "phrase": "resign"
     },
     "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805014",
-   "symbol": "ICICIBANK",
-   "company": "ICICI Bank Limited",
-   "isin": "INE090A01013",
-   "nseDesc": "General Updates",
-   "text": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-   "subject": null,
-   "attachmentExcerpt": {
-    "page": 1,
-    "url": "https://nsearchives.nseindia.com/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf",
-    "extractedAt": "2026-10-31T16:42:48.093Z",
-    "status": "ok",
-    "text": "October 1, 2026 BSE Limited Listing Department Phiroze Jeejeebhoy Towers Dalal Street Mumbai 400 001 National Stock Exchange of India Limited Listing Department Exchange Plaza, 5th floor Plot No. C/1, G Block Bandra-Kurla Complex Bandra (East) Mumbai 400 051 Dear Sir/Madam, Sub: Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 On September 30, 2026 at 05:57 p.m., ICICI Bank Limited (the Bank) has received a show cause notice (SCN) under Section 73 of Maharashtra Goods and Services Tax Act, 2017 from Additional Commissioner, CGST and C. Ex, Division-IV, Mumbai East Commissionerate raising a GST demand amounting to ₹ 229,14,35,396/- along with interest and penalty as applicable, on services provided by the Bank to customers maintaining specified minimum balances in their accounts. While the Bank is in litigation (including writ petition) on a similar issue raised in orders/SCNs in the past, since the aggregate/cumulative amount involved in the above crosses the materiality threshold, this matter is being reported. The Bank will file a reply to the said SCN within prescribed timelines. Please take the above information on record. Yours sincerely, For ICICI Bank Limited Prachiti Lalingkar Company Secretary Copy to: (i) New York Stock Exchange (ii) SIX Swiss Exchange Limited (iii) Singapore Stock Exchange (iv) Japan Securities Dealers Association"
-   },
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICI2022_01102026170118_BSENSE01102926.pdf",
-   "attachmentSize": "331.26 KB",
-   "announcedAt": "2026-10-01T11:32:41.000Z",
-   "announcedAtRaw": "01-Oct-2026 17:02:41",
-   "hasXbrl": true,
-   "classification": {
-    "category": "litigation",
-    "categories": [
-     "litigation",
-     "unclassified"
-    ],
-    "rule": "pdf:kw:litigation",
-    "confidence": "medium",
-    "evidence": {
-     "source": "pdf",
-     "phrase": "show cause"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106804673",
-   "symbol": "ICICIBANK",
-   "company": "ICICI Bank Limited",
-   "isin": "INE090A01013",
-   "nseDesc": "Copy of Newspaper Publication",
-   "text": "ICICI Bank Limited has informed the Exchange about Copy of Newspaper Publication",
-   "subject": "Copy of Newspaper Publication",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_01102026135523_Special_Window_Disclosure_01102026.pdf",
-   "attachmentSize": "455.71 KB",
-   "announcedAt": "2026-10-01T08:27:13.000Z",
-   "announcedAtRaw": "01-Oct-2026 13:57:13",
-   "hasXbrl": true,
-   "classification": {
-    "category": "unclassified",
-    "categories": [
-     "unclassified"
-    ],
-    "rule": "routine-only",
-    "confidence": "medium",
-    "evidence": {
-     "source": "text",
-     "phrase": "Newspaper Publication"
-    },
-    "routine": true,
-    "routineRule": "routine:newspaper",
     "needsReview": false
    }
   }

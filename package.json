@@ -11,7 +11,11 @@
     "ingest": "tsx scripts/ingest.ts",
     "test": "vitest run",
     "validate": "tsx scripts/validate.ts",
-    "enrich": "tsx scripts/enrich.ts"
+    "enrich": "tsx scripts/enrich.ts",
+    "research:pilot": "tsx scripts/research-pilot.ts",
+    "research:extract": "tsx scripts/research-extract.ts",
+    "research:reverify": "tsx scripts/research-reverify.ts",
+    "research:build": "tsx scripts/research-build.ts"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

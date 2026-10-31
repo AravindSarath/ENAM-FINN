@@ -3,16 +3,16 @@
  "symbol": "VEDL",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=VEDL&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:51:16.797Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=VEDL&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:13.639Z",
   "asOf": "2026-10-29T12:08:49.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 18,
+ "count": 17,
  "items": [
   {
    "id": "106834755",
@@ -523,36 +523,6 @@
     "evidence": {
      "source": "text",
      "phrase": "quarter ended"
-    },
-    "routine": false,
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106804919",
-   "symbol": "VEDL",
-   "company": "Vedanta Limited",
-   "isin": "INE205A01025",
-   "nseDesc": "Shareholders meeting",
-   "text": "Vedanta Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
-   "subject": "voting results",
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_01102026161742_SEIntimationVotingResultsScrutinizerReportfinalsigned.pdf",
-   "attachmentSize": "6.29 MB",
-   "announcedAt": "2026-10-01T10:47:57.000Z",
-   "announcedAtRaw": "01-Oct-2026 16:17:57",
-   "hasXbrl": true,
-   "classification": {
-    "category": "postal_ballot",
-    "categories": [
-     "postal_ballot",
-     "agm_egm"
-    ],
-    "rule": "kw:postal-ballot",
-    "confidence": "high",
-    "evidence": {
-     "source": "text",
-     "phrase": "Postal Ballot"
     },
     "routine": false,
     "needsReview": false

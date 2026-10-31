@@ -3,16 +3,16 @@
  "symbol": "ETERNAL",
  "source": {
   "name": "NSE corporate announcements API",
-  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ETERNAL&from_date=01-10-2026&to_date=31-10-2026",
-  "fetchedAt": "2026-10-31T15:50:42.278Z",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ETERNAL&from_date=02-10-2026&to_date=01-11-2026",
+  "fetchedAt": "2026-10-31T18:42:08.578Z",
   "asOf": "2026-10-27T11:22:27.000Z",
   "status": "ok"
  },
  "window": {
-  "from": "01-10-2026",
-  "to": "31-10-2026"
+  "from": "02-10-2026",
+  "to": "01-11-2026"
  },
- "count": 8,
+ "count": 7,
  "items": [
   {
    "id": "106830405",
@@ -226,36 +226,6 @@
     },
     "routine": true,
     "routineRule": "routine:compliance",
-    "needsReview": false
-   }
-  },
-  {
-   "id": "106805044",
-   "symbol": "ETERNAL",
-   "company": "ETERNAL LIMITED",
-   "isin": "INE758T01015",
-   "nseDesc": "ESOP/ESOS/ESPS",
-   "text": "Eternal Limited for informed the exchange regarding grant of stock options pursuant to approval of nomination and remuneration committee.",
-   "subject": null,
-   "attachmentExcerpt": null,
-   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_01102026171038_grantDisclosureOctober12026signed.pdf",
-   "attachmentSize": "2.79 MB",
-   "announcedAt": "2026-10-01T11:46:35.000Z",
-   "announcedAtRaw": "01-Oct-2026 17:16:35",
-   "hasXbrl": true,
-   "classification": {
-    "category": "unclassified",
-    "categories": [
-     "unclassified"
-    ],
-    "rule": "routine-only",
-    "confidence": "medium",
-    "evidence": {
-     "source": "text",
-     "phrase": ""
-    },
-    "routine": true,
-    "routineRule": "routine:esop-desc",
     "needsReview": false
    }
   }
