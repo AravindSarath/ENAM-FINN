@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import type { BriefData } from "@/lib/data/view";
 import { CATEGORY_LABEL, ago } from "@/lib/format";
-import { FEED, HOLDINGS } from "@/lib/mock";
 import { DEFAULT_RULES, WATCHABLE, evaluate, useRules } from "@/lib/rules";
 import type { Hit } from "@/lib/types";
 import { Chip, DataNotice, PageHeader, Pill } from "./ui";
@@ -67,14 +67,15 @@ function Threshold({
   );
 }
 
-export default function Alerts() {
+export default function Alerts({ data }: { data: BriefData }) {
+  const { feed: FEED, holdings: HOLDINGS } = data;
   const [rules, setRules] = useRules();
   const [sim, setSim] = useState<Hit | null>(null);
 
   const hits = useMemo(() => {
     const real = evaluate(rules, HOLDINGS, FEED, 24);
     return sim ? [sim, ...real] : real;
-  }, [rules, sim]);
+  }, [rules, sim, HOLDINGS, FEED]);
 
   const simulate = () =>
     setSim({
@@ -103,9 +104,9 @@ export default function Alerts() {
           ) : undefined
         }
       />
-      <DataNotice>
-        Rules are real and saved on this device. They run against sample prices and filings, so the alert list is
-        illustrative.
+      <DataNotice label="Real data, your rules">
+        Your thresholds are saved on this device and run against real end-of-day prices and NSE filings from the
+        latest ingest. &quot;Simulate a day&quot; adds one clearly labelled demo alert.
       </DataNotice>
 
       <div className="space-y-3 px-4">
@@ -170,7 +171,7 @@ export default function Alerts() {
                       <Pill tone={h.kind === "simulated" ? "warn" : h.kind === "filing" ? "gold" : "mute"}>
                         {KIND_LABEL[h.kind]}
                       </Pill>
-                      <span className="num text-[11px] text-dim">{h.hoursAgo === 0 ? "now" : ago(h.hoursAgo)}</span>
+                      <span className="num text-[11px] text-dim">{h.kind === "simulated" ? "now" : (h.whenLabel ?? ago(h.hoursAgo))}</span>
                     </span>
                     <span className="block text-[13px] leading-snug">{h.text}</span>
                   </span>

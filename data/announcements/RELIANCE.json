@@ -1,0 +1,442 @@
+{
+ "schema": 1,
+ "symbol": "RELIANCE",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:41:29.657Z",
+  "asOf": "2026-10-31T12:04:03.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 18,
+ "items": [
+  {
+   "id": "106838338",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Audio recording of the discussion on the Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended September 30, 2026, at the analyst meet held on October 30, 2026, is available on the website of the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_31102026173331_SE_31102026_AR.pdf",
+   "attachmentSize": "233.36 KB",
+   "announcedAt": "2026-10-31T12:04:03.000Z",
+   "announcedAtRaw": "31-Oct-2026 17:34:03",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "results",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106837413",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Investor Presentation",
+   "text": "Reliance Industries Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194557_SE_30102026_IP.pdf",
+   "attachmentSize": "1.98 MB",
+   "announcedAt": "2026-10-30T14:17:12.000Z",
+   "announcedAtRaw": "30-Oct-2026 19:47:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106837406",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Press Release",
+   "text": "In continuation of our letter of today's date on the Unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026, we attach a copy of media release being issued by the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026194315_SE_30102026_MR.pdf",
+   "attachmentSize": "1.07 MB",
+   "announcedAt": "2026-10-30T14:13:24.000Z",
+   "announcedAtRaw": "30-Oct-2026 19:43:24",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "press_release"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106837394",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
+   "attachmentSize": "8.41 MB",
+   "announcedAt": "2026-10-30T14:10:11.000Z",
+   "announcedAtRaw": "30-Oct-2026 19:40:11",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "fund_raise"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106837395",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "In continuation of our letter dated October 27, 2026, we wish to inform you that the Board of Directors of the Company, at its meeting held today, has, inter alia:1. approved the unaudited Financial Results (Consolidated and Standalone) for the quarter and half year ended September 30, 2026; and2. passed an enabling resolution authorising the issuance of listed, secured / unsecured, redeemable non-convertible debentures up to Rs. 15,000 crore, in one or more tranches, on private placement basis.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193952_SE_30102026_Results.pdf",
+   "attachmentSize": "8.41 MB",
+   "announcedAt": "2026-10-30T14:10:11.000Z",
+   "announcedAtRaw": "30-Oct-2026 19:40:11",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "fund_raise"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106833561",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Other Restructuring",
+   "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 Voluntary strike off of Hamleys (Franchising) Limited",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_29102026084603_SE_29102026.pdf",
+   "attachmentSize": "277.36 KB",
+   "announcedAt": "2026-10-29T03:25:40.000Z",
+   "announcedAtRaw": "29-Oct-2026 08:55:40",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:other restructuring",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106831152",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "General Updates",
+   "text": "Trading in equity shares of Jio Platforms Limited (JPL) will commence from October 28, 2026.Further, a meeting of board of directors of JPL is scheduled to be held on Friday, October 30, 2026, inter alia, to consider and approve the standalone and consolidated unaudited financial results of JPL for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026220855_RIL_SELETTER_271026.pdf",
+   "attachmentSize": "495.16 KB",
+   "announcedAt": "2026-10-27T16:41:29.000Z",
+   "announcedAtRaw": "27-Oct-2026 22:11:29",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830931",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "The meeting of the Board of Directors of the Company is scheduled on October 30, 2026, inter alia, to consider and approve a. the standalone and consolidated unaudited financial results of the Company for the quarter and half year ended September 30, 2026; and b. raising of funds by way of issuance of listed, secured / unsecured, redeemable non-convertible debentures on private placement basis, in one or more tranches. The Company will hold an analyst meet, post the Board Meeting, to discuss the financial results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_27102026191700_SE_27102026.pdf",
+   "attachmentSize": "250.61 KB",
+   "announcedAt": "2026-10-27T13:47:10.000Z",
+   "announcedAtRaw": "27-Oct-2026 19:17:10",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "fund_raise",
+     "investor_meetings"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106827783",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "General Updates",
+   "text": "Initial Public Offer of Jio Platforms Limited",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_24102026214355_RIL_SE_241026.pdf",
+   "attachmentSize": "279.40 KB",
+   "announcedAt": "2026-10-24T16:18:04.000Z",
+   "announcedAtRaw": "24-Oct-2026 21:48:04",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:ipo",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823997",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Updates",
+   "text": "Please find attached a media statement issued by the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_21102026224413_SE_21102026.pdf",
+   "attachmentSize": "411.70 KB",
+   "announcedAt": "2026-10-21T17:14:39.000Z",
+   "announcedAtRaw": "21-Oct-2026 22:44:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823937",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Credit Rating",
+   "text": "Reliance Industries Limited has informed the Exchange about Credit Rating",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_21102026204310_SE_ICRA.pdf",
+   "attachmentSize": "679.18 KB",
+   "announcedAt": "2026-10-21T15:13:30.000Z",
+   "announcedAtRaw": "21-Oct-2026 20:43:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "credit_rating",
+    "categories": [
+     "credit_rating"
+    ],
+    "rule": "desc:credit rating",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106821332",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Updates",
+   "text": "The newspaper clippings of the advertisement on the captioned subject published today are enclosed.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_17102026193113_RIL_SE_171026.pdf",
+   "attachmentSize": "2.69 MB",
+   "announcedAt": "2026-10-17T14:02:52.000Z",
+   "announcedAtRaw": "17-Oct-2026 19:32:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106820709",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Newspaper Clippings Proposed Initial Public Offer of Jio Platforms Limited - Reservation for eligible RIL shareholders",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_16102026205736_RILSELetter_16102026.pdf",
+   "attachmentSize": "10.51 MB",
+   "announcedAt": "2026-10-16T15:28:26.000Z",
+   "announcedAtRaw": "16-Oct-2026 20:58:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:ipo",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106819001",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Newspaper clippings Special Window for transfer and dematerialisation (demat) of physical sharesThe newspaper clippings of the advertisement on the captioned subject published today i.e., October 15, 2026 in the newspapers viz. The Indian Express (English), Financial Express (English), Loksatta (Marathi) and Jansatta (Hindi) are enclosed for information and records.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_15102026180155_RILSpecialWindowAdvt.pdf",
+   "attachmentSize": "8.72 MB",
+   "announcedAt": "2026-10-15T12:36:36.000Z",
+   "announcedAtRaw": "15-Oct-2026 18:06:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106817804",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "General Updates",
+   "text": "Proposed Initial Public Offer of Jio Platforms Limited.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026201111_RIL_SE_14102026_.pdf",
+   "attachmentSize": "289.91 KB",
+   "announcedAt": "2026-10-14T14:42:49.000Z",
+   "announcedAtRaw": "14-Oct-2026 20:12:49",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:ipo",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106817653",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "General Updates",
+   "text": "Proposed Initial Public Offer of Jio Platforms Limited - filing of the Red Herring Prospectus.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_14102026183404_RIL_SE14102026.pdf",
+   "attachmentSize": "281.45 KB",
+   "announcedAt": "2026-10-14T13:05:12.000Z",
+   "announcedAtRaw": "14-Oct-2026 18:35:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:ipo",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810410",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Action(s) taken or orders passed",
+   "text": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 is attached.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PVIVINMA_07102026223504_RIL_SEletter07102026.pdf",
+   "attachmentSize": "280.74 KB",
+   "announcedAt": "2026-10-07T17:06:08.000Z",
+   "announcedAtRaw": "07-Oct-2026 22:36:08",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:action(s) taken or orders passed",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106804744",
+   "symbol": "RELIANCE",
+   "company": "Reliance Industries Limited",
+   "isin": "INE002A01018",
+   "nseDesc": "Allotment of Securities",
+   "text": "We wish to inform that the Company has today allotted 13,00,000 Unsecured, Redeemable, Non-Convertible Debentures (\"NCDs\") of the face value of Rs. 1,00,000 each (\"PPD Series R\"), issued on private placement basis.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/kavinavora_01102026150203_SE_01102026.pdf",
+   "attachmentSize": "270.27 KB",
+   "announcedAt": "2026-10-01T09:32:20.000Z",
+   "announcedAtRaw": "01-Oct-2026 15:02:20",
+   "hasXbrl": true,
+   "classification": {
+    "category": "fund_raise",
+    "categories": [
+     "fund_raise"
+    ],
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

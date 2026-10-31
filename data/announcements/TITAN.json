@@ -1,0 +1,182 @@
+{
+ "schema": 1,
+ "symbol": "TITAN",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TITAN&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:18.870Z",
+  "asOf": "2026-10-28T11:56:00.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 7,
+ "items": [
+  {
+   "id": "106832541",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Titan Company Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_28102026172546_SEnewspaperadlossofshares.pdf",
+   "attachmentSize": "4.03 MB",
+   "announcedAt": "2026-10-28T11:56:00.000Z",
+   "announcedAtRaw": "28-Oct-2026 17:26:00",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831940",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Acquisition",
+   "text": "Titan Company Limited has informed the Exchange about the Company has incorporated Titan Company Canada Inc. as its wholly owned subsidiary.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_28102026134838_SEIntimation_-_Canada_Incorporation.pdf",
+   "attachmentSize": "325.52 KB",
+   "announcedAt": "2026-10-28T08:19:00.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:49:00",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:acquisition",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106826990",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Titan Company Limited has informed the Exchange about Earnings call for Q2 and half year ended FY 2026-27",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_23102026195704_SEQ2FY27EarningCall.pdf",
+   "attachmentSize": "431.92 KB",
+   "announcedAt": "2026-10-23T14:28:53.000Z",
+   "announcedAtRaw": "23-Oct-2026 19:58:53",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106822009",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "General Updates",
+   "text": "Titan Company Limited has informed the Exchange about Redemption of Commercial Paper",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_19102026161128_SECPRedemption16102026.pdf",
+   "attachmentSize": "174.17 KB",
+   "announcedAt": "2026-10-19T10:41:44.000Z",
+   "announcedAtRaw": "19-Oct-2026 16:11:44",
+   "hasXbrl": true,
+   "classification": {
+    "category": "fund_raise",
+    "categories": [
+     "fund_raise"
+    ],
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106815390",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Titan Company Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_13102026102335_SERegulation745.pdf",
+   "attachmentSize": "181.92 KB",
+   "announcedAt": "2026-10-13T04:53:55.000Z",
+   "announcedAtRaw": "13-Oct-2026 10:23:55",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811243",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Updates",
+   "text": "Titan Company Limited has informed the Exchange regarding 'Redemption of Commercial Paper'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_08102026161235_SECPRedemption08102026.pdf",
+   "attachmentSize": "174.23 KB",
+   "announcedAt": "2026-10-08T10:42:50.000Z",
+   "announcedAtRaw": "08-Oct-2026 16:12:50",
+   "hasXbrl": true,
+   "classification": {
+    "category": "fund_raise",
+    "categories": [
+     "fund_raise"
+    ],
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808719",
+   "symbol": "TITAN",
+   "company": "Titan Company Limited",
+   "isin": "INE280A01010",
+   "nseDesc": "Updates",
+   "text": "Titan Company Limited has informed the Exchange regarding 'Quarterly Update Q2 FY 2026-27'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TITAN_06102026182232_Q2update202627.pdf",
+   "attachmentSize": "542.31 KB",
+   "announcedAt": "2026-10-06T12:52:46.000Z",
+   "announcedAtRaw": "06-Oct-2026 18:22:46",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "schema": 1,
+ "symbol": "POLYCAB",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=POLYCAB&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:53.630Z",
+  "asOf": "2026-10-30T06:50:09.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 22,
+ "items": [
+  {
+   "id": "106836029",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange about the order passed by NCLAT setting aside the order of NCLT Ahmedabad bench dated October 07, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_30102026121954_SECIRP30102026.pdf",
+   "attachmentSize": "6.66 MB",
+   "announcedAt": "2026-10-30T06:50:09.000Z",
+   "announcedAtRaw": "30-Oct-2026 12:20:09",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106832611",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026174326_Intimationtostockexchange.pdf",
+   "attachmentSize": "273.52 KB",
+   "announcedAt": "2026-10-28T12:13:39.000Z",
+   "announcedAtRaw": "28-Oct-2026 17:43:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106831536",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange on the update of NCLAT order dated October 27, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_28102026102430_StockExchangeintimation27102026.pdf",
+   "attachmentSize": "502.20 KB",
+   "announcedAt": "2026-10-28T04:54:43.000Z",
+   "announcedAtRaw": "28-Oct-2026 10:24:43",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830897",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026190410_Intimationtostockexchange.pdf",
+   "attachmentSize": "271.33 KB",
+   "announcedAt": "2026-10-27T13:34:27.000Z",
+   "announcedAtRaw": "27-Oct-2026 19:04:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106830830",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Polycab India Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_27102026184209_IntimationtoStockExchange.pdf",
+   "attachmentSize": "953.32 KB",
+   "announcedAt": "2026-10-27T13:12:35.000Z",
+   "announcedAtRaw": "27-Oct-2026 18:42:35",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106826247",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_23102026143418_Intimationtostockexchange.pdf",
+   "attachmentSize": "257.08 KB",
+   "announcedAt": "2026-10-23T09:04:30.000Z",
+   "announcedAtRaw": "23-Oct-2026 14:34:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106822047",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Polycab India Limited has informed the Exchange about Transcript",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026163912_Intimation_of_Earnings_Call_Transcript.pdf",
+   "attachmentSize": "493.10 KB",
+   "announcedAt": "2026-10-19T11:09:28.000Z",
+   "announcedAtRaw": "19-Oct-2026 16:39:28",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106822031",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Analyst(s)/Investor(s) meet.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_19102026162313_Intimationtostockexchange.pdf",
+   "attachmentSize": "264.70 KB",
+   "announcedAt": "2026-10-19T10:53:29.000Z",
+   "announcedAtRaw": "19-Oct-2026 16:23:29",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106819599",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_16102026093958_CIRP15102026.pdf",
+   "attachmentSize": "280.49 KB",
+   "announcedAt": "2026-10-16T04:10:15.000Z",
+   "announcedAtRaw": "16-Oct-2026 09:40:15",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106819278",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Polycab India Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026204957_Audio_Recording_of_Earnings_Call.pdf",
+   "attachmentSize": "275.19 KB",
+   "announcedAt": "2026-10-15T15:20:13.000Z",
+   "announcedAtRaw": "15-Oct-2026 20:50:13",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818635",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Unaudited Interim Condensed (Standalone and Consolidated) Financial Statements for the quarter ended September 30, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026153319_UnauditedInterimCondensed15102026.pdf",
+   "attachmentSize": "3.57 MB",
+   "announcedAt": "2026-10-15T10:03:36.000Z",
+   "announcedAtRaw": "15-Oct-2026 15:33:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818494",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about Earnings Presentation on Unaudited Financial Results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026135028_EarningsPresentation15102026.pdf",
+   "attachmentSize": "7.94 MB",
+   "announcedAt": "2026-10-15T08:22:19.000Z",
+   "announcedAtRaw": "15-Oct-2026 13:52:19",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818462",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Press Release",
+   "text": "Polycab India Limited has informed the Exchange regarding a press release dated October 15, 2026, titled \"Financial results for the quarter ended 30th September 2026\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026130834_PressRelease.pdf",
+   "attachmentSize": "422.78 KB",
+   "announcedAt": "2026-10-15T07:38:53.000Z",
+   "announcedAtRaw": "15-Oct-2026 13:08:53",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "press_release"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818441",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Polycab India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_15102026125737_OutcomeofBoardMeeting.pdf",
+   "attachmentSize": "6.92 MB",
+   "announcedAt": "2026-10-15T07:28:53.000Z",
+   "announcedAtRaw": "15-Oct-2026 12:58:53",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816873",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange that Hon''ble NCLAT has granted the request for early listing and the appeal is now scheduled to be held on October 15, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_14102026112211_SEintimation14102026.pdf",
+   "attachmentSize": "282.60 KB",
+   "announcedAt": "2026-10-14T05:52:27.000Z",
+   "announcedAtRaw": "14-Oct-2026 11:22:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816002",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Press Release",
+   "text": "Polycab India Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Press Release on NCLAT Order\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_13102026164554_StockExchangeIntimation-Press_Release.pdf",
+   "attachmentSize": "342.17 KB",
+   "announcedAt": "2026-10-13T11:17:39.000Z",
+   "announcedAtRaw": "13-Oct-2026 16:47:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813708",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Polycab India Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_10102026202405_Intimation_of_Earnings_Call.pdf",
+   "attachmentSize": "558.43 KB",
+   "announcedAt": "2026-10-10T14:54:14.000Z",
+   "announcedAtRaw": "10-Oct-2026 20:24:14",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813081",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_09102026194506_StockexchangeCIRP09102026.pdf",
+   "attachmentSize": "548.75 KB",
+   "announcedAt": "2026-10-09T14:15:26.000Z",
+   "announcedAtRaw": "09-Oct-2026 19:45:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811729",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026204050_StockExchangeIntimationCIRPupdate08102026F.pdf",
+   "attachmentSize": "248.68 KB",
+   "announcedAt": "2026-10-08T15:11:15.000Z",
+   "announcedAtRaw": "08-Oct-2026 20:41:15",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811644",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "Corporate Insolvency Resolution Process",
+   "text": "Polycab India Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_08102026190117_Intimation_to_Stock_Exchange.pdf",
+   "attachmentSize": "561.60 KB",
+   "announcedAt": "2026-10-08T13:31:27.000Z",
+   "announcedAtRaw": "08-Oct-2026 19:01:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:corporate insolvency resolution process",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810424",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "General Updates",
+   "text": "Polycab India Limited has informed the Exchange about intimation of NCLT order",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_07102026224543_Intimationtostockexchange.pdf",
+   "attachmentSize": "264.58 KB",
+   "announcedAt": "2026-10-07T17:15:52.000Z",
+   "announcedAtRaw": "07-Oct-2026 22:45:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "kw:litigation",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808275",
+   "symbol": "POLYCAB",
+   "company": "Polycab India Limited",
+   "isin": "INE455K01017",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "Polycab India Limited has informed the Exchange regarding Allotment of 10,150 Shares.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/POLYCAB_06102026143016_Intimation_of_Stock_Exchange.pdf",
+   "attachmentSize": "251.42 KB",
+   "announcedAt": "2026-10-06T09:00:39.000Z",
+   "announcedAtRaw": "06-Oct-2026 14:30:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  }
+ ]
+}

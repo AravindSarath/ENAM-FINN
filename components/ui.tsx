@@ -96,10 +96,10 @@ export function PageHeader({
   );
 }
 
-export function DataNotice({ children }: { children: ReactNode }) {
+export function DataNotice({ children, label = "Sample data" }: { children: ReactNode; label?: string }) {
   return (
     <p className="mx-4 mb-3 rounded-lg border border-dashed border-dim/70 px-3 py-2 text-[11.5px] leading-snug text-mute">
-      <span className="mr-1.5 font-medium uppercase tracking-wider text-gold">Mock data</span>
+      <span className="mr-1.5 font-medium uppercase tracking-wider text-gold">{label}</span>
       {children}
     </p>
   );

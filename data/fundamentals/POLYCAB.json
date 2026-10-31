@@ -1,0 +1,2238 @@
+{
+ "schema": 1,
+ "symbol": "POLYCAB",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/POLYCAB/consolidated/",
+  "fetchedAt": "2026-10-31T15:50:58.459Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Polycab India Ltd",
+ "companyId": "1274653",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 1,17,355 Cr.",
+   "value": 117355
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 7,787",
+   "value": 7787
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 10,129 / 6,660",
+   "value": 10129
+  },
+  {
+   "name": "Stock P/E",
+   "text": "37.2",
+   "value": 37.2
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 869",
+   "value": 869
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "0.60 %",
+   "value": 0.6
+  },
+  {
+   "name": "ROCE",
+   "text": "33.2 %",
+   "value": 33.2
+  },
+  {
+   "name": "ROE",
+   "text": "23.0 %",
+   "value": 23
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 10.0",
+   "value": 10
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      4218,
+      4340,
+      5592,
+      4698,
+      5498,
+      5226,
+      6986,
+      5906,
+      6477,
+      7636,
+      8864,
+      8210,
+      9899
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      3609,
+      3771,
+      4830,
+      4115,
+      4867,
+      4506,
+      5960,
+      5048,
+      5456,
+      6670,
+      7703,
+      7074,
+      8476
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      609,
+      570,
+      762,
+      583,
+      632,
+      720,
+      1025,
+      858,
+      1021,
+      966,
+      1161,
+      1136,
+      1422
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      14,
+      13,
+      14,
+      12,
+      11,
+      14,
+      15,
+      15,
+      16,
+      13,
+      13,
+      14,
+      14
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      35,
+      71,
+      54,
+      58,
+      76,
+      25,
+      48,
+      80,
+      45,
+      50,
+      60,
+      105,
+      88
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      27,
+      32,
+      24,
+      41,
+      45,
+      50,
+      33,
+      51,
+      48,
+      69,
+      75,
+      80,
+      94
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      60,
+      62,
+      66,
+      67,
+      72,
+      79,
+      80,
+      86,
+      97,
+      106,
+      98,
+      103,
+      111
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      557,
+      546,
+      725,
+      533,
+      590,
+      617,
+      961,
+      801,
+      921,
+      842,
+      1049,
+      1058,
+      1306
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      23,
+      24,
+      24,
+      25,
+      25,
+      25,
+      24,
+      25,
+      25,
+      25,
+      25,
+      25,
+      24
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      430,
+      417,
+      553,
+      402,
+      445,
+      464,
+      734,
+      600,
+      693,
+      630,
+      786,
+      797,
+      990
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      28.37,
+      27.49,
+      36.34,
+      26.34,
+      29.24,
+      30.42,
+      48.31,
+      39.34,
+      45.54,
+      41.3,
+      51.33,
+      52.07,
+      64.86
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1274653/9/2023/",
+    "https://www.screener.in/company/source/quarter/1274653/12/2023/",
+    "https://www.screener.in/company/source/quarter/1274653/3/2024/",
+    "https://www.screener.in/company/source/quarter/1274653/6/2024/",
+    "https://www.screener.in/company/source/quarter/1274653/9/2024/",
+    "https://www.screener.in/company/source/quarter/1274653/12/2024/",
+    "https://www.screener.in/company/source/quarter/1274653/3/2025/",
+    "https://www.screener.in/company/source/quarter/1274653/6/2025/",
+    "https://www.screener.in/company/source/quarter/1274653/9/2025/",
+    "https://www.screener.in/company/source/quarter/1274653/12/2025/",
+    "https://www.screener.in/company/source/quarter/1274653/3/2026/",
+    "https://www.screener.in/company/source/quarter/1274653/6/2026/",
+    "https://www.screener.in/company/source/quarter/1274653/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      4707,
+      5202,
+      5500,
+      6770,
+      7986,
+      8830,
+      8792,
+      12204,
+      14108,
+      18039,
+      22408,
+      28884,
+      34609
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      4266,
+      4710,
+      5020,
+      6041,
+      7035,
+      7701,
+      7681,
+      10940,
+      12265,
+      15548,
+      19445,
+      24870,
+      29923
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      442,
+      492,
+      480,
+      729,
+      950,
+      1129,
+      1111,
+      1264,
+      1843,
+      2492,
+      2964,
+      4013,
+      4686
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      9,
+      9,
+      9,
+      11,
+      12,
+      13,
+      13,
+      10,
+      13,
+      14,
+      13,
+      14,
+      14
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      5,
+      32,
+      75,
+      65,
+      64,
+      91,
+      164,
+      161,
+      133,
+      221,
+      204,
+      229,
+      304
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      108,
+      147,
+      66,
+      94,
+      117,
+      50,
+      43,
+      35,
+      60,
+      108,
+      169,
+      243,
+      317
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      98,
+      111,
+      128,
+      133,
+      141,
+      161,
+      176,
+      202,
+      209,
+      245,
+      298,
+      386,
+      417
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      241,
+      265,
+      361,
+      567,
+      756,
+      1010,
+      1056,
+      1188,
+      1707,
+      2359,
+      2701,
+      3613,
+      4256
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      32,
+      30,
+      36,
+      37,
+      34,
+      24,
+      16,
+      23,
+      25,
+      24,
+      24,
+      25,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      164,
+      185,
+      233,
+      359,
+      500,
+      766,
+      886,
+      917,
+      1282,
+      1803,
+      2046,
+      2708,
+      3202
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      11.64,
+      13.09,
+      16.48,
+      25.35,
+      35.39,
+      50.97,
+      59.15,
+      60.8,
+      84.8,
+      118.75,
+      134.28,
+      177.48,
+      209.56
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      9,
+      13,
+      6,
+      0,
+      8,
+      14,
+      17,
+      23,
+      24,
+      25,
+      26,
+      26,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      141,
+      141,
+      141,
+      141,
+      141,
+      149,
+      149,
+      149,
+      150,
+      150,
+      150,
+      151,
+      151
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      1489,
+      1642,
+      1853,
+      2206,
+      2706,
+      3688,
+      4605,
+      5394,
+      6481,
+      8037,
+      9675,
+      11858,
+      12943
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      546,
+      796,
+      856,
+      800,
+      272,
+      157,
+      282,
+      118,
+      191,
+      161,
+      202,
+      236,
+      272
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      1138,
+      1296,
+      1729,
+      1300,
+      2509,
+      1967,
+      1978,
+      1750,
+      2602,
+      3718,
+      3721,
+      8220,
+      10429
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      3314,
+      3875,
+      4579,
+      4448,
+      5628,
+      5961,
+      7015,
+      7412,
+      9424,
+      12066,
+      13749,
+      20465,
+      23795
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      822,
+      985,
+      1128,
+      1197,
+      1276,
+      1422,
+      1870,
+      1675,
+      2067,
+      2338,
+      3011,
+      3740,
+      3979
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      179,
+      138,
+      165,
+      136,
+      193,
+      241,
+      99,
+      375,
+      251,
+      578,
+      708,
+      1139,
+      1401
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      33,
+      32,
+      29,
+      65,
+      635,
+      773,
+      1350,
+      1822,
+      1749,
+      3405,
+      4032
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      2312,
+      2752,
+      3253,
+      3083,
+      4130,
+      4232,
+      4411,
+      4588,
+      5756,
+      7328,
+      8280,
+      12180,
+      14383
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      3314,
+      3875,
+      4579,
+      4448,
+      5628,
+      5961,
+      7015,
+      7412,
+      9424,
+      12066,
+      13749,
+      20465,
+      23795
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      150,
+      221,
+      296,
+      362,
+      1230,
+      244,
+      1252,
+      512,
+      1428,
+      1296,
+      1809,
+      3811
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -173,
+      -247,
+      -295,
+      -188,
+      -408,
+      -262,
+      -1012,
+      -427,
+      -1203,
+      -752,
+      -1239,
+      -2850
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      15,
+      45,
+      -10,
+      -190,
+      -651,
+      11,
+      -175,
+      -201,
+      -227,
+      -387,
+      -628,
+      -799
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -8,
+      20,
+      -8,
+      -15,
+      171,
+      -7,
+      66,
+      -116,
+      -2,
+      157,
+      -59,
+      162
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      -52,
+      -26,
+      18,
+      179,
+      949,
+      -45,
+      1061,
+      -8,
+      969,
+      438,
+      853,
+      2340
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      48,
+      69,
+      83,
+      69,
+      148,
+      48,
+      134,
+      67,
+      98,
+      75,
+      82,
+      117
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      84,
+      95,
+      80,
+      70,
+      61,
+      59,
+      60,
+      39,
+      32,
+      41,
+      42,
+      48
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      95,
+      94,
+      134,
+      null,
+      128,
+      116,
+      113,
+      86,
+      104,
+      105,
+      86,
+      99
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      101,
+      101,
+      120,
+      null,
+      97,
+      82,
+      77,
+      48,
+      72,
+      82,
+      64,
+      108
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      78,
+      88,
+      94,
+      70,
+      91,
+      94,
+      96,
+      77,
+      65,
+      65,
+      64,
+      39
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      86,
+      94,
+      96,
+      57,
+      45,
+      71,
+      67,
+      67,
+      58,
+      59,
+      54,
+      30
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      17,
+      17,
+      16,
+      22,
+      28,
+      29,
+      23,
+      21,
+      27,
+      31,
+      30,
+      33
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP) 30 Oct - On October 30, 2026, NCLAT allowed Polycab’s appeal and set aside NCLT Ahmedabad order.",
+   "links": [
+    {
+     "text": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP) 30 Oct - On October 30, 2026, NCLAT allowed Polycab’s appeal and set aside NCLT Ahmedabad order.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3d1ba29-6132-47b7-9f3b-79a294e53189.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 28 Oct - Polycab to meet William Blair & Company on November 3, 2026, virtually in Mumbai.",
+   "links": [
+    {
+     "text": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 28 Oct - Polycab to meet William Blair & Company on November 3, 2026, virtually in Mumbai.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26cdd582-7e95-4019-88b5-fdff3d5e60e1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP) 28 Oct - NCLAT ordered MSCI not to delist Polycab until order pronouncement, dated October 27, 2026.",
+   "links": [
+    {
+     "text": "Corporate Insolvency Resolution Process (CIRP)-Updates - Corporate Insolvency Resolution Process (CIRP) 28 Oct - NCLAT ordered MSCI not to delist Polycab until order pronouncement, dated October 27, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ead5c0dc-e464-4e53-8006-b861205174a9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 27 Oct",
+   "links": [
+    {
+     "text": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 27 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cafe2036-e51b-413a-80cd-65e331d170be.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 23 Oct - Polycab schedules investor/analyst meetings from October 28 to December 1, 2026.",
+   "links": [
+    {
+     "text": "Announcement Under Regulation 30 (LODR) - Analyst(S) / Investor(S) Meet - Intimation 23 Oct - Polycab schedules investor/analyst meetings from October 28 to December 1, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9743040-8809-46d3-85ca-c6ca01bc322a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ff6bcced-1327-449f-8a82-6fd651a0124f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/82657cf0-b6b8-4b01-bb68-9f477d451107.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/82657cf0-b6b8-4b01-bb68-9f477d451107.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from web",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/15cfd6ff-d07d-43c9-9a6e-1e27379e210e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/15cfd6ff-d07d-43c9-9a6e-1e27379e210e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f7eb069d-805f-4511-bfa1-82c48213554b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/542652/73173542652.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/542652/68678542652.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/542652/5426520320.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/542652/5426520319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 1d from fitch",
+   "links": [
+    {
+     "text": "Rating update 1d from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/86546"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 7 Oct from crisil",
+   "links": [
+    {
+     "text": "Rating update 7 Oct from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/PolycabIndiaLimited_October%2007_%202026_RR_402484.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 17 Nov 2025 from crisil",
+   "links": [
+    {
+     "text": "Rating update 17 Nov 2025 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/PolycabIndiaLimited_November%2017_%202025_RR_382364.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 1 Aug 2025 from fitch",
+   "links": [
+    {
+     "text": "Rating update 1 Aug 2025 from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/78126"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 14 Oct 2024 from crisil",
+   "links": [
+    {
+     "text": "Rating update 14 Oct 2024 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/PolycabIndiaLimited_October%2014_%202024_RR_354571.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 17 Jul 2024 from fitch",
+   "links": [
+    {
+     "text": "Rating update 17 Jul 2024 from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/71498"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a940f987-41db-4848-8f35-4b6c8a8f5b47.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/uv1fhcgd/10047550.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52abf6f5-8a9d-4914-8ed1-725361e6832b.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/pzqbdhgu/earning-call-recording-q12027.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f586954-cf4c-4a5c-b179-8fb4a3cf55a9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b665a82-e6f7-42aa-8d23-b4cc3572bac1.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/op5fvhwy/7fdfdc6a-e755-4c7b-9cb9-9e1726d39b77.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a5825e0-67d1-41af-96e0-d78387aaba8d.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa70b8fd-18f7-41c1-a693-91318de87262.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/1n5lk0la/q2fy26-earnings-call-recording.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d06e9ad-0c88-4d9a-beda-c76de11b708e.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3dc7ce9-b962-4ef9-a23d-3c317a94d9cb.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/64RdzBj_USk?si=gE3F56BbAW-x8MdL"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e7d3683-7379-48ce-a40a-e47134b88d29.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ed9a91c-39e6-4b29-89f1-6e8d029a819f.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "http://cms.polycab.com/media/j3zp1ksj/earnings-call-audio-recording-2025-q4.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/j3zp1ksj/earnings-call-audio-recording-2025-q4.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d82915d-6c71-4abd-aec3-92a79e44d003.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14dbaf25-6e16-4942-a0e2-2404d069a177.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://cms.polycab.com/media/gazc3l3f/earnings-call-audio-q3-fy25.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c39a9044-b650-4caf-bb23-d2f68807f9a5.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4f490ef-910a-4457-9bc7-ce987a2204c2.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Earnings-call-audio-recording-Q2-FY25.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b51cd7-c6de-4248-853d-dbd110295bf1.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a500b1f4-fa28-4c5b-80c0-67f2b64c6f55.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Audio-Q1-FY25.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07d28a91-b18e-451c-aca9-fb3588bb36ec.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b09347d2-d034-4c84-a553-c5e45fff0e7e.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/POL0220240510152552.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=798798ef-1490-4498-8a21-af5bc579df5b.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52241587-77db-4a5a-abee-00d0b64ed3c6.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Q3-FY24.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dee0274e-2f50-4d66-a36b-1fe41e93090b.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cffbf11-74bb-4057-814f-a30bdadb9b63.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Earnings-Call-Audio-Recording-Q2-FY24.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=868b80e1-8dfd-4261-8b25-d1e5ebbcf454.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fadf5a1-a3ff-4095-b526-99313c02803d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5f6cb4e-6115-4716-800b-d045fa0b8080.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3b678c2-c9a8-4a37-a2b8-8c99c2a3a59c.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45a3db4e-c553-4267-b26c-8acf18861819.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c3303e-79d0-4e69-80b4-32a753ea637f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6d1749-80f0-4fa6-8f94-15af0b08a9eb.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ded81b5-80bd-487a-961e-b813354bfa72.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6314ae06-38d3-41a2-94db-a168660af2d3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fdceae5-b66d-45fb-bcf1-2c409269912c.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fa9f4e3-39a9-426a-9aee-0d08b6eb1163.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa22b1da-cfb2-44d6-a905-629e9a847aa3.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0f9aeee-00d6-4d96-8203-1d09901e34e3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Polycab-India-Limited_Q3FY22-Earnings-Call-Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ddbf8b5-15eb-4096-a02f-dacb25df610e.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d44afd31-58d6-4413-a0c3-d719c33be9de.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5235ff2-5c8e-4ec1-abdd-b640e681fcde.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16beb944-40a7-46a9-bafe-b8221c004548.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a16cf649-c481-4f00-81fc-c121c81b7323.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc00d729-063c-46c9-8a02-f66f2bed5582.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2021/07/Polycab-India-Limited_Q1FY22-Earnings-Call-Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef742466-5000-4409-9ae0-d5bb7563a71a.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f8883de-277e-4a20-85a2-47b22cd09b6e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13f46cca-7bb8-4abe-b619-417552c60c53.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e82c4951-4f67-41f0-8abc-8e44810b3288.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2021/02/Polycab-India-Limited_Q3FY21-Earnings-Call-Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54f16bad-1cbd-4c38-a684-f631d7ce26fa.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/10/Polycab-India-Limited_Q2FY21-Earnings-Call-Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f650aeb7-b259-41e2-b0cf-91a51dea2e03.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3f1af9b-9231-419e-9907-c58b6869b519.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/06/Polycab-India-Ltd-Q4FY20-Earnings-Call-Transcript-1.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c15890c-3ca6-472d-93fe-f56ea57d9efc.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7949321-2d9d-4980-9d51-10bfea483e23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=422997bb-ffb2-4feb-b484-3412abae9dfd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/02/Polycab-India-Ltd-Q3FY20-Earnings-Call-Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4edb4a71-2956-4e9a-83e8-00d3bd8d12a1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/01/Earnings-Call-Transcript_Q2_2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b09c8b1e-12ab-4eed-8866-be5ff52ab07b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/01/Earnings-Call-Transcript_Q1_2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41c7b6c6-f10c-4a8e-801f-a3b3abe8566e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d965cbf9-cdf4-47b5-a11a-22d6d8c73421.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43fb7c46-4dcf-4209-ad6c-6a546810bba3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a04c4d2-8e50-437f-acb8-4aaaf961d175.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca091abf-cf49-4059-a29d-bec77c6bb208.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://polycab.com/wp-content/uploads/2020/01/Earnings-Call-Transcript_Q4_2019.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bf4c1c6-ede4-4f63-90c4-c31debe87c50.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcaf4f42-50dc-4be9-9f5f-5411aa0f3981.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15a470b5-6a94-4080-b6d0-9835d4597be8.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b649ab10-1715-436a-bda9-672ce3eefbb8.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa5c90f5-7a06-4e21-9272-fa6aa1a3638f.pdf"
+    }
+   ]
+  }
+ ]
+}

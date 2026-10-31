@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { ADHOC, HOLDINGS } from "@/lib/mock";
 import { DataNotice, PageHeader } from "./ui";
 
 const OUTPUTS = [
@@ -17,7 +16,12 @@ const OUTPUTS = [
   ["Bull vs bear", "a tight case each way"],
 ];
 
-export default function ResearchHome() {
+export interface ResearchIndex {
+  portfolio: { sym: string; name: string }[];
+  research: { sym: string; name: string }[];
+}
+
+export default function ResearchHome({ index }: { index: ResearchIndex }) {
   const router = useRouter();
   const [q, setQ] = useState("");
   const sym = q.trim().toUpperCase().replace(/[^A-Z0-9&-]/g, "");
@@ -27,9 +31,10 @@ export default function ResearchHome() {
   return (
     <>
       <PageHeader eyebrow="Primary sources only" title="Research" />
-      <DataNotice>
-        Search accepts any NSE ticker. Only RELIANCE has a sample dossier now; the live pipeline (annual reports,
-        concalls) is a later stage.
+      <DataNotice label="Real numbers, analysis next">
+        All 22 ingested companies open with real screener.in quarterly data. The commentary sections (promised vs
+        delivered, guidance, bull and bear) need the LLM stage and show as &quot;next stage&quot;, except a
+        layout preview on RELIANCE. Other tickers are not ingested yet.
       </DataNotice>
 
       <form
@@ -47,7 +52,7 @@ export default function ResearchHome() {
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Any NSE ticker, e.g. ASIANPAINT"
+            placeholder="Ticker, e.g. ASIANPAINT"
             autoCapitalize="characters"
             autoCorrect="off"
             spellCheck={false}
@@ -65,7 +70,7 @@ export default function ResearchHome() {
       <section className="mt-7">
         <h2 className="eyebrow px-4 pb-2">Ad-hoc picks</h2>
         <div className="scroll-x flex gap-2 px-4">
-          {ADHOC.map((s) => (
+          {index.research.map(({ sym: s }) => (
             <Link key={s} href={`/research/${s}`} className="shrink-0 rounded-full border border-line bg-s1 px-3.5 py-2 font-mono text-[12.5px] hover:border-gold">
               {s}
             </Link>
@@ -76,7 +81,7 @@ export default function ResearchHome() {
       <section className="mt-6">
         <h2 className="eyebrow px-4 pb-2">From your portfolio</h2>
         <div className="flex flex-wrap gap-2 px-4">
-          {HOLDINGS.map((h) => (
+          {index.portfolio.map((h) => (
             <Link
               key={h.sym}
               href={`/research/${h.sym}`}

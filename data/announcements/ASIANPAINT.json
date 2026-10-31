@@ -1,0 +1,323 @@
+{
+ "schema": 1,
+ "symbol": "ASIANPAINT",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ASIANPAINT&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:22.971Z",
+  "asOf": "2026-10-29T15:48:39.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 13,
+ "items": [
+  {
+   "id": "106835385",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Asian Paints Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026211830_SE_intimation__Audio_Recording_Q2FY26-27signed.pdf",
+   "attachmentSize": "271.70 KB",
+   "announcedAt": "2026-10-29T15:48:39.000Z",
+   "announcedAtRaw": "29-Oct-2026 21:18:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834553",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Investor Presentation",
+   "text": "Asian Paints Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026164544_SEIntimation_Investor_Presentation_Q2FY26-27pdfsigned.pdf",
+   "attachmentSize": "4.92 MB",
+   "announcedAt": "2026-10-29T11:15:56.000Z",
+   "announcedAtRaw": "29-Oct-2026 16:45:56",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106834102",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Press Release",
+   "text": "Please find enclosed the Press Release on the performance of the Company for the quarter and half year ended 30th September 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141409_OutcomeofBM29102026signed.pdf",
+   "attachmentSize": "8.16 MB",
+   "announcedAt": "2026-10-29T08:44:43.000Z",
+   "announcedAtRaw": "29-Oct-2026 14:14:43",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "press_release"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834098",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Updates",
+   "text": "The Board of Directors at their meeting held today i.e., 29th October 2026, has, inter alia, approved the payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026141215_OutcomeofBM29102026signed.pdf",
+   "attachmentSize": "8.16 MB",
+   "announcedAt": "2026-10-29T08:42:34.000Z",
+   "announcedAtRaw": "29-Oct-2026 14:12:34",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "kw:dividend",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834096",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140936_OutcomeofBM29102026signed.pdf",
+   "attachmentSize": "8.16 MB",
+   "announcedAt": "2026-10-29T08:40:22.000Z",
+   "announcedAtRaw": "29-Oct-2026 14:10:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "dividend"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834090",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Dividend",
+   "text": "The Board of Directors at its meeting held today i.e., 29th October 2026, has, inter alia, approved the audited standalone and unaudited consolidated financial results of the Company for the quarter and half year ended 30th September 2026 and payment of interim dividend of Rs. 5.75 (Rupees five and paise seventy-five only) per equity share of the face value of Re. 1 each for the financial year ending 31st March 2027.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140642_OutcomeofBM29102026signed.pdf",
+   "attachmentSize": "8.16 MB",
+   "announcedAt": "2026-10-29T08:38:00.000Z",
+   "announcedAtRaw": "29-Oct-2026 14:08:00",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend",
+     "results"
+    ],
+    "rule": "desc:dividend",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834087",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Asian Paints Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_29102026140213_OutcomeofBM29102026signed.pdf",
+   "attachmentSize": "8.16 MB",
+   "announcedAt": "2026-10-29T08:34:43.000Z",
+   "announcedAtRaw": "29-Oct-2026 14:04:43",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106819391",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Please find enclosed herewith the Certificate received from MUFG Intime India Private Limited (formerly Link Intime India Private Limited), Company s Registrar and Share Transfer Agent for the quarter ended 30th September 2026 certifying compliance with Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_15102026225755_Regulation74DPRegulations30092026signed.pdf",
+   "attachmentSize": "441.69 KB",
+   "announcedAt": "2026-10-15T17:29:03.000Z",
+   "announcedAtRaw": "15-Oct-2026 22:59:03",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811137",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Please find enclosed newspaper advertisement published on 8th October 2026 informing about the resolution proposed to be passed through Postal Ballot and details relating to e-Voting facility.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_08102026151258_SE_Intimation_Newspaper_Advertisement_signed.pdf",
+   "attachmentSize": "8.57 MB",
+   "announcedAt": "2026-10-08T09:43:26.000Z",
+   "announcedAtRaw": "08-Oct-2026 15:13:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "postal_ballot",
+    "categories": [
+     "postal_ballot"
+    ],
+    "rule": "kw:postal-ballot",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810343",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Shareholders meeting",
+   "text": "Please find enclosed the Postal Ballot Notice dated 7th September 2026 together with the Explanatory Statement being sent to the members of the Company seeking their approval for appointment of Mr. Leo Puri as an Independent Director of the Company for a term of five consecutive years commencing from 7th September 2026 to 6th September 2031.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_07102026204250_SE_Intimation_-_Postal_ballot_Notice.pdf",
+   "attachmentSize": "411.23 KB",
+   "announcedAt": "2026-10-07T15:14:07.000Z",
+   "announcedAtRaw": "07-Oct-2026 20:44:07",
+   "hasXbrl": true,
+   "classification": {
+    "category": "postal_ballot",
+    "categories": [
+     "postal_ballot"
+    ],
+    "rule": "kw:postal-ballot",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808892",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "The Company will hold a conference with investors on 29th October 2026 at 5 p.m. IST.on the business and financial performance of the Company for the quarter and half year ended 30th September 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026201150_Investor_conference_Q22026-27.pdf",
+   "attachmentSize": "278.80 KB",
+   "announcedAt": "2026-10-06T14:42:08.000Z",
+   "announcedAtRaw": "06-Oct-2026 20:12:08",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "investor_meetings"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808837",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Record Date",
+   "text": "Asian Paints Limited has informed the Exchange that Record date for the purpose of Dividend is 04-Nov-2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026191216_BMintimationtoStockExchangesOct26.pdf",
+   "attachmentSize": "278.80 KB",
+   "announcedAt": "2026-10-06T13:42:54.000Z",
+   "announcedAtRaw": "06-Oct-2026 19:12:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "kw:dividend",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808824",
+   "symbol": "ASIANPAINT",
+   "company": "Asian Paints Limited",
+   "isin": "INE021A01018",
+   "nseDesc": "Updates",
+   "text": "Asian Paints Limited has informed the Exchange regarding 'This is to inform you that a meeting of the Board of Directors of the Company will be held on Thursday, 29th October 2026, inter alia, to consider the declaration of interim dividend, if any, for the financial year ending 31st March 2027. It is further informed that the record date for payment of interim dividend, if declared, will be Wednesday, 4th November 2026.'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ASIANPAINT_06102026190837_BMintimationtoStockExchangesOct26.pdf",
+   "attachmentSize": "278.80 KB",
+   "announcedAt": "2026-10-06T13:40:16.000Z",
+   "announcedAtRaw": "06-Oct-2026 19:10:16",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "kw:dividend",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

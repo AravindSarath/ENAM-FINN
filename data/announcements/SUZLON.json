@@ -1,0 +1,250 @@
+{
+ "schema": 1,
+ "symbol": "SUZLON",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=SUZLON&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:10.881Z",
+  "asOf": "2026-10-30T12:52:36.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 10,
+ "items": [
+  {
+   "id": "106837091",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Credit Rating",
+   "text": "Suzlon Energy Limited has informed the Exchange about Credit Rating",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_30102026182203_Suzlon30102026.pdf",
+   "attachmentSize": "200.88 KB",
+   "announcedAt": "2026-10-30T12:52:36.000Z",
+   "announcedAtRaw": "30-Oct-2026 18:22:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "credit_rating",
+    "categories": [
+     "credit_rating"
+    ],
+    "rule": "desc:credit rating",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106836294",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Rumour Verification - Regulation 30(11)",
+   "text": "Suzlon Energy Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_30102026142755_Suzlon30102026.pdf",
+   "attachmentSize": "201.21 KB",
+   "announcedAt": "2026-10-30T08:58:30.000Z",
+   "announcedAtRaw": "30-Oct-2026 14:28:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:rumour verification - regulation 30(11)",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106835327",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Suzlon Energy Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_29102026203518_Suzlon29102026.pdf",
+   "attachmentSize": "202.80 KB",
+   "announcedAt": "2026-10-29T15:06:10.000Z",
+   "announcedAtRaw": "29-Oct-2026 20:36:10",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834353",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Suzlon Energy Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_29102026154942_Suzlon29102026.pdf",
+   "attachmentSize": "6.26 MB",
+   "announcedAt": "2026-10-29T10:21:45.000Z",
+   "announcedAtRaw": "29-Oct-2026 15:51:45",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831411",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Credit Rating",
+   "text": "Suzlon Energy Limited has informed the Exchange about Credit Rating",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_28102026093056_Suzlon28102026.pdf",
+   "attachmentSize": "199.97 KB",
+   "announcedAt": "2026-10-28T04:01:53.000Z",
+   "announcedAtRaw": "28-Oct-2026 09:31:53",
+   "hasXbrl": true,
+   "classification": {
+    "category": "credit_rating",
+    "categories": [
+     "credit_rating"
+    ],
+    "rule": "desc:credit rating",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106828917",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Suzlon Energy Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_26102026182031_Suzlon26102026.pdf",
+   "attachmentSize": "620.90 KB",
+   "announcedAt": "2026-10-26T12:52:19.000Z",
+   "announcedAtRaw": "26-Oct-2026 18:22:19",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823458",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "Suzlon Energy Limited has informed the Exchange regarding Allotment of 346000 Shares.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_21102026160631_Suzlon21102026.pdf",
+   "attachmentSize": "213.21 KB",
+   "announcedAt": "2026-10-21T10:37:30.000Z",
+   "announcedAtRaw": "21-Oct-2026 16:07:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106815376",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Rumour Verification - Regulation 30(11)",
+   "text": "Suzlon Energy Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_13102026100034_Suzlon13102026.pdf",
+   "attachmentSize": "201.37 KB",
+   "announcedAt": "2026-10-13T04:31:07.000Z",
+   "announcedAtRaw": "13-Oct-2026 10:01:07",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:rumour verification - regulation 30(11)",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106812495",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Suzlon Energy Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_09102026145146_Certificate_74_5_.pdf",
+   "attachmentSize": "436.72 KB",
+   "announcedAt": "2026-10-09T09:22:12.000Z",
+   "announcedAtRaw": "09-Oct-2026 14:52:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811531",
+   "symbol": "SUZLON",
+   "company": "Suzlon Energy Limited",
+   "isin": "INE040H01021",
+   "nseDesc": "Rumour Verification - Regulation 30(11)",
+   "text": "Suzlon Energy Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/SUZLON1_08102026180833_Suzlon08092026.pdf",
+   "attachmentSize": "201.73 KB",
+   "announcedAt": "2026-10-08T12:39:17.000Z",
+   "announcedAtRaw": "08-Oct-2026 18:09:17",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:rumour verification - regulation 30(11)",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

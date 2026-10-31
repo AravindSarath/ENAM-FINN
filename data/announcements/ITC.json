@@ -1,0 +1,66 @@
+{
+ "schema": 1,
+ "symbol": "ITC",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ITC&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:30.179Z",
+  "asOf": "2026-10-15T13:50:08.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 2,
+ "items": [
+  {
+   "id": "106819181",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "isin": "INE154A01025",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "ITC Limited has informed the Exchange regarding Allotment of 1395500 Shares.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ITC_15102026192000_SE.pdf",
+   "attachmentSize": "418.80 KB",
+   "announcedAt": "2026-10-15T13:50:08.000Z",
+   "announcedAtRaw": "15-Oct-2026 19:20:08",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806918",
+   "symbol": "ITC",
+   "company": "ITC Limited",
+   "isin": "INE154A01025",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "ITC Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ITC_05102026142025_Demat_Remat_quarterly_Sept26.pdf",
+   "attachmentSize": "291.54 KB",
+   "announcedAt": "2026-10-05T08:51:07.000Z",
+   "announcedAtRaw": "05-Oct-2026 14:21:07",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  }
+ ]
+}

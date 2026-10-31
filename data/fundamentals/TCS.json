@@ -1,0 +1,2182 @@
+{
+ "schema": 1,
+ "symbol": "TCS",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/TCS/consolidated/",
+  "fetchedAt": "2026-10-31T15:49:59.901Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Tata Consultancy Services Ltd",
+ "companyId": "3365",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 9,05,463 Cr.",
+   "value": 905463
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 2,503",
+   "value": 2503
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 3,350 / 1,976",
+   "value": 3350
+  },
+  {
+   "name": "Stock P/E",
+   "text": "16.6",
+   "value": 16.6
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 329",
+   "value": 329
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "2.56 %",
+   "value": 2.56
+  },
+  {
+   "name": "ROCE",
+   "text": "63.0 %",
+   "value": 63
+  },
+  {
+   "name": "ROE",
+   "text": "51.8 %",
+   "value": 51.8
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 1.00",
+   "value": 1
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      59692,
+      60583,
+      61237,
+      62613,
+      64259,
+      63973,
+      64479,
+      63437,
+      65799,
+      67087,
+      70698,
+      72275,
+      73188
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      43946,
+      44195,
+      44073,
+      45951,
+      47528,
+      46939,
+      47499,
+      46562,
+      47821,
+      48818,
+      51422,
+      53719,
+      54373
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      15746,
+      16388,
+      17164,
+      16662,
+      16731,
+      17034,
+      16980,
+      16875,
+      17978,
+      18269,
+      19276,
+      18556,
+      18815
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      26,
+      27,
+      28,
+      27,
+      26,
+      27,
+      26,
+      27,
+      27,
+      27,
+      27,
+      26,
+      26
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      1006,
+      -96,
+      1157,
+      962,
+      729,
+      1243,
+      1028,
+      1660,
+      -268,
+      -2273,
+      757,
+      900,
+      1337
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      159,
+      230,
+      226,
+      173,
+      162,
+      234,
+      227,
+      195,
+      229,
+      538,
+      265,
+      273,
+      252
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      1263,
+      1233,
+      1246,
+      1220,
+      1266,
+      1377,
+      1379,
+      1361,
+      1413,
+      1380,
+      1406,
+      1239,
+      1262
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      15330,
+      14829,
+      16849,
+      16231,
+      16032,
+      16666,
+      16402,
+      16979,
+      16068,
+      14078,
+      18362,
+      17944,
+      18638
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      26,
+      25,
+      26,
+      25,
+      25,
+      25,
+      25,
+      24,
+      24,
+      24,
+      25,
+      25,
+      25
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      11380,
+      11097,
+      12502,
+      12105,
+      11955,
+      12444,
+      12293,
+      12819,
+      12131,
+      10720,
+      13784,
+      13420,
+      13934
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      31,
+      30.56,
+      34.37,
+      33.28,
+      32.92,
+      34.22,
+      33.79,
+      35.27,
+      33.37,
+      29.45,
+      37.92,
+      36.9,
+      38.37
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/3365/9/2023/",
+    "https://www.screener.in/company/source/quarter/3365/12/2023/",
+    "https://www.screener.in/company/source/quarter/3365/3/2024/",
+    "https://www.screener.in/company/source/quarter/3365/6/2024/",
+    "https://www.screener.in/company/source/quarter/3365/9/2024/",
+    "https://www.screener.in/company/source/quarter/3365/12/2024/",
+    "https://www.screener.in/company/source/quarter/3365/3/2025/",
+    "https://www.screener.in/company/source/quarter/3365/6/2025/",
+    "https://www.screener.in/company/source/quarter/3365/9/2025/",
+    "https://www.screener.in/company/source/quarter/3365/12/2025/",
+    "https://www.screener.in/company/source/quarter/3365/3/2026/",
+    "https://www.screener.in/company/source/quarter/3365/6/2026/",
+    "https://www.screener.in/company/source/quarter/3365/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      94648,
+      108646,
+      117966,
+      123104,
+      146463,
+      156949,
+      164177,
+      191754,
+      225458,
+      240893,
+      255324,
+      267021,
+      283248
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      70167,
+      77969,
+      85655,
+      90588,
+      106957,
+      114840,
+      117631,
+      138697,
+      166199,
+      176597,
+      187917,
+      194623,
+      208332
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      24482,
+      30677,
+      32311,
+      32516,
+      39506,
+      42109,
+      46546,
+      53057,
+      59259,
+      64296,
+      67407,
+      72398,
+      74916
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      26,
+      28,
+      27,
+      26,
+      27,
+      27,
+      28,
+      28,
+      26,
+      27,
+      26,
+      27,
+      26
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      3720,
+      3084,
+      4221,
+      3642,
+      4311,
+      4592,
+      1916,
+      4018,
+      3449,
+      3464,
+      3962,
+      -124,
+      721
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      104,
+      33,
+      32,
+      52,
+      198,
+      924,
+      637,
+      784,
+      779,
+      778,
+      796,
+      1227,
+      1328
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      1799,
+      1888,
+      1987,
+      2014,
+      2056,
+      3529,
+      4065,
+      4604,
+      5022,
+      4985,
+      5242,
+      5560,
+      5287
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      26298,
+      31840,
+      34513,
+      34092,
+      41563,
+      42248,
+      43760,
+      51687,
+      56907,
+      61997,
+      65331,
+      65487,
+      69022
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      23,
+      26,
+      26,
+      26,
+      26,
+      25,
+      24,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      20060,
+      24338,
+      26357,
+      25880,
+      31562,
+      32447,
+      32562,
+      38449,
+      42303,
+      46099,
+      48797,
+      49454,
+      51858
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      50.68,
+      61.58,
+      66.71,
+      67.46,
+      83.87,
+      86.19,
+      87.67,
+      104.75,
+      115.19,
+      126.88,
+      134.2,
+      136.01,
+      142.64
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      78,
+      35,
+      35,
+      37,
+      36,
+      85,
+      43,
+      41,
+      100,
+      58,
+      94,
+      81,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      196,
+      197,
+      197,
+      191,
+      375,
+      375,
+      370,
+      366,
+      366,
+      362,
+      362,
+      362,
+      362
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      50439,
+      70875,
+      86017,
+      84937,
+      89071,
+      83751,
+      86063,
+      88773,
+      90058,
+      90127,
+      94394,
+      106878,
+      118624
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      358,
+      245,
+      289,
+      247,
+      62,
+      8174,
+      7795,
+      7818,
+      7688,
+      8021,
+      9392,
+      11283,
+      11808
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      22325,
+      16974,
+      15830,
+      19751,
+      24393,
+      27827,
+      35764,
+      43967,
+      44747,
+      46962,
+      54501,
+      62644,
+      59988
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      73318,
+      88291,
+      102333,
+      105126,
+      113901,
+      120127,
+      129992,
+      140924,
+      142859,
+      145472,
+      158649,
+      181167,
+      190782
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      11638,
+      11774,
+      11701,
+      11973,
+      12290,
+      20928,
+      21021,
+      21298,
+      20515,
+      19604,
+      23053,
+      31343,
+      32872
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      2766,
+      1670,
+      1541,
+      1278,
+      963,
+      906,
+      926,
+      1205,
+      1234,
+      1564,
+      1546,
+      2665,
+      2380
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      1662,
+      22822,
+      41980,
+      36008,
+      29330,
+      26356,
+      29373,
+      30485,
+      37163,
+      31762,
+      30964,
+      33988,
+      40840
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      57252,
+      52025,
+      47111,
+      55867,
+      71318,
+      71937,
+      78672,
+      87936,
+      83947,
+      92542,
+      103086,
+      113171,
+      114690
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      73318,
+      88291,
+      102333,
+      105126,
+      113901,
+      120127,
+      129992,
+      140924,
+      142859,
+      145472,
+      158649,
+      181167,
+      190782
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      19369,
+      19109,
+      25223,
+      25067,
+      28593,
+      32369,
+      38802,
+      39949,
+      41965,
+      44338,
+      48908,
+      52094
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -1807,
+      -5010,
+      -16895,
+      3104,
+      1645,
+      8968,
+      -7956,
+      -738,
+      548,
+      6091,
+      -2144,
+      -11886
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      -17168,
+      -9666,
+      -11026,
+      -26885,
+      -27897,
+      -39915,
+      -32634,
+      -33581,
+      -47878,
+      -48536,
+      -47438,
+      -42133
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      394,
+      4433,
+      -2698,
+      1286,
+      2341,
+      1422,
+      -1788,
+      5630,
+      -5365,
+      1893,
+      -674,
+      -1925
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      16426,
+      17144,
+      23270,
+      23263,
+      26461,
+      29281,
+      35663,
+      36985,
+      38902,
+      41688,
+      44994,
+      48013
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      110,
+      87,
+      103,
+      100,
+      98,
+      91,
+      103,
+      97,
+      93,
+      88,
+      96,
+      92
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      79,
+      81,
+      70,
+      74,
+      68,
+      71,
+      67,
+      80,
+      81,
+      81,
+      84,
+      93
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      79,
+      81,
+      70,
+      74,
+      68,
+      71,
+      67,
+      80,
+      81,
+      81,
+      84,
+      93
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      33,
+      62,
+      62,
+      61,
+      70,
+      64,
+      59,
+      33,
+      30,
+      34,
+      34,
+      38
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      50,
+      51,
+      44,
+      39,
+      47,
+      47,
+      49,
+      54,
+      59,
+      64,
+      65,
+      63
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Press Release - TCS Bancs For Treasury Marks Its Entry Into Sri Lanka With Indian Bank 19 Oct - TCS BaNCS for Treasury enters Sri Lanka with Indian Bank’s Colombo branch on October 19, 2026.",
+   "links": [
+    {
+     "text": "Press Release - TCS Bancs For Treasury Marks Its Entry Into Sri Lanka With Indian Bank 19 Oct - TCS BaNCS for Treasury enters Sri Lanka with Indian Bank’s Colombo branch on October 19, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b12e07f0-028d-4c07-a018-036951644a15.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 16 Oct - TCS scheduled a non-deal roadshow in the USA from October 22-27, 2026.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation 16 Oct - TCS scheduled a non-deal roadshow in the USA from October 22-27, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18a00aec-26f8-4738-9e5b-d33abe1ff616.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Updates on Acquisition 15 Oct - TCS completed acquisition of BBY Services India LLP on October 15, 2026.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Updates on Acquisition 15 Oct - TCS completed acquisition of BBY Services India LLP on October 15, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad952e13-3c76-410e-81f8-4fe3d108a196.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Press Release - TCS Launches Industrial Intelligence Foundry To Accelerate AI-Led Autonomy And Engineering 15 Oct - TCS launches Industrial Intelligence Foundry for industrial AI deployment, promising 25% faster new product introduction.",
+   "links": [
+    {
+     "text": "Press Release - TCS Launches Industrial Intelligence Foundry To Accelerate AI-Led Autonomy And Engineering 15 Oct - TCS launches Industrial Intelligence Foundry for industrial AI deployment, promising 25% faster new product introduction.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50f14eb1-bf37-4fd3-a23d-5da7dc974ca4.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 14 Oct - Transcript of earnings conference call for quarter and six-month period ended September 30, 2026",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 14 Oct - Transcript of earnings conference call for quarter and six-month period ended September 30, 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/ad42e748-d73c-4c79-8c52-bcf1b1399bc1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/bb9f9e0a-e4ce-4a4e-997e-0b5de8c2bec0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d57e49b6-fd89-4fa8-b591-4f590100db1e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3837c1b7-9308-436d-9636-1d6856edf74e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/72996532540_17_06_22.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/68468532540_25_05_21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400320.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400317.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400316.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400315.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400314.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://archives.nseindia.com/annual_reports/AR_49_TCS_2012_2013_30052013104153.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532540/5325400313.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 20 Aug from icra",
+   "links": [
+    {
+     "text": "Rating update 20 Aug from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=145048"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 25 Aug 2025 from icra",
+   "links": [
+    {
+     "text": "Rating update 25 Aug 2025 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=137189"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 10 Sep 2024 from icra",
+   "links": [
+    {
+     "text": "Rating update 10 Sep 2024 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=129826"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 24 Jul 2023 from icra",
+   "links": [
+    {
+     "text": "Rating update 24 Jul 2023 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=121087"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 May 2022 from icra",
+   "links": [
+    {
+     "text": "Rating update 30 May 2022 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=112038"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 20 Sep 2021 from icra",
+   "links": [
+    {
+     "text": "Rating update 20 Sep 2021 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=106448"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc14216-f892-46f1-bf82-5c7b387a83b9.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q2/Management%20Commentary/Archived%20webcast%20of%20TCS%20Earnings%20Conference%20Call%20Q2%20FY27.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27523cab-de62-4f78-939a-6d9853bbd060.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202025-26%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20Jul%2010,%202025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Presentations/Q1%202026-27%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2026-27/q1/Management%20Commentary/Archived%20webcast%20of%20TCS%20Earnings%20Conference%20Call%20Q1%20FY27.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ae2d32-1050-4e80-96ff-eb2d98378d4e.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/fy26-q4-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q4/Presentations/Q4%202025-26%20Fact%20Sheet.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d70edbab-d5b2-47ae-8820-efacc5052d13.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/fy26-q3-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d59af2b6-34c7-4ca1-9455-f4899e5f26cf.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d9ed3a7-0106-4b36-840e-ef76c59a3c7a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fa78f01-221c-47fe-a83d-098bc43b0de7.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56f7fbb9-5cf4-49e1-95ef-62af7ad2a999.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q2/Presentations/Q2%202025-26%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/fy26-q2-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cee0fdb-07a3-4dc6-af7a-40dce51e1348.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2025-26/q1/Presentations/Q1%202025-26%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/3JzREAJHcXM?si=iOhA2J9YCsSysmXK"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3f70d49-123f-40d6-a0a9-b584546c8c63.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q4/Presentations/Q4%202024-25%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy25-q4-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f89d612-0771-4c26-a565-546c1d46ba9c.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q3/Presentations/Q3%202024-25%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=G_-sWzs0pag"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7066eb7-d5d8-4d9e-87fd-ed222315999d.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q2/Presentations/Q2%202024-25%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy25-q2-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a723c36-afac-4687-af0d-c01fd45c8815.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dd38adb-a021-420f-bff8-1b9f0fe1351b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2024-25/q1/Presentations/Q1%202024-25%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy25-q1-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c6ff602-30d9-490a-b147-1d824b5b6665.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q4/Presentations/Q4%202023-24%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements?n=t#type=overlay&page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy24-q4-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=215a0356-bb8c-4b2e-8c13-4e904e90a618.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q3/Presentations/Q3%202023-24%20Fact%20Sheet.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.tcs.com/investor-relations/financial-statements#type=overlay&page=/discover-tcs/investor-relations/overlays/management-commentary-overlays/fy24-q3-management-commentry-audio-overlay.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e617aaed-ae26-4fc8-8a6e-d79f40adc7f0.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2023-24/q2/Presentations/Q2%202023-24%20Fact%20Sheet.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46524061-48f9-497c-8217-2a4ca8479900.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a54627e-6d57-4e58-a672-5f15cbeb3f7e.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2022-23/q4/Presentations/Q4%20FY%202022-23%20Fact%20sheet.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76ba7959-5943-41bd-9410-a53f3de41e26.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=745d6bd9-e798-419a-8d49-b6beef99ab47.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76487354-b76f-4d21-8d70-d929f6b480a9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f424c104-aab6-47ba-9659-65a2ce5689e1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jan%2012,%202022.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Oct%208,%202021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2021-22/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202021-22%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jul%208,%202021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Apr%2012,%202021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Jan%208,%202021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20Oct%20%207,%202020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2020-21/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202020-21%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20July%209,%202020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202019-20%20Earnings%20Conference%20Call%20held%20at%202000%20hrs%20IST%20on%20April%2016,%202020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202019-20%20Earnings%20Conference%20Call%20held%20at%201730%20hrs%20IST%20on%20January%2017,%202020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202019-20%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20October%2010,%202019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2019-20/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202019-20%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20July%209,%202019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202018-19%20Earnings%20Conference%20Call%20held%20at%201930%20hrs%20IST%20on%20April%2012,%202019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202018-19%20Earnings%20Conference%20Call%20held%20at%201900%20hrs%20IST%20on%20January%2010,%202019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202018-19%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20October%2011,%202018.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2018-19/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202018-19%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20July%2010,%202018.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q4/Management%20Commentary/Transcript%20of%20the%20Q4%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20April%2019,%202018.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q3/Management%20Commentary/Transcript%20of%20the%20Q3%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20January%2011,%202018.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q2/Management%20Commentary/Transcript%20of%20the%20Q2%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20October%2012,%202017.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.tcs.com/content/dam/tcs/investor-relations/financial-statements/2017-18/q1/Management%20Commentary/Transcript%20of%20the%20Q1%202017-18%20Earnings%20Conference%20Call%20held%20at%2019%2000%20hrs%20IST%20on%20July%2013,%202017.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6601AB63_2D6D_4FB1_B039_2EE56EC8A7B6_081341.pdf"
+    }
+   ]
+  }
+ ]
+}

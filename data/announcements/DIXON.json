@@ -1,0 +1,296 @@
+{
+ "schema": 1,
+ "symbol": "DIXON",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DIXON&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:48.113Z",
+  "asOf": "2026-10-31T14:02:44.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 12,
+ "items": [
+  {
+   "id": "106838529",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about copy of newspaper publication of Unaudited Financial Results (standalone & consolidated) of the Company for the quarter and half year ended 30th September, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_31102026192630_NewspaperAdvertisement31101026.pdf",
+   "attachmentSize": "1.55 MB",
+   "announcedAt": "2026-10-31T14:02:44.000Z",
+   "announcedAtRaw": "31-Oct-2026 19:32:44",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106837485",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026203021_ConferenceCallRecordingIntimation30102026.pdf",
+   "attachmentSize": "646.23 KB",
+   "announcedAt": "2026-10-30T15:02:52.000Z",
+   "announcedAtRaw": "30-Oct-2026 20:32:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106836561",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Investor Presentation",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026161836_OutcomewithPPT30102026.pdf",
+   "attachmentSize": "6.46 MB",
+   "announcedAt": "2026-10-30T10:49:57.000Z",
+   "announcedAtRaw": "30-Oct-2026 16:19:57",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106836531",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Change in Management",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about change in Management",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160939_Outcome30102026.pdf",
+   "attachmentSize": "3.82 MB",
+   "announcedAt": "2026-10-30T10:40:12.000Z",
+   "announcedAtRaw": "30-Oct-2026 16:10:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in management",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106836523",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Dixon Technologies (India) Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_30102026160547_Outcome30102026.pdf",
+   "attachmentSize": "3.82 MB",
+   "announcedAt": "2026-10-30T10:37:23.000Z",
+   "announcedAtRaw": "30-Oct-2026 16:07:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106826802",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_23102026181003_Q2ResultsConferenceCallIntimation30102026.pdf",
+   "attachmentSize": "887.19 KB",
+   "announcedAt": "2026-10-23T12:40:54.000Z",
+   "announcedAtRaw": "23-Oct-2026 18:10:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823800",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange regarding 'Giving of guarantees or indemnity or becoming a surety for any third party'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_21102026184143_Regulation30GuaranteeQuanta21102026.pdf",
+   "attachmentSize": "627.29 KB",
+   "announcedAt": "2026-10-21T13:11:55.000Z",
+   "announcedAtRaw": "21-Oct-2026 18:41:55",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106817628",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "General Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange ESG Rating by Crisil ESG Ratings & Analystics Ltd.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_14102026182232_ESGRatingDisclousureCrisil14102026.pdf",
+   "attachmentSize": "618.12 KB",
+   "announcedAt": "2026-10-14T12:55:23.000Z",
+   "announcedAtRaw": "14-Oct-2026 18:25:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106813489",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investor Meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_10102026134116_InvestorMeetOutcome10102026.pdf",
+   "attachmentSize": "619.60 KB",
+   "announcedAt": "2026-10-10T08:11:35.000Z",
+   "announcedAtRaw": "10-Oct-2026 13:41:35",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106812913",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Certificate under 74(5) SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended on 30th September, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_09102026182235_Reg74_5_Disclosure09102026.pdf",
+   "attachmentSize": "836.90 KB",
+   "announcedAt": "2026-10-09T12:53:50.000Z",
+   "announcedAtRaw": "09-Oct-2026 18:23:50",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106809698",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Agreements",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Joint Venture Agreement executed between Dixon Technologies (India) Limited, Dixon Electroconnect Private Limited and Gemtek Technology Co., Ltd",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_07102026150006_Regulation30_DisclosureGemtek07102026.pdf",
+   "attachmentSize": "743.11 KB",
+   "announcedAt": "2026-10-07T09:31:51.000Z",
+   "announcedAtRaw": "07-Oct-2026 15:01:51",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:agreements",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106804868",
+   "symbol": "DIXON",
+   "company": "Dixon Technologies (India) Limited",
+   "isin": "INE935N01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Dixon Technologies (India) Limited has informed the Exchange about Outcome of Analyst/ Institutional Investors Meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DIXON_01102026155912_InvestorMeetOutcome01102026.pdf",
+   "attachmentSize": "620.37 KB",
+   "announcedAt": "2026-10-01T10:29:23.000Z",
+   "announcedAtRaw": "01-Oct-2026 15:59:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

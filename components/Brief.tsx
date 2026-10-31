@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ago } from "@/lib/format";
-import { AS_OF_LABEL, FEED, HOLDINGS } from "@/lib/mock";
 import { evaluate, useRules } from "@/lib/rules";
+import type { BriefData } from "@/lib/data/view";
 import type { Category } from "@/lib/types";
 import { ActCard, NoteRow } from "./FeedCards";
 import { Chip, DataNotice, PageHeader } from "./ui";
@@ -16,7 +16,8 @@ const WINDOWS = [
   { k: "7d", h: 168 },
 ];
 
-export default function Brief() {
+export default function Brief({ data }: { data: BriefData }) {
+  const { feed: FEED, holdings: HOLDINGS, asOfLabel } = data;
   const [win, setWin] = useState("24h");
   const [customH, setCustomH] = useState(48);
   const [done, setDone] = useState<Set<string>>(new Set());
@@ -28,14 +29,14 @@ export default function Brief() {
 
   const items = useMemo(
     () => FEED.filter((f) => f.hoursAgo <= hours && !done.has(f.id) && !muted.has(`${f.sym}:${f.cat}`)),
-    [hours, done, muted],
+    [FEED, hours, done, muted],
   );
   const act = items.filter((i) => i.tier === "act");
   const note = items.filter((i) => i.tier === "note");
   const routine = items.filter((i) => i.tier === "routine");
   const routineCos = new Set(routine.map((r) => r.sym)).size;
 
-  const hits = useMemo(() => evaluate(rules, HOLDINGS, FEED, 24), [rules]);
+  const hits = useMemo(() => evaluate(rules, HOLDINGS, FEED, 24), [rules, HOLDINGS, FEED]);
 
   const markDone = (id: string) => setDone((s) => new Set(s).add(id));
   const mute = (sym: string, cat: Category) => setMuted((s) => new Set(s).add(`${sym}:${cat}`));
@@ -43,7 +44,7 @@ export default function Brief() {
   return (
     <>
       <PageHeader
-        eyebrow={`As of ${AS_OF_LABEL}`}
+        eyebrow={`As of ${asOfLabel}`}
         title="Brief"
         right={
           <div className="num pb-1 text-right text-[11.5px] leading-tight text-mute">
@@ -53,9 +54,10 @@ export default function Brief() {
           </div>
         }
       />
-      <DataNotice>
-        Demo clock and feed are illustrative. The Reliance results card uses real figures from a screener.in
-        snapshot; every other card is sample content.
+      <DataNotice label="Real + sample">
+        Prices (Yahoo Finance), 30 days of NSE filings and quarterly numbers (screener.in) are real snapshots.
+        Reliance&apos;s revenue, PBT and PAT are verified against its filing. The KPITTECH management card is
+        sample content, tagged as such. Portfolio weights are illustrative.
       </DataNotice>
 
       {hits.length > 0 && (

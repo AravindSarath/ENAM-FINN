@@ -1,0 +1,276 @@
+{
+ "schema": 1,
+ "symbol": "TATAELXSI",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TATAELXSI&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:40.931Z",
+  "asOf": "2026-10-19T09:25:35.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 11,
+ "items": [
+  {
+   "id": "106821888",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Elxsi Limited has informed the Exchange about Transcript",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_19102026145522_Reg30Transcripts.pdf",
+   "attachmentSize": "450.53 KB",
+   "announcedAt": "2026-10-19T09:25:35.000Z",
+   "announcedAtRaw": "19-Oct-2026 14:55:35",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816867",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Tata Elxsi Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_14102026111526_NPAdvtSEFiling.pdf",
+   "attachmentSize": "3.06 MB",
+   "announcedAt": "2026-10-14T05:45:37.000Z",
+   "announcedAtRaw": "14-Oct-2026 11:15:37",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816451",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Elxsi Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026203825_AudioRecording13102026.pdf",
+   "attachmentSize": "240.21 KB",
+   "announcedAt": "2026-10-13T15:08:37.000Z",
+   "announcedAtRaw": "13-Oct-2026 20:38:37",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816221",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Change in Auditors",
+   "text": "Tata Elxsi Limited has informed the Exchange regarding Change in Auditors of the company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026182411_SEIntimationStatutoryAuditor.pdf",
+   "attachmentSize": "248.57 KB",
+   "announcedAt": "2026-10-13T12:54:30.000Z",
+   "announcedAtRaw": "13-Oct-2026 18:24:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:auditor",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816210",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Updates",
+   "text": "Tata Elxsi Limited has informed the Exchange regarding 'Allotment of equty shares'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026181909_PSOPAllotment.pdf",
+   "attachmentSize": "237.42 KB",
+   "announcedAt": "2026-10-13T12:49:26.000Z",
+   "announcedAtRaw": "13-Oct-2026 18:19:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106816186",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Investor Presentation",
+   "text": "Tata Elxsi Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026180649_Reg30InvestorPresentation13102026.pdf",
+   "attachmentSize": "3.07 MB",
+   "announcedAt": "2026-10-13T12:37:03.000Z",
+   "announcedAtRaw": "13-Oct-2026 18:07:03",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106816175",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Press Release",
+   "text": "Tata Elxsi Limited has informed the Exchange regarding a press release dated October 13, 2026, titled \"Tata Elxsi delivers healthy revenue growth of 3.4% QoQ and 15% YoY in Q2 FY 27\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026175717_SEintimationPR13102026.pdf",
+   "attachmentSize": "489.97 KB",
+   "announcedAt": "2026-10-13T12:27:27.000Z",
+   "announcedAtRaw": "13-Oct-2026 17:57:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816160",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Tata Elxsi Limited has informed the Exchange regarding appointment of Statutory Auditors of the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026175249_SEIntimationStatutoryAuditor.pdf",
+   "attachmentSize": "248.57 KB",
+   "announcedAt": "2026-10-13T12:23:18.000Z",
+   "announcedAtRaw": "13-Oct-2026 17:53:18",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:auditor",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816115",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Tata Elxsi Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_13102026173405_BMOutcome13102026.pdf",
+   "attachmentSize": "2.16 MB",
+   "announcedAt": "2026-10-13T12:05:36.000Z",
+   "announcedAtRaw": "13-Oct-2026 17:35:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810148",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Tata Elxsi Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_07102026181621_Reg74Certificate.pdf",
+   "attachmentSize": "450.69 KB",
+   "announcedAt": "2026-10-07T12:46:38.000Z",
+   "announcedAtRaw": "07-Oct-2026 18:16:38",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808546",
+   "symbol": "TATAELXSI",
+   "company": "Tata Elxsi Limited",
+   "isin": "INE670A01012",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Elxsi Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TELNSE_06102026170421_Analystcall_Intimation.pdf",
+   "attachmentSize": "342.00 KB",
+   "announcedAt": "2026-10-06T11:34:33.000Z",
+   "announcedAtRaw": "06-Oct-2026 17:04:33",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

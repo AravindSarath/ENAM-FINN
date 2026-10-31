@@ -1,0 +1,25 @@
+{
+ "schema": 1,
+ "symbol": "RELIANCE",
+ "basis": "consolidated",
+ "unit": "INR_crore",
+ "periods": [
+  { "label": "Sep 2026", "end": "2026-09-30" },
+  { "label": "Jun 2026", "end": "2026-06-30" },
+  { "label": "Sep 2025", "end": "2025-09-30" }
+ ],
+ "source": {
+  "name": "Unaudited Consolidated Financial Results, quarter / half year ended 30 Sep 2026 (board outcome, NSE 30-Oct-2026 19:40 IST)",
+  "url": "https://nsearchives.nseindia.com/corporate/kavinavora_30102026193935_SE_30102026_Results.pdf",
+  "altUrl": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/880087f6-7ecc-40a9-8cac-de48d4616b25.pdf",
+  "method": "manual_transcription",
+  "verification": "Columns transcribed by hand from the PDF (text layer is column-scrambled) and proven by arithmetic identities; see tests/verification.reliance.test.ts and docs/DATA_VERIFICATION.md",
+  "verifiedOn": "2026-10-31"
+ },
+ "revenueFromOperations": [332861, 311850, 258898],
+ "exciseDuty": [2260, 2382, 4275],
+ "pbt": [38613, 30630, 29124],
+ "patInclNci": [29550, 23196, 22092],
+ "patOwners": [25548, 20946, 18165],
+ "patNci": [4002, 2250, 3927]
+}

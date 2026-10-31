@@ -1,0 +1,447 @@
+{
+ "schema": 1,
+ "ingestedAt": "2026-10-31T15:58:43.556Z",
+ "symbols": {
+  "RELIANCE": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:41:28.722Z",
+    "asOf": "2026-10-30",
+    "file": "prices/RELIANCE.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:41:29.657Z",
+    "asOf": "2026-10-31T12:04:03.000Z",
+    "file": "announcements/RELIANCE.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:41:29.936Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/RELIANCE.json"
+   }
+  },
+  "HDFCBANK": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:46.299Z",
+    "asOf": "2026-10-30",
+    "file": "prices/HDFCBANK.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:47.006Z",
+    "asOf": "2026-10-30T07:54:25.000Z",
+    "file": "announcements/HDFCBANK.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:47.378Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/HDFCBANK.json"
+   }
+  },
+  "ICICIBANK": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:47.684Z",
+    "asOf": "2026-10-30",
+    "file": "prices/ICICIBANK.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:48.231Z",
+    "asOf": "2026-10-30T04:46:13.000Z",
+    "file": "announcements/ICICIBANK.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:53.523Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/ICICIBANK.json"
+   }
+  },
+  "TCS": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:54.273Z",
+    "asOf": "2026-10-30",
+    "file": "prices/TCS.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:55.147Z",
+    "asOf": "2026-10-19T06:00:07.000Z",
+    "file": "announcements/TCS.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:49:59.901Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/TCS.json"
+   }
+  },
+  "INFY": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:00.642Z",
+    "asOf": "2026-10-30",
+    "file": "prices/INFY.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:01.492Z",
+    "asOf": "2026-10-30T13:20:50.000Z",
+    "file": "announcements/INFY.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:05.429Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/INFY.json"
+   }
+  },
+  "SUNPHARMA": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:06.235Z",
+    "asOf": "2026-10-30",
+    "file": "prices/SUNPHARMA.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:06.994Z",
+    "asOf": "2026-10-31T14:44:24.000Z",
+    "file": "announcements/SUNPHARMA.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:11.042Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/SUNPHARMA.json"
+   }
+  },
+  "MARUTI": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:11.748Z",
+    "asOf": "2026-10-30",
+    "file": "prices/MARUTI.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:12.522Z",
+    "asOf": "2026-10-29T05:20:48.000Z",
+    "file": "announcements/MARUTI.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:17.185Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/MARUTI.json"
+   }
+  },
+  "TITAN": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:17.923Z",
+    "asOf": "2026-10-30",
+    "file": "prices/TITAN.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:18.870Z",
+    "asOf": "2026-10-28T11:56:00.000Z",
+    "file": "announcements/TITAN.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:22.342Z",
+    "asOf": "2026-06-30",
+    "file": "fundamentals/TITAN.json"
+   }
+  },
+  "LT": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:23.056Z",
+    "asOf": "2026-10-30",
+    "file": "prices/LT.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:23.940Z",
+    "asOf": "2026-10-31T07:30:35.000Z",
+    "file": "announcements/LT.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:28.743Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/LT.json"
+   }
+  },
+  "ITC": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:29.401Z",
+    "asOf": "2026-10-30",
+    "file": "prices/ITC.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:30.179Z",
+    "asOf": "2026-10-15T13:50:08.000Z",
+    "file": "announcements/ITC.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:35.259Z",
+    "asOf": "2026-06-30",
+    "file": "fundamentals/ITC.json"
+   }
+  },
+  "BAJFINANCE": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:36.013Z",
+    "asOf": "2026-10-30",
+    "file": "prices/BAJFINANCE.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:36.838Z",
+    "asOf": "2026-10-30T09:23:37.000Z",
+    "file": "announcements/BAJFINANCE.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:40.691Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/BAJFINANCE.json"
+   }
+  },
+  "ETERNAL": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:41.434Z",
+    "asOf": "2026-10-30",
+    "file": "prices/ETERNAL.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:42.278Z",
+    "asOf": "2026-10-27T11:22:27.000Z",
+    "file": "announcements/ETERNAL.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:46.333Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/ETERNAL.json"
+   }
+  },
+  "DIXON": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:47.084Z",
+    "asOf": "2026-10-30",
+    "file": "prices/DIXON.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:48.113Z",
+    "asOf": "2026-10-31T14:02:44.000Z",
+    "file": "announcements/DIXON.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:52.115Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/DIXON.json"
+   }
+  },
+  "POLYCAB": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:52.864Z",
+    "asOf": "2026-10-30",
+    "file": "prices/POLYCAB.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:53.630Z",
+    "asOf": "2026-10-30T06:50:09.000Z",
+    "file": "announcements/POLYCAB.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:58.459Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/POLYCAB.json"
+   }
+  },
+  "KPITTECH": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:50:59.188Z",
+    "asOf": "2026-10-30",
+    "file": "prices/KPITTECH.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:00.212Z",
+    "asOf": "2026-10-31T12:55:33.000Z",
+    "file": "announcements/KPITTECH.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:03.339Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/KPITTECH.json"
+   }
+  },
+  "HAL": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:04.013Z",
+    "asOf": "2026-10-30",
+    "file": "prices/HAL.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:04.623Z",
+    "asOf": "2026-10-28T12:34:19.000Z",
+    "file": "announcements/HAL.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:09.353Z",
+    "asOf": "2026-06-30",
+    "file": "fundamentals/HAL.json"
+   }
+  },
+  "SUZLON": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:10.089Z",
+    "asOf": "2026-10-30",
+    "file": "prices/SUZLON.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:10.881Z",
+    "asOf": "2026-10-30T12:52:36.000Z",
+    "file": "announcements/SUZLON.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:15.102Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/SUZLON.json"
+   }
+  },
+  "VEDL": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:16.042Z",
+    "asOf": "2026-10-30",
+    "file": "prices/VEDL.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:16.797Z",
+    "asOf": "2026-10-29T12:08:49.000Z",
+    "file": "announcements/VEDL.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:21.456Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/VEDL.json"
+   }
+  },
+  "ASIANPAINT": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:22.171Z",
+    "asOf": "2026-10-30",
+    "file": "prices/ASIANPAINT.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:22.971Z",
+    "asOf": "2026-10-29T15:48:39.000Z",
+    "file": "announcements/ASIANPAINT.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:27.579Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/ASIANPAINT.json"
+   }
+  },
+  "DMART": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:28.355Z",
+    "asOf": "2026-10-30",
+    "file": "prices/DMART.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:29.233Z",
+    "asOf": "2026-10-30T12:33:05.000Z",
+    "file": "announcements/DMART.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:33.219Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/DMART.json"
+   }
+  },
+  "CDSL": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:33.961Z",
+    "asOf": "2026-10-30",
+    "file": "prices/CDSL.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:34.884Z",
+    "asOf": "2026-10-31T10:26:44.000Z",
+    "file": "announcements/CDSL.json"
+   },
+   "fundamentals": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:39.361Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/CDSL.json"
+   }
+  },
+  "TATAELXSI": {
+   "prices": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:40.051Z",
+    "asOf": "2026-10-30",
+    "file": "prices/TATAELXSI.json"
+   },
+   "announcements": {
+    "status": "ok",
+    "fetchedAt": "2026-10-31T15:51:40.931Z",
+    "asOf": "2026-10-19T09:25:35.000Z",
+    "file": "announcements/TATAELXSI.json"
+   },
+   "fundamentals": {
+    "status": "partial",
+    "fetchedAt": "2026-10-31T15:52:20.015Z",
+    "asOf": "2026-09-30",
+    "file": "fundamentals/TATAELXSI.json",
+    "reason": "Consolidated series ended 2015-03-31; using the standalone page instead"
+   }
+  }
+ }
+}

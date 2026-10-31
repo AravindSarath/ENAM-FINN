@@ -1,0 +1,366 @@
+{
+ "schema": 1,
+ "symbol": "MARUTI",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=MARUTI&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:12.522Z",
+  "asOf": "2026-10-29T05:20:48.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 15,
+ "items": [
+  {
+   "id": "106833712",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Press Release",
+   "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 29, 2026, titled \"Maruti Suzuki, India s No. 1 Electric Vehicle exporter, crosses EV exports of 50,000 units\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_29102026104658_StxIntimation_EVExports.pdf",
+   "attachmentSize": "1.97 MB",
+   "announcedAt": "2026-10-29T05:20:48.000Z",
+   "announcedAtRaw": "29-Oct-2026 10:50:48",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831569",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_28102026103729_STxIntimation_NP_27Oct2026.pdf",
+   "attachmentSize": "2.90 MB",
+   "announcedAt": "2026-10-28T05:08:47.000Z",
+   "announcedAtRaw": "28-Oct-2026 10:38:47",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831073",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "General Updates",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Audio Recording of the investors' call held on 27th October 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_27102026202705_SubmissionofAudioRecordings.pdf",
+   "attachmentSize": "291.86 KB",
+   "announcedAt": "2026-10-27T15:00:49.000Z",
+   "announcedAtRaw": "27-Oct-2026 20:30:49",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830231",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Investor Presentation",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026154352_STxIntimation_InvestorPresentation_27Oct2026.pdf",
+   "attachmentSize": "635.65 KB",
+   "announcedAt": "2026-10-27T10:14:33.000Z",
+   "announcedAtRaw": "27-Oct-2026 15:44:33",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106830222",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Press Release",
+   "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 27, 2026, titled \"Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2026-27\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026153704_STxIntimation_PR_27Oct2026.pdf",
+   "attachmentSize": "430.69 KB",
+   "announcedAt": "2026-10-27T10:09:59.000Z",
+   "announcedAtRaw": "27-Oct-2026 15:39:59",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "press_release"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830187",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Maruti Suzuki India Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026152412_QuickResults_27Oct2026_signed.pdf",
+   "attachmentSize": "16.92 MB",
+   "announcedAt": "2026-10-27T09:57:51.000Z",
+   "announcedAtRaw": "27-Oct-2026 15:27:51",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106829976",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Acquisition",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Incorporation of Wholly Owned Subsidiary",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_27102026131704_Letter_to_Exchange.pdf",
+   "attachmentSize": "332.20 KB",
+   "announcedAt": "2026-10-27T07:48:06.000Z",
+   "announcedAtRaw": "27-Oct-2026 13:18:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:acquisition",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106827323",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Press Release",
+   "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 24, 2026, titled \"Maruti Suzuki VICTORIS AURUM Edition Launched to Celebrate 1 Year of Record Sales Success\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_24102026102410_STxIntimation_VictorisAURUM_24Oct2026.pdf",
+   "attachmentSize": "1.86 MB",
+   "announcedAt": "2026-10-24T04:55:13.000Z",
+   "announcedAtRaw": "24-Oct-2026 10:25:13",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823400",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_21102026153744_STxIntimation_EarningsCall_27Oct2026.pdf",
+   "attachmentSize": "1.41 MB",
+   "announcedAt": "2026-10-21T10:09:05.000Z",
+   "announcedAtRaw": "21-Oct-2026 15:39:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106819161",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Action(s) taken or orders passed",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Action(s) taken or orders passed",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_15102026191103_Intimation_15102026.pdf",
+   "attachmentSize": "1.60 MB",
+   "announcedAt": "2026-10-15T13:43:00.000Z",
+   "announcedAtRaw": "15-Oct-2026 19:13:00",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:action(s) taken or orders passed",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106815691",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_13102026131220_NP_13102026.pdf",
+   "attachmentSize": "3.33 MB",
+   "announcedAt": "2026-10-13T07:45:47.000Z",
+   "announcedAtRaw": "13-Oct-2026 13:15:47",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106814472",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "General Updates",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12102026161252_STxIntimation_CCI_12Oct2026.pdf",
+   "attachmentSize": "1.72 MB",
+   "announcedAt": "2026-10-12T10:46:31.000Z",
+   "announcedAtRaw": "12-Oct-2026 16:16:31",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106807102",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_05102026163802_STxIntimation_InvstConcall_8Sep2026.pdf",
+   "attachmentSize": "1.52 MB",
+   "announcedAt": "2026-10-05T11:11:53.000Z",
+   "announcedAtRaw": "05-Oct-2026 16:41:53",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106804641",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "General Updates",
+   "text": "Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: September 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026133208_Production_Oct2026.pdf",
+   "attachmentSize": "1.49 MB",
+   "announcedAt": "2026-10-01T08:04:01.000Z",
+   "announcedAtRaw": "01-Oct-2026 13:34:01",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106804586",
+   "symbol": "MARUTI",
+   "company": "Maruti Suzuki India Limited",
+   "isin": "INE585B01010",
+   "nseDesc": "Press Release",
+   "text": "Maruti Suzuki India Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Maruti Suzuki sales in September 2026\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/MARUTI_01102026125916_Sales.pdf",
+   "attachmentSize": "1.47 MB",
+   "announcedAt": "2026-10-01T07:29:33.000Z",
+   "announcedAtRaw": "01-Oct-2026 12:59:33",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

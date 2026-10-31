@@ -13,3 +13,6 @@ data/cache/pdf/
 coverage/
 build/
 *.pem
+
+# raw upstream responses (re-fetchable, can be large)
+data/raw/

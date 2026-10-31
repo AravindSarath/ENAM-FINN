@@ -1,0 +1,159 @@
+{
+ "schema": 1,
+ "symbol": "CDSL",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=CDSL&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:34.884Z",
+  "asOf": "2026-10-31T10:26:44.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 6,
+ "items": [
+  {
+   "id": "106838164",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "CDSL has informed the Exchange about Presentation for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf",
+   "attachmentSize": "3.07 MB",
+   "announcedAt": "2026-10-31T10:26:44.000Z",
+   "announcedAtRaw": "31-Oct-2026 15:56:44",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "investor_meetings"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106838023",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "Press Release",
+   "text": "CDSL has informed the Exchange regarding Media Release relating to financial results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf",
+   "attachmentSize": "467.12 KB",
+   "announcedAt": "2026-10-31T08:57:13.000Z",
+   "announcedAtRaw": "31-Oct-2026 14:27:13",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results",
+     "press_release"
+    ],
+    "rule": "kw:results",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106838015",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "CDSL has submitted to the Exchange, the financial results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf",
+   "attachmentSize": "10.63 MB",
+   "announcedAt": "2026-10-31T08:46:32.000Z",
+   "announcedAtRaw": "31-Oct-2026 14:16:32",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106837294",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "General Updates",
+   "text": "CDSL has informed the Exchange about Disclosure under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (SEBI Listing Regulations).",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf",
+   "attachmentSize": "329.12 KB",
+   "announcedAt": "2026-10-30T13:43:48.000Z",
+   "announcedAtRaw": "30-Oct-2026 19:13:48",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106832707",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "Retirement",
+   "text": "CDSL has informed the Exchange about Retirement of Shri Ashish Bhatt, Senior Vice President, Operations.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf",
+   "attachmentSize": "304.44 KB",
+   "announcedAt": "2026-10-28T12:33:47.000Z",
+   "announcedAtRaw": "28-Oct-2026 18:03:47",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:retirement",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830528",
+   "symbol": "CDSL",
+   "company": "Central Depository Services (India) Limited",
+   "isin": "INE736A01011",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "CDSL has informed the Exchange about Schedule of Conference Call to be held on Monday, November 02, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/CDSL_27102026172744_NSEIntimation_Concall_02112026_Signed.pdf",
+   "attachmentSize": "429.73 KB",
+   "announcedAt": "2026-10-27T12:02:39.000Z",
+   "announcedAtRaw": "27-Oct-2026 17:32:39",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

@@ -1,0 +1,2030 @@
+{
+ "schema": 1,
+ "symbol": "CDSL",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/CDSL/consolidated/",
+  "fetchedAt": "2026-10-31T15:51:39.361Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Central Depository Services (India) Ltd",
+ "companyId": "1274088",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 26,397 Cr.",
+   "value": 26397
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 1,263",
+   "value": 1263
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 1,674 / 1,116",
+   "value": 1674
+  },
+  {
+   "name": "Stock P/E",
+   "text": "52.3",
+   "value": 52.3
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 94.9",
+   "value": 94.9
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "1.01 %",
+   "value": 1.01
+  },
+  {
+   "name": "ROCE",
+   "text": "32.0 %",
+   "value": 32
+  },
+  {
+   "name": "ROE",
+   "text": "24.5 %",
+   "value": 24.5
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 10.0",
+   "value": 10
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      207,
+      214,
+      241,
+      257,
+      322,
+      278,
+      224,
+      259,
+      319,
+      304,
+      263,
+      293,
+      394
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      79,
+      84,
+      93,
+      103,
+      122,
+      117,
+      115,
+      129,
+      143,
+      145,
+      147,
+      155,
+      166
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      128,
+      130,
+      148,
+      154,
+      200,
+      161,
+      109,
+      130,
+      176,
+      160,
+      116,
+      138,
+      228
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      62,
+      61,
+      61,
+      60,
+      62,
+      58,
+      49,
+      50,
+      55,
+      52,
+      44,
+      47,
+      58
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      23,
+      21,
+      29,
+      30,
+      37,
+      21,
+      32,
+      36,
+      22,
+      29,
+      6,
+      48,
+      23
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      6,
+      7,
+      8,
+      10,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      145,
+      145,
+      168,
+      175,
+      225,
+      168,
+      127,
+      151,
+      183,
+      172,
+      103,
+      167,
+      230
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      25,
+      26,
+      23,
+      23,
+      28,
+      23,
+      21,
+      32,
+      23,
+      23,
+      23,
+      29,
+      25
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      109,
+      107,
+      129,
+      134,
+      162,
+      130,
+      100,
+      102,
+      140,
+      133,
+      80,
+      118,
+      173
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      5.21,
+      5.14,
+      6.18,
+      6.42,
+      7.75,
+      6.22,
+      4.8,
+      4.9,
+      6.71,
+      6.38,
+      3.84,
+      5.62,
+      8.32
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1274088/9/2023/",
+    "https://www.screener.in/company/source/quarter/1274088/12/2023/",
+    "https://www.screener.in/company/source/quarter/1274088/3/2024/",
+    "https://www.screener.in/company/source/quarter/1274088/6/2024/",
+    "https://www.screener.in/company/source/quarter/1274088/9/2024/",
+    "https://www.screener.in/company/source/quarter/1274088/12/2024/",
+    "https://www.screener.in/company/source/quarter/1274088/3/2025/",
+    "https://www.screener.in/company/source/quarter/1274088/6/2025/",
+    "https://www.screener.in/company/source/quarter/1274088/9/2025/",
+    "https://www.screener.in/company/source/quarter/1274088/12/2025/",
+    "https://www.screener.in/company/source/quarter/1274088/3/2026/",
+    "https://www.screener.in/company/source/quarter/1274088/6/2026/",
+    "https://www.screener.in/company/source/quarter/1274088/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      105,
+      123,
+      146,
+      188,
+      196,
+      225,
+      344,
+      551,
+      555,
+      812,
+      1082,
+      1145,
+      1254
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      60,
+      59,
+      67,
+      77,
+      87,
+      136,
+      132,
+      186,
+      236,
+      324,
+      457,
+      563,
+      613
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      45,
+      64,
+      79,
+      110,
+      109,
+      89,
+      212,
+      365,
+      319,
+      488,
+      625,
+      582,
+      641
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      43,
+      52,
+      54,
+      59,
+      56,
+      40,
+      62,
+      66,
+      57,
+      60,
+      58,
+      51,
+      51
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      23,
+      72,
+      41,
+      38,
+      49,
+      59,
+      57,
+      55,
+      66,
+      95,
+      119,
+      93,
+      106
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      6,
+      4,
+      4,
+      7,
+      10,
+      12,
+      9,
+      11,
+      19,
+      27,
+      49,
+      66,
+      75
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      63,
+      131,
+      117,
+      141,
+      148,
+      136,
+      260,
+      409,
+      365,
+      556,
+      695,
+      609,
+      672
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      31,
+      31,
+      26,
+      27,
+      23,
+      22,
+      22,
+      24,
+      24,
+      25,
+      24,
+      25,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      43,
+      91,
+      87,
+      104,
+      115,
+      107,
+      201,
+      312,
+      276,
+      420,
+      526,
+      455,
+      504
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      2.09,
+      4.35,
+      4.1,
+      4.94,
+      5.43,
+      5.08,
+      9.59,
+      14.89,
+      13.2,
+      20.05,
+      25.2,
+      21.82,
+      24.16
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      53,
+      29,
+      37,
+      35,
+      37,
+      44,
+      47,
+      50,
+      61,
+      55,
+      50,
+      58,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      104,
+      104,
+      104,
+      104,
+      104,
+      104,
+      104,
+      104,
+      104,
+      104,
+      209,
+      209,
+      209
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      265,
+      375,
+      429,
+      494,
+      564,
+      619,
+      773,
+      988,
+      1109,
+      1359,
+      1551,
+      1751,
+      1775
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      3,
+      2,
+      2
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      122,
+      74,
+      73,
+      92,
+      116,
+      138,
+      206,
+      232,
+      241,
+      317,
+      399,
+      457,
+      738
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      491,
+      553,
+      606,
+      690,
+      784,
+      862,
+      1084,
+      1326,
+      1457,
+      1781,
+      2162,
+      2419,
+      2723
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      7,
+      4,
+      5,
+      76,
+      75,
+      74,
+      73,
+      106,
+      125,
+      342,
+      446,
+      500,
+      510
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      23,
+      4,
+      174,
+      4,
+      7,
+      7,
+      12
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      389,
+      457,
+      503,
+      521,
+      593,
+      665,
+      709,
+      925,
+      937,
+      1149,
+      1351,
+      1487,
+      1799
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      95,
+      92,
+      98,
+      93,
+      115,
+      123,
+      278,
+      290,
+      221,
+      287,
+      357,
+      424,
+      402
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      491,
+      553,
+      606,
+      690,
+      784,
+      862,
+      1084,
+      1326,
+      1457,
+      1781,
+      2162,
+      2419,
+      2723
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      43,
+      28,
+      43,
+      79,
+      86,
+      82,
+      193,
+      283,
+      249,
+      386,
+      543,
+      467
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -19,
+      0,
+      18,
+      -67,
+      -67,
+      -33,
+      -107,
+      -146,
+      -126,
+      -249,
+      -299,
+      -185
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      -23,
+      -28,
+      -31,
+      -38,
+      -20,
+      -51,
+      -47,
+      -94,
+      -158,
+      -169,
+      -231,
+      -262
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      1,
+      29,
+      -26,
+      -1,
+      -1,
+      38,
+      44,
+      -35,
+      -32,
+      14,
+      19
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      40,
+      27,
+      37,
+      3,
+      74,
+      73,
+      175,
+      258,
+      44,
+      313,
+      388,
+      346
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      140,
+      102,
+      94,
+      107,
+      110,
+      119,
+      118,
+      105,
+      107,
+      102,
+      110,
+      107
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      24,
+      39,
+      33,
+      37,
+      36,
+      42,
+      40,
+      30,
+      25,
+      30,
+      18,
+      21
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      24,
+      39,
+      33,
+      37,
+      36,
+      42,
+      40,
+      30,
+      25,
+      30,
+      18,
+      21
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      -253,
+      -100,
+      -79,
+      -92,
+      -79,
+      -85,
+      -110,
+      -75,
+      -45,
+      -22,
+      -57,
+      -32
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      14,
+      22,
+      22,
+      24,
+      22,
+      18,
+      31,
+      40,
+      30,
+      40,
+      42,
+      32
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Analysts/Institutional Investor Meet/Con. Call Updates 31 Oct - CDSL released Q2 and H1 FY2026-27 investor presentation ahead of November 2 conference call.",
+   "links": [
+    {
+     "text": "Analysts/Institutional Investor Meet/Con. Call Updates 31 Oct - CDSL released Q2 and H1 FY2026-27 investor presentation ahead of November 2 conference call.",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Press Release 31 Oct - CDSL reported Q2FY27 results; consolidated income rose 22% and net profit 24% year-on-year.",
+   "links": [
+    {
+     "text": "Press Release 31 Oct - CDSL reported Q2FY27 results; consolidated income rose 22% and net profit 24% year-on-year.",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026142410_Press_release_Signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Outcome of Board Meeting 31 Oct - CDSL approved audited Q2 FY27 results; standalone PAT ₹163.34 crore, consolidated PAT ₹173.30 crore.",
+   "links": [
+    {
+     "text": "Outcome of Board Meeting 31 Oct - CDSL approved audited Q2 FY27 results; standalone PAT ₹163.34 crore, consolidated PAT ₹173.30 crore.",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026141138_OutcomeBM31102026_Signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "General Updates 30 Oct - SEBI imposed ₹1 crore penalty on CDSL for FY2023-24 inspection observations on operations and IT matters.",
+   "links": [
+    {
+     "text": "General Updates 30 Oct - SEBI imposed ₹1 crore penalty on CDSL for FY2023-24 inspection observations on operations and IT matters.",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_30102026191314_IntimationofPenalty30102026_sd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Retirement 28 Oct - Senior Vice President Operations Ashish Bhatt retires effective close of business October 30, 2026.",
+   "links": [
+    {
+     "text": "Retirement 28 Oct - Senior Vice President Operations Ashish Bhatt retires effective close of business October 30, 2026.",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_28102026180148_Retirement_Ashish_Bhatt_Signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://archives.nseindia.com/annual_reports/AR_29665_CDSL_2025_2026_A_15773086_08072026190152.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://archives.nseindia.com/annual_reports/AR_27085_CDSL_2024_2025_A_23072025183612.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://archives.nseindia.com/annual_reports/AR_24667_CDSL_2023_2024_2607202411473.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://archives.nseindia.com/annual_reports/AR_22694_CDSL_2022_2023_08082023182850.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://archives.nseindia.com/annual_reports/AR_21450_CDSL_2021_2022_06092022122308.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from web",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.cdslindia.com/Downloads/InvestorRels/AnnualReports/87993%20CDSL%20Annual%20Report.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://archives.nseindia.com/annual_reports/AR_19875_CDSL_2020_2021_17122021111107.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://archives.nseindia.com/annual_reports/AR_16813_CDSL_2019_2020_21082020122548.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://archives.nseindia.com/annual_reports/AR_16128_CDSL_2018_2019_07102019144023_07102019150001.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://archives.nseindia.com/annual_reports/AR_13202_CDSL_2017_2018_24082018182202.zip"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_31102026155542_CDSL_InvestorPresentation_Signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_07082026155803_NSEintimationtranscript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_01082026134647_NSEIntimation_InvestorPresentation.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.cdslindia.com/downloads/analystmeet/audiorec/10045607.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_07052026193244_NSEintimationtranscript_Sign.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_02052026161257_NSEIntimation_InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_06022026152040_NSEintimationtranscriptSigned.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_31012026152749_InvestorpresentationSD_02012026.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/nia56StP5SU"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_06112025192633_NSEintimationtranscript_03112025_Signed.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_01112025150330_InvestorPresentationFinal_Signed.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/wRDhZhfZvyI"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_01082025164114_NSEIntimationConcallTranscript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_26072025144746_IntimationInvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_08052025203322_NSEintimationtranscript_05052025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_03052025153948_Investor_Presentation_03052024.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.cdslindia.com/downloads/IPO/GeneralMeeting/10031615.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_30012025185400_NSEintimationtranscript27012025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_25012025150650_NSEinvestor_presentationQ3.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.cdslindia.com/downloads/analystmeet/audiorec/January%2027/10029144.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_04112024150440_NSEintimationtranscript04112024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_26102024150243_InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_09082024160726_NSEintimationtranscript09082024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_03082024152118_NSEInvestorPresentation.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.cdslindia.com/downloads/IPO/GeneralMeeting/HDC0320240805154444.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "http://nsearchives.nseindia.com/corporate/CDSL_09052024183430_Q4TranscriptMerged.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_04052024153310_CDSLInvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_13022024160147_Transcriptconcall13022024.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_13022024160147_Transcriptconcall13022024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/Cdsl%20Q3FY24%20Earming%20Call.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_03022024150023_FinalInvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_07112023131132_NSEIntimationTranscript01112023.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_28102023150618_InvestorPresentationQ2.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/CDSL_28102023150618_InvestorPresentationQ2.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.cdslindia.com/downloads/IPO/GeneralMeeting/NSEIntimationTranscript05082023.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_05082023181245_InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/InvestorPresentation05082023.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_09052023182054_Q4Transcript09052023_final.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/00%20Q4Fy2223%20Cdsl%20InvestorCall_PPT.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_02052023181650_Q4Presentation_03052023.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_10022023173157_Q3Transcript10022023_Final.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/00%20Q3Fy2223%20Cdsl%20InvestorCall_PPT.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_02022023194624_Q3Presentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_03112022200442_Q2Transcript28052022.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/02%20Q2Fy2223%20CDSL%20InvestorCall_PPT.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_27102022205139_presentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_03082022195633_TranscriptFinal.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.cdslindia.com/downloads/InvestorRels/Financial/008%20CDSL%20Investor%20Presentation_vf%20.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_01082022114809_InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_27062022180409_TranscriptJune212022.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_06062022194904_TranscriptJune12022.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_27052022205349_TranscriptMay242022signed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_06052022180537_Q4Transcript06052022.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_02052022101107_Q4PresentationtoNSE.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_14022022142223_Q3Transcript09022022.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_09022022090920_Q3PresentationtoNSE.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_28122021182021_Transcriptfor23Dec2021Elara.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_27122021180352_Transcriptfor22Dec2021Manulife.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_24122021170304_Transcriptfor21Dec2021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Dec 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_14122021162209_Transcriptfor10Dec2021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://archives.nseindia.com/corporate/CDSL_10112021114751_Q2TranscripttoNSE.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_03112021090639_Q2PresentationtoNSE.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_27102020094649_LtrQ2InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_28072020094624_Q1InvestorPresentation.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://archives.nseindia.com/corporate/CDSL_20052020095801_FY20investpresentNSE.pdf"
+    }
+   ]
+  }
+ ]
+}

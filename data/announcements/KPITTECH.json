@@ -1,0 +1,345 @@
+{
+ "schema": 1,
+ "symbol": "KPITTECH",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=KPITTECH&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:00.212Z",
+  "asOf": "2026-10-31T12:55:33.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 14,
+ "items": [
+  {
+   "id": "106838441",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Cessation",
+   "text": "KPIT Technologies Limited has informed the Exchange that Prof. Rajiv Lal (DIN: 09360601) completed his 2nd term as an Independent Director of the Company on October 31, 2026, and consequently he has ceased to be a Director of the Company w.e.f. the end of business hours of said date.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_31102026182503_KPIT_Rajiv_Lal_Completion_of_Tenure-S.pdf",
+   "attachmentSize": "225.33 KB",
+   "announcedAt": "2026-10-31T12:55:33.000Z",
+   "announcedAtRaw": "31-Oct-2026 18:25:33",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:cessation",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106834291",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "KPIT Technologies Limited has informed the Exchange about Copy of Newspaper Publication of Unaudited Consolidated Financial Results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_29102026153248_Newspaper_Publication_Signed.pdf",
+   "attachmentSize": "4.24 MB",
+   "announcedAt": "2026-10-29T10:03:13.000Z",
+   "announcedAtRaw": "29-Oct-2026 15:33:13",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106833260",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "KPIT Technologies Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026215259_Earnings_call_Audio_Recording_Link_S.pdf",
+   "attachmentSize": "267.40 KB",
+   "announcedAt": "2026-10-28T16:23:40.000Z",
+   "announcedAtRaw": "28-Oct-2026 21:53:40",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831889",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Appointment",
+   "text": "KPIT Technologies Limited has informed the Exchange regarding Appointment of Independent Director, Mr. Anant Talaulicar - Chairman of the Board, on the Board of KPIT Technologies Inc., material subsidiary of the Company w.e.f. October 28, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132119_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:appointment",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831892",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Giving guarantees/indemnity/ becoming a surety for third party",
+   "text": "KPIT Technologies Limited has informed the Exchange about Issue of Letter of Comfort in favor of KPIT Technologies (UK) Limited, a wholly-owned subsidiary of the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132739_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified",
+     "M&A"
+    ],
+    "rule": "desc:giving guarantees/indemnity/ becoming a surety for third party",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106831890",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Acquisition",
+   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the proposal of incorporation of a wholly owned subsidiary of the Company in Vietnam.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132356_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:acquisition",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831891",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Sale or disposal",
+   "text": "KPIT Technologies Limited has informed the Exchange that the Board of Directors of the Company approved the Strike-off of Somit Solutions Limited, wholly owned step-down subsidiary of the Company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026132555_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:58:05.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:28:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:sale or disposal",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831867",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "KPIT Technologies Limited has informed the Exchange about the Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026131505_Investor_Presentation_Sept_2026_Signed.pdf",
+   "attachmentSize": "3.56 MB",
+   "announcedAt": "2026-10-28T07:45:54.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:15:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831835",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "KPIT Technologies Limited has informed the Exchange regarding Outcome of Board Meeting held on October 28, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026125528_1_Outcome.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-28T07:27:10.000Z",
+   "announcedAtRaw": "28-Oct-2026 12:57:10",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106831828",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "KPIT Technologies Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_28102026124748_Outcome_NSE.pdf",
+   "attachmentSize": "4.72 MB",
+   "announcedAt": "2026-10-28T07:22:46.000Z",
+   "announcedAtRaw": "28-Oct-2026 12:52:46",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831000",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "General Updates",
+   "text": "KPIT Technologies Limited has informed the Exchange about the grant of 54,100 Options to the eligible employees covered under the KPIT Technologies Limited - Restricted Stock Unit Plan 2022",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_27102026194517_NRC_Outcome_October_2026_S.pdf",
+   "attachmentSize": "290.32 KB",
+   "announcedAt": "2026-10-27T14:15:47.000Z",
+   "announcedAtRaw": "27-Oct-2026 19:45:47",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106823610",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "KPIT Technologies Limited has informed the Exchange about Post Earnings Conference Call of the Company is scheduled on Wednesday, October 28, 2026, at 17:30 Hrs. (IST). The details of the said call are enclosed",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_21102026173055_KPIT_Earnings_Call_Intimation_Signed.pdf",
+   "attachmentSize": "362.75 KB",
+   "announcedAt": "2026-10-21T12:01:30.000Z",
+   "announcedAtRaw": "21-Oct-2026 17:31:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816463",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "KPIT Technologies Limited has informed the Exchange about the Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_13102026211938_Reg745Sept302026signed.pdf",
+   "attachmentSize": "710.92 KB",
+   "announcedAt": "2026-10-13T15:50:01.000Z",
+   "announcedAtRaw": "13-Oct-2026 21:20:01",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816459",
+   "symbol": "KPITTECH",
+   "company": "KPIT Technologies Limited",
+   "isin": "INE04I401011",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "KPIT Technologies Limited has informed the Exchange about Reconciliation of Share Capital Audit for the quarter ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/KPITTECH_13102026210844_CoveringletterSept26Reg76_signed.pdf",
+   "attachmentSize": "2.42 MB",
+   "announcedAt": "2026-10-13T15:39:13.000Z",
+   "announcedAtRaw": "13-Oct-2026 21:09:13",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  }
+ ]
+}

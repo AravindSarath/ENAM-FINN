@@ -1,0 +1,196 @@
+[
+ {
+  "symbol": "RELIANCE",
+  "name": "Reliance Industries",
+  "sector": "Conglomerate",
+  "group": "portfolio",
+  "weight": 11.8,
+  "screenerSlug": "RELIANCE",
+  "yahooSymbol": "RELIANCE.NS"
+ },
+ {
+  "symbol": "HDFCBANK",
+  "name": "HDFC Bank",
+  "sector": "Banks",
+  "group": "portfolio",
+  "weight": 10.1,
+  "screenerSlug": "HDFCBANK",
+  "yahooSymbol": "HDFCBANK.NS"
+ },
+ {
+  "symbol": "ICICIBANK",
+  "name": "ICICI Bank",
+  "sector": "Banks",
+  "group": "portfolio",
+  "weight": 8.7,
+  "screenerSlug": "ICICIBANK",
+  "yahooSymbol": "ICICIBANK.NS"
+ },
+ {
+  "symbol": "TCS",
+  "name": "Tata Consultancy",
+  "sector": "IT",
+  "group": "portfolio",
+  "weight": 7.9,
+  "screenerSlug": "TCS",
+  "yahooSymbol": "TCS.NS"
+ },
+ {
+  "symbol": "INFY",
+  "name": "Infosys",
+  "sector": "IT",
+  "group": "portfolio",
+  "weight": 7.4,
+  "screenerSlug": "INFY",
+  "yahooSymbol": "INFY.NS"
+ },
+ {
+  "symbol": "SUNPHARMA",
+  "name": "Sun Pharma",
+  "sector": "Pharma",
+  "group": "portfolio",
+  "weight": 6.4,
+  "screenerSlug": "SUNPHARMA",
+  "yahooSymbol": "SUNPHARMA.NS"
+ },
+ {
+  "symbol": "MARUTI",
+  "name": "Maruti Suzuki",
+  "sector": "Auto",
+  "group": "portfolio",
+  "weight": 5.9,
+  "screenerSlug": "MARUTI",
+  "yahooSymbol": "MARUTI.NS"
+ },
+ {
+  "symbol": "TITAN",
+  "name": "Titan Company",
+  "sector": "Consumer",
+  "group": "portfolio",
+  "weight": 5.5,
+  "screenerSlug": "TITAN",
+  "yahooSymbol": "TITAN.NS"
+ },
+ {
+  "symbol": "LT",
+  "name": "Larsen & Toubro",
+  "sector": "Capital goods",
+  "group": "portfolio",
+  "weight": 5.2,
+  "screenerSlug": "LT",
+  "yahooSymbol": "LT.NS"
+ },
+ {
+  "symbol": "ITC",
+  "name": "ITC",
+  "sector": "Consumer",
+  "group": "portfolio",
+  "weight": 5.0,
+  "screenerSlug": "ITC",
+  "yahooSymbol": "ITC.NS"
+ },
+ {
+  "symbol": "BAJFINANCE",
+  "name": "Bajaj Finance",
+  "sector": "NBFC",
+  "group": "portfolio",
+  "weight": 4.6,
+  "screenerSlug": "BAJFINANCE",
+  "yahooSymbol": "BAJFINANCE.NS"
+ },
+ {
+  "symbol": "ETERNAL",
+  "name": "Eternal",
+  "sector": "Internet",
+  "group": "portfolio",
+  "weight": 4.2,
+  "screenerSlug": "ETERNAL",
+  "yahooSymbol": "ETERNAL.NS"
+ },
+ {
+  "symbol": "DIXON",
+  "name": "Dixon Technologies",
+  "sector": "Electronics",
+  "group": "portfolio",
+  "weight": 3.6,
+  "screenerSlug": "DIXON",
+  "yahooSymbol": "DIXON.NS"
+ },
+ {
+  "symbol": "POLYCAB",
+  "name": "Polycab India",
+  "sector": "Capital goods",
+  "group": "portfolio",
+  "weight": 3.2,
+  "screenerSlug": "POLYCAB",
+  "yahooSymbol": "POLYCAB.NS"
+ },
+ {
+  "symbol": "KPITTECH",
+  "name": "KPIT Technologies",
+  "sector": "IT",
+  "group": "portfolio",
+  "weight": 3.0,
+  "screenerSlug": "KPITTECH",
+  "yahooSymbol": "KPITTECH.NS"
+ },
+ {
+  "symbol": "HAL",
+  "name": "Hindustan Aeronautics",
+  "sector": "Defence",
+  "group": "portfolio",
+  "weight": 2.6,
+  "screenerSlug": "HAL",
+  "yahooSymbol": "HAL.NS"
+ },
+ {
+  "symbol": "SUZLON",
+  "name": "Suzlon Energy",
+  "sector": "Energy",
+  "group": "portfolio",
+  "weight": 2.4,
+  "screenerSlug": "SUZLON",
+  "yahooSymbol": "SUZLON.NS"
+ },
+ {
+  "symbol": "VEDL",
+  "name": "Vedanta",
+  "sector": "Metals",
+  "group": "portfolio",
+  "weight": 2.5,
+  "screenerSlug": "VEDL",
+  "yahooSymbol": "VEDL.NS"
+ },
+ {
+  "symbol": "ASIANPAINT",
+  "name": "Asian Paints",
+  "sector": "Consumer",
+  "group": "research",
+  "screenerSlug": "ASIANPAINT",
+  "yahooSymbol": "ASIANPAINT.NS"
+ },
+ {
+  "symbol": "DMART",
+  "name": "Avenue Supermarts (DMart)",
+  "sector": "Retail",
+  "group": "research",
+  "screenerSlug": "DMART",
+  "yahooSymbol": "DMART.NS"
+ },
+ {
+  "symbol": "CDSL",
+  "name": "CDSL",
+  "sector": "Financial services",
+  "group": "research",
+  "screenerSlug": "CDSL",
+  "yahooSymbol": "CDSL.NS"
+ },
+ {
+  "symbol": "TATAELXSI",
+  "name": "Tata Elxsi",
+  "sector": "IT",
+  "group": "research",
+  "screenerSlug": "TATAELXSI",
+  "yahooSymbol": "TATAELXSI.NS"
+ }
+]

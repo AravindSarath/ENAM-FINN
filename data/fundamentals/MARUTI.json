@@ -1,0 +1,2170 @@
+{
+ "schema": 1,
+ "symbol": "MARUTI",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/MARUTI/consolidated/",
+  "fetchedAt": "2026-10-31T15:50:17.185Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Maruti Suzuki India Ltd",
+ "companyId": "2023",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 3,58,325 Cr.",
+   "value": 358325
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 11,397",
+   "value": 11397
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 17,372 / 10,984",
+   "value": 17372
+  },
+  {
+   "name": "Stock P/E",
+   "text": "26.6",
+   "value": 26.6
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 3,467",
+   "value": 3467
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "1.23 %",
+   "value": 1.23
+  },
+  {
+   "name": "ROCE",
+   "text": "18.9 %",
+   "value": 18.9
+  },
+  {
+   "name": "ROE",
+   "text": "14.3 %",
+   "value": 14.3
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 5.00",
+   "value": 5
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      37339,
+      33513,
+      38471,
+      35779,
+      37449,
+      38764,
+      40920,
+      38605,
+      42344,
+      49904,
+      52462,
+      52470,
+      53356
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      32028,
+      29073,
+      33250,
+      30673,
+      32450,
+      33688,
+      36076,
+      33983,
+      37258,
+      44331,
+      46304,
+      48156,
+      48591
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      5312,
+      4440,
+      5221,
+      5107,
+      4999,
+      5076,
+      4844,
+      4623,
+      5086,
+      5573,
+      6158,
+      4313,
+      4764
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      14,
+      13,
+      14,
+      14,
+      13,
+      13,
+      12,
+      12,
+      12,
+      11,
+      12,
+      8,
+      9
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      958,
+      1053,
+      1261,
+      1118,
+      1570,
+      1125,
+      1583,
+      1924,
+      1014,
+      1140,
+      581,
+      1972,
+      483
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      35,
+      36,
+      76,
+      57,
+      43,
+      46,
+      48,
+      47,
+      57,
+      62,
+      73,
+      64,
+      68
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      1342,
+      1302,
+      1298,
+      1332,
+      1386,
+      1429,
+      1462,
+      1556,
+      1703,
+      1735,
+      1748,
+      1780,
+      1960
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      4892,
+      4156,
+      5108,
+      4836,
+      5141,
+      4726,
+      4918,
+      4944,
+      4339,
+      4917,
+      4918,
+      4441,
+      3219
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      23,
+      23,
+      23,
+      22,
+      40,
+      21,
+      20,
+      23,
+      23,
+      21,
+      26,
+      22,
+      23
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      3786,
+      3207,
+      3952,
+      3760,
+      3102,
+      3727,
+      3911,
+      3792,
+      3349,
+      3879,
+      3659,
+      3447,
+      2466
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      125.34,
+      102,
+      125.71,
+      119.58,
+      98.68,
+      118.54,
+      124.4,
+      120.62,
+      106.52,
+      123.38,
+      116.38,
+      109.63,
+      78.44
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/2023/9/2023/",
+    "https://www.screener.in/company/source/quarter/2023/12/2023/",
+    "https://www.screener.in/company/source/quarter/2023/3/2024/",
+    "https://www.screener.in/company/source/quarter/2023/6/2024/",
+    "https://www.screener.in/company/source/quarter/2023/9/2024/",
+    "https://www.screener.in/company/source/quarter/2023/12/2024/",
+    "https://www.screener.in/company/source/quarter/2023/3/2025/",
+    "https://www.screener.in/company/source/quarter/2023/6/2025/",
+    "https://www.screener.in/company/source/quarter/2023/9/2025/",
+    "https://www.screener.in/company/source/quarter/2023/12/2025/",
+    "https://www.screener.in/company/source/quarter/2023/3/2026/",
+    "https://www.screener.in/company/source/quarter/2023/6/2026/",
+    "https://www.screener.in/company/source/quarter/2023/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      50801,
+      57589,
+      68085,
+      79809,
+      86068,
+      75660,
+      70372,
+      88330,
+      118410,
+      141858,
+      152913,
+      183316,
+      208192
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      43909,
+      48565,
+      57664,
+      67692,
+      75012,
+      68305,
+      64961,
+      82578,
+      105288,
+      123232,
+      132689,
+      161786,
+      187383
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      6892,
+      9024,
+      10421,
+      12118,
+      11056,
+      7355,
+      5411,
+      5752,
+      13122,
+      18626,
+      20224,
+      21530,
+      20809
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      14,
+      16,
+      15,
+      15,
+      13,
+      10,
+      8,
+      7,
+      11,
+      13,
+      13,
+      12,
+      10
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      817,
+      1464,
+      2399,
+      2155,
+      2664,
+      3410,
+      3046,
+      1861,
+      2415,
+      4248,
+      5199,
+      4569,
+      4176
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      218,
+      82,
+      89,
+      346,
+      76,
+      134,
+      102,
+      127,
+      252,
+      194,
+      194,
+      239,
+      266
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      2515,
+      2822,
+      2604,
+      2760,
+      3021,
+      3528,
+      3034,
+      2789,
+      4846,
+      5256,
+      5608,
+      6742,
+      7223
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      4976,
+      7585,
+      10127,
+      11167,
+      10624,
+      7103,
+      5321,
+      4697,
+      10438,
+      17424,
+      19620,
+      19118,
+      17496
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      24,
+      28,
+      26,
+      29,
+      28,
+      20,
+      18,
+      17,
+      21,
+      23,
+      26,
+      23,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      3809,
+      5497,
+      7511,
+      7881,
+      7651,
+      5678,
+      4389,
+      3880,
+      8264,
+      13488,
+      14500,
+      14680,
+      13451
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      126.04,
+      181.98,
+      248.61,
+      260.86,
+      253.21,
+      187.9,
+      145.3,
+      128.43,
+      273.56,
+      429.01,
+      461.2,
+      466.9,
+      427.83
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      20,
+      19,
+      30,
+      31,
+      32,
+      32,
+      31,
+      47,
+      34,
+      29,
+      29,
+      30,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      151,
+      151,
+      151,
+      151,
+      151,
+      151,
+      151,
+      151,
+      157,
+      157,
+      157,
+      157,
+      157
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      24167,
+      30465,
+      36924,
+      42408,
+      46941,
+      49262,
+      52350,
+      55182,
+      74443,
+      85479,
+      96083,
+      106999,
+      108845
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      666,
+      231,
+      484,
+      121,
+      160,
+      184,
+      541,
+      426,
+      1248,
+      119,
+      87,
+      102,
+      83
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      9492,
+      11879,
+      14402,
+      17568,
+      16717,
+      14031,
+      18335,
+      18896,
+      24258,
+      29550,
+      34689,
+      41622,
+      45716
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      34477,
+      42726,
+      51960,
+      60248,
+      63969,
+      63628,
+      71376,
+      74656,
+      100106,
+      115304,
+      131016,
+      148880,
+      154802
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      12490,
+      12530,
+      13311,
+      13389,
+      15437,
+      15744,
+      14989,
+      13747,
+      27941,
+      27865,
+      32983,
+      34523,
+      43822
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      1890,
+      1007,
+      1252,
+      2132,
+      1607,
+      1415,
+      1497,
+      2936,
+      4143,
+      7735,
+      7929,
+      9838,
+      4084
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      13298,
+      20676,
+      29151,
+      36123,
+      37504,
+      37488,
+      42945,
+      42035,
+      49184,
+      57296,
+      66265,
+      76838,
+      72105
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      6800,
+      8513,
+      8247,
+      8604,
+      9421,
+      8980,
+      11946,
+      15937,
+      18837,
+      22408,
+      23839,
+      27680,
+      34790
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      34477,
+      42726,
+      51960,
+      60248,
+      63969,
+      63628,
+      71376,
+      74656,
+      100106,
+      115304,
+      131016,
+      148880,
+      154802
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      6449,
+      8482,
+      10282,
+      11788,
+      6601,
+      3496,
+      8856,
+      1840,
+      10815,
+      16801,
+      16180,
+      19100
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -4491,
+      -7230,
+      -9173,
+      -8302,
+      -3540,
+      -557,
+      -7291,
+      -239,
+      -8820,
+      -11865,
+      -14500,
+      -14734
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      -2004,
+      -1237,
+      -1129,
+      -3436,
+      -2948,
+      -3104,
+      -1545,
+      -1607,
+      -1214,
+      -4062,
+      -4155,
+      -4484
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -45,
+      16,
+      -20,
+      50,
+      113,
+      -165,
+      20,
+      -6,
+      780,
+      874,
+      -2475,
+      -118
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      3408,
+      6026,
+      6907,
+      7903,
+      1899,
+      96,
+      6528,
+      -1483,
+      2858,
+      7646,
+      5601,
+      8754
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      109,
+      115,
+      121,
+      122,
+      88,
+      67,
+      182,
+      52,
+      100,
+      110,
+      99,
+      109
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      8,
+      8,
+      6,
+      7,
+      10,
+      10,
+      7,
+      8,
+      10,
+      12,
+      16,
+      11
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      28,
+      30,
+      25,
+      21,
+      20,
+      22,
+      22,
+      20,
+      23,
+      19,
+      23,
+      31
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      57,
+      70,
+      65,
+      70,
+      59,
+      51,
+      73,
+      54,
+      58,
+      62,
+      57,
+      61
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -20,
+      -32,
+      -33,
+      -42,
+      -29,
+      -20,
+      -44,
+      -26,
+      -25,
+      -31,
+      -18,
+      -19
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      -26,
+      -27,
+      -36,
+      -40,
+      -30,
+      -20,
+      -50,
+      -30,
+      -30,
+      -26,
+      -24,
+      -29
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      19,
+      23,
+      24,
+      24,
+      19,
+      9,
+      11,
+      6,
+      16,
+      22,
+      22,
+      19
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 29 Oct - Maruti Suzuki crosses 50,000 EV exports; Hansalpur capacity reaches 1 million vehicles annually.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 29 Oct - Maruti Suzuki crosses 50,000 EV exports; Hansalpur capacity reaches 1 million vehicles annually.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95d1017a-3e9d-46db-ba54-ca6ae2c6dfbe.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb1e1ced-406b-42d5-96b7-8fda705bdb16.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Audio Recording 27 Oct - Audio recording of 27 October 2026 investor call on Q2 FY2027 results uploaded.",
+   "links": [
+    {
+     "text": "Audio Recording 27 Oct - Audio recording of 27 October 2026 investor call on Q2 FY2027 results uploaded.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f59fa177-7b03-4b3d-96d2-aeff1847bcb4.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Investor Presentation 27 Oct - Investor Presentation on the financial results for the quarter ended on 30th September 2026",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Investor Presentation 27 Oct - Investor Presentation on the financial results for the quarter ended on 30th September 2026",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2035228-03c1-4d40-a644-560d2727c2d1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 27 Oct - Maruti Suzuki approved Q2/H1 FY27 results, posted record sales, and plans Osamu Suzuki Centre of Excellence.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 27 Oct - Maruti Suzuki approved Q2/H1 FY27 results, posted record sales, and plans Osamu Suzuki Centre of Excellence.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ec86b0c-ade4-46be-bdb7-bae88ce1dfb8.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/09d38ee6-9c30-4892-b483-8d7c34697a7a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b6b3feef-628a-443c-9e63-665a5e057547.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4b14c577-1d8d-4eb0-a79e-f94640af8a67.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/68f18376-59dd-4bc2-9aee-48e50ec97f27.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/74208532500.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/69235532500.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000320.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000317.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000316.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000315.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000314.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from nse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://archives.nseindia.com/annual_reports/AR_898_MARUTI_2012_2013_07082013140623.zip"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532500/5325000313.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 19 Nov 2025 from crisil",
+   "links": [
+    {
+     "text": "Rating update 19 Nov 2025 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_November%2019_%202025_RR_383293.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 9 Jan 2025 from crisil",
+   "links": [
+    {
+     "text": "Rating update 9 Jan 2025 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_January%2009_%202025_RR_359879.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 5 Dec 2023 from crisil",
+   "links": [
+    {
+     "text": "Rating update 5 Dec 2023 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_December%2005,%202023_RR_331868.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 11 Aug 2023 from crisil",
+   "links": [
+    {
+     "text": "Rating update 11 Aug 2023 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_August%2011,%202023_RR_325632.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 Mar 2023 from crisil",
+   "links": [
+    {
+     "text": "Rating update 30 Mar 2023 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_March%2030,%202023_RR_315935.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 15 Sep 2022 from crisil",
+   "links": [
+    {
+     "text": "Rating update 15 Sep 2022 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/MarutiSuzukiIndiaLimited_September%2015,%202022_RR_301571.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "REC",
+     "url": "https://www.marutisuzuki.com/content/dam/arena-eds/corporate/mp3/company-reports/audio-recording-Q2-FY-2026-27-financial-results-investor-and-analyst-con-call-27th-October-2026.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b7f0db8-b33e-4a14-bb96-542978860d78.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.marutisuzuki.com/content/dam/arena-eds/corporate/pdf/company-reports/2026-2027/Audio-Recording-Q1-FY-2026-27-financial-results-investor-and-analyst-con-call-31st-July-2026.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://az-ci-afde-prd-arena-03-efddeyfchzf9akbb.z01.azurefd.net/msilintiwebpdfcopyfromdefault/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8ced1ab-d385-4f8c-bcc9-90a186b40275.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/W2x9oyMVzCs"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e535086-f03f-40be-97bd-e966c116c483.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d203cd4-51c6-4795-a58f-b784adfca9a0.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Audio-Recording-Q3-FY-2025-26-financial-results-investor-and-analyst-con-call-28th-January-2026.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de8ce513-a808-453e-9b3b-94328ebe6e0c.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Audio-Recording-Q2-FY-2025-26-financial-results-investor-and-analyst-con-call-31st-October-2025.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb1d3824-d661-4143-b061-9964bf79d1b3.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Audio_Recording_Q1_FY_2025_26_financial_results_investor_and_analyst_con_call_31st_July_2025.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe4b9735-c370-47bc-b884-b16ba0b45689.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=fuTZjfg2dZM"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61a166ec-37a8-42f6-b5d3-5168529c73a3.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Audio-Recording-Q3-FY-2024-25-financial-results-investor-and-analyst-con-call-29th-January-2025.mp3?s=08"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04f99f6b-4fc0-4493-88df-33c93345272f.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/cer6aaSgYH4?si=rZZyZAry6R7pUD5K"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY_25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=759f552a-69ee-4a40-92b6-2bcb6f2690b1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q4_FY_24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc92b5fa-9912-4dd5-8649-5a7767b7714b.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Audio-Recording-Q4-FY-2023-24-financial-results-investor-and-analyst-con-call-31st-March-2024.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY_24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e9acec2-5971-42ff-952b-bf5002f0d612.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=381628ec-6f81-4bb9-a800-fa59cb7f5fbd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25fd3811-3e9d-44b1-b62c-44c8e000ea59.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Presentation_Acquisition_of_SMG.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1a98a12-592a-4d04-9a62-8448987b030c.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q4_FY23_New.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a90ec056-59e5-4f04-b3dc-49a3807d238b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q3_FY_23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d583d26-07f3-4eb5-9cd5-c77db2ee22d5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY_23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d23816e-08c1-46e5-9b1d-401c456bc690.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q1_FY23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q3_FY22.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/MSIL_Final_transcript_2021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q1_FY'22.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript-earnings-call-Maruti-Suzuki-Q4-FY-21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q3_FY'21.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e0eac5e-4341-46c8-9402-4fbe608acabb.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call_Maruti_Suzuki_Q2_FY'21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q1FY'21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcript_earnings_call-Maruti_Suzuki_Q4F_20_and_full_year_FY20.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti%20Suzuki_Q2FY20_and_H1FY20_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q1FY20_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q4FY19_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q3FY19_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Q2FY19_and_H1FY19_Investor_Conference_Call_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q1FY19_Investor_Concall_Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=358b1f48-a0ff-4ee1-9ae4-617f2205db1e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Transcript-for-Q3FY18-Concall.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q2FY18_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q4FY17-Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Maruti_Suzuki_Q3FY17_Transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcription_of_Maruti_Suzuki-Q1_FY_17.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcription_of_Maruti_Suzuki-26th_April_2016.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://marutistoragenew.blob.core.windows.net/msilintiwebpdf/Transcription_of_Maruti-28th_Jan_2016_final.pdf"
+    }
+   ]
+  }
+ ]
+}

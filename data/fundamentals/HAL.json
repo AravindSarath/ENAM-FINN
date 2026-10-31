@@ -1,0 +1,1814 @@
+{
+ "schema": 1,
+ "symbol": "HAL",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/HAL/consolidated/",
+  "fetchedAt": "2026-10-31T15:51:09.353Z",
+  "asOf": "2026-06-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Hindustan Aeronautics Ltd",
+ "companyId": "1274307",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 3,24,603 Cr.",
+   "value": 324603
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 4,854",
+   "value": 4854
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 5,150 / 3,479",
+   "value": 5150
+  },
+  {
+   "name": "Stock P/E",
+   "text": "34.8",
+   "value": 34.8
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 614",
+   "value": 614
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "0.93 %",
+   "value": 0.93
+  },
+  {
+   "name": "ROCE",
+   "text": "32.0 %",
+   "value": 32
+  },
+  {
+   "name": "ROE",
+   "text": "24.0 %",
+   "value": 24
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 5.00",
+   "value": 5
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Jun 2023",
+     "end": "2023-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      3915,
+      5636,
+      6061,
+      14769,
+      4348,
+      5976,
+      6957,
+      13700,
+      4819,
+      6629,
+      7699,
+      13942,
+      5515
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      3039,
+      4108,
+      4626,
+      8867,
+      3357,
+      4336,
+      5275,
+      8405,
+      3537,
+      5071,
+      5828,
+      8884,
+      3988
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      877,
+      1528,
+      1435,
+      5901,
+      991,
+      1640,
+      1683,
+      5295,
+      1282,
+      1558,
+      1871,
+      5059,
+      1527
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      22,
+      27,
+      24,
+      40,
+      23,
+      27,
+      24,
+      39,
+      27,
+      24,
+      24,
+      36,
+      28
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      414,
+      474,
+      467,
+      569,
+      742,
+      560,
+      637,
+      669,
+      757,
+      895,
+      927,
+      1164,
+      912
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      31,
+      0,
+      0,
+      0,
+      8,
+      0,
+      0,
+      1,
+      4,
+      0
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      201,
+      350,
+      212,
+      644,
+      149,
+      178,
+      277,
+      736,
+      185,
+      226,
+      310,
+      634,
+      304
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      1089,
+      1651,
+      1689,
+      5795,
+      1584,
+      2023,
+      2042,
+      5219,
+      1854,
+      2227,
+      2487,
+      5584,
+      2134
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      25,
+      25,
+      25,
+      26,
+      9,
+      25,
+      30,
+      24,
+      25,
+      25,
+      25,
+      25,
+      26
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      814,
+      1237,
+      1262,
+      4309,
+      1437,
+      1510,
+      1440,
+      3977,
+      1384,
+      1669,
+      1867,
+      4196,
+      1590
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      12.17,
+      18.49,
+      18.86,
+      64.43,
+      21.49,
+      22.59,
+      21.53,
+      59.46,
+      20.69,
+      24.96,
+      27.91,
+      62.74,
+      23.77
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1274307/6/2023/",
+    "https://www.screener.in/company/source/quarter/1274307/9/2023/",
+    "https://www.screener.in/company/source/quarter/1274307/12/2023/",
+    "https://www.screener.in/company/source/quarter/1274307/3/2024/",
+    "https://www.screener.in/company/source/quarter/1274307/6/2024/",
+    "https://www.screener.in/company/source/quarter/1274307/9/2024/",
+    "https://www.screener.in/company/source/quarter/1274307/12/2024/",
+    "https://www.screener.in/company/source/quarter/1274307/3/2025/",
+    "https://www.screener.in/company/source/quarter/1274307/6/2025/",
+    "https://www.screener.in/company/source/quarter/1274307/9/2025/",
+    "https://www.screener.in/company/source/quarter/1274307/12/2025/",
+    "https://www.screener.in/company/source/quarter/1274307/3/2026/",
+    "https://www.screener.in/company/source/quarter/1274307/6/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      15939,
+      16758,
+      17950,
+      18520,
+      20008,
+      21445,
+      22755,
+      24620,
+      26927,
+      30381,
+      30981,
+      33089,
+      33785
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      13560,
+      14285,
+      14719,
+      15071,
+      15457,
+      16531,
+      17397,
+      19205,
+      20242,
+      20630,
+      21360,
+      23301,
+      23771
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      2379,
+      2474,
+      3231,
+      3449,
+      4551,
+      4914,
+      5357,
+      5415,
+      6686,
+      9752,
+      9621,
+      9788,
+      10014
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      15,
+      15,
+      18,
+      19,
+      23,
+      23,
+      24,
+      22,
+      25,
+      32,
+      31,
+      30,
+      30
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      1650,
+      1608,
+      1058,
+      776,
+      376,
+      423,
+      365,
+      985,
+      1673,
+      1923,
+      2608,
+      3743,
+      3897
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      15,
+      6,
+      16,
+      35,
+      178,
+      360,
+      267,
+      65,
+      64,
+      43,
+      22,
+      24,
+      6
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      822,
+      863,
+      681,
+      947,
+      1025,
+      999,
+      1178,
+      1111,
+      1785,
+      1407,
+      1340,
+      1355,
+      1474
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      3191,
+      3213,
+      3592,
+      3243,
+      3725,
+      3979,
+      4277,
+      5225,
+      6510,
+      10225,
+      10867,
+      12152,
+      12432
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      25,
+      38,
+      27,
+      39,
+      37,
+      28,
+      24,
+      3,
+      10,
+      25,
+      23,
+      25,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      2399,
+      2004,
+      2625,
+      1990,
+      2328,
+      2883,
+      3239,
+      5080,
+      5828,
+      7621,
+      8364,
+      9116,
+      9321
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      24.89,
+      27.72,
+      36.3,
+      29.76,
+      34.82,
+      43.1,
+      48.44,
+      75.96,
+      87.14,
+      113.96,
+      125.07,
+      136.3,
+      139.38
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      20,
+      31,
+      30,
+      54,
+      28,
+      39,
+      31,
+      26,
+      32,
+      31,
+      32,
+      33,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      482,
+      362,
+      362,
+      334,
+      334,
+      334,
+      334,
+      334,
+      334,
+      334,
+      334,
+      334
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      16322,
+      10671,
+      12198,
+      9177,
+      11748,
+      12914,
+      15078,
+      18979,
+      23238,
+      28804,
+      34647,
+      40707
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      165,
+      80,
+      1022,
+      905,
+      4116,
+      5927,
+      51,
+      49,
+      52,
+      50,
+      51,
+      66
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      47370,
+      45420,
+      38163,
+      38047,
+      35298,
+      35027,
+      37815,
+      40892,
+      45652,
+      51723,
+      73665,
+      93288
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      64339,
+      56532,
+      51744,
+      48463,
+      51496,
+      54203,
+      53278,
+      60254,
+      69276,
+      80911,
+      108698,
+      134395
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      7366,
+      6925,
+      7350,
+      7566,
+      7459,
+      7357,
+      7491,
+      6766,
+      6834,
+      6737,
+      6671,
+      7293
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      235,
+      1025,
+      1389,
+      1462,
+      1502,
+      2043,
+      2078,
+      2473,
+      1885,
+      2493,
+      3098,
+      3313
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      570,
+      916,
+      994,
+      1010,
+      910,
+      991,
+      1056,
+      1363,
+      1458,
+      1591,
+      1754,
+      1914
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      56168,
+      47666,
+      42011,
+      38425,
+      41625,
+      43812,
+      42654,
+      49653,
+      59099,
+      70089,
+      97176,
+      121875
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      64339,
+      56532,
+      51744,
+      48463,
+      51496,
+      54203,
+      53278,
+      60254,
+      69276,
+      80911,
+      108698,
+      134395
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      -404,
+      -748,
+      -7700,
+      1527,
+      15263,
+      10173,
+      8830,
+      8223,
+      13643,
+      10906
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      3012,
+      597,
+      5294,
+      -1339,
+      -1271,
+      -12785,
+      -5728,
+      -6410,
+      -10771,
+      -8337
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      -164,
+      -2540,
+      2326,
+      64,
+      -7125,
+      -1464,
+      -1731,
+      -1999,
+      -2579,
+      -3350
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      2443,
+      -2691,
+      -80,
+      252,
+      6867,
+      -4076,
+      1370,
+      -186,
+      294,
+      -781
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      -1907,
+      -2000,
+      -9094,
+      148,
+      13947,
+      8676,
+      7054,
+      6476,
+      11890,
+      8438
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      null,
+      null,
+      20,
+      22,
+      -145,
+      68,
+      298,
+      207,
+      173,
+      105,
+      179,
+      142
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      144,
+      105,
+      86,
+      133,
+      227,
+      191,
+      90,
+      69,
+      64,
+      55,
+      55,
+      45
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      1104,
+      1016,
+      879,
+      870,
+      881,
+      815,
+      605,
+      607,
+      527,
+      544,
+      736,
+      859
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      103,
+      91,
+      64,
+      72,
+      113,
+      163,
+      76,
+      96,
+      116,
+      116,
+      156,
+      116
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      1145,
+      1030,
+      900,
+      931,
+      995,
+      843,
+      620,
+      580,
+      475,
+      484,
+      634,
+      788
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      39,
+      -5,
+      74,
+      101,
+      221,
+      185,
+      141,
+      111,
+      38,
+      37,
+      121,
+      301
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      null,
+      23,
+      29,
+      27,
+      29,
+      24,
+      26,
+      30,
+      31,
+      39,
+      34,
+      32
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Change in Directorate 28 Oct - HAL appointed P B Rangarao as Director (Operations) from 28 Oct 2026; Kota Ravi ceased additional charge.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Change in Directorate 28 Oct - HAL appointed P B Rangarao as Director (Operations) from 28 Oct 2026; Kota Ravi ceased additional charge.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbad9087-72a3-4ba2-a5e9-dd6d9d405981.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Board Meeting Intimation for Considering The Audited Financial Results For The Period Ended 30.09.2026 27 Oct - HAL board to meet on 12 November 2026 to consider audited Q2 FY27 results.",
+   "links": [
+    {
+     "text": "Board Meeting Intimation for Considering The Audited Financial Results For The Period Ended 30.09.2026 27 Oct - HAL board to meet on 12 November 2026 to consider audited Q2 FY27 results.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dbcb5e9-2a42-4aca-8bea-6866b4f0f9b8.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "General Updates 22 Oct - HAL corrects Shri Anindya Biswas’s designation to DS & DG (Aero).",
+   "links": [
+    {
+     "text": "General Updates 22 Oct - HAL corrects Shri Anindya Biswas’s designation to DS & DG (Aero).",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af36be63-87ea-4eef-8143-08db2b916474.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Change in Directorate 7 Oct - HAL appointed Anindya Biswas as Government Nominee Director from 7 October 2026, replacing K Rajalakshmi Menon.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Change in Directorate 7 Oct - HAL appointed Anindya Biswas as Government Nominee Director from 7 October 2026, replacing K Rajalakshmi Menon.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4fa70d2-bab3-4652-995d-4727e34503b0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Acquisition 2 Oct - HAL will acquire CAE Canada's 50% stake in HATSOFF for nil consideration, making it wholly-owned within 60 days.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Acquisition 2 Oct - HAL will acquire CAE Canada's 50% stake in HATSOFF for nil consideration, making it wholly-owned within 60 days.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70bc729d-e921-4367-9add-cb9cdb5162fc.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3acba06e-38a8-4dd8-8524-1875087acd5b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/425a7379-6556-41a7-8edf-41b26574a53e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7e7c2a0a-f366-4aff-8d47-0818d45fae58.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/89b72e9c-4ab7-474f-bbbc-6238b2a832ce.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/541154/74651541154.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/541154/71409541154.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/541154/65527541154.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/541154/5411540319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/541154/5411540318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2017/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2017.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2016/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2016.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2015/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2015.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2014/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2014.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2013/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2013.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2012",
+     "url": "https://www.bseindia.com/HIS_ANN_RPT/HISTANNR/2012/HINDUSTAN_AERONAUTICS_LTD-541154-MARCH-2012.PDF"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 9 Mar from care",
+   "links": [
+    {
+     "text": "Rating update 9 Mar from care",
+     "url": "https://www.careratings.com/upload/CompanyFiles/PR/202603130335_Hindustan_Aeronautics_Limited.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 Sep 2025 from icra",
+   "links": [
+    {
+     "text": "Rating update 30 Sep 2025 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=138144"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 3 Apr 2025 from care",
+   "links": [
+    {
+     "text": "Rating update 3 Apr 2025 from care",
+     "url": "https://www.careratings.com/upload/CompanyFiles/PR/202504140424_Hindustan_Aeronautics_Limited.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 5 Mar 2024 from care",
+   "links": [
+    {
+     "text": "Rating update 5 Mar 2024 from care",
+     "url": "https://www.careratings.com/upload/CompanyFiles/PR/202403130359_Hindustan_Aeronautics_Limited.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 21 Apr 2023 from icra",
+   "links": [
+    {
+     "text": "Rating update 21 Apr 2023 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=119451"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 25 Jan 2023 from icra",
+   "links": [
+    {
+     "text": "Rating update 25 Jan 2023 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=117563"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344500e7-2fff-4cc6-a792-c4693e0340f6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94da53ef-52aa-4fdd-8cc2-9dcf291a112d.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/JhnyVOO7Bh4?si=9K7F8I71GYEu7T_m"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425b322-7f3d-4b7c-bc63-a61673475a4f.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/sP1w5jXz1Mc?si=Pzr_paaU8CYby0zJ"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2560c6fe-eba7-48fd-85e2-8458df6f6b4d.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9bf7532-45d1-4a0b-b9ca-8d4d0769b65c.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fecf3e40-6c9d-4907-9d62-fbc852c6f8fa.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4a31ac7-fcc8-4cae-8a8e-e94ec687ba24.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://hal-india.co.in/backend/wp-content/uploads/2023/02/ELA0520221115144352.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f3151c7-e5a7-4f62-bc1d-398be356ea1d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=107f3ace-386e-44bf-9d5e-0cc5b24cb40b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45ed5d18-722d-4fd0-87d6-a120fbbe1cca.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2c431e0-f3e2-465b-a65a-b4184afc72b9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53a1f5fe-d9ee-4406-b08a-9ba984496f69.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5df0df2c-a5e8-4b53-9b7e-d30e8716c500.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=127366ae-9118-4a07-a004-6eadc040630d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a04b729e-17a9-44b9-8257-8033ed89cab6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a5654df-9d4f-4b2b-8b6b-829c1152fadb.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0132cb07-c2c8-4c1b-ad44-f375f4b440ad.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d976dea7-c25b-4ad9-b251-44c80b0eff6d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48bed769-668b-4b41-a281-7407414c15f9.pdf"
+    }
+   ]
+  }
+ ]
+}

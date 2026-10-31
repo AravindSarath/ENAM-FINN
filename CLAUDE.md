@@ -43,8 +43,14 @@ specs/          the brief (read-only)
 - Commit small, working steps. Run `next build` + a smoke test before every deploy.
 - Record prompts and decisions as we go; the AI build history is a submission artifact. Keep conversation exports/links.
 
+## Data rules (Stage 2)
+- Revenue means reported Revenue from Operations from the filing. screener.in's revenue (net of excise) is a different definition and must be labelled; never mix definitions inside one row or across companies.
+- PAT means total profit after tax including non-controlling interest; owners' profit is a separate field. If unverified, label it "Net profit (screener)".
+- Operating profit is never EBITDA. A test fails if the UI says EBITDA without "not".
+- Null with a reason, never a substitute. `npm run validate` and `npm test` must pass before a commit.
+
 ## Definition of done (per feature)
 Works on a 390px-wide viewport, works offline-from-APIs via snapshot, has a loading + empty + error state, numbers verified against a source, no console errors.
 
 ## Commands (fill in as scaffolded)
-Working: `npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint`. Planned (Stage 1+): `npm run ingest` · `npm run prewarm` · `npm run smoke`.
+Working: `npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint` · `npm test` · `npm run ingest [-- --sym X --only prices|ann|fund --refresh]` · `npm run validate`. Planned: `npm run prewarm`.

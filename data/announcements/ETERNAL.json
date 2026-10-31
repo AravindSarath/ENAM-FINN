@@ -1,0 +1,208 @@
+{
+ "schema": 1,
+ "symbol": "ETERNAL",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=ETERNAL&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:42.278Z",
+  "asOf": "2026-10-27T11:22:27.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 8,
+ "items": [
+  {
+   "id": "106830405",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Eternal Limited has filed with exchange transcript of earnings conference call conducted on October 21, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_27102026165119_Transcript_of_the_earnings_conference_call_September_2026signed.pdf",
+   "attachmentSize": "360.88 KB",
+   "announcedAt": "2026-10-27T11:22:27.000Z",
+   "announcedAtRaw": "27-Oct-2026 16:52:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823642",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Monitoring Agency Report",
+   "text": "Eternal Limited has filed with exchange monitoring agency report for quarter ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026173358_SignedMALletter.pdf",
+   "attachmentSize": "1.16 MB",
+   "announcedAt": "2026-10-21T12:05:22.000Z",
+   "announcedAtRaw": "21-Oct-2026 17:35:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:monitoring-agency",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823393",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Sale or disposal",
+   "text": "Eternal Limited has informed exchange regarding proposed restructuring, acquisition and divestment.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026153325_OutcomeSIGNED.pdf",
+   "attachmentSize": "3.78 MB",
+   "announcedAt": "2026-10-21T10:03:41.000Z",
+   "announcedAtRaw": "21-Oct-2026 15:33:41",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:sale or disposal",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823380",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "General Updates",
+   "text": "Eternal Limited has filed with exchange copy of shareholders letter dated October 21, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152512_SHLsigned.pdf",
+   "attachmentSize": "12.02 MB",
+   "announcedAt": "2026-10-21T09:55:20.000Z",
+   "announcedAtRaw": "21-Oct-2026 15:25:20",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106823374",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Outcome of board meeting dated October 21, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_21102026152051_OutcomeSIGNED.pdf",
+   "attachmentSize": "3.78 MB",
+   "announcedAt": "2026-10-21T09:52:31.000Z",
+   "announcedAtRaw": "21-Oct-2026 15:22:31",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106816224",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Eternal Limited has informed the exchange that the Company will hold its Earnings Conference Call on Wednesday, October 21, 2026 at 5 P.M. (IST), to discuss the financial results for the quarter and half year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_13102026181942_PriorintimationSept2026signed.pdf",
+   "attachmentSize": "242.55 KB",
+   "announcedAt": "2026-10-13T12:55:06.000Z",
+   "announcedAtRaw": "13-Oct-2026 18:25:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "results",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810179",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Eternal Limited has informed the exchange about certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018 for the quarter ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_07102026182413_SignedCertificateSeptember2026.pdf",
+   "attachmentSize": "254.52 KB",
+   "announcedAt": "2026-10-07T13:00:10.000Z",
+   "announcedAtRaw": "07-Oct-2026 18:30:10",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106805044",
+   "symbol": "ETERNAL",
+   "company": "ETERNAL LIMITED",
+   "isin": "INE758T01015",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "Eternal Limited for informed the exchange regarding grant of stock options pursuant to approval of nomination and remuneration committee.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/ZOMATO_01102026171038_grantDisclosureOctober12026signed.pdf",
+   "attachmentSize": "2.79 MB",
+   "announcedAt": "2026-10-01T11:46:35.000Z",
+   "announcedAtRaw": "01-Oct-2026 17:16:35",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  }
+ ]
+}

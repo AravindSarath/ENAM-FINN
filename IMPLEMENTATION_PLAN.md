@@ -87,7 +87,7 @@ Stage 0 is a **data spike with a go/no-go**: confirm each source returns real da
 |---|---|---|---|
 | **0. Spike & scaffold** ✅ DONE | 1.5 | Spike (`docs/DATA_SPIKE.md`): Yahoo, NSE, screener, PDFs work; BSE blocked. Scaffold: Next.js 16.4 + React 19 + TS strict + Tailwind 4 (no `src/`, `@/*` alias), deps `zod cheerio framer-motion unpdf` + dev `tsx`; placeholder page, `/api/health`, `.claude/launch.json`, folder skeleton, `.env.example`, git init (no commits) | Verified: `npm run build`, `typecheck`, `lint` pass; dev server serves `/` and `/api/health`; `npm audit --omit=dev` = 0 vulns |
 | **1. Frontend shell (mock data)** ✅ DONE, awaiting review | 3 | Design system (ink/ivory/gold tokens, Instrument Serif + Geist), 4-tab shell, **Brief** (window chips incl. custom, Act/Noted/Routine tiers, results/management/move cards, Dig in / Mute type / Done, alert banner), **Portfolio** (heat map, sort, stock sheet), **Research** (any-ticker search, RELIANCE sample dossier with citation chips, promised-vs-delivered layout), **Alerts** (volume and %-move sliders, category toggles, live hit count, simulate, saved in localStorage). All mock data labelled in-UI (`lib/mock.ts`); Reliance results and 5-quarter series are real from the Stage 0 snapshot | lint, typecheck, build pass; no console errors; checked at 375px: navigation, tier filtering by window, sheet, dossier, threshold change 9→6 alerts and persistence |
-| **1b. Ingest & snapshot** (was Stage 1) | 2.5 | Prices, announcements (14d+), screener tables + doc links for 18+4 tickers committed | `npm run ingest` idempotent; snapshots load offline |
+| **1b. Ingest & snapshot** ✅ DONE | 2.5 | All 22 tickers (18 portfolio, 4 research) ingested with 0 source failures; `npm run validate` and 129 tests pass. Brief, Portfolio, Alerts and Research now read the snapshots. Decisions applied: primary Revenue = reported Revenue from Operations (filing), screener's net-of-excise revenue kept separately; PAT incl. NCI primary with owners' profit separate; operating profit never labelled EBITDA. See `docs/DATA_COVERAGE.md` and `docs/DATA_VERIFICATION.md` | RELIANCE results verified against the filing; others use screener figures under labels that say so. Known gaps listed in the coverage doc (TATAELXSI standalone fallback, ETERNAL results not identifiable by rules, HAL/ITC/TITAN pre-results) |
 | **2. Push core** | 4 | Classifier, scorer, digest API + Brief screen with window chips; results card with reconciliation | Digest shows tiered feed; Routine collapsed; results deltas match screener within tolerance on ≥5 real filings |
 | **3. Triggers & alerts** | 2 | Rules engine + Alerts screen + banner; simulate-a-day | Changing threshold changes hits live; unit tests pass |
 | **4. Pull core** | 4.5 | Doc pipeline, facts extraction, synthesis, dossier UI with citations; promised-vs-delivered | New ticker produces a dossier end-to-end; every statement has a working citation; demo tickers pre-warmed |
@@ -107,6 +107,14 @@ Buffer: ~3h. Deploy a thin version at end of Stage 2 and redeploy after each sta
 - Rules engine (`lib/rules.ts: evaluate`) is already pure and shared by Brief banner and Alerts screen.
 - Honest gaps: only RELIANCE has a dossier; other tickers show a pipeline preview then a "not connected" state. Balance sheet, cash quality, guidance sections are placeholders. Promise text and quote excerpts in the dossier are placeholders; delivered figures are real.
 - Not built: mgmt-change bio is sample text; Ask bar; Business snapshot; PWA manifest; real push notifications.
+
+## 7c. Stage 2 notes (data wiring)
+- Pipeline: `scripts/ingest.ts` → `data/{prices,announcements,fundamentals}` + `data/filings/RELIANCE.json` (hand-transcribed, verified) + `data/manifest.json`. `lib/data/view.ts` builds the Brief feed and holdings; `lib/data/results.ts` builds results cards; `lib/data/score.ts` tiers; `lib/data/classify.ts` classifies (NSE structured labels are authoritative; free-text labels use keyword rules).
+- The demo clock is `manifest.ingestedAt`. Windows are relative to it.
+- Results cards need a stated reporting period in the filing text and a matching screener quarter; otherwise numbers are withheld with a reason.
+- Repeated filings with the same NSE label within 72h fold into one card; results follow-ups (press release, deck, call material) fold into the results card.
+- Still sample: the KPITTECH management-change card (bio needs the LLM stage); portfolio weights are illustrative; dossier "promised" text and placeholder excerpts.
+- Still missing (needs LLM): reported-figure extraction for companies other than RELIANCE, owners' profit for them, management bios, summaries, concall/AR analysis.
 
 ## 8. Risks and mitigations
 | Risk | Mitigation |

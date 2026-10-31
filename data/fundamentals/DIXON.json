@@ -1,0 +1,2136 @@
+{
+ "schema": 1,
+ "symbol": "DIXON",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/DIXON/consolidated/",
+  "fetchedAt": "2026-10-31T15:50:52.115Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Dixon Technologies (India) Ltd",
+ "companyId": "1274137",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 67,288 Cr.",
+   "value": 67288
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 11,000",
+   "value": 11000
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 15,775 / 9,600",
+   "value": 15775
+  },
+  {
+   "name": "Stock P/E",
+   "text": "43.4",
+   "value": 43.4
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 961",
+   "value": 961
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "0.09 %",
+   "value": 0.09
+  },
+  {
+   "name": "ROCE",
+   "text": "29.2 %",
+   "value": 29.2
+  },
+  {
+   "name": "ROE",
+   "text": "18.9 %",
+   "value": 18.9
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 2.00",
+   "value": 2
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      4943,
+      4818,
+      4658,
+      6580,
+      11534,
+      10454,
+      10293,
+      12836,
+      14855,
+      10672,
+      10511,
+      15548,
+      21794
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      4744,
+      4634,
+      4476,
+      6332,
+      11108,
+      10063,
+      9850,
+      12353,
+      14294,
+      10257,
+      10102,
+      15085,
+      21197
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      199,
+      184,
+      182,
+      248,
+      426,
+      391,
+      443,
+      482,
+      561,
+      414,
+      408,
+      463,
+      597
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      4,
+      3.8,
+      3.9,
+      3.8,
+      3.7,
+      3.7,
+      4.3,
+      3.8,
+      3.8,
+      3.9,
+      3.9,
+      3,
+      2.7
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      3,
+      4,
+      19,
+      16,
+      206,
+      10,
+      265,
+      8,
+      497,
+      139,
+      90,
+      537,
+      72
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      17,
+      22,
+      21,
+      29,
+      38,
+      41,
+      46,
+      33,
+      38,
+      43,
+      24,
+      24,
+      26
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      36,
+      41,
+      51,
+      55,
+      66,
+      75,
+      86,
+      93,
+      96,
+      99,
+      105,
+      107,
+      110
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      149,
+      126,
+      130,
+      180,
+      529,
+      285,
+      576,
+      366,
+      924,
+      412,
+      370,
+      869,
+      532
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      24,
+      23,
+      25,
+      22,
+      22,
+      24,
+      19,
+      23,
+      19,
+      22,
+      19,
+      17,
+      23
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      113,
+      97,
+      97,
+      140,
+      412,
+      216,
+      465,
+      280,
+      746,
+      321,
+      298,
+      718,
+      411
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      18.02,
+      16.12,
+      15.91,
+      22.34,
+      65.15,
+      28.5,
+      66.54,
+      37.2,
+      110.72,
+      47.34,
+      42.17,
+      108.6,
+      56.18
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1274137/9/2023/",
+    "https://www.screener.in/company/source/quarter/1274137/12/2023/",
+    "https://www.screener.in/company/source/quarter/1274137/3/2024/",
+    "https://www.screener.in/company/source/quarter/1274137/6/2024/",
+    "https://www.screener.in/company/source/quarter/1274137/9/2024/",
+    "https://www.screener.in/company/source/quarter/1274137/12/2024/",
+    "https://www.screener.in/company/source/quarter/1274137/3/2025/",
+    "https://www.screener.in/company/source/quarter/1274137/6/2025/",
+    "https://www.screener.in/company/source/quarter/1274137/9/2025/",
+    "https://www.screener.in/company/source/quarter/1274137/12/2025/",
+    "https://www.screener.in/company/source/quarter/1274137/3/2026/",
+    "https://www.screener.in/company/source/quarter/1274137/6/2026/",
+    "https://www.screener.in/company/source/quarter/1274137/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      1201,
+      1389,
+      2457,
+      2842,
+      2984,
+      4400,
+      6448,
+      10697,
+      12192,
+      17691,
+      38860,
+      48873,
+      58523
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      1169,
+      1340,
+      2365,
+      2729,
+      2848,
+      4172,
+      6156,
+      10313,
+      11673,
+      16986,
+      37345,
+      47000,
+      56641
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      32,
+      49,
+      92,
+      113,
+      136,
+      228,
+      292,
+      384,
+      519,
+      705,
+      1515,
+      1873,
+      1883
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      2.7,
+      3.5,
+      3.7,
+      4,
+      4.6,
+      5,
+      4.5,
+      3.6,
+      4.3,
+      4,
+      3.9,
+      3.8,
+      3.2
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      2,
+      23,
+      1,
+      4,
+      6,
+      5,
+      1,
+      4,
+      4,
+      32,
+      497,
+      731,
+      838
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      10,
+      13,
+      16,
+      13,
+      26,
+      39,
+      33,
+      49,
+      64,
+      81,
+      162,
+      141,
+      117
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      7,
+      8,
+      11,
+      15,
+      22,
+      37,
+      44,
+      84,
+      115,
+      162,
+      281,
+      393,
+      421
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      17,
+      51,
+      66,
+      88,
+      94,
+      157,
+      217,
+      255,
+      345,
+      494,
+      1570,
+      2071,
+      2183
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      24,
+      16,
+      28,
+      31,
+      32,
+      23,
+      26,
+      25,
+      26,
+      24,
+      21,
+      21,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      13,
+      43,
+      48,
+      61,
+      63,
+      120,
+      160,
+      190,
+      255,
+      375,
+      1233,
+      1644,
+      1747
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      3.28,
+      11.76,
+      8.66,
+      10.76,
+      11.19,
+      20.81,
+      27.28,
+      32.05,
+      42.9,
+      61.47,
+      181.87,
+      236.61,
+      254.29
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      3,
+      9,
+      14,
+      4,
+      4,
+      4,
+      4,
+      6,
+      7,
+      8,
+      4,
+      4,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      3,
+      3,
+      11,
+      11,
+      11,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      82,
+      120,
+      186,
+      304,
+      367,
+      530,
+      726,
+      985,
+      1273,
+      1683,
+      2998,
+      4665,
+      5866
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      82,
+      80,
+      43,
+      45,
+      141,
+      87,
+      295,
+      667,
+      453,
+      489,
+      671,
+      994,
+      1236
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      157,
+      215,
+      549,
+      606,
+      971,
+      1069,
+      1814,
+      2613,
+      2941,
+      4806,
+      13077,
+      13481,
+      22063
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      324,
+      417,
+      789,
+      966,
+      1491,
+      1697,
+      2846,
+      4277,
+      4679,
+      6990,
+      16758,
+      19152,
+      29178
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      97,
+      124,
+      137,
+      179,
+      241,
+      414,
+      550,
+      1003,
+      1244,
+      1996,
+      2774,
+      4172,
+      4271
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      2,
+      16,
+      19,
+      10,
+      72,
+      22,
+      120,
+      68,
+      257,
+      571,
+      885
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      6,
+      0,
+      0,
+      11,
+      8,
+      0,
+      95,
+      141,
+      44,
+      20,
+      536,
+      1007,
+      1389
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      221,
+      294,
+      650,
+      759,
+      1224,
+      1273,
+      2128,
+      3111,
+      3272,
+      4905,
+      13191,
+      13403,
+      22633
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      324,
+      417,
+      789,
+      966,
+      1491,
+      1697,
+      2846,
+      4277,
+      4679,
+      6990,
+      16758,
+      19152,
+      29178
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      44,
+      42,
+      53,
+      68,
+      -3,
+      237,
+      170,
+      273,
+      726,
+      584,
+      1150,
+      1782
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -22,
+      -22,
+      -43,
+      -100,
+      -64,
+      -99,
+      -265,
+      -464,
+      -356,
+      -531,
+      -1093,
+      -1138
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      -22,
+      -20,
+      -8,
+      42,
+      69,
+      -57,
+      63,
+      304,
+      -330,
+      -70,
+      -27,
+      -108
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      1,
+      1,
+      10,
+      2,
+      81,
+      -32,
+      113,
+      41,
+      -17,
+      30,
+      537
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      23,
+      16,
+      15,
+      -5,
+      -82,
+      129,
+      2,
+      -145,
+      276,
+      16,
+      254,
+      724
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      152,
+      103,
+      74,
+      78,
+      11,
+      123,
+      77,
+      85,
+      156,
+      100,
+      94,
+      117
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      17,
+      23,
+      42,
+      38,
+      63,
+      43,
+      62,
+      46,
+      51,
+      48,
+      65,
+      49
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      38,
+      41,
+      47,
+      47,
+      57,
+      47,
+      47,
+      43,
+      32,
+      39,
+      41,
+      31
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      46,
+      56,
+      84,
+      75,
+      103,
+      89,
+      108,
+      86,
+      81,
+      92,
+      111,
+      86
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      9,
+      8,
+      5,
+      10,
+      17,
+      1,
+      1,
+      3,
+      2,
+      -6,
+      -5,
+      -7
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      16,
+      8,
+      7,
+      8,
+      12,
+      9,
+      9,
+      3,
+      -2,
+      -2,
+      2,
+      -3
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      16,
+      29,
+      37,
+      34,
+      27,
+      34,
+      30,
+      23,
+      24,
+      29,
+      40,
+      29
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - Announcement under Regulation 30 of SEBI LODR- Copy of Newspaper publication of Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and …",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Newspaper Publication 31 Oct - Announcement under Regulation 30 of SEBI LODR- Copy of Newspaper publication of Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and …",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2336e442-6dfb-4af9-81c4-09a8770d2c94.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 30 Oct - Audio recording of Dixon’s Q2 FY2027 results conference call uploaded on website.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 30 Oct - Audio recording of Dixon’s Q2 FY2027 results conference call uploaded on website.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=082ec2fb-f975-4058-aadb-d27d3e69a02d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Results For The Quarter And Half Year Ended 30Th September, 2026 30 Oct - Q2 FY27 results: consolidated revenue Rs 21,863 crore, PAT Rs 411 crore; appoints Prithvi Vachani Executive Director.",
+   "links": [
+    {
+     "text": "Results For The Quarter And Half Year Ended 30Th September, 2026 30 Oct - Q2 FY27 results: consolidated revenue Rs 21,863 crore, PAT Rs 411 crore; appoints Prithvi Vachani Executive Director.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7b8fffb-7a5f-4efa-9241-482c5d765f1d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Change in Management 30 Oct - Dixon Q2 FY26 revenue rose 42% to Rs 21,863 crore; board appointed Prithvi Vachani executive director.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Change in Management 30 Oct - Dixon Q2 FY26 revenue rose 42% to Rs 21,863 crore; board appointed Prithvi Vachani executive director.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53529778-f611-4f21-b789-0bc1bf52e7e5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Board Meeting Outcome for Outcome Of Board Meeting Held On 30Th October, 2026 30 Oct - Dixon announced Q2 FY2027 results and appointed Prithvi Vachani as Executive Director for five years.",
+   "links": [
+    {
+     "text": "Board Meeting Outcome for Outcome Of Board Meeting Held On 30Th October, 2026 30 Oct - Dixon announced Q2 FY2027 results and appointed Prithvi Vachani as Executive Director for five years.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4cee6de-593c-4f4c-a0b0-368c8d0aa43e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/5ef88e3c-352d-4223-a8ec-bdd7d3aa31c1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/7eabc370-b827-435c-9dd2-8a70553a8062.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/44312065-295c-4d01-ac79-338efd2f98f7.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3d13c3c7-03c7-4af2-b0b6-2a6a1af5d417.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/540699/74024540699.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/540699/71112540699.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/540699/65908540699.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/540699/5406990319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/540699/5406990318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 6 Jan from icra",
+   "links": [
+    {
+     "text": "Rating update 6 Jan from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=140153"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 28 Nov 2025 from icra",
+   "links": [
+    {
+     "text": "Rating update 28 Nov 2025 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=139329"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 9 Aug 2024 from icra",
+   "links": [
+    {
+     "text": "Rating update 9 Aug 2024 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=129300"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 18 Apr 2024 from icra",
+   "links": [
+    {
+     "text": "Rating update 18 Apr 2024 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=127008"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 29 Nov 2023 from icra",
+   "links": [
+    {
+     "text": "Rating update 29 Nov 2023 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=123888"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 Aug 2023 from icra",
+   "links": [
+    {
+     "text": "Rating update 30 Aug 2023 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=121981"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "REC",
+     "url": "https://d1iixm87htyovw.cloudfront.net/uploads/4179985e-dda3-4986-8c85-d283d92db460-Q2FY27EarningsCall.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://dixon-website.s3.ap-south-1.amazonaws.com/uploads/07150914-1f3b-43ce-82f2-f8543b60027d-EarningPresentation-Q1FY26-27.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://d1iixm87htyovw.cloudfront.net/uploads/c345b9be-6f26-4f35-b4be-f1d186cc2f32-10044882.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://dixon-website.s3.ap-south-1.amazonaws.com/uploads/355b2e69-f5a3-4a7f-bd0c-21482263cd92-EarningPresentation-Q4FY25-26.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://d1iixm87htyovw.cloudfront.net/uploads/f9f4c8f0-6b2c-44dd-b4c4-364498064b41-10042911.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06b7006d-5602-41a1-b6d2-850217f7af9e.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/ayCeRFeZAuM"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e6d18a8-52fe-461b-b882-baaf90d4f787.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/financial-performance"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe83e870-4ca3-462a-addd-5c85ec513959.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_22072025161648_PPTwithOutcome.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/5LXjiE6bA9o?si=rNA-1R4jjfaaBXlt"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55e495a0-7626-4311-9f59-0a1b21076ca8.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_20052025161223_FinancialwithPPT20052025.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/json/dixon/quarterly-result/10032466.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16fce1a1-2a47-4cb2-9e27-89d412bb064b.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e1bc66-a2d8-421f-a83b-4347cb53d14f.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/json/dixon/quarterly-result/10028878.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c18ee5b-b6f4-4b8a-97b6-519950a55216.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.dixoninfo.com/json/dixon/quaterly-investor-presentation/Earning%20Presentation-%20Q2%20&%20H1%20-FY24-25.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/json/dixon/quarterly-result/ISL1120241024155918.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50d490e3-9a86-4edd-ae2e-a276c9a9ea9a.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e81b87af-32ae-4439-a1d5-e34b735f8efe.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/json/dixon/quarterly-result/ISL1120240730154441.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://nsearchives.nseindia.com/corporate/DIXON_30072024155833_FinancialswithPresentation30072024.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.dixoninfo.com/json/dixon/quaterly-investor-presentation/Earning%20Presentation-%20Q1,%20FY24-25.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85178a76-e388-468a-8142-27d125947680.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.dixoninfo.com/json/dixon/quaterly-investor-presentation/Earning%20Presentation-%20Q4%20&%20FY23-24.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.dixoninfo.com/json/dixon/quarterly-result/ISL1120240515152567.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50403c8f-77c5-4ed0-98d9-b449744a7f4d.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.dixoninfo.com/json/dixon/quaterly-investor-presentation/Earnings%20Presentation-%20Q3%209M-FY23-24.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fe59f81-da6c-4088-9bc4-c6d7e9876f45.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e297428-5887-4547-a084-60f843b9b38a.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2e3d97f-f2d3-4464-9c8a-9a16b74ec739.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da60673a-fa9b-445a-b2cd-f8d813ef99ca.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://dixoninfo.com/json/dixon/quaterly-investor-presentation/Earning%20Presentation-%20Q4%20FY22-23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb439ac-3295-417f-964c-d7afaf11e932.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6506d1d7-33a0-4239-bc56-6c53a2536542.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef44c44a-ac97-4e29-8245-06f8d59f0a2a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da19cbe4-cc4c-4795-b84e-52c10245bd08.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1204ccfc-334c-4919-91f8-1b47fe7065bd.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b746270-2dea-4339-b648-15e3050e677f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Emkay-DixonTechnologiesIndia-Jan282022.docx.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18d804ab-9554-4d25-8c71-7b12aaa3ea4f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Transcription%20of%20Dixon%20Technologies%20call%20held%20on%2029.10.21.%20final.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=755b30c6-5dbf-4e67-85d5-aa8697c2ba8d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst%20Call%20Transcript%20Q1%20FY%202021-22.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec844832-7038-4cf0-9733-d3d4f46db174.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Earning%20Call%20Transcript%20Q4FY%202020-21.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88cb4b8d-5bfb-4ff8-994c-15b533675df6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/AmbitCap-DixonTech-Feb02-2021_edited.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bcac5f1-1fc7-425d-a995-b94715ce3286.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Q2-FY2020-Earnings-Conference-Call.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst%20Call%20Transcript%20Q2%20FY%202020-21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst%20Call%20Transcript%20Q1%20FY%202020-21.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f71b87f1-b7b3-487a-a201-bef3e44a4632.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Ambit-DixonTechnologies-June11-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf354349-d89d-484d-9f55-b471f8eec64a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Q3-FY2020-Earnings-Conference-Call.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/IDFC-DixonTech-Aug13-2019.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a29a3de1-ecc9-401a-9a19-99185e79b094.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/DixonTechnologies-IDFCSecurities-May24-2019.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc46614a-507b-48e3-b877-e32157fa0cee.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst-Call-Transcript-Q3-FY-2019-30.01.2019.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1793bb51-30d1-4c3b-9d1b-a8d3a4beee20.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/IDFC-Dixon-01Nov-2018-converted.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70f99a7c-c5ba-4a76-9de3-76b8a7ea7557.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst-Call-Transcript-Q1-FY2019_August-2018.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bae83a2-db6e-44fb-858e-5c042211a5ca.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst-Call-Transcript-Q4-FY-2018-Date-28.05.2018.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ec3e82b-2fdd-47e5-a821-c85f8497507b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst-Call-Transcript-Q3-FY-2018-Date-Feb-2018.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3184aff8-a35c-4061-ac39-758a7beaabf6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://dixoninfo.com/json/dixon/Earning-call/Analyst-Call_Transcript-Q2H1-FY-2018_15.11.2017.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=657e88d9-538e-4d2e-9b0a-eebea527e281.pdf"
+    }
+   ]
+  }
+ ]
+}

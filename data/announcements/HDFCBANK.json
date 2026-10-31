@@ -1,0 +1,415 @@
+{
+ "schema": 1,
+ "symbol": "HDFCBANK",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HDFCBANK&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:49:47.006Z",
+  "asOf": "2026-10-30T07:54:25.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 17,
+ "items": [
+  {
+   "id": "106836184",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Allotment of 4675598 Shares.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_30102026132409_SELetterESOP30102026.pdf",
+   "attachmentSize": "279.26 KB",
+   "announcedAt": "2026-10-30T07:54:25.000Z",
+   "announcedAtRaw": "30-Oct-2026 13:24:25",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106829496",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "General Updates",
+   "text": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 - Change in Managing Director and Chief Executive Officer of the Bank",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_27102026080232_SEIntimation_appt_of_AB.pdf",
+   "attachmentSize": "290.95 KB",
+   "announcedAt": "2026-10-27T02:32:54.000Z",
+   "announcedAtRaw": "27-Oct-2026 08:02:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106827787",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Grant of 1302379 Options.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_24102026222634_SE_Intimation_grant_of_ESOPs.pdf",
+   "attachmentSize": "299.41 KB",
+   "announcedAt": "2026-10-24T16:57:22.000Z",
+   "announcedAtRaw": "24-Oct-2026 22:27:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106827180",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "HDFC Bank Limited has informed the Exchange about Transcript",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_23102026224657_SEintimationTranscriptofearningscall17oct2026.pdf",
+   "attachmentSize": "468.74 KB",
+   "announcedAt": "2026-10-23T17:20:22.000Z",
+   "announcedAtRaw": "23-Oct-2026 22:50:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106824670",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Allotment of 9138522 Shares.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_22102026135701_SELetterESOP22102026.pdf",
+   "attachmentSize": "285.79 KB",
+   "announcedAt": "2026-10-22T08:27:50.000Z",
+   "announcedAtRaw": "22-Oct-2026 13:57:50",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop-desc",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106824495",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "HDFC Bank Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_22102026115451_PB_adv_22102026.pdf",
+   "attachmentSize": "5.47 MB",
+   "announcedAt": "2026-10-22T06:25:18.000Z",
+   "announcedAtRaw": "22-Oct-2026 11:55:18",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106823131",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Shareholders meeting",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_21102026115151_SEIntimationPostalBallotNoticeOct2026.pdf",
+   "attachmentSize": "573.38 KB",
+   "announcedAt": "2026-10-21T06:22:36.000Z",
+   "announcedAtRaw": "21-Oct-2026 11:52:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "postal_ballot",
+    "categories": [
+     "postal_ballot"
+    ],
+    "rule": "kw:postal-ballot",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106821374",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "HDFC Bank Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026220738_SEintimation-RECORDING-17oct2026.pdf",
+   "attachmentSize": "238.06 KB",
+   "announcedAt": "2026-10-17T16:39:24.000Z",
+   "announcedAtRaw": "17-Oct-2026 22:09:24",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106821168",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "General Updates",
+   "text": "HDFC Bank Limited has informed the Exchange regarding disclosure under Regulation 30 and other applicable regulations of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026161248_Stockexchangeintimation_LV_KB.pdf",
+   "attachmentSize": "299.21 KB",
+   "announcedAt": "2026-10-17T10:44:18.000Z",
+   "announcedAtRaw": "17-Oct-2026 16:14:18",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106821121",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "HDFC Bank Limited has informed the Exchange about Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026151509_SE_Intimation_earningcall_presentation17oct2026.pdf",
+   "attachmentSize": "284.68 KB",
+   "announcedAt": "2026-10-17T09:45:29.000Z",
+   "announcedAtRaw": "17-Oct-2026 15:15:29",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106821066",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "HDFC Bank Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_17102026135520_OutcomeofBMResults_17oct2026.pdf",
+   "attachmentSize": "1.14 MB",
+   "announcedAt": "2026-10-17T08:26:22.000Z",
+   "announcedAtRaw": "17-Oct-2026 13:56:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106820256",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "HDFC Bank Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_16102026162906_SEintimatiomReg74_530Sep2025.pdf",
+   "attachmentSize": "516.03 KB",
+   "announcedAt": "2026-10-16T11:05:12.000Z",
+   "announcedAtRaw": "16-Oct-2026 16:35:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106815944",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_13102026161935_SE_Intimation_-_Earnings_call.pdf",
+   "attachmentSize": "604.27 KB",
+   "announcedAt": "2026-10-13T10:49:52.000Z",
+   "announcedAtRaw": "13-Oct-2026 16:19:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810912",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "General Updates",
+   "text": "HDFC Bank Limited has informed the Exchange about General Updates",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_08102026122324_SE_Intimation-_Newspaper_adv.pdf",
+   "attachmentSize": "6.14 MB",
+   "announcedAt": "2026-10-08T06:53:50.000Z",
+   "announcedAtRaw": "08-Oct-2026 12:23:50",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106809813",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Shareholders meeting",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Notice of Postal Ballot",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_07102026160736_SEIntimationPostalBallotNoticeOct2026.pdf",
+   "attachmentSize": "596.13 KB",
+   "announcedAt": "2026-10-07T10:40:26.000Z",
+   "announcedAtRaw": "07-Oct-2026 16:10:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "postal_ballot",
+    "categories": [
+     "postal_ballot"
+    ],
+    "rule": "kw:postal-ballot",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806485",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "General Updates",
+   "text": "HDFC Bank Limited has informed the Exchange regarding intimation under SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK_04102026220033_initial_Final_disclosure_Sep2026.pdf",
+   "attachmentSize": "748.92 KB",
+   "announcedAt": "2026-10-04T16:33:36.000Z",
+   "announcedAtRaw": "04-Oct-2026 22:03:36",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106805308",
+   "symbol": "HDFCBANK",
+   "company": "HDFC Bank Limited",
+   "isin": "INE040A01018",
+   "nseDesc": "Change in Director(s)",
+   "text": "HDFC Bank Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_01102026182319_SE_Intimation-_Anup_Bagchi.pdf",
+   "attachmentSize": "689.71 KB",
+   "announcedAt": "2026-10-01T12:53:52.000Z",
+   "announcedAtRaw": "01-Oct-2026 18:23:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in director(s)",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

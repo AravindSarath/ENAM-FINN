@@ -1,0 +1,110 @@
+{
+ "schema": 1,
+ "symbol": "HAL",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=HAL&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:04.623Z",
+  "asOf": "2026-10-28T12:34:19.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 4,
+ "items": [
+  {
+   "id": "106832710",
+   "symbol": "HAL",
+   "company": "Hindustan Aeronautics Limited",
+   "isin": "INE066F01012",
+   "nseDesc": "Change in Director(s)",
+   "text": "Hindustan Aeronautics Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_28102026180358_changeinmanagement_Dops_Signed.pdf",
+   "attachmentSize": "238.19 KB",
+   "announcedAt": "2026-10-28T12:34:19.000Z",
+   "announcedAtRaw": "28-Oct-2026 18:04:19",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in director(s)",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106824618",
+   "symbol": "HAL",
+   "company": "Hindustan Aeronautics Limited",
+   "isin": "INE066F01012",
+   "nseDesc": "Updates",
+   "text": "Hindustan Aeronautics Limited has informed the Exchange regarding 'general updates'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_22102026131032_GeneralUpdates22102026.pdf",
+   "attachmentSize": "219.82 KB",
+   "announcedAt": "2026-10-22T07:40:54.000Z",
+   "announcedAtRaw": "22-Oct-2026 13:10:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106809760",
+   "symbol": "HAL",
+   "company": "Hindustan Aeronautics Limited",
+   "isin": "INE066F01012",
+   "nseDesc": "Change in Director(s)",
+   "text": "Hindustan Aeronautics Limited has informed the Exchange regarding Change in Director(s) of the company.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_07102026153915_ChangeInDirectorate_07102026.pdf",
+   "attachmentSize": "244.56 KB",
+   "announcedAt": "2026-10-07T10:09:32.000Z",
+   "announcedAtRaw": "07-Oct-2026 15:39:32",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in director(s)",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806115",
+   "symbol": "HAL",
+   "company": "Hindustan Aeronautics Limited",
+   "isin": "INE066F01012",
+   "nseDesc": "Agreements",
+   "text": "Hindustan Aeronautics Limited has informed the Exchange about Agreements",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/HAL_02102026194550_AgreementSigned_02102026.pdf",
+   "attachmentSize": "285.27 KB",
+   "announcedAt": "2026-10-02T14:16:03.000Z",
+   "announcedAtRaw": "02-Oct-2026 19:46:03",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:agreements",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  }
+ ]
+}

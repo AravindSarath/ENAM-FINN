@@ -2,12 +2,12 @@
 
 import Link from "next/link";
 import { useEffect, useState, type ReactNode } from "react";
+import type { DossierView } from "@/lib/data/dossier";
 import { change, inr, pct, tone } from "@/lib/format";
-import { HOLDINGS, RELIANCE_DOSSIER as D } from "@/lib/mock";
 import { Pill, SampleTag, Sparkline } from "./ui";
 
 /** A citation chip that opens its supporting excerpt inline. */
-function Cite({ doc, loc, quote, sample }: { doc: string; loc?: string; quote: string; sample?: boolean }) {
+function Cite({ doc, loc, quote, href, sample }: { doc: string; loc?: string; quote: string; href?: string; sample?: boolean }) {
   const [open, setOpen] = useState(false);
   return (
     <span className="block">
@@ -23,7 +23,16 @@ function Cite({ doc, loc, quote, sample }: { doc: string; loc?: string; quote: s
       {open && (
         <span className="rise mt-1.5 block border-l-2 border-gold/60 pl-3 text-[12px] italic leading-snug text-fg/80">
           {quote}
-          {sample && <span className="ml-2 not-italic"><SampleTag label="Placeholder excerpt" /></span>}
+          {href && (
+            <a href={href} target="_blank" rel="noreferrer" className="ml-2 not-italic text-gold/80 hover:text-gold">
+              Open ↗
+            </a>
+          )}
+          {sample && (
+            <span className="ml-2 not-italic">
+              <SampleTag label="Placeholder excerpt" />
+            </span>
+          )}
         </span>
       )}
     </span>
@@ -57,22 +66,17 @@ function Section({
 }
 
 function Pending({ children }: { children: ReactNode }) {
-  return (
-    <div className="rounded-xl border border-dashed border-line px-3.5 py-4 text-[12.5px] leading-snug text-mute">
-      {children}
-    </div>
-  );
+  return <div className="rounded-xl border border-dashed border-line px-3.5 py-4 text-[12.5px] leading-snug text-mute">{children}</div>;
 }
 
-function Stat({ label, value, sub, subTone, data }: { label: string; value: string; sub: string; subTone: number; data: number[] }) {
+function Stat({ label, value, sub, subTone, data }: { label: string; value: string; sub: string; subTone: number | null; data: (number | null)[] }) {
+  const clean = data.filter((v): v is number => v != null);
   return (
     <div className="rounded-xl border border-line bg-s2 p-3">
       <p className="eyebrow">{label}</p>
       <p className="num mt-1 text-[19px] font-medium leading-none">{value}</p>
-      <p className={`num mt-1 text-[11.5px] ${tone(subTone)}`}>{sub}</p>
-      <div className="mt-2">
-        <Sparkline data={data} width={96} height={24} />
-      </div>
+      <p className={`num mt-1 text-[11.5px] ${subTone != null ? tone(subTone) : "text-dim"}`}>{sub}</p>
+      <div className="mt-2 h-6">{clean.length > 1 && <Sparkline data={clean} width={96} height={24} />}</div>
     </div>
   );
 }
@@ -84,43 +88,54 @@ const VERDICT = {
   early: { t: "Too early", tone: "mute" },
 } as const;
 
-function RelianceDossier({ from }: { from?: string }) {
-  const n = D.revenue.length - 1;
-  const opm = D.opProfit.map((o, i) => (o / D.revenue[i]) * 100);
-  const revYoY = change(D.revenue[n], D.revenue[0]);
-  const revQoQ = change(D.revenue[n], D.revenue[n - 1]);
-  const opYoY = change(D.opProfit[n], D.opProfit[0]);
-  const patYoY = change(D.pat[n], D.pat[0]);
-  const patQoQ = change(D.pat[n], D.pat[n - 1]);
-  const intQoQ = change(8481, 8337);
-  const maxOpm = Math.max(...opm);
+const NEXT = <SampleTag label="Next stage" />;
 
-  const pvd = [
-    {
-      promise: "Margin to improve sequentially from the June quarter",
-      actual: `EBITDA margin ${opm[n - 1].toFixed(1)}% → ${opm[n].toFixed(1)}%`,
-      v: "delivered" as const,
-      note: "Computed from the quarterly table.",
-    },
-    {
-      promise: "Double-digit revenue growth year on year",
-      actual: `Revenue ${pct(revYoY)} YoY, ${pct(revQoQ)} QoQ`,
-      v: "delivered" as const,
-      note: "Computed from the quarterly table.",
-    },
-    {
-      promise: "Finance costs to stabilise",
-      actual: `Interest ₹8,337 cr → ₹8,481 cr (${pct(intQoQ)} QoQ)`,
-      v: "partly" as const,
-      note: "Rising slightly; the pace slowed against the prior year.",
-    },
-    {
-      promise: "Capex intensity to moderate",
-      actual: "Needs the half-year cash-flow statement",
-      v: "early" as const,
-      note: "Not measurable from quarterly data.",
-    },
-  ];
+function Sections({ v, from, reportedRevYoY }: { v: DossierView; from?: string; reportedRevYoY: number | null }) {
+  const n = v.quarters.length - 1;
+  const last = <T,>(a: (T | null)[]) => a[n] ?? null;
+  const rev = last(v.revenue);
+  const revYoY = n >= 4 ? change(v.revenue[n] ?? NaN, v.revenue[0] ?? NaN) : NaN;
+  const revQoQ = n >= 1 ? change(v.revenue[n] ?? NaN, v.revenue[n - 1] ?? NaN) : NaN;
+  const patYoY = n >= 4 ? change(v.pat[n] ?? NaN, v.pat[0] ?? NaN) : NaN;
+  const patQoQ = n >= 1 ? change(v.pat[n] ?? NaN, v.pat[n - 1] ?? NaN) : NaN;
+  const m = last(v.margin);
+  const mYoY = n >= 4 && v.margin[n] != null && v.margin[0] != null ? (v.margin[n] as number) - (v.margin[0] as number) : null;
+  const marginVals = v.margin.filter((x): x is number => x != null);
+  const maxM = marginVals.length ? Math.max(...marginVals) : 1;
+  const isReliance = v.sym === "RELIANCE";
+  const finite = (x: number) => Number.isFinite(x);
+
+  const intQoQ = v.interest && v.interest[n] != null && v.interest[n - 1] != null ? change(v.interest[n] as number, v.interest[n - 1] as number) : NaN;
+  const opYoYtext = v.operatingProfit && v.operatingProfit[n] != null && v.operatingProfit[0] != null ? change(v.operatingProfit[n] as number, v.operatingProfit[0] as number) : NaN;
+
+  const pvd = isReliance
+    ? [
+        {
+          promise: "Margin to improve sequentially from the June quarter",
+          actual: m != null && v.margin[n - 1] != null ? `${v.marginLabel} ${(v.margin[n - 1] as number).toFixed(1)}% → ${m.toFixed(1)}%` : "Unavailable",
+          v: m != null && v.margin[n - 1] != null ? ((m as number) > (v.margin[n - 1] as number) ? ("delivered" as const) : ("missed" as const)) : ("early" as const),
+          note: "Computed from the screener.in quarterly table (revenue net of excise).",
+        },
+        {
+          promise: "Double-digit revenue growth year on year",
+          actual: finite(revYoY) ? `Revenue ${pct(revYoY)} YoY, ${pct(revQoQ)} QoQ (net of excise)` : "Unavailable",
+          v: finite(revYoY) ? (revYoY >= 10 ? ("delivered" as const) : ("missed" as const)) : ("early" as const),
+          note: reportedRevYoY != null ? `Reported revenue from operations grew ${pct(reportedRevYoY)} YoY on the filing basis.` : "Reported revenue not available.",
+        },
+        {
+          promise: "Finance costs to stabilise",
+          actual: v.interest ? `Interest ₹${inr(v.interest[n - 1] ?? 0)} cr → ₹${inr(v.interest[n] ?? 0)} cr (${pct(intQoQ)} QoQ)` : "Unavailable",
+          v: finite(intQoQ) ? (Math.abs(intQoQ) <= 2 ? ("partly" as const) : intQoQ > 2 ? ("missed" as const) : ("delivered" as const)) : ("early" as const),
+          note: "Within a 2% band counts as partly. A rising figure is not stabilisation.",
+        },
+        {
+          promise: "Capex intensity to moderate",
+          actual: "Needs the half-year cash-flow statement",
+          v: "early" as const,
+          note: "Not measurable from quarterly data.",
+        },
+      ]
+    : [];
   const counts = pvd.reduce<Record<string, number>>((a, r) => ((a[r.v] = (a[r.v] ?? 0) + 1), a), {});
 
   return (
@@ -132,125 +147,161 @@ function RelianceDossier({ from }: { from?: string }) {
         </p>
       )}
 
-      <Section id="snapshot" title="Snapshot" badge={<Pill>Sep 2026 qtr</Pill>}>
+      <div className="mx-4 mb-3 flex flex-wrap items-center gap-1.5">
+        <Pill tone="up">Real data</Pill>
+        <Pill>{v.basis ?? "basis unknown"}</Pill>
+        <Pill>latest quarter {v.asOf}</Pill>
+        {v.status === "partial" && <Pill tone="warn">{v.reason}</Pill>}
+      </div>
+
+      <Section id="snapshot" title="Snapshot" badge={<Pill>{v.quarters[n]}</Pill>}>
         <div className="grid grid-cols-3 gap-2">
-          <Stat label="Revenue ₹ cr" value={inr(D.revenue[n])} sub={`${pct(revYoY)} YoY`} subTone={revYoY} data={D.revenue} />
-          <Stat label="EBITDA*" value={`${opm[n].toFixed(1)}%`} sub={`${pct(opYoY)} YoY`} subTone={opYoY} data={D.opProfit} />
-          <Stat label="PAT ₹ cr" value={inr(D.pat[n])} sub={`${pct(patQoQ)} QoQ`} subTone={patQoQ} data={D.pat} />
+          <Stat label="Revenue ₹ cr" value={rev != null ? inr(rev) : "n/a"} sub={finite(revYoY) ? `${pct(revYoY)} YoY` : "YoY n/a"} subTone={finite(revYoY) ? revYoY : null} data={v.revenue} />
+          <Stat label={v.marginLabel} value={m != null ? `${m.toFixed(1)}%` : "n/a"} sub={mYoY != null ? `${mYoY > 0 ? "+" : ""}${mYoY.toFixed(1)} pp YoY` : "YoY n/a"} subTone={mYoY} data={v.margin} />
+          <Stat label="Net profit ₹ cr" value={v.pat[n] != null ? inr(v.pat[n] as number) : "n/a"} sub={finite(patQoQ) ? `${pct(patQoQ)} QoQ` : "QoQ n/a"} subTone={finite(patQoQ) ? patQoQ : null} data={v.pat} />
         </div>
-        <p className="mt-2 text-[11.5px] text-dim">
-          Consolidated, ₹ crore. *EBITDA margin on operating profit, excludes other income. Real figures from the
-          screener.in snapshot.
+        <p className="mt-2 text-[11.5px] leading-snug text-dim">
+          {v.basis ?? "Basis unknown"}, ₹ crore, screener.in standardised figures. Revenue is net of excise duty.{" "}
+          {v.operatingProfit
+            ? "Margin is operating profit ÷ revenue; operating profit excludes other income and is not EBITDA."
+            : "This is a bank or NBFC: screener has no operating profit for it, so the margin shown is net profit ÷ revenue."}{" "}
+          {isReliance ? "Reliance's reported revenue, PBT and PAT are verified against its filing on the Brief card." : "Net profit's treatment of non-controlling interest is not verified for this company."}
         </p>
-        <div className="mt-2">
+        {v.topRatios.length > 0 && (
+          <ul className="num mt-3 grid grid-cols-3 gap-x-2 gap-y-2 text-[12px]">
+            {v.topRatios.map((r) => (
+              <li key={r.name}>
+                <span className="block text-[10px] uppercase tracking-wider text-dim">{r.name}</span>
+                {r.text}
+              </li>
+            ))}
+          </ul>
+        )}
+        <div className="mt-3">
           <Cite
             doc="screener.in"
-            loc="quarterly results"
-            quote={`Sales ${inr(D.revenue[n])} · Operating profit ${inr(D.opProfit[n])} · PAT ${inr(D.pat[n])} (Sep 2026, consolidated, ₹ crore)`}
+            loc={`quarterly results · ${v.quarters[n]}`}
+            quote={`Fetched ${v.fetchedAt.slice(0, 16).replace("T", " ")} UTC. Revenue ${rev != null ? inr(rev) : "n/a"}, net profit ${v.pat[n] != null ? inr(v.pat[n] as number) : "n/a"} (₹ crore, ${v.basis}).`}
+            href={v.latestQuarterSourceUrl ?? v.sourceUrl}
           />
         </div>
       </Section>
 
-      <Section
-        id="promised"
-        title="Promised vs delivered"
-      >
-        <div className="mb-3 flex flex-wrap gap-1.5">
-          {(Object.keys(counts) as (keyof typeof VERDICT)[]).map((k) => (
-            <Pill key={k} tone={VERDICT[k].tone}>
-              {counts[k]} {VERDICT[k].t.toLowerCase()}
-            </Pill>
-          ))}
-        </div>
-        <p className="mb-3 rounded-lg border border-dashed border-dim/70 px-3 py-2 text-[11.5px] leading-snug text-mute">
-          <span className="mr-1 font-medium uppercase tracking-wider text-gold">Layout preview</span>
-          The promise column is placeholder text. In the pull stage it is extracted from the last four concalls, and
-          the delivered column is computed in code. Delivered figures here are real.
-        </p>
-        <ul className="space-y-2.5">
-          {pvd.map((r) => (
-            <li key={r.promise} className="rounded-xl border border-line bg-s2 p-3">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="eyebrow">Promised</p>
-                  <p className="mt-0.5 text-[13.5px] leading-snug">{r.promise}</p>
-                </div>
-                <Pill tone={VERDICT[r.v].tone}>{VERDICT[r.v].t}</Pill>
-              </div>
-              <p className="eyebrow mt-3">Delivered</p>
-              <p className="num mt-0.5 text-[13.5px] leading-snug">{r.actual}</p>
-              <p className="mt-1 text-[11.5px] text-dim">{r.note}</p>
-              <div className="mt-2">
-                <Cite
-                  doc="Q1 FY27 concall"
-                  loc="page ref in pull stage"
-                  quote="The management statement is quoted here with its document and page once extraction is connected."
-                  sample
-                />
-              </div>
-            </li>
-          ))}
-        </ul>
+      <Section id="promised" title="Promised vs delivered" defaultOpen={isReliance} badge={isReliance ? undefined : NEXT}>
+        {isReliance ? (
+          <>
+            <div className="mb-3 flex flex-wrap gap-1.5">
+              {(Object.keys(counts) as (keyof typeof VERDICT)[]).map((k) => (
+                <Pill key={k} tone={VERDICT[k].tone}>
+                  {counts[k]} {VERDICT[k].t.toLowerCase()}
+                </Pill>
+              ))}
+            </div>
+            <p className="mb-3 rounded-lg border border-dashed border-dim/70 px-3 py-2 text-[11.5px] leading-snug text-mute">
+              <span className="mr-1 font-medium uppercase tracking-wider text-gold">Layout preview</span>
+              The promise column is placeholder text. In the pull stage it is extracted from the last four concalls. The
+              delivered column is computed in code from real figures.
+            </p>
+            <ul className="space-y-2.5">
+              {pvd.map((r) => (
+                <li key={r.promise} className="rounded-xl border border-line bg-s2 p-3">
+                  <div className="flex items-start justify-between gap-3">
+                    <div>
+                      <p className="eyebrow">Promised</p>
+                      <p className="mt-0.5 text-[13.5px] leading-snug">{r.promise}</p>
+                    </div>
+                    <Pill tone={VERDICT[r.v].tone}>{VERDICT[r.v].t}</Pill>
+                  </div>
+                  <p className="eyebrow mt-3">Delivered</p>
+                  <p className="num mt-0.5 text-[13.5px] leading-snug">{r.actual}</p>
+                  <p className="mt-1 text-[11.5px] text-dim">{r.note}</p>
+                  <div className="mt-2">
+                    <Cite doc="Q1 FY27 concall" loc="page ref in pull stage" quote="The management statement is quoted here with its document and page once extraction is connected." sample />
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </>
+        ) : (
+          <Pending>What management promised on recent concalls, set against what the numbers delivered. Needs transcript extraction (LLM stage).</Pending>
+        )}
       </Section>
 
-      <Section id="trajectory" title="Trajectory" badge={<Pill>5 quarters</Pill>}>
-        <p className="eyebrow mb-2">EBITDA margin by quarter</p>
-        <div className="flex h-24 items-end gap-2">
-          {opm.map((m, i) => (
-            <div key={D.quarters[i]} className="flex flex-1 flex-col items-center gap-1">
-              <span className="num text-[11px] text-mute">{m.toFixed(1)}</span>
-              <div
-                className={`w-full rounded-t ${i === n ? "bg-gold" : "bg-s3"}`}
-                style={{ height: `${(m / maxOpm) * 62}px` }}
-              />
-              <span className="num text-[10px] text-dim">{D.quarters[i]}</span>
-            </div>
-          ))}
-        </div>
+      <Section id="trajectory" title="Trajectory" badge={<Pill>{v.quarters.length} quarters</Pill>}>
+        <p className="eyebrow mb-2">{v.marginLabel} by quarter, %</p>
+        {marginVals.length > 0 ? (
+          <div className="flex h-24 items-end gap-2">
+            {v.margin.map((x, i) => (
+              <div key={v.quarters[i]} className="flex flex-1 flex-col items-center gap-1">
+                <span className="num text-[11px] text-mute">{x != null ? x.toFixed(1) : "n/a"}</span>
+                <div className={`w-full rounded-t ${i === n ? "bg-gold" : "bg-s3"}`} style={{ height: `${x != null ? Math.max(2, (Math.max(x, 0) / Math.max(maxM, 1)) * 62) : 2}px` }} />
+                <span className="num text-[10px] text-dim">{v.quarters[i].replace(" 20", " ’")}</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <Pending>Margin unavailable: the source table has no usable profit row for this company.</Pending>
+        )}
         <p className="mt-3 text-[13px] leading-snug text-fg/90">
-          Revenue is up <span className="num text-up">{pct(revYoY)}</span> in a year, but margin dipped to{" "}
-          {Math.min(...opm).toFixed(1)}% in Mar 2026 before recovering. Until the latest quarter, sales grew faster
-          than profit.
+          {finite(revYoY) ? (
+            <>
+              Revenue is <span className={`num ${tone(revYoY)}`}>{pct(revYoY)}</span> over {n >= 4 ? "a year" : "the period"}
+              {finite(opYoYtext) && (
+                <>
+                  ; operating profit is <span className={`num ${tone(opYoYtext)}`}>{pct(opYoYtext)}</span>
+                </>
+              )}
+              {finite(patYoY) && (
+                <>
+                  ; net profit <span className={`num ${tone(patYoY)}`}>{pct(patYoY)}</span>
+                </>
+              )}
+              .
+            </>
+          ) : (
+            "Not enough quarters to show a year-on-year trend."
+          )}
         </p>
         <div className="mt-2">
-          <Cite doc="screener.in" loc="quarterly results" quote="Operating profit and sales, five quarters Sep 2025 to Sep 2026, consolidated." />
+          <Cite doc="screener.in" loc="quarterly results" quote={`${v.quarters[0]} to ${v.quarters[n]}, ${v.basis}, figures in ₹ crore.`} href={v.sourceUrl} />
         </div>
       </Section>
 
-      <Section id="bullbear" title="Bull vs bear" badge={<Pill>from numbers on screen</Pill>}>
-        <div className="grid gap-2">
-          <div className="rounded-xl border border-up/30 bg-up/5 p-3">
-            <p className="eyebrow text-up">Bull</p>
-            <p className="mt-1 text-[13px] leading-snug">
-              Revenue {pct(revYoY)} YoY with margin back to {opm[n].toFixed(1)}%: profit now compounding faster than
-              sales, PAT {pct(patYoY)} YoY.
-            </p>
-          </div>
-          <div className="rounded-xl border border-down/30 bg-down/5 p-3">
-            <p className="eyebrow text-down">Bear</p>
-            <p className="mt-1 text-[13px] leading-snug">
-              One strong quarter after a flat year of operating profit ({pct(change(D.opProfit[n - 1], D.opProfit[0]))}{" "}
-              Sep 2025 to Jun 2026). Interest cost still rising ({pct(intQoQ)} QoQ).
-            </p>
-          </div>
-        </div>
-        <p className="mt-2 text-[11.5px] text-dim">The full version cites annual report and concall passages too.</p>
+      <Section id="bullbear" title="Bull vs bear" defaultOpen={isReliance} badge={isReliance ? <Pill>from numbers on screen</Pill> : NEXT}>
+        {isReliance && finite(revYoY) ? (
+          <>
+            <div className="grid gap-2">
+              <div className="rounded-xl border border-up/30 bg-up/5 p-3">
+                <p className="eyebrow text-up">Bull</p>
+                <p className="mt-1 text-[13px] leading-snug">
+                  Revenue {pct(revYoY)} YoY with {v.marginLabel.toLowerCase()} back to {m?.toFixed(1)}%: profit now growing faster than sales
+                  {finite(patYoY) ? `, net profit ${pct(patYoY)} YoY` : ""}.
+                </p>
+              </div>
+              <div className="rounded-xl border border-down/30 bg-down/5 p-3">
+                <p className="eyebrow text-down">Bear</p>
+                <p className="mt-1 text-[13px] leading-snug">
+                  One strong quarter after a flat year of operating profit
+                  {v.operatingProfit && v.operatingProfit[n - 1] != null && v.operatingProfit[0] != null ? ` (${pct(change(v.operatingProfit[n - 1] as number, v.operatingProfit[0] as number))} Sep 2025 to Jun 2026)` : ""}.
+                  {finite(intQoQ) ? ` Interest cost still rising (${pct(intQoQ)} QoQ).` : ""}
+                </p>
+              </div>
+            </div>
+            <p className="mt-2 text-[11.5px] text-dim">The full version cites annual report and concall passages too.</p>
+          </>
+        ) : (
+          <Pending>A tight case each way, grounded in the annual report and concalls with citations. Next stage.</Pending>
+        )}
       </Section>
 
-      <Section id="balance" title="Balance sheet" defaultOpen={false} badge={<SampleTag label="Next stage" />}>
-        <Pending>
-          Debt, debt-to-equity, interest cover and the working-capital cycle will be read from the screener annual
-          tables and the annual report notes.
-        </Pending>
+      <Section id="balance" title="Balance sheet" defaultOpen={false} badge={NEXT}>
+        <Pending>Debt, debt-to-equity, interest cover and the working-capital cycle. The annual tables are already in the snapshot; the analysis comes next.</Pending>
       </Section>
-      <Section id="cash" title="Cash quality" defaultOpen={false} badge={<SampleTag label="Next stage" />}>
-        <Pending>Cash from operations against PAT, free cash flow and cash conversion across five years.</Pending>
+      <Section id="cash" title="Cash quality" defaultOpen={false} badge={NEXT}>
+        <Pending>Cash from operations against profit, free cash flow and cash conversion across years.</Pending>
       </Section>
-      <Section id="guidance" title="Guidance" defaultOpen={false} badge={<SampleTag label="Next stage" />}>
-        <Pending>
-          Explicit forward statements on growth, margins and capex, each with its transcript page and the date it was
-          made.
-        </Pending>
+      <Section id="guidance" title="Guidance" defaultOpen={false} badge={NEXT}>
+        <Pending>Explicit forward statements on growth, margins and capex, each with its transcript page and the date it was made.</Pending>
       </Section>
     </>
   );
@@ -276,11 +327,7 @@ function Unavailable({ sym }: { sym: string }) {
       <ul className="space-y-2.5 rounded-2xl border border-line bg-s1 p-4">
         {STEPS.map((s, i) => (
           <li key={s} className={`flex items-center gap-3 text-[13px] ${i < step ? "text-mute" : i === step ? "text-fg" : "text-dim"}`}>
-            <span
-              className={`flex h-4 w-4 items-center justify-center rounded-full border text-[9px] ${
-                i < step ? "border-gold bg-gold text-ink" : "border-line"
-              }`}
-            >
+            <span className={`flex h-4 w-4 items-center justify-center rounded-full border text-[9px] ${i < step ? "border-gold bg-gold text-ink" : "border-line"}`}>
               {i < step ? "✓" : ""}
             </span>
             {s}
@@ -289,12 +336,13 @@ function Unavailable({ sym }: { sym: string }) {
       </ul>
       {finished && (
         <div className="rise mt-4 rounded-2xl border border-dashed border-line px-5 py-8 text-center">
-          <p className="font-serif text-[22px]">Live research isn&apos;t connected yet</p>
-          <p className="mx-auto mt-1 max-w-[30ch] text-[13px] leading-snug text-mute">
-            The steps above are a preview of what runs for {sym} once the pipeline is built. Try the sample dossier.
+          <p className="font-serif text-[22px]">{sym} isn&apos;t in the ingested set</p>
+          <p className="mx-auto mt-1 max-w-[32ch] text-[13px] leading-snug text-mute">
+            The steps above preview what will run for any NSE ticker once live research is built. Today only the 22
+            ingested companies have real data.
           </p>
-          <Link href="/research/RELIANCE" className="mt-4 inline-block rounded-full bg-gold px-5 py-2.5 text-[13px] font-medium text-ink">
-            Open RELIANCE sample
+          <Link href="/research" className="mt-4 inline-block rounded-full bg-gold px-5 py-2.5 text-[13px] font-medium text-ink">
+            Pick an ingested company
           </Link>
         </div>
       )}
@@ -312,25 +360,23 @@ const NAV = [
   ["guidance", "Guidance"],
 ];
 
-export default function Dossier({ sym, from }: { sym: string; from?: string }) {
-  const known = HOLDINGS.find((h) => h.sym === sym);
-  const isSample = sym === "RELIANCE";
+export default function Dossier({ sym, from, view, reportedRevYoY = null }: { sym: string; from?: string; view: DossierView | null; reportedRevYoY?: number | null }) {
   return (
     <>
       <header className="px-4 pb-3 pt-5">
         <Link href="/research" className="text-[12px] text-mute hover:text-fg">
           ‹ Research
         </Link>
-        <div className="mt-2 flex items-end justify-between">
+        <div className="mt-2 flex items-end justify-between gap-3">
           <div>
             <p className="font-mono text-[13px] font-semibold tracking-wide text-gold">{sym}</p>
-            <h1 className="font-serif text-[32px] leading-none">{isSample ? D.name : (known?.name ?? sym)}</h1>
+            <h1 className="font-serif text-[32px] leading-none">{view?.name ?? sym}</h1>
           </div>
-          {isSample && <Pill tone="warn">Sample dossier</Pill>}
+          {view && <Pill tone="warn">{view.sym === "RELIANCE" ? "Real numbers · sample commentary" : "Real numbers · analysis next"}</Pill>}
         </div>
       </header>
 
-      {isSample && (
+      {view && (
         <nav className="scroll-x sticky top-0 z-30 -mt-px flex gap-1.5 border-b border-line bg-ink/92 px-4 py-2.5 backdrop-blur-md" aria-label="Sections">
           {NAV.map(([id, label]) => (
             <a key={id} href={`#${id}`} className="shrink-0 rounded-full border border-line px-3 py-1 text-[12px] text-mute hover:text-fg">
@@ -340,7 +386,7 @@ export default function Dossier({ sym, from }: { sym: string; from?: string }) {
         </nav>
       )}
 
-      {isSample ? <RelianceDossier from={from} /> : <Unavailable sym={sym} />}
+      {view ? <Sections v={view} from={from} reportedRevYoY={reportedRevYoY} /> : <Unavailable sym={sym} />}
     </>
   );
 }

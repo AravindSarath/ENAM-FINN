@@ -1,0 +1,2476 @@
+{
+ "schema": 1,
+ "symbol": "LT",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/LT/consolidated/",
+  "fetchedAt": "2026-10-31T15:50:28.743Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Larsen & Toubro Ltd",
+ "companyId": "1870",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 5,32,713 Cr.",
+   "value": 532713
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 3,872",
+   "value": 3872
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 4,440 / 3,288",
+   "value": 4440
+  },
+  {
+   "name": "Stock P/E",
+   "text": "28.2",
+   "value": 28.2
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 821",
+   "value": 821
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "0.98 %",
+   "value": 0.98
+  },
+  {
+   "name": "ROCE",
+   "text": "14.6 %",
+   "value": 14.6
+  },
+  {
+   "name": "ROE",
+   "text": "15.9 %",
+   "value": 15.9
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 2.00",
+   "value": 2
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      51024,
+      55128,
+      67079,
+      55120,
+      61555,
+      64668,
+      74392,
+      63679,
+      67984,
+      71450,
+      82762,
+      67942,
+      78750
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      43984,
+      47929,
+      58426,
+      48074,
+      53638,
+      56770,
+      64516,
+      55655,
+      59470,
+      62259,
+      72343,
+      59793,
+      69936
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      7040,
+      7199,
+      8653,
+      7046,
+      7917,
+      7898,
+      9876,
+      8024,
+      8513,
+      9190,
+      10419,
+      8149,
+      8814
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      14,
+      13,
+      13,
+      13,
+      13,
+      12,
+      13,
+      13,
+      13,
+      13,
+      13,
+      12,
+      11
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      1133,
+      838,
+      1135,
+      921,
+      1101,
+      968,
+      1610,
+      1357,
+      1384,
+      -350,
+      1647,
+      2377,
+      2306
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      2272,
+      2344,
+      2345,
+      2292,
+      2439,
+      2486,
+      2419,
+      2488,
+      2470,
+      2399,
+      2488,
+      2571,
+      2442
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      910,
+      921,
+      1021,
+      998,
+      1024,
+      1047,
+      1052,
+      1033,
+      1092,
+      1072,
+      1168,
+      1032,
+      1037
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      4991,
+      4772,
+      6422,
+      4677,
+      5555,
+      5333,
+      8014,
+      5860,
+      6336,
+      5370,
+      8410,
+      6922,
+      7641
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      23,
+      25,
+      22,
+      26,
+      26,
+      25,
+      23,
+      26,
+      26,
+      29,
+      25,
+      28,
+      23
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      3846,
+      3593,
+      5013,
+      3445,
+      4099,
+      3974,
+      6156,
+      4318,
+      4678,
+      3825,
+      6133,
+      4988,
+      5949
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      23.45,
+      21.44,
+      31.98,
+      20.26,
+      24.69,
+      24.43,
+      39.97,
+      26.3,
+      28.54,
+      23.37,
+      38.71,
+      29.97,
+      37.81
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1870/9/2023/",
+    "https://www.screener.in/company/source/quarter/1870/12/2023/",
+    "https://www.screener.in/company/source/quarter/1870/3/2024/",
+    "https://www.screener.in/company/source/quarter/1870/6/2024/",
+    "https://www.screener.in/company/source/quarter/1870/9/2024/",
+    "https://www.screener.in/company/source/quarter/1870/12/2024/",
+    "https://www.screener.in/company/source/quarter/1870/3/2025/",
+    "https://www.screener.in/company/source/quarter/1870/6/2025/",
+    "https://www.screener.in/company/source/quarter/1870/9/2025/",
+    "https://www.screener.in/company/source/quarter/1870/12/2025/",
+    "https://www.screener.in/company/source/quarter/1870/3/2026/",
+    "https://www.screener.in/company/source/quarter/1870/6/2026/",
+    "https://www.screener.in/company/source/quarter/1870/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      91929,
+      101122,
+      109312,
+      119683,
+      135220,
+      145452,
+      135979,
+      156521,
+      183341,
+      221113,
+      255734,
+      285874,
+      300904
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      76245,
+      85637,
+      92691,
+      99572,
+      112354,
+      120899,
+      112519,
+      132207,
+      156175,
+      192355,
+      221183,
+      249530,
+      264332
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      15684,
+      15486,
+      16620,
+      20111,
+      22866,
+      24553,
+      23460,
+      24314,
+      27166,
+      28758,
+      34551,
+      36345,
+      36572
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      17,
+      15,
+      15,
+      17,
+      17,
+      17,
+      17,
+      16,
+      15,
+      13,
+      14,
+      13,
+      12
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      1422,
+      1219,
+      1466,
+      1465,
+      2701,
+      3015,
+      8111,
+      2364,
+      2891,
+      4953,
+      3074,
+      4052,
+      5980
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      7266,
+      6899,
+      6829,
+      7714,
+      9339,
+      11021,
+      11750,
+      9235,
+      9445,
+      9512,
+      9925,
+      10056,
+      9900
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      2623,
+      1787,
+      2370,
+      2223,
+      1923,
+      2462,
+      2904,
+      2948,
+      3502,
+      3682,
+      4121,
+      4365,
+      4309
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      7217,
+      8020,
+      8887,
+      11639,
+      14305,
+      14086,
+      16918,
+      14495,
+      17109,
+      20517,
+      23579,
+      25976,
+      28343
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      31,
+      30,
+      23,
+      27,
+      28,
+      23,
+      24,
+      29,
+      26,
+      24,
+      25,
+      26,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      4966,
+      4592,
+      6486,
+      8004,
+      10217,
+      10894,
+      12921,
+      10419,
+      12531,
+      15547,
+      17673,
+      18954,
+      20895
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      34.17,
+      30.64,
+      43.17,
+      52.59,
+      63.48,
+      68.02,
+      82.47,
+      61.7,
+      74.5,
+      95,
+      109.35,
+      116.92,
+      129.86
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      32,
+      40,
+      22,
+      30,
+      28,
+      26,
+      44,
+      36,
+      32,
+      36,
+      31,
+      32,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      186,
+      186,
+      187,
+      280,
+      281,
+      281,
+      281,
+      281,
+      281,
+      275,
+      275,
+      275,
+      275
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      40723,
+      43994,
+      50030,
+      54623,
+      62094,
+      66442,
+      75588,
+      82127,
+      89045,
+      86084,
+      97381,
+      109015,
+      112754
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      93630,
+      88135,
+      93954,
+      107524,
+      125555,
+      143174,
+      134629,
+      125508,
+      120650,
+      116322,
+      132409,
+      125497,
+      140300
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      58727,
+      61775,
+      67400,
+      80812,
+      90106,
+      96790,
+      99597,
+      111112,
+      119745,
+      136921,
+      149050,
+      217596,
+      231398
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      193266,
+      194091,
+      211571,
+      243240,
+      278036,
+      306687,
+      310095,
+      319028,
+      329722,
+      339602,
+      379114,
+      452383,
+      484727
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      34738,
+      14176,
+      16677,
+      18580,
+      21194,
+      43653,
+      44319,
+      42945,
+      42641,
+      42964,
+      44055,
+      30867,
+      31984
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      14993,
+      10974,
+      13298,
+      13443,
+      13919,
+      3311,
+      500,
+      1250,
+      3066,
+      3045,
+      2589,
+      3311,
+      3150
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      9612,
+      15465,
+      19753,
+      15311,
+      20907,
+      20047,
+      39627,
+      39395,
+      44798,
+      45648,
+      54805,
+      68377,
+      82754
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      133923,
+      153475,
+      161843,
+      195905,
+      222016,
+      239675,
+      225649,
+      235438,
+      239217,
+      247946,
+      277665,
+      349828,
+      366840
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      193266,
+      194091,
+      211571,
+      243240,
+      278036,
+      306687,
+      310095,
+      319028,
+      329722,
+      339602,
+      379114,
+      452383,
+      484727
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      -1365,
+      -3240,
+      6655,
+      -10031,
+      -4756,
+      6694,
+      23074,
+      19164,
+      22777,
+      18266,
+      9151,
+      16741
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -4778,
+      -4627,
+      -9796,
+      3914,
+      -11023,
+      -8408,
+      -5750,
+      -3585,
+      -8048,
+      2179,
+      -15479,
+      -11380
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      7903,
+      7253,
+      2896,
+      9370,
+      15440,
+      6372,
+      -15274,
+      -15181,
+      -11572,
+      -25413,
+      6557,
+      -2156
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      1759,
+      -613,
+      -245,
+      3254,
+      -338,
+      4658,
+      2049,
+      397,
+      3156,
+      -4968,
+      228,
+      3204
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      -7460,
+      -7363,
+      3834,
+      -12046,
+      -8255,
+      3394,
+      22151,
+      16124,
+      18984,
+      14056,
+      5611,
+      12272
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      10,
+      0,
+      59,
+      -33,
+      1,
+      44,
+      113,
+      97,
+      103,
+      82,
+      43,
+      63
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      119,
+      94,
+      96,
+      101,
+      99,
+      102,
+      113,
+      108,
+      89,
+      81,
+      77,
+      77
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      76,
+      51,
+      41,
+      45,
+      51,
+      44,
+      51,
+      44,
+      41,
+      32,
+      30,
+      36
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      288,
+      283,
+      301,
+      349,
+      340,
+      336,
+      401,
+      378,
+      302,
+      255,
+      208,
+      265
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -92,
+      -138,
+      -164,
+      -203,
+      -190,
+      -190,
+      -236,
+      -227,
+      -172,
+      -143,
+      -101,
+      -151
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      12,
+      44,
+      42,
+      45,
+      20,
+      25,
+      28,
+      0,
+      2,
+      -16,
+      -33,
+      -27
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      10,
+      11,
+      11,
+      14,
+      13,
+      12,
+      10,
+      10,
+      12,
+      13,
+      15,
+      15
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Business Transfer Agreement With Vyoma.AI Limited (Vyoma), Wholly Owned Subsidiary Of The Company And Share Purchase Agreement Towards Sale Of Entire Stake Held In L&T Network Services Private Limited To Vyoma - Extension Of Timeline Of Completion 31 Oct - L&T extends completion of Vyoma.ai transaction to March 31, 2027.",
+   "links": [
+    {
+     "text": "Business Transfer Agreement With Vyoma.AI Limited (Vyoma), Wholly Owned Subsidiary Of The Company And Share Purchase Agreement Towards Sale Of Entire Stake Held In L&T Network Services Private Limited To Vyoma - Extension Of Timeline Of Completion 31 Oct - L&T extends completion of Vyoma.ai transaction to March 31, 2027.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e50739-50e7-4b5a-8dba-ac92ece6d35f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct - Intimation to Stock Exchanges regarding publication of Financial Results in Newspapers",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Newspaper Publication 28 Oct - Intimation to Stock Exchanges regarding publication of Financial Results in Newspapers",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=498df898-abfc-4569-b288-56622aa74bef.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 27 Oct - L&T uploaded Q2/H1 FY27 earnings call audio recording on its investor website on October 27, 2026.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 27 Oct - L&T uploaded Q2/H1 FY27 earnings call audio recording on its investor website on October 27, 2026.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e4c11c6-4c96-42c0-ac94-b2cb928c4f4f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Analyst Presentation - Q2 / H1 FY27 27 Oct - L&T released Q2/H1 FY27 analyst presentation: order inflow ₹1,477bn, revenue ₹787bn, PAT ₹52bn.",
+   "links": [
+    {
+     "text": "Analyst Presentation - Q2 / H1 FY27 27 Oct - L&T released Q2/H1 FY27 analyst presentation: order inflow ₹1,477bn, revenue ₹787bn, PAT ₹52bn.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c027e30-6b95-4915-9843-bd4e4c437bb1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Outcome Of Board Meeting Of Larsen & Toubro Limited Held On October 27, 2026 27 Oct",
+   "links": [
+    {
+     "text": "Outcome Of Board Meeting Of Larsen & Toubro Limited Held On October 27, 2026 27 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be28659d-c65e-4500-917e-02ef891caee6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/825f9859-e7f2-4e90-8583-01a38850f795.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/63959ce8-b641-4bd4-9a62-43ab52301856.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/b59765b4-ed42-48bd-afad-7caa4417d85d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/cb93406e-57ff-4d53-b6cc-41a58cb89fd1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/73655500510.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/68863500510.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100320.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100317.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100316.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100315.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100314.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100313.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2012",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500510/5005100312.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 3 Sep from crisil",
+   "links": [
+    {
+     "text": "Rating update 3 Sep from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/LarsenandToubroLimited_September%2003_%202026_RR_404923.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 1 Sep from fitch",
+   "links": [
+    {
+     "text": "Rating update 1 Sep from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/85053"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 Jun from crisil",
+   "links": [
+    {
+     "text": "Rating update 30 Jun from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/LarsenandToubroLimited_June%2030_%202026_RR_398876.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 27 May from icra",
+   "links": [
+    {
+     "text": "Rating update 27 May from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=143309"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 28 Apr from crisil",
+   "links": [
+    {
+     "text": "Rating update 28 Apr from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/LarsenandToubroLimited_April%2028_%202026_RR_394074.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 10 Dec 2025 from fitch",
+   "links": [
+    {
+     "text": "Rating update 10 Dec 2025 from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/80372"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "REC",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL%26T-Q2-FY27-Earnings-Call-Audio.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL&T-Earnings-Jul28-2026.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4d1bc4e-1492-4448-b203-5d6041b48a0e.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2027AnalysttransL%26T-Earnings-Call-Audio-Q1-FY27.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q4%20FY26%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2095c57-89e5-4a19-adb3-0d074ac96126.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Transcript%20Q3FY26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d35018aa-6e52-4d2f-a36e-82205456c0de.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/qeM4AZiULHw"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Q2FY26%20Earnings%20Call%20Transcript%20.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d47adc-e94d-4ae2-9f11-2053b053b389.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/v8w9p4JfVYA"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T%20Earnings%20Call%20Transcript%20Q1FY26.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce24f0b7-3769-4f7f-ba0b-8b700d2de060.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2026AnalysttransL&T-Earnings-Call-Q1FY26.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2025AnalysttransL&T%20Q4FY25%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4a102eb-f822-40cd-b836-0590ea3f2229.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2025AnalysttransL&T%20Transcript%20Q3FY25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5fbd50b-3ef9-4665-a5f4-ac0325850446.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2025AnalysttransL&T%20Q2FY25%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=427a80aa-8555-4320-ad42-19bcb4a20fca.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2025AnalysttransL&T%20Q1FY25%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cd0c030-882b-489c-a2cc-f24e33f110be.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a3eb418-5137-494b-bb0a-e8676c9a6b84.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T-Q4FY24-Earnings-Call-Audio.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T%20Q4FY24%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a3eb418-5137-494b-bb0a-e8676c9a6b84.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T%20Q3FY24%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72feb753-e6fa-4751-ab8b-4f8114ece0b3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T%20Transcript%20Q2FY24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32966a9f-4ab6-4351-b182-8a448843a5df.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T%20Q1FY24%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdba157a-9758-47a7-85a3-a8a6dda8dfe7.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2023AnalysttransL&T%20Transcript%20Q4FY23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cd1a437-a82d-45ac-8c34-e795fb9091e6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2023AnalysttransL&T%20Earnings%20Call%20Transcript%20Q3FY23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b219fbf1-5b20-4897-80d2-d8c5a3debed8.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2023AnalysttransL&T-Q3FY23-Earnings-Call-Audio.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2023AnalysttransL&T%20Earnings%20Call%20Transcript%20-%20Q2FY23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84902eb8-05c1-4a4c-9124-f737bbea8bbd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2023AnalysttransL&T%20Q1%20FY23%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90872497-6832-49e7-889f-e996c93a308b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2022AnalysttransFY2022AnalysttransL&T%20Q4%20FY22%20Earnings%20Call%20Transcripts.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26c0f2d7-10e3-44c5-90db-d858f713e1a5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2022AnalysttransL&T%20Q3%20FY22%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71cfe780-d6e4-4d91-b2bf-3021f11778a2.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2022AnalysttransL&T%20Q2FY22%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c4c2641-b0c3-4574-b26e-5f78e9d25171.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=021bec07-4c1c-4332-8468-556ce18efa21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2022AnalysttransEarnings%20Call%20transcripts%20Q1%20FY22.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41e59985-bcbd-4c44-a3db-e69d21d3898a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c745c5e-203d-4b91-b2dd-be403f808245.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2021",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4a327b3-011f-491d-8035-43635cdb4bbe.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2021AnalysttransEarning%20Call%20Transcript%20Q3FY21.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bbe093d-40ff-48af-a8e3-2e85d6b09786.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e4ee2f5-81dd-4a77-a33d-cafb7172fa16.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e834f04e-a22b-41a4-b1f2-5f2ef0827e2a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f9b00c7-b67d-4e73-93c8-088e0bb1a9fb.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d75f200a-31cd-48c6-b31d-ac6417e2e3a3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2021AnalysttransQ1%20FY21%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d80cbeee-ac3d-4185-be19-8320d38942dc.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2020AnalysttransQ4%20FY20%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41ae944e-1ef0-4250-952e-23662eb8dfdd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ff897f4-69b9-46eb-9144-1675329d8373.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b37245d3-cc23-43d3-be4c-172ffed044c0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a273b4e1-fd1b-41e0-9a8a-b4172678ade6.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2020AnalysttransLT-Earnings-Jan22-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5d2f37d-ae3b-417a-9b19-9e047bea4ad0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b01291dd-8df0-4261-8f05-80e13b89ed78.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2021AnalysttransQ2%20FY21%20Earnings%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=082b2ce9-db37-44f0-966f-1c4ff1812740.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61c64299-ec0a-42bb-80b5-d57ce8eadf0a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2020AnalysttransLT-Transcript-Q1%20FY20.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36bd1295-7d2c-4ecf-bf9b-c4a905dfca04.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2021AnalysttransEarnings%20Call%20Transripts%20-%20Q4FY21.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e8b87df-6865-4d86-b21f-f9b986228f75.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65dd6f84-0dde-40e5-9c24-d7f813f55f6a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08f14ddf-8265-4c86-a77f-d0024168d4be.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9003c0d-5ce4-426a-b078-ce1a71909023.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2019AnalysttransLNT%20Transcript%20Earnings%20ConCall%2025Jan2019.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fa2a6b5-74c2-495b-9102-eda717869a3c.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2018",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E466B4B5_2A04_4B1C_8928_921C0B441624_182257.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2019AnalysttransL&T%20Q2FY19%20Conference%20Call%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=101816ec-b7ad-4c02-816b-68a70f2b2027.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2019AnalysttransQ1FY19%20Transcript%20.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=811a0781-adbb-4a8b-8d1d-c2e2c75dbd75.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2018",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e29b7d1c-a197-40c0-822c-d39d35fdc288.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2018AnalysttransLNT%20Q3FY18%20Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3eccf809-e838-42b9-bae0-aeed613a0dda.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0f1316f-3a30-4107-a115-bcfe04721924.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2018AnalysttransEarnings%20call%20transcript-%20Q2%20FY18.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8bd63f0-7c86-4fb8-a411-f1afee649302.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2018AnalysttransEarnings%20Call%20Transcript%20Q1%20FY18.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19b83304-8d22-44c1-b44a-4318bca9cce4.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=833e5838-2898-4577-86a8-515cd07b733f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=867adc71-dec1-4d56-b0e6-dd56ba5462b9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29756087-e5e8-4625-b63b-2b295f88f590.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E5F9C1C0_38B6_4D29_B46A_3795832A165A_165826.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198F316E_5ACB_42B4_B74A_07D62BF54CDC_163432.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F3C8FFF5_CC22_4ABC_BE32_9F5AB44BEC23_150656.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26A2F793_4FD5_4BC1_B79A_74C7E6A872D2_164751.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A38DEA7B_F0A8_431E_83E8_4DA8B7567471_105427.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ACDADBA5_9E25_41B3_9FA0_E343970D5FDD_110003.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03615AFA_39BC_47FE_B27F_5D42E71100C0_151913.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=726E4141_6C01_4E6E_9C4F_546520BB281D_152236.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=AFAC381D_51D5_4E83_8DE9_C8B38B88D7DE_171456.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2013",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://investors.larsentoubro.com/upload/Analysttrans/FY2024AnalysttransL&T%20Transcript%20Q2FY24.pdf"
+    }
+   ]
+  }
+ ]
+}

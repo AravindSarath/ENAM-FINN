@@ -1,0 +1,2238 @@
+{
+ "schema": 1,
+ "symbol": "VEDL",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/VEDL/consolidated/",
+  "fetchedAt": "2026-10-31T15:51:21.456Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "Vedanta Ltd",
+ "companyId": "2943",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 93,028 Cr.",
+   "value": 93028
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 238",
+   "value": 238
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 361 / 179",
+   "value": 361
+  },
+  {
+   "name": "Stock P/E",
+   "text": "7.05",
+   "value": 7.05
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 32.6",
+   "value": 32.6
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "14.3 %",
+   "value": 14.3
+  },
+  {
+   "name": "ROCE",
+   "text": "16.1 %",
+   "value": 16.1
+  },
+  {
+   "name": "ROE",
+   "text": "38.2 %",
+   "value": 38.2
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 1.00",
+   "value": 1
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      38945,
+      35541,
+      35509,
+      35764,
+      37634,
+      17063,
+      16686,
+      15754,
+      16736,
+      21337,
+      24609,
+      24205,
+      26356
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      27466,
+      27010,
+      26741,
+      25819,
+      27806,
+      12050,
+      11440,
+      11478,
+      11908,
+      14816,
+      17050,
+      15704,
+      16441
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      11479,
+      8531,
+      8768,
+      9945,
+      9828,
+      5013,
+      5246,
+      4276,
+      4828,
+      6521,
+      7559,
+      8501,
+      9915
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      29,
+      24,
+      25,
+      28,
+      26,
+      29,
+      31,
+      27,
+      29,
+      31,
+      31,
+      35,
+      38
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      1863,
+      779,
+      385,
+      934,
+      3168,
+      3202,
+      2771,
+      2737,
+      1272,
+      4426,
+      5503,
+      3166,
+      510
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      2523,
+      2417,
+      2415,
+      2222,
+      2667,
+      1073,
+      1071,
+      609,
+      761,
+      547,
+      694,
+      662,
+      696
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      2642,
+      2788,
+      2743,
+      2731,
+      2696,
+      1238,
+      1191,
+      1116,
+      1124,
+      1239,
+      1332,
+      1192,
+      1339
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      8177,
+      4105,
+      3995,
+      5926,
+      7633,
+      5904,
+      5755,
+      5288,
+      4215,
+      9161,
+      11036,
+      9813,
+      8390
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      111,
+      30,
+      43,
+      14,
+      27,
+      17,
+      14,
+      16,
+      17,
+      15,
+      15,
+      19,
+      26
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      -915,
+      2868,
+      2275,
+      5095,
+      5603,
+      4876,
+      4961,
+      4457,
+      3479,
+      7807,
+      9352,
+      7918,
+      6202
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      -4.8,
+      5.42,
+      3.68,
+      9.7,
+      11.13,
+      9.07,
+      8.91,
+      8.14,
+      4.6,
+      14.6,
+      17.13,
+      14,
+      9.33
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/2943/9/2023/",
+    "https://www.screener.in/company/source/quarter/2943/12/2023/",
+    "https://www.screener.in/company/source/quarter/2943/3/2024/",
+    "https://www.screener.in/company/source/quarter/2943/6/2024/",
+    "https://www.screener.in/company/source/quarter/2943/9/2024/",
+    "https://www.screener.in/company/source/quarter/2943/12/2024/",
+    "https://www.screener.in/company/source/quarter/2943/3/2025/",
+    "https://www.screener.in/company/source/quarter/2943/6/2025/",
+    "https://www.screener.in/company/source/quarter/2943/9/2025/",
+    "https://www.screener.in/company/source/quarter/2943/12/2025/",
+    "https://www.screener.in/company/source/quarter/2943/3/2026/",
+    "https://www.screener.in/company/source/quarter/2943/6/2026/",
+    "https://www.screener.in/company/source/quarter/2943/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Sales",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      73710,
+      64262,
+      72225,
+      91866,
+      92048,
+      84447,
+      88021,
+      132732,
+      147308,
+      143727,
+      62717,
+      78437,
+      96507
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      51595,
+      82741,
+      50849,
+      66989,
+      68877,
+      63704,
+      60703,
+      87908,
+      112877,
+      108415,
+      44139,
+      55254,
+      64011
+     ]
+    },
+    {
+     "label": "Operating Profit",
+     "key": "operating_profit",
+     "unit": "INR_crore",
+     "values": [
+      22114,
+      -18479,
+      21376,
+      24877,
+      23171,
+      20743,
+      27318,
+      44824,
+      34431,
+      35312,
+      18578,
+      23183,
+      32496
+     ]
+    },
+    {
+     "label": "OPM %",
+     "key": "operating_margin_pct",
+     "unit": "percent",
+     "values": [
+      30,
+      -29,
+      30,
+      27,
+      25,
+      25,
+      31,
+      34,
+      23,
+      25,
+      30,
+      30,
+      34
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      -19222,
+      4290,
+      4423,
+      6087,
+      4270,
+      -14932,
+      2743,
+      1832,
+      2625,
+      5241,
+      12739,
+      14186,
+      13605
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      5659,
+      5778,
+      5855,
+      5112,
+      5689,
+      4977,
+      5210,
+      4797,
+      6225,
+      9465,
+      4197,
+      2817,
+      2599
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      7159,
+      8572,
+      6292,
+      6283,
+      8192,
+      9093,
+      7638,
+      8895,
+      10555,
+      10723,
+      4233,
+      4810,
+      5102
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      -9925,
+      -28540,
+      13652,
+      19569,
+      13560,
+      -8259,
+      17213,
+      32964,
+      20276,
+      20365,
+      22887,
+      29742,
+      38400
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      15,
+      -37,
+      17,
+      30,
+      28,
+      -43,
+      13,
+      28,
+      28,
+      63,
+      10,
+      16,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      -11369,
+      -17862,
+      11316,
+      13692,
+      9698,
+      -4744,
+      15032,
+      23710,
+      14503,
+      7539,
+      20535,
+      25096,
+      31279
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      -52.77,
+      -41.39,
+      23.47,
+      27.82,
+      19.01,
+      -17.93,
+      31.21,
+      50.58,
+      28.45,
+      11.4,
+      38.33,
+      44.47,
+      55.06
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      -8,
+      -8,
+      83,
+      76,
+      99,
+      -22,
+      30,
+      89,
+      357,
+      259,
+      113,
+      76,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      296,
+      296,
+      297,
+      372,
+      372,
+      372,
+      372,
+      372,
+      372,
+      372,
+      391,
+      391,
+      391
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      53579,
+      43743,
+      60128,
+      62940,
+      61925,
+      54263,
+      61906,
+      65011,
+      39051,
+      30350,
+      40821,
+      49261,
+      12370
+     ]
+    },
+    {
+     "label": "Borrowings",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      77752,
+      67778,
+      71569,
+      58159,
+      66226,
+      59187,
+      57669,
+      53583,
+      80329,
+      87706,
+      91479,
+      32947,
+      31113
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      58654,
+      80163,
+      64952,
+      58896,
+      70045,
+      66915,
+      63549,
+      74981,
+      69703,
+      69690,
+      67249,
+      149712,
+      44571
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      190281,
+      191980,
+      196946,
+      180367,
+      198568,
+      180737,
+      183496,
+      193947,
+      189455,
+      188118,
+      199940,
+      232311,
+      88445
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      70108,
+      67231,
+      76756,
+      80279,
+      96397,
+      88904,
+      90470,
+      93466,
+      95744,
+      98963,
+      99905,
+      30548,
+      31174
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      38748,
+      38461,
+      27557,
+      32055,
+      24959,
+      18585,
+      16314,
+      15879,
+      19529,
+      22889,
+      33896,
+      10531,
+      12540
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      39606,
+      53386,
+      46962,
+      28700,
+      33065,
+      24753,
+      16660,
+      17291,
+      13150,
+      11869,
+      14532,
+      15418,
+      17831
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      41819,
+      32903,
+      45671,
+      39333,
+      44147,
+      48495,
+      60052,
+      67311,
+      61032,
+      54397,
+      51607,
+      175814,
+      26900
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      190281,
+      191980,
+      196946,
+      180367,
+      198568,
+      180737,
+      183496,
+      193947,
+      189455,
+      188118,
+      199940,
+      232311,
+      88445
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      17805,
+      20377,
+      18083,
+      17366,
+      23754,
+      19300,
+      23980,
+      34963,
+      33065,
+      35654,
+      39562,
+      39499
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -4133,
+      -7868,
+      2681,
+      15480,
+      -10594,
+      -5925,
+      -6678,
+      -2243,
+      -668,
+      -13676,
+      -19158,
+      -24134
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      -13956,
+      -11303,
+      -12425,
+      -39255,
+      -10242,
+      -15547,
+      -17565,
+      -28903,
+      -34142,
+      -26092,
+      -19223,
+      -13549
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -284,
+      1206,
+      8339,
+      -6409,
+      2918,
+      -2172,
+      -263,
+      3817,
+      -1745,
+      -4114,
+      1181,
+      1816
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      7231,
+      14965,
+      12648,
+      10070,
+      14937,
+      11631,
+      17262,
+      24658,
+      19411,
+      19097,
+      22848,
+      18747
+     ]
+    },
+    {
+     "label": "CFO/EBITDA",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      96,
+      -124,
+      109,
+      83,
+      114,
+      99,
+      96,
+      91,
+      114,
+      109,
+      230,
+      205
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Debtor Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      18,
+      14,
+      11,
+      16,
+      16,
+      12,
+      14,
+      14,
+      10,
+      9,
+      21,
+      6
+     ]
+    },
+    {
+     "label": "Inventory Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      129,
+      132,
+      161,
+      135,
+      184,
+      184,
+      153,
+      147,
+      124,
+      107,
+      234,
+      66
+     ]
+    },
+    {
+     "label": "Days Payable",
+     "key": null,
+     "unit": "days",
+     "values": [
+      78,
+      267,
+      308,
+      202,
+      242,
+      275,
+      245,
+      221,
+      91,
+      83,
+      165,
+      88
+     ]
+    },
+    {
+     "label": "Cash Conversion Cycle",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      69,
+      -120,
+      -136,
+      -51,
+      -42,
+      -80,
+      -77,
+      -61,
+      43,
+      33,
+      90,
+      -16
+     ]
+    },
+    {
+     "label": "Working Capital Days",
+     "key": null,
+     "unit": "days",
+     "values": [
+      -121,
+      -219,
+      -338,
+      -182,
+      -212,
+      -186,
+      -150,
+      -82,
+      -120,
+      -107,
+      -243,
+      -121
+     ]
+    },
+    {
+     "label": "ROCE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      9,
+      -14,
+      11,
+      15,
+      14,
+      10,
+      17,
+      28,
+      20,
+      21,
+      12,
+      16
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 29 Oct",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript 29 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c7303b7-a9c3-4823-ad9c-efbc3ad5175e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Newspaper Publication 29 Oct",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Newspaper Publication 29 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8da909ae-0e1f-4cf8-a734-ca4409897f33.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 28 Oct - Audio recording of Q2 and H1 FY2026 earnings conference call is available on Vedanta’s website.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome 28 Oct - Audio recording of Q2 and H1 FY2026 earnings conference call is available on Vedanta’s website.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b6fe8e5-4d81-4e21-8eb1-a71306667053.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 28 Oct - Vedanta posted record Q2 FY27 revenue, PAT and commissioned Gamsberg Phase II; declared ₹5 interim dividend.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Press Release / Media Release 28 Oct - Vedanta posted record Q2 FY27 revenue, PAT and commissioned Gamsberg Phase II; declared ₹5 interim dividend.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ca60bf2-326e-48c4-bb3d-c99741c8bfe8.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Investor Presentation 28 Oct",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Investor Presentation 28 Oct",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49dc0908-347a-4af4-ab1c-0d0cfac26c4b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/3725606c-05f5-40b2-b122-55c0a6e7bdd1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/4f41b8d2-e8ed-4dad-b3fd-b9adca371fed.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d4d3e3bc-fe5a-4184-b181-b5455d60f11a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/a04c4068-5204-4adb-8611-f12be2663d7d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/73739500295.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/68971500295_28_09_21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/66998500295.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950317.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950316.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950315.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950314.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950313.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2012",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/500295/5002950312.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 16 Oct from crisil",
+   "links": [
+    {
+     "text": "Rating update 16 Oct from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/VedantaLimited_October%2016_%202026_RR_407640.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 17 Sep from crisil",
+   "links": [
+    {
+     "text": "Rating update 17 Sep from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/VedantaLimited_September%2017_%202026_RR_405076.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 17 Sep from icra",
+   "links": [
+    {
+     "text": "Rating update 17 Sep from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=145645"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 13 Aug from fitch",
+   "links": [
+    {
+     "text": "Rating update 13 Aug from fitch",
+     "url": "https://www.indiaratings.co.in/pressrelease/84847"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 16 Jul from crisil",
+   "links": [
+    {
+     "text": "Rating update 16 Jul from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/VedantaLimited_July%2016_%202026_RR_398566.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 27 May from icra",
+   "links": [
+    {
+     "text": "Rating update 27 May from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=143276"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49dc0908-347a-4af4-ab1c-0d0cfac26c4b.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2027/WebcastAudioFY2027.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8b18e0e-4d21-46a7-916d-732b896b18ed.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2027/10044688.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b95ea1-9d39-4176-9a1a-15f1a2c5c4bd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/Vedanta-Transcript-Apr29-2026.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=918fc405-534d-492a-9def-a386f80ba291.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/10041947.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/Transcript_29Jan2026.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48883dba-0b14-4a5e-ad9c-b9e40292ee52.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/10039128.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/VEDL_Q2FY26_Transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=614c7898-dc7a-4f07-bb16-036e9ef8303c.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=1Ab70Bz5cwI"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/Vedanta_Transcript_Jul31_2025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f4607c8-0394-46f5-a86c-0d36d15c6e74.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c67b03ec-8441-4a2e-8b8e-98722a20e4bd.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/2026/Webcast-Audio-Playbacks-fy26.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Vedanta-CallTranscript-Apr30-2025_v2.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91c7bc88-96be-4060-b899-205d9d936eff.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=mNcsPMHEm0I"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/VedantaEarnings-transcript-Jan31-2025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25c26af3-338d-4204-9489-876286987af6.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/10029062.mp3"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Vedanta-Earnings-Nov08-2024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93a40ba5-5c79-4916-99a7-82ff195538a2.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/call-transcript-fy2025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=455edec7-e71a-494e-914a-5a066c3d68b0.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/lTqKM_jiaRs?si=m_i5kAL8LC3-Dytz"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=959e27ce-3a5c-4ad8-b3c4-1a8198f44a5b.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/ANQjPKiZDeE"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/vedanta-limited-earnings-call-3qfy24-transcript-25-01-2024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f67bb020-939b-431e-a9e1-94ad0f56158b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f0050f7-ab5e-4ec1-a827-8efe3fb26b60.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Transcript_VEDL_Earnings_Call_2QFY24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d8f02a3-f245-4e5c-bd5a-309914b90ba9.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f609b3-a1b7-4596-8d37-774ff241c036.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1df1659e-7ff6-4bd0-81f9-0f16f8a59ba3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/VEDL_Call_Transcript_1QFY24.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8d3f52a-5d6e-49d3-9cd5-27796577cdd3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01d11c0b-3beb-40b6-9d8d-217f7f064104.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Transcript_VEDL_4QFY23.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/VEDL-Results-Presentation-4QFY23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/3QFY23_VEDL%20Earnings%20Call%20Transcript%2027Jan-2023.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/VEDL%20Results%20Presentation%203QFY23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Transcript_Vedanta-Earnings-Oct28-2022.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/VEDL-Results-Presentation-2QFY23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/uploads/investor-overview/financial-results/Call-Transcript-Q1FY23.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2022",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=253d5bc7-e9a5-45d4-bce8-c82178423190.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-July26-2021_vf.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/VedantaLtd-Earnings-Jan29-2021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Nov06-2020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jun 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Transcript_June08-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fee80924-9551-47c3-a44f-30f8d5976c9e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Transcript_Jan31-2020.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81d4b850-11e6-4919-9a17-043a43627efc.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Sep 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Transcript_Nov14-2019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Transcript_July26-2019.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Earnings%20Transcript_FY19.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/VedantaLtd-Earnings-Jan31-2019_updatedf.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/Vedanta-Earnings-Oct31-2018_vF.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedanta-earningscall-jul31-2018.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2018",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5d3b34f-6748-4956-b2fa-aa5493c79d56.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Mar 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedanta-earningscall-may03-2018_vf.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedanta-earnings-jan31-2018_transcript_vf.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f3f3379-daf1-4708-9d5e-df9acfdb73fd.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedantaltd-earnings_call_transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b8bf59f-00fb-443c-9b5b-efbdc3ed1103.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedantaltd-earnings-july25-2017_v1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/15-may-17.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4C198404_D089_4D5E_A6BB_93D166AB7E39_141623.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=509748CC_47CD_4912_97E4_00EE16366C7C_141426.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2016",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E0D7F49E_71CC_413B_9102_59C644BD7870_163738.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedanta-earnings-apr28-2016.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.vedantalimited.com/InvestorReports/vedanta-earnings-28jan-2016_transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E0A32E75_E21A_4BCA_8B51_D879E82B8A8B_172842.pdf"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,343 @@
+{
+ "schema": 1,
+ "symbol": "LT",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=LT&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:50:23.940Z",
+  "asOf": "2026-10-31T07:30:35.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 14,
+ "items": [
+  {
+   "id": "106837941",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "General Updates",
+   "text": "Updates on the Business Transfer Agreement with Vyoma.AI Limited (Vyoma), Wholly owned Subsidiary of the Company and Share Purchase Agreement towards sale of entire stake held in L&T Network Services Private Limited to Vyoma Extension of timeline of completion",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/AB_31102026130022_SEIntimation_ExtensionofBTAVyoma_31102026.pdf",
+   "attachmentSize": "3.28 MB",
+   "announcedAt": "2026-10-31T07:30:35.000Z",
+   "announcedAtRaw": "31-Oct-2026 13:00:35",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:subsidiary",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106833097",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_28102026194657_NewspaperAdvtSep2026.pdf",
+   "attachmentSize": "3.43 MB",
+   "announcedAt": "2026-10-28T14:17:25.000Z",
+   "announcedAtRaw": "28-Oct-2026 19:47:25",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831153",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026221257_Intimation27102026.pdf",
+   "attachmentSize": "1.28 MB",
+   "announcedAt": "2026-10-27T16:43:16.000Z",
+   "announcedAtRaw": "27-Oct-2026 22:13:16",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830809",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Updates",
+   "text": "Larsen & Toubro Limited has informed the Exchange regarding 'Analyst Presentation.- Q2 / H1 FY27'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026183653_AnalystPresentationSep2026.pdf",
+   "attachmentSize": "5.28 MB",
+   "announcedAt": "2026-10-27T13:07:19.000Z",
+   "announcedAtRaw": "27-Oct-2026 18:37:19",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106830479",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Larsen & Toubro Limited has submitted to the Exchange, the consolidated and standalone un-audited financial results of the Company for the quarter and half-year ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026171156_LTSep2026.pdf",
+   "attachmentSize": "3.05 MB",
+   "announcedAt": "2026-10-27T11:43:09.000Z",
+   "announcedAtRaw": "27-Oct-2026 17:13:09",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106829991",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Allotment of Securities",
+   "text": "Larsen & Toubro Limited has informed the Exchange regarding allotment of 21098 securities pursuant to ESOP/ESPS at its meeting held on October 27, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026132854_ESOPAllotment27102026.pdf",
+   "attachmentSize": "1.28 MB",
+   "announcedAt": "2026-10-27T07:59:18.000Z",
+   "announcedAtRaw": "27-Oct-2026 13:29:18",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106829683",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Bagging/Receiving of orders/contracts",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_27102026101631_PressRelease27102026.pdf",
+   "attachmentSize": "1.36 MB",
+   "announcedAt": "2026-10-27T04:46:48.000Z",
+   "announcedAtRaw": "27-Oct-2026 10:16:48",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:bagging/receiving of orders/contracts",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106822983",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Bagging/Receiving of orders/contracts",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_21102026094637_PressRelease21102026.pdf",
+   "attachmentSize": "3.23 MB",
+   "announcedAt": "2026-10-21T04:16:52.000Z",
+   "announcedAtRaw": "21-Oct-2026 09:46:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:bagging/receiving of orders/contracts",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106821513",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Bagging/Receiving of orders/contracts",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_19102026101805_PressRelease19102026.pdf",
+   "attachmentSize": "3.25 MB",
+   "announcedAt": "2026-10-19T04:48:20.000Z",
+   "announcedAtRaw": "19-Oct-2026 10:18:20",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:bagging/receiving of orders/contracts",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106820326",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_16102026170806_Intimation16102026.pdf",
+   "attachmentSize": "3.17 MB",
+   "announcedAt": "2026-10-16T11:39:10.000Z",
+   "announcedAtRaw": "16-Oct-2026 17:09:10",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106814880",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_12102026183004_Intimation745Sep2026.pdf",
+   "attachmentSize": "3.38 MB",
+   "announcedAt": "2026-10-12T13:00:27.000Z",
+   "announcedAtRaw": "12-Oct-2026 18:30:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106810362",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Change in Management",
+   "text": "Larsen & Toubro Limited has informed the Exchange about change in Management",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_07102026212904_IntimationSRMGT07102026.pdf",
+   "attachmentSize": "3.33 MB",
+   "announcedAt": "2026-10-07T15:59:23.000Z",
+   "announcedAtRaw": "07-Oct-2026 21:29:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "management_change",
+    "categories": [
+     "management_change"
+    ],
+    "rule": "desc:change in management",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106809242",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Bagging/Receiving of orders/contracts",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_07102026101304_PressRelease07102026.pdf",
+   "attachmentSize": "3.26 MB",
+   "announcedAt": "2026-10-07T04:43:23.000Z",
+   "announcedAtRaw": "07-Oct-2026 10:13:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:bagging/receiving of orders/contracts",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806590",
+   "symbol": "LT",
+   "company": "Larsen & Toubro Limited",
+   "isin": "INE018A01030",
+   "nseDesc": "Bagging/Receiving of orders/contracts",
+   "text": "Larsen & Toubro Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/PAM_05102026093512_PressRelease05102026.pdf",
+   "attachmentSize": "3.24 MB",
+   "announcedAt": "2026-10-05T04:05:26.000Z",
+   "announcedAtRaw": "05-Oct-2026 09:35:26",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "desc:bagging/receiving of orders/contracts",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

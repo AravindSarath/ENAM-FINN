@@ -1,0 +1,459 @@
+{
+ "schema": 1,
+ "symbol": "TCS",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=TCS&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:49:55.147Z",
+  "asOf": "2026-10-19T06:00:07.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 19,
+ "items": [
+  {
+   "id": "106821698",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_19102026112258_PR_19Oct26_signed.pdf",
+   "attachmentSize": "523.38 KB",
+   "announcedAt": "2026-10-19T06:00:07.000Z",
+   "announcedAtRaw": "19-Oct-2026 11:30:07",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106820243",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_16102026162737_SE16102026_signed.pdf",
+   "attachmentSize": "344.43 KB",
+   "announcedAt": "2026-10-16T10:59:00.000Z",
+   "announcedAtRaw": "16-Oct-2026 16:29:00",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818480",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "General Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about completion of acquisition of BBY Services India LLP",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026133009_SEInt15102026.pdf",
+   "attachmentSize": "257.40 KB",
+   "announcedAt": "2026-10-15T08:00:23.000Z",
+   "announcedAtRaw": "15-Oct-2026 13:30:23",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "kw:mna",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106818319",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release - TCS launches Industrial Intelligence Foundry to accelerate AI-led autonomy and engineering'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_15102026112020_PR_15Oct26_signed.pdf",
+   "attachmentSize": "556.60 KB",
+   "announcedAt": "2026-10-15T06:00:07.000Z",
+   "announcedAtRaw": "15-Oct-2026 11:30:07",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106817267",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Transcript",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026155941_SEInt14102026_signed.pdf",
+   "attachmentSize": "706.51 KB",
+   "announcedAt": "2026-10-14T10:30:08.000Z",
+   "announcedAtRaw": "14-Oct-2026 16:00:08",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106816882",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Press Release -MyState Limited selects TCS BaNCSTM to transform core banking operations'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_14102026112025_PR_14Oct26_signed.pdf",
+   "attachmentSize": "510.17 KB",
+   "announcedAt": "2026-10-14T06:00:06.000Z",
+   "announcedAtRaw": "14-Oct-2026 11:30:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813660",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_10102026180525_SEInt10102026_signed.pdf",
+   "attachmentSize": "314.25 KB",
+   "announcedAt": "2026-10-10T12:36:21.000Z",
+   "announcedAtRaw": "10-Oct-2026 18:06:21",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813653",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_10102026175539_SEInt10102026_signed.pdf",
+   "attachmentSize": "1.16 MB",
+   "announcedAt": "2026-10-10T12:26:32.000Z",
+   "announcedAtRaw": "10-Oct-2026 17:56:32",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106812964",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026184305_SEInt09102026_Signed.pdf",
+   "attachmentSize": "341.37 KB",
+   "announcedAt": "2026-10-09T13:13:52.000Z",
+   "announcedAtRaw": "09-Oct-2026 18:43:52",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811955",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding 'Statement of the Company regarding the announcement by the US Government on the Permanent Labor Certification Program'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_09102026080757_SE_TCS_Statement_f.pdf",
+   "attachmentSize": "217.74 KB",
+   "announcedAt": "2026-10-09T02:38:19.000Z",
+   "announcedAtRaw": "09-Oct-2026 08:08:19",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106811801",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026223847_SEInt09072026_signed.pdf",
+   "attachmentSize": "218.00 KB",
+   "announcedAt": "2026-10-08T17:08:59.000Z",
+   "announcedAtRaw": "08-Oct-2026 22:38:59",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811194",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "General Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Date of Payment of Dividend.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154436_Post_BM_SE_Letter_fin.pdf",
+   "attachmentSize": "622.55 KB",
+   "announcedAt": "2026-10-08T10:14:45.000Z",
+   "announcedAtRaw": "08-Oct-2026 15:44:45",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "kw:dividend",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811193",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Press Release",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 8, 2026, titled \"International Growth and Strategic Wins Underpin TCS Q2\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154325_PressReleaseletter.pdf",
+   "attachmentSize": "806.35 KB",
+   "announcedAt": "2026-10-08T10:13:32.000Z",
+   "announcedAtRaw": "08-Oct-2026 15:43:32",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811188",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Dividend",
+   "text": "Tata Consultancy Services Limited has informed the Exchange that Board of Directors at its meeting held on October 8, 2026, declared Interim Dividend of Rs. 12 per equity share.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026154152_Post_BM_SE_Letter_fin.pdf",
+   "attachmentSize": "622.55 KB",
+   "announcedAt": "2026-10-08T10:12:03.000Z",
+   "announcedAtRaw": "08-Oct-2026 15:42:03",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "desc:dividend",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811186",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Tata Consultancy Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_08102026153124_Post_BM_SE_Letter_fin.pdf",
+   "attachmentSize": "622.55 KB",
+   "announcedAt": "2026-10-08T10:10:12.000Z",
+   "announcedAtRaw": "08-Oct-2026 15:40:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106805688",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Press Release",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding a press release dated October 01, 2026, titled \"Best Buy s Global Capability Center in India to transition to TCS\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026214236_Signed_PRSEInt01102026.pdf",
+   "attachmentSize": "392.42 KB",
+   "announcedAt": "2026-10-01T16:12:54.000Z",
+   "announcedAtRaw": "01-Oct-2026 21:42:54",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106805600",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026200753_Signed_SEInt01102026.pdf",
+   "attachmentSize": "377.21 KB",
+   "announcedAt": "2026-10-01T14:38:34.000Z",
+   "announcedAtRaw": "01-Oct-2026 20:08:34",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106805372",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Acquisition",
+   "text": "Tata Consultancy Services Limited has informed the Exchange about Acquisition",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026184041_Signed_SE_Letter.pdf",
+   "attachmentSize": "268.53 KB",
+   "announcedAt": "2026-10-01T13:11:18.000Z",
+   "announcedAtRaw": "01-Oct-2026 18:41:18",
+   "hasXbrl": true,
+   "classification": {
+    "category": "M&A",
+    "categories": [
+     "M&A"
+    ],
+    "rule": "desc:acquisition",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106805363",
+   "symbol": "TCS",
+   "company": "Tata Consultancy Services Limited",
+   "isin": "INE467B01029",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Tata Consultancy Services Limited has informed the Exchange regarding Outcome of Meeting of Investment Committee, as empowered by the Board, held on October 01, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/TCS_CORPCS_01102026182634_Signed_SE_Letter.pdf",
+   "attachmentSize": "268.53 KB",
+   "announcedAt": "2026-10-01T13:09:47.000Z",
+   "announcedAtRaw": "01-Oct-2026 18:39:47",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  }
+ ]
+}

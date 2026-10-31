@@ -1,0 +1,440 @@
+{
+ "schema": 1,
+ "symbol": "VEDL",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=VEDL&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:16.797Z",
+  "asOf": "2026-10-29T12:08:49.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 18,
+ "items": [
+  {
+   "id": "106834755",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Vedanta Limited has informed the Exchange about Earnings Call Transcript for the Second Quarter and Half Year ended September 30, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_29102026173812_VEDLSEIntimationTranscriptofConferenceCallfinal.pdf",
+   "attachmentSize": "503.72 KB",
+   "announcedAt": "2026-10-29T12:08:49.000Z",
+   "announcedAtRaw": "29-Oct-2026 17:38:49",
+   "hasXbrl": true,
+   "classification": {
+    "category": "earnings_call",
+    "categories": [
+     "earnings_call",
+     "results",
+     "investor_meetings"
+    ],
+    "rule": "kw:transcript",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106833743",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Vedanta Limited has informed the Exchange about the Copy of Newspaper publication in relation to Unaudited Financial Results of the Company for the Second Quarter and Half Year ended September 30, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_29102026110808_SEIntimationNewspaperAdvQ2FY27signed.pdf",
+   "attachmentSize": "11.33 MB",
+   "announcedAt": "2026-10-29T05:40:41.000Z",
+   "announcedAtRaw": "29-Oct-2026 11:10:41",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106832677",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Vedanta Limited has informed the Exchange about Link of Recording",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_28102026175751_VEDLSEIntimationConferenceCallRecordingLinksigned.pdf",
+   "attachmentSize": "503.91 KB",
+   "announcedAt": "2026-10-28T12:28:06.000Z",
+   "announcedAtRaw": "28-Oct-2026 17:58:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831991",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Press Release",
+   "text": "Vedanta Limited has informed the Exchange regarding a press release dated October 28, 2026, titled \"Vedanta Limited posts record Q2 & H1 Results\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_28102026141425_2VEDLSEIntimationOutcomeOfBMPressReleaseAndIRPPTfinalsigned.pdf",
+   "attachmentSize": "3.27 MB",
+   "announcedAt": "2026-10-28T08:46:14.000Z",
+   "announcedAtRaw": "28-Oct-2026 14:16:14",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831990",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Investor Presentation",
+   "text": "Vedanta Limited has informed the Exchange about Investor Presentation",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_28102026141343_2VEDLSEIntimationOutcomeOfBMPressReleaseAndIRPPTfinalsigned.pdf",
+   "attachmentSize": "3.27 MB",
+   "announcedAt": "2026-10-28T08:46:14.000Z",
+   "announcedAtRaw": "28-Oct-2026 14:16:14",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "desc:investor presentation",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106831969",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Vedanta Limited has submitted to the Exchange, the outcome of Board Meeting held today for the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_28102026140745_VEDLSEIntimationOutcomeOfBM28October2026FinancialResultssigned.pdf",
+   "attachmentSize": "15.05 MB",
+   "announcedAt": "2026-10-28T08:38:16.000Z",
+   "announcedAtRaw": "28-Oct-2026 14:08:16",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106831845",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Options to purchase securities",
+   "text": "Vedanta Limited has informed the Exchange about Grants under Vedanta Limited Employee Stock Option Scheme 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_28102026130445_SEIntimationESOSGrantsfinalsigned.pdf",
+   "attachmentSize": "426.03 KB",
+   "announcedAt": "2026-10-28T07:35:02.000Z",
+   "announcedAtRaw": "28-Oct-2026 13:05:02",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106824791",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+   "text": "Vedanta Limited has informed the Exchange about Schedule of meet",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_22102026152535_VEDLPriorIntimationofBoardMeetingsigned.pdf",
+   "attachmentSize": "316.84 KB",
+   "announcedAt": "2026-10-22T09:56:17.000Z",
+   "announcedAtRaw": "22-Oct-2026 15:26:17",
+   "hasXbrl": true,
+   "classification": {
+    "category": "investor_meetings",
+    "categories": [
+     "investor_meetings"
+    ],
+    "rule": "kw:investor-meet",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106824792",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Trading Window",
+   "text": "Vedanta Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_22102026152603_VEDLPriorIntimationofBoardMeetingsigned.pdf",
+   "attachmentSize": "316.84 KB",
+   "announcedAt": "2026-10-22T09:56:17.000Z",
+   "announcedAtRaw": "22-Oct-2026 15:26:17",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:trading-window",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106822718",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Updates",
+   "text": "Vedanta Limited has informed the Exchange regarding 'Intimation under Regulation 30(9) of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 ( SEBI Listing Regulations )'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_20102026123223_VEDLSEIntimationReg30_9_HZLResultsQ2FY2027signed.pdf",
+   "attachmentSize": "12.48 MB",
+   "announcedAt": "2026-10-20T07:03:30.000Z",
+   "announcedAtRaw": "20-Oct-2026 12:33:30",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106821407",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Press Release",
+   "text": "Vedanta Limited has informed the Exchange regarding a press release dated October 18, 2026, titled \"Vedanta Ltd Doubles Zinc Production Capacity in South Africa with US$ 600 Mn investment\".",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_18102026120209_SEintimationGamsbergExpansionfinalsigned.pdf",
+   "attachmentSize": "643.25 KB",
+   "announcedAt": "2026-10-18T06:34:01.000Z",
+   "announcedAtRaw": "18-Oct-2026 12:04:01",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106820489",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Credit Rating",
+   "text": "Vedanta Limited has informed the Exchange about Credit Rating",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_16102026182606_VEDLSEIntimationCrisilRatingsFinalsigned.pdf",
+   "attachmentSize": "491.34 KB",
+   "announcedAt": "2026-10-16T12:56:14.000Z",
+   "announcedAtRaw": "16-Oct-2026 18:26:14",
+   "hasXbrl": true,
+   "classification": {
+    "category": "credit_rating",
+    "categories": [
+     "credit_rating"
+    ],
+    "rule": "desc:credit rating",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106811008",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Dividend",
+   "text": "Vedanta Limited has informed the Exchange that Board of Directors on October 08, 2026, declared Interim Dividend of Rs. 5 per equity share.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_08102026131108_SEIntimationOutcomeofBM1stInterimDividendsigned.pdf",
+   "attachmentSize": "453.86 KB",
+   "announcedAt": "2026-10-08T07:41:55.000Z",
+   "announcedAtRaw": "08-Oct-2026 13:11:55",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "desc:dividend",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106808602",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Vedanta Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_06102026172548_VEDLSEIntimationReg74_5_Q2FY27final-signed.pdf",
+   "attachmentSize": "3.13 MB",
+   "announcedAt": "2026-10-06T11:56:27.000Z",
+   "announcedAtRaw": "06-Oct-2026 17:26:27",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106807373",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Trading Window",
+   "text": "Vedanta Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_05102026183537_VEDLPriorIntimationBM1stInterimDivi202627signed.pdf",
+   "attachmentSize": "2.93 MB",
+   "announcedAt": "2026-10-05T13:06:06.000Z",
+   "announcedAtRaw": "05-Oct-2026 18:36:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:trading-window",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106807357",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Record Date",
+   "text": "Vedanta Limited has informed the Exchange that Record date for the purpose of Dividend is 14-Oct-2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_05102026182918_VEDLPriorIntimationBM1stInterimDivi202627signed.pdf",
+   "attachmentSize": "2.93 MB",
+   "announcedAt": "2026-10-05T13:00:48.000Z",
+   "announcedAtRaw": "05-Oct-2026 18:30:48",
+   "hasXbrl": true,
+   "classification": {
+    "category": "dividend",
+    "categories": [
+     "dividend"
+    ],
+    "rule": "kw:dividend",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806342",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Updates",
+   "text": "Vedanta Limited has informed the Exchange regarding ' Production Release of the Company for quarter ended September 30, 2026'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_03102026180708_SEIntimationProductionReleasefinalsigned.pdf",
+   "attachmentSize": "3.19 MB",
+   "announcedAt": "2026-10-03T12:37:25.000Z",
+   "announcedAtRaw": "03-Oct-2026 18:07:25",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106804919",
+   "symbol": "VEDL",
+   "company": "Vedanta Limited",
+   "isin": "INE205A01025",
+   "nseDesc": "Shareholders meeting",
+   "text": "Vedanta Limited has submitted the Exchange a copy Srutinizers report of Postal Ballot. Further, the company has informed the Exchange regarding voting results.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/VEDL_01102026161742_SEIntimationVotingResultsScrutinizerReportfinalsigned.pdf",
+   "attachmentSize": "6.29 MB",
+   "announcedAt": "2026-10-01T10:47:57.000Z",
+   "announcedAtRaw": "01-Oct-2026 16:17:57",
+   "hasXbrl": true,
+   "classification": {
+    "category": "postal_ballot",
+    "categories": [
+     "postal_ballot",
+     "agm_egm"
+    ],
+    "rule": "kw:postal-ballot",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  }
+ ]
+}

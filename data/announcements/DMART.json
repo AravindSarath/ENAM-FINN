@@ -1,0 +1,274 @@
+{
+ "schema": 1,
+ "symbol": "DMART",
+ "source": {
+  "name": "NSE corporate announcements API",
+  "url": "https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=DMART&from_date=01-10-2026&to_date=31-10-2026",
+  "fetchedAt": "2026-10-31T15:51:29.233Z",
+  "asOf": "2026-10-30T12:33:05.000Z",
+  "status": "ok"
+ },
+ "window": {
+  "from": "01-10-2026",
+  "to": "31-10-2026"
+ },
+ "count": 11,
+ "items": [
+  {
+   "id": "106837010",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Updates",
+   "text": "Avenue Supermarts Limited has informed the Exchange regarding 'Store Opening'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_30102026180249_ASLInitmationStoreOpening30102026.pdf",
+   "attachmentSize": "206.01 KB",
+   "announcedAt": "2026-10-30T12:33:05.000Z",
+   "announcedAtRaw": "30-Oct-2026 18:03:05",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  },
+  {
+   "id": "106834762",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "General Updates",
+   "text": "Avenue Supermarts Limited has informed the Exchange about allotment of Commercial Paper of Rs. 200 crores",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_29102026173942_CPAllotmentIntimation29102026.pdf",
+   "attachmentSize": "289.35 KB",
+   "announcedAt": "2026-10-29T12:10:50.000Z",
+   "announcedAtRaw": "29-Oct-2026 17:40:50",
+   "hasXbrl": true,
+   "classification": {
+    "category": "fund_raise",
+    "categories": [
+     "fund_raise"
+    ],
+    "rule": "kw:fund-raise",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106830481",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Action(s) initiated or orders passed",
+   "text": "Avenue Supermarts Limited has informed the Exchange about Action(s) initiated or orders passed",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_27102026171345_ASLInitmationReg30_27102026.pdf",
+   "attachmentSize": "223.39 KB",
+   "announcedAt": "2026-10-27T11:44:06.000Z",
+   "announcedAtRaw": "27-Oct-2026 17:14:06",
+   "hasXbrl": true,
+   "classification": {
+    "category": "litigation",
+    "categories": [
+     "litigation"
+    ],
+    "rule": "desc:action(s) initiated or orders passed",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106814701",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Copy of Newspaper Publication",
+   "text": "Avenue Supermarts Limited has informed the Exchange about Copy of Newspaper Publication",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_12102026173747_ASLNewspaperADIntimation12102026.pdf",
+   "attachmentSize": "784.52 KB",
+   "announcedAt": "2026-10-12T12:11:17.000Z",
+   "announcedAtRaw": "12-Oct-2026 17:41:17",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:newspaper",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813566",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "General Updates",
+   "text": "Avenue Supermarts Limited has informed the Exchange about Investor Presentation for the quarter and half year ended 30th September, 2026",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_10102026153516_ASLInvestorPresentation10102026.pdf",
+   "attachmentSize": "1.48 MB",
+   "announcedAt": "2026-10-10T10:07:59.000Z",
+   "announcedAtRaw": "10-Oct-2026 15:37:59",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813562",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Press Release",
+   "text": "Avenue Supermarts Limited has informed the Exchange regarding a press release dated October 10, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_10102026153213_ASLPressRelease10102026.pdf",
+   "attachmentSize": "405.84 KB",
+   "announcedAt": "2026-10-10T10:03:24.000Z",
+   "announcedAtRaw": "10-Oct-2026 15:33:24",
+   "hasXbrl": true,
+   "classification": {
+    "category": "press_release",
+    "categories": [
+     "press_release"
+    ],
+    "rule": "kw:press",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106813548",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Outcome of Board Meeting",
+   "text": "Avenue Supermarts Limited has submitted to the Exchange, the financial results for the period ended September 30, 2026.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_10102026151828_ASLOutcomeofBM10102026.pdf",
+   "attachmentSize": "4.09 MB",
+   "announcedAt": "2026-10-10T09:52:43.000Z",
+   "announcedAtRaw": "10-Oct-2026 15:22:43",
+   "hasXbrl": true,
+   "classification": {
+    "category": "results",
+    "categories": [
+     "results"
+    ],
+    "rule": "kw:results",
+    "confidence": "medium",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106812960",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Credit Rating",
+   "text": "Avenue Supermarts Limited has informed the Exchange about Credit Rating",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_09102026183437_ASLICRACreditRatingIntimation09102026.pdf",
+   "attachmentSize": "445.32 KB",
+   "announcedAt": "2026-10-09T13:11:12.000Z",
+   "announcedAtRaw": "09-Oct-2026 18:41:12",
+   "hasXbrl": true,
+   "classification": {
+    "category": "credit_rating",
+    "categories": [
+     "credit_rating"
+    ],
+    "rule": "desc:credit rating",
+    "confidence": "high",
+    "routine": false,
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106809977",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "text": "Avenue Supermarts Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_07102026170847_ASLComplianceCertificateUnderRegulation74_5_30092026.pdf",
+   "attachmentSize": "297.21 KB",
+   "announcedAt": "2026-10-07T11:39:21.000Z",
+   "announcedAtRaw": "07-Oct-2026 17:09:21",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:compliance",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106809954",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "ESOP/ESOS/ESPS",
+   "text": "Avenue Supermarts Limited has informed the Exchange regarding Allotment of 63546 Shares under Avenue Supermarts Limited ESOP Scheme 2023",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_07102026170028_ASLESOPAllotment_07102026.pdf",
+   "attachmentSize": "287.30 KB",
+   "announcedAt": "2026-10-07T11:31:22.000Z",
+   "announcedAtRaw": "07-Oct-2026 17:01:22",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "routine-only",
+    "confidence": "medium",
+    "routine": true,
+    "routineRule": "routine:esop",
+    "needsReview": false
+   }
+  },
+  {
+   "id": "106806181",
+   "symbol": "DMART",
+   "company": "Avenue Supermarts Limited",
+   "isin": "INE192R01011",
+   "nseDesc": "Updates",
+   "text": "Avenue Supermarts Limited has informed the Exchange regarding 'Company Update at the end of Quarter 2 (Q2) of Financial Year 2026-27'.",
+   "attachmentUrl": "https://nsearchives.nseindia.com/corporate/DMART_03102026122118_ASLQuarterUpdateSep2026.pdf",
+   "attachmentSize": "3.29 MB",
+   "announcedAt": "2026-10-03T06:53:41.000Z",
+   "announcedAtRaw": "03-Oct-2026 12:23:41",
+   "hasXbrl": true,
+   "classification": {
+    "category": "unclassified",
+    "categories": [
+     "unclassified"
+    ],
+    "rule": "none",
+    "confidence": "low",
+    "routine": false,
+    "needsReview": true
+   }
+  }
+ ]
+}

@@ -1,0 +1,2288 @@
+{
+ "schema": 1,
+ "symbol": "ICICIBANK",
+ "source": {
+  "name": "screener.in company page",
+  "url": "https://www.screener.in/company/ICICIBANK/consolidated/",
+  "fetchedAt": "2026-10-31T15:49:53.523Z",
+  "asOf": "2026-09-30",
+  "status": "ok"
+ },
+ "basis": "consolidated",
+ "companyName": "ICICI Bank Ltd",
+ "companyId": "1384",
+ "topRatios": [
+  {
+   "name": "Market Cap",
+   "text": "₹ 10,03,901 Cr.",
+   "value": 1003901
+  },
+  {
+   "name": "Current Price",
+   "text": "₹ 1,398",
+   "value": 1398
+  },
+  {
+   "name": "High / Low",
+   "text": "₹ 1,480 / 1,188",
+   "value": 1480
+  },
+  {
+   "name": "Stock P/E",
+   "text": "17.0",
+   "value": 17
+  },
+  {
+   "name": "Book Value",
+   "text": "₹ 540",
+   "value": 540
+  },
+  {
+   "name": "Dividend Yield",
+   "text": "0.86 %",
+   "value": 0.86
+  },
+  {
+   "name": "ROCE",
+   "text": "7.18 %",
+   "value": 7.18
+  },
+  {
+   "name": "ROE",
+   "text": "15.9 %",
+   "value": 15.9
+  },
+  {
+   "name": "Face Value",
+   "text": "₹ 2.00",
+   "value": 2
+  }
+ ],
+ "tables": {
+  "quarters": {
+   "section": "quarters",
+   "title": "Quarterly Results",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Sep 2023",
+     "end": "2023-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2023",
+     "end": "2023-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2024",
+     "end": "2024-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2024",
+     "end": "2024-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2024",
+     "end": "2024-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2025",
+     "end": "2025-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2025",
+     "end": "2025-09-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Dec 2025",
+     "end": "2025-12-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "quarter"
+    },
+    {
+     "label": "Jun 2026",
+     "end": "2026-06-30",
+     "kind": "quarter"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "quarter"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Revenue",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      38938,
+      40865,
+      42607,
+      44582,
+      46326,
+      47037,
+      48387,
+      49080,
+      48181,
+      48364,
+      49594,
+      52241,
+      55992
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      17908,
+      19409,
+      20424,
+      21122,
+      22225,
+      22633,
+      23047,
+      23090,
+      22017,
+      21874,
+      22047,
+      23064,
+      25656
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      24560,
+      24929,
+      30604,
+      29387,
+      32221,
+      33510,
+      37588,
+      31991,
+      35065,
+      37154,
+      41823,
+      35318,
+      39390
+     ]
+    },
+    {
+     "label": "Financing Profit",
+     "key": "financing_profit",
+     "unit": "INR_crore",
+     "values": [
+      -3530,
+      -3473,
+      -8421,
+      -5927,
+      -8120,
+      -9106,
+      -12248,
+      -6002,
+      -8901,
+      -10664,
+      -14276,
+      -6141,
+      -9055
+     ]
+    },
+    {
+     "label": "Financing Margin %",
+     "key": "financing_margin_pct",
+     "unit": "percent",
+     "values": [
+      -9,
+      -8,
+      -20,
+      -13,
+      -18,
+      -19,
+      -25,
+      -12,
+      -18,
+      -22,
+      -29,
+      -12,
+      -16
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      18690,
+      18615,
+      24575,
+      22688,
+      26617,
+      27589,
+      31361,
+      25496,
+      27966,
+      28418,
+      35020,
+      27448,
+      32169
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      15160,
+      15142,
+      16154,
+      16761,
+      18496,
+      18483,
+      19113,
+      19494,
+      19065,
+      17754,
+      20744,
+      21307,
+      23115
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      25,
+      26,
+      26,
+      26,
+      25,
+      25,
+      25,
+      26,
+      25,
+      24,
+      25,
+      24,
+      25
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      11351,
+      11515,
+      12200,
+      12463,
+      13906,
+      13847,
+      14354,
+      14456,
+      14318,
+      13481,
+      15681,
+      16276,
+      17389
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      15.56,
+      15.76,
+      16.62,
+      16.62,
+      18.38,
+      18.25,
+      18.96,
+      19,
+      18.7,
+      17.53,
+      20.61,
+      21.52,
+      22.75
+     ]
+    },
+    {
+     "label": "Gross NPA %",
+     "key": "gross_npa_pct",
+     "unit": "percent",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    },
+    {
+     "label": "Net NPA %",
+     "key": "net_npa_pct",
+     "unit": "percent",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    "https://www.screener.in/company/source/quarter/1384/9/2023/",
+    "https://www.screener.in/company/source/quarter/1384/12/2023/",
+    "https://www.screener.in/company/source/quarter/1384/3/2024/",
+    "https://www.screener.in/company/source/quarter/1384/6/2024/",
+    "https://www.screener.in/company/source/quarter/1384/9/2024/",
+    "https://www.screener.in/company/source/quarter/1384/12/2024/",
+    "https://www.screener.in/company/source/quarter/1384/3/2025/",
+    "https://www.screener.in/company/source/quarter/1384/6/2025/",
+    "https://www.screener.in/company/source/quarter/1384/9/2025/",
+    "https://www.screener.in/company/source/quarter/1384/12/2025/",
+    "https://www.screener.in/company/source/quarter/1384/3/2026/",
+    "https://www.screener.in/company/source/quarter/1384/6/2026/",
+    "https://www.screener.in/company/source/quarter/1384/9/2026/"
+   ]
+  },
+  "profit-loss": {
+   "section": "profit-loss",
+   "title": "Profit & Loss",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "TTM",
+     "end": null,
+     "kind": "ttm"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Revenue",
+     "key": "revenue",
+     "unit": "INR_crore",
+     "values": [
+      54964,
+      59294,
+      60940,
+      62162,
+      71982,
+      84836,
+      89163,
+      95407,
+      121067,
+      159516,
+      186331,
+      195218,
+      206190
+     ]
+    },
+    {
+     "label": "Interest",
+     "key": "interest",
+     "unit": "INR_crore",
+     "values": [
+      32318,
+      33996,
+      34836,
+      34262,
+      39178,
+      44666,
+      42659,
+      41167,
+      50543,
+      74108,
+      89028,
+      89029,
+      92641
+     ]
+    },
+    {
+     "label": "Expenses",
+     "key": "expenses",
+     "unit": "INR_crore",
+     "values": [
+      38766,
+      52252,
+      63841,
+      72806,
+      83775,
+      85361,
+      91309,
+      80798,
+      87864,
+      99560,
+      130078,
+      142971,
+      153685
+     ]
+    },
+    {
+     "label": "Financing Profit",
+     "key": "financing_profit",
+     "unit": "INR_crore",
+     "values": [
+      -16120,
+      -26955,
+      -37737,
+      -44906,
+      -50971,
+      -45190,
+      -44805,
+      -26558,
+      -17341,
+      -14152,
+      -32775,
+      -36782,
+      -40136
+     ]
+    },
+    {
+     "label": "Financing Margin %",
+     "key": "financing_margin_pct",
+     "unit": "percent",
+     "values": [
+      -29,
+      -45,
+      -62,
+      -72,
+      -71,
+      -53,
+      -50,
+      -28,
+      -14,
+      -9,
+      -18,
+      -19,
+      -19
+     ]
+    },
+    {
+     "label": "Other Income",
+     "key": "other_income",
+     "unit": "INR_crore",
+     "values": [
+      35252,
+      42102,
+      52458,
+      56807,
+      59325,
+      64950,
+      72174,
+      62129,
+      65112,
+      76522,
+      108255,
+      116900,
+      123056
+     ]
+    },
+    {
+     "label": "Depreciation",
+     "key": "depreciation",
+     "unit": "INR_crore",
+     "values": [
+      798,
+      843,
+      912,
+      922,
+      946,
+      1171,
+      1340,
+      1330,
+      1515,
+      1935,
+      2627,
+      3061,
+      0
+     ]
+    },
+    {
+     "label": "Profit before tax",
+     "key": "pbt",
+     "unit": "INR_crore",
+     "values": [
+      18334,
+      14304,
+      13809,
+      10978,
+      7408,
+      18589,
+      26028,
+      34241,
+      46256,
+      60434,
+      72854,
+      77057,
+      82920
+     ]
+    },
+    {
+     "label": "Tax %",
+     "key": "tax_pct",
+     "unit": "percent",
+     "values": [
+      29,
+      24,
+      18,
+      17,
+      23,
+      40,
+      22,
+      25,
+      26,
+      26,
+      25,
+      25,
+      null
+     ]
+    },
+    {
+     "label": "Net Profit",
+     "key": "pat",
+     "unit": "INR_crore",
+     "values": [
+      12942,
+      10927,
+      11340,
+      9100,
+      5689,
+      11225,
+      20364,
+      26538,
+      35461,
+      46081,
+      54569,
+      57936,
+      62827
+     ]
+    },
+    {
+     "label": "EPS in Rs",
+     "key": "eps",
+     "unit": "INR",
+     "values": [
+      19.2,
+      15.92,
+      15.9,
+      12,
+      6.6,
+      14.78,
+      26.58,
+      36.14,
+      48.74,
+      63.02,
+      71.65,
+      75.71,
+      82.41
+     ]
+    },
+    {
+     "label": "Dividend Payout %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      24,
+      29,
+      14,
+      12,
+      15,
+      0,
+      8,
+      14,
+      16,
+      16,
+      15,
+      16,
+      null
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "balance-sheet": {
+   "section": "balance-sheet",
+   "title": "Balance Sheet",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Sep 2026",
+     "end": "2026-09-30",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Equity Capital",
+     "key": "equity_capital",
+     "unit": "INR_crore",
+     "values": [
+      1160,
+      1163,
+      1165,
+      1286,
+      1289,
+      1295,
+      1383,
+      1390,
+      1397,
+      1405,
+      1425,
+      1432,
+      1436
+     ]
+    },
+    {
+     "label": "Reserves",
+     "key": "reserves",
+     "unit": "INR_crore",
+     "values": [
+      83545,
+      92948,
+      103467,
+      109344,
+      112964,
+      121665,
+      156204,
+      180663,
+      213101,
+      254739,
+      312481,
+      361628,
+      386226
+     ]
+    },
+    {
+     "label": "Deposits",
+     "key": "deposits",
+     "unit": "INR_crore",
+     "values": [
+      478042,
+      482401,
+      530204,
+      585796,
+      681317,
+      800784,
+      959940,
+      1091366,
+      1210832,
+      1443580,
+      1641637,
+      1830020,
+      2091539
+     ]
+    },
+    {
+     "label": "Borrowing",
+     "key": "borrowings",
+     "unit": "INR_crore",
+     "values": [
+      119165,
+      189054,
+      170670,
+      229402,
+      210324,
+      213852,
+      143900,
+      161603,
+      189062,
+      207428,
+      218883,
+      220264,
+      295561
+     ]
+    },
+    {
+     "label": "Other Liabilities",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      144167,
+      153190,
+      180219,
+      198453,
+      232899,
+      239696,
+      312385,
+      317616,
+      344099,
+      456911,
+      467815,
+      501153,
+      518191
+     ]
+    },
+    {
+     "label": "Total Liabilities",
+     "key": "total_liabilities",
+     "unit": "INR_crore",
+     "values": [
+      826079,
+      918756,
+      985725,
+      1124281,
+      1238794,
+      1377292,
+      1573812,
+      1752637,
+      1958490,
+      2364063,
+      2642241,
+      2914498,
+      3292953
+     ]
+    },
+    {
+     "label": "Fixed Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      5871,
+      8713,
+      9338,
+      9465,
+      9660,
+      10409,
+      10809,
+      10707,
+      11070,
+      15714,
+      24272,
+      27970,
+      17540
+     ]
+    },
+    {
+     "label": "CWIP",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "label": "Investments",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      274311,
+      286044,
+      304373,
+      372208,
+      398201,
+      443473,
+      536579,
+      567098,
+      639552,
+      827163,
+      886377,
+      870720,
+      948728
+     ]
+    },
+    {
+     "label": "Other Assets",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      545897,
+      623999,
+      672013,
+      742608,
+      830933,
+      923411,
+      1026424,
+      1174833,
+      1307868,
+      1521186,
+      1731593,
+      2015808,
+      2326686
+     ]
+    },
+    {
+     "label": "Total Assets",
+     "key": "total_assets",
+     "unit": "INR_crore",
+     "values": [
+      826079,
+      918756,
+      985725,
+      1124281,
+      1238794,
+      1377292,
+      1573812,
+      1752637,
+      1958490,
+      2364063,
+      2642241,
+      2914498,
+      3292953
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "cash-flow": {
+   "section": "cash-flow",
+   "title": "Cash Flows",
+   "unitNote": "Consolidated Figures in Rs. Crores / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "Cash from Operating Activity",
+     "key": "cfo",
+     "unit": "INR_crore",
+     "values": [
+      -12273,
+      23645,
+      52636,
+      19383,
+      48671,
+      79565,
+      138015,
+      58111,
+      -3771,
+      157284,
+      122805,
+      67325
+     ]
+    },
+    {
+     "label": "Cash from Investing Activity",
+     "key": "cfi",
+     "unit": "INR_crore",
+     "values": [
+      -13175,
+      -12060,
+      -1711,
+      -50551,
+      -30282,
+      -42095,
+      -63631,
+      -40007,
+      -67689,
+      -144737,
+      -77140,
+      -11708
+     ]
+    },
+    {
+     "label": "Cash from Financing Activity",
+     "key": "cff",
+     "unit": "INR_crore",
+     "values": [
+      24827,
+      5814,
+      -35470,
+      39676,
+      -19997,
+      2992,
+      -54667,
+      17451,
+      24791,
+      13765,
+      5589,
+      -4661
+     ]
+    },
+    {
+     "label": "Net Cash Flow",
+     "key": null,
+     "unit": "INR_crore",
+     "values": [
+      -621,
+      17399,
+      15455,
+      8508,
+      -1608,
+      40462,
+      19718,
+      35555,
+      -46669,
+      26312,
+      51255,
+      50957
+     ]
+    },
+    {
+     "label": "Free Cash Flow",
+     "key": "fcf",
+     "unit": "INR_crore",
+     "values": [
+      -13481,
+      22867,
+      51334,
+      18367,
+      47570,
+      77717,
+      136339,
+      56369,
+      -5951,
+      153676,
+      118100,
+      63778
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "ratios": {
+   "section": "ratios",
+   "title": "Ratios",
+   "unitNote": "Consolidated / View Standalone",
+   "periods": [
+    {
+     "label": "Mar 2015",
+     "end": "2015-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2016",
+     "end": "2016-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2017",
+     "end": "2017-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2018",
+     "end": "2018-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2019",
+     "end": "2019-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2020",
+     "end": "2020-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2021",
+     "end": "2021-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2022",
+     "end": "2022-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2023",
+     "end": "2023-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2024",
+     "end": "2024-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2025",
+     "end": "2025-03-31",
+     "kind": "year"
+    },
+    {
+     "label": "Mar 2026",
+     "end": "2026-03-31",
+     "kind": "year"
+    }
+   ],
+   "rows": [
+    {
+     "label": "ROE %",
+     "key": null,
+     "unit": "percent",
+     "values": [
+      15,
+      11,
+      10,
+      7,
+      4,
+      8,
+      13,
+      15,
+      17,
+      19,
+      18,
+      16
+     ]
+    }
+   ],
+   "periodSourceUrls": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  }
+ },
+ "documents": [
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 30 Oct - Allotment of 109,039 equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Option Scheme 2000.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 30 Oct - Allotment of 109,039 equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Option Scheme 2000.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b79dc4a-becb-419c-a4cd-a077b89b9d76.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 27 Oct - Allotment of equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Option Scheme 2000",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 27 Oct - Allotment of equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Option Scheme 2000",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6e8627c-e5c3-43ef-929c-707b24b1cf4d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Credit Rating 24 Oct - ICRA and CARE reaffirmed ICICI Bank ratings on October 23, 2026; matured instruments were withdrawn.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Credit Rating 24 Oct - ICRA and CARE reaffirmed ICICI Bank ratings on October 23, 2026; matured instruments were withdrawn.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94d9e62f-952d-4046-8379-bbdd1761f3ab.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Transcripts Of The Call With Media And Of Earnings Call With Analysts And Investors 23 Oct - ICICI Bank announced Q2 and H1 FY27 results, with PAT up 20.1% to ₹14,843 crore.",
+   "links": [
+    {
+     "text": "Transcripts Of The Call With Media And Of Earnings Call With Analysts And Investors 23 Oct - ICICI Bank announced Q2 and H1 FY27 results, with PAT up 20.1% to ₹14,843 crore.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0db888f-4420-4c21-9c36-9a91bdf5865e.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Announcements",
+   "label": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 22 Oct - Allotment of 24,096 equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Unit Scheme 2022.",
+   "links": [
+    {
+     "text": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS 22 Oct - Allotment of 24,096 equity shares at FV Rs. 2 each under ICICI Bank Employees Stock Unit Scheme 2022.",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fe2093-fb65-447c-b37a-4c94e860f509.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse AI Summary",
+   "links": [
+    {
+     "text": "Annual Report 2026",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/01c30537-c969-4503-bbae-a07d51eb09a5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2025",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/d80c4401-bed9-4aa4-b532-00255b963376.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2024",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/9d5f21fd-9b1e-42e5-a48b-84d2623f293c.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2023",
+     "url": "https://www.bseindia.com/xml-data/corpfiling/AttachHis/f68c72c9-9c03-42e9-a5e6-413cb88728a4.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2022",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/73975532174.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2021",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/69104532174_31_07_21.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2020",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740320.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2019",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740319.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2018",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740318.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2017",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740317.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2016",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740316.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2015",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740315.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2014",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740314.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2013",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740313.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Annual reports",
+   "label": "from bse",
+   "links": [
+    {
+     "text": "Annual Report 2012",
+     "url": "https://www.bseindia.com/bseplus/AnnualReport/532174/5321740312.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 23 Oct from icra",
+   "links": [
+    {
+     "text": "Rating update 23 Oct from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=146457"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 23 Oct from care",
+   "links": [
+    {
+     "text": "Rating update 23 Oct from care",
+     "url": "https://www.careratings.com/upload/CompanyFiles/PR/202610131022_ICICI_Bank_Limited.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 19 Nov 2025 from crisil",
+   "links": [
+    {
+     "text": "Rating update 19 Nov 2025 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ICICIBankLimited_November%2019_%202025_RR_361536.html"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 30 Oct 2025 from icra",
+   "links": [
+    {
+     "text": "Rating update 30 Oct 2025 from icra",
+     "url": "https://www.icra.in/Rationale/ShowRationaleReport/?Id=138715"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 24 Oct 2025 from care",
+   "links": [
+    {
+     "text": "Rating update 24 Oct 2025 from care",
+     "url": "https://www.careratings.com/upload/CompanyFiles/PR/202510121030_ICICI_Bank_Limited.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Credit ratings",
+   "label": "Rating update 19 Nov 2024 from crisil",
+   "links": [
+    {
+     "text": "Rating update 19 Nov 2024 from crisil",
+     "url": "https://www.crisil.com/mnt/winshare/Ratings/RatingList/RatingDocs/ICICIBankLimited_November%2019_%202024_RR_356577.html"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b831cebf-9ddc-48a6-861f-1879e07a86fc.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=V_m2G4H_lbM"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2027/transcript-for-earnings-call-held-on-july-18-2026.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d689538-69d3-4271-9c39-631e3efc0b77.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=7tPJ6z6Gj3I"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2026",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=881c8fc3-a4c2-40ff-bacf-d68efc0e3d7a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50d0e36c-8e96-4fde-9d2e-d33a9443ec34.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=245b872b-cdb6-4c0d-b8ae-1c9d3d3ee9af.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=-x7Qo9BHjlw"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2941b192-7144-4566-874a-a0d4124a003f.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2026",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icici.bank.in/content/dam/icicibank/india/managed-assets/docs/about-us/2026/transcript-earnings-call-jan2026.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a0e8729-682f-40bf-ade8-3daeaa2a1173.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=wx1TtZo27Cw"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://stockdiscovery.s3.amazonaws.com/insight/india/4255/Conference%20Call/CC-Sep25.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2976060-1fb3-415b-952e-d26f9f95b237.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/hnhsUzbC6Is"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2026/transcript-for-earnings-call-held-on-july-19-2025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c02e638-1133-4048-a9a5-be65ae7418b7.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://youtu.be/uf-gD4-CoD0?si=jzvSnWdcVHSP_ML0"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a691340-05c5-4029-a15f-cdd78f457400.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2025/2025-04-Q4-2025-investor-presentation.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/watch?v=7BN9JwS_3h0"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2025",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2025/2025-01-q3-2025-transcript-for-earnings-call-held-on-january-25-2025.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28b4804d-9cb0-4eac-b421-c2514ea76582.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2024/transcript-for-analyst-call-held-on-october-26-2024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=889e5e81-86a0-4ad6-b0e1-8b1d602ee860.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2024/transcript-of-analyst-call-held-on-july-27-2024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e41f19bc-d3e7-47d7-8547-30d8755dd009.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/embed/Q-8YbWM-xsw"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2024/2024_04_q4-2024_opening-transcript-of-analyst-call.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=369465a1-0fc1-4e1c-8cd4-2fd4f507f2cc.pdf"
+    },
+    {
+     "text": "REC",
+     "url": "https://www.youtube.com/embed/SYDI9Od9z-I"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2024",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7081b698-9e11-42a0-b1e3-0813ad681720.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2024",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2024/2024_01_icici-bank-transcript-for-analyst-call-held-on-january-20-2024.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09dfbf32-2ab8-4f1c-a2fe-f1dfd75a8802.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/about-us/2024/2023-10-icici-bank-transcript-for-analyst-call-held-on-october-21-2023.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d8504b3-0ef0-4d8a-8224-368b1f10efa5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/about-us/investor/quarterly-financial-results/2023/2023_07_ICICI-Bank-Transcript-for-Analyst-Call-held-on-July-22-2023.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b04f4e3-2a2a-4ac6-905e-467078079473.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/about-us/investor/quarterly-financial-results/2023/2023_04_q4-2023_earnings-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=945be0a0-9d5a-4771-9a01-0d1d0f69f560.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2023",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/about-us/investor/quarterly-financial-results/2023/2023_01_q3-2023_earnings-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddbb89f6-d357-47c4-96ca-7b0cf79d12f5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00f6cc4e-42da-4f40-8c52-a54acd04456e.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cf02b42-a515-43fa-92cb-bf95ed5a0cf5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0f4a75f-8301-438a-845d-f6d2ca93a375.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0b74bd-effe-474a-8c35-d608f3582253.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f0855e7-7cd9-436f-91e7-4671e9d5b8d7.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ad234a2-0963-4375-9b49-89082e6f8f0a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2022",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f955f01c-d864-43a7-ac60-8c29022925dd.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00bd6a07-db09-459c-be88-e7ba9156b4bb.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24632c16-481c-4072-8d31-a1f2cb1e3fb5.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62298118-20c5-4bfc-b276-6ab3181833d5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2022/Transcript-for-Analyst-Call-held-on-July-24-2021.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca6dddb8-1d0f-46b2-918d-3814038fdc95.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/about-us/investor/quarterly-financial-results/2022/Transcript-for-Analyst-Call-held-on-July-24-2021.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2021/2021_04_Q4-2021_Opening_Remarks.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46cad37e-ad2b-4376-b32a-3e3ec9894501.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2021",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2021/2021_01_Q3-2021_Opening_Remarks.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3b70b2f-7601-41cd-a096-7ec0ca679608.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/investor/quarterly-financial-results/2021/ICICI-Bank-Transcript-for-Analyst-Call-held-on-Oct-31-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0981d241-43b3-432f-8cf9-c8bbc62b11b3.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Aug 2020",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06caa052-47e3-4e46-a2d7-994260fc3090.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/investor/quarterly-financial-results/2021/ICICI-Bank-Transcript-for-Analyst-Call-held-on-July-25-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2446f00a-0487-4d3d-b50f-6063ebcd5a81.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/investor/quarterly-financial-results/2020/ICICI-Bank-Transcript-for-Analyst-Call-held-on-May-9-2020.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c313297d-262b-4e77-b330-bc0269da86a0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2020",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/content/dam/icicibank/india/managed-assets/docs/investor/quarterly-financial-results/2020/2020-01-Q3-2020-earnings-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af07a7f3-1f79-4cec-8b2c-44cd509fd8f0.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2019/2019-10-Q2-2020_earnings_call_transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8185c31d-cf91-4674-8769-19e7877b9586.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2019/2019-07-Q1-2020_earnings_call_transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0624953c-5c2b-493a-a757-e51c3776b01b.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51fe2a94-b968-4e38-ac4e-e8df3fb5e6b5.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2019/2019-05-Q4-2019_earnings_call_transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88f9885b-9729-4e24-9aea-1afa085c5c24.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2019",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2019/2019-1-Q3-2019-earnings-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ad525d6-632c-4a6a-be13-908619c8256a.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2018_07_Q2-2019_Call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bd2d009-e611-4e57-a20b-21403087a1d1.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2018_07_Q1-2019_Call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3703f43e-57e2-4c75-a81c-354a14bd4f3d.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2018-05_Q4-2018-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bd1bc63-1e69-4750-9960-e7b6c9cc7ce2.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jan 2018",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2018_01_Q3-2018_analyst-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90d8a58c-f143-47f3-ba30-50783f2df3ec.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2017-10-Q2-2018-analyst-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=985eee4f-999a-46b0-b376-d70b2b6761da.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2018/2017-07-Q1-2018-Earnings-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ec49449-69da-418f-a20a-0657d9693610.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "May 2017",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2017/2017_05_Q4-2017_Earnings_call_transcript_ICICIBank.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc9c01f2-a1cc-4894-9556-d04a45f85d43.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Feb 2017",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4FFAA08B_68FF_423C_89D6_78E0ED3AF3CE_081941.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Nov 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2017/2016-10-Q2-2017-opening-remarks-of-analyst-call.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89724675_75BF_4D99_9D87_394093DCEBA2_075910.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Jul 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2017/2016-07-Q1-2017-analyst-call-transcript.pdf"
+    },
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E09B506A_7299_44C5_A7FD_DB639A43E009_084033.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Apr 2016",
+   "links": [
+    {
+     "text": "Transcript",
+     "url": "https://www.icicibank.com/managed-assets/docs/investor/quarterly-financial-results/2016/2016-05-Q4-2016-analyst-call-transcript.pdf"
+    }
+   ]
+  },
+  {
+   "group": "Concalls",
+   "label": "Oct 2015",
+   "links": [
+    {
+     "text": "PPT",
+     "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=EAB4DA7C_4CFB_409E_B4A6_8D5938EA97AF_201748.pdf"
+    }
+   ]
+  }
+ ]
+}
