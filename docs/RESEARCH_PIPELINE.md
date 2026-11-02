@@ -7,7 +7,7 @@ Scope: RELIANCE only. Arbitrary-ticker research API is deferred. Sources are pri
 | Step | Who | What |
 |---|---|---|
 | 1. Fetch + page split | code | `lib/research/pdfText.ts` (unpdf, 30-day cache in gitignored `data/raw`) |
-| 2. Page selection (AR) | code | `arPages.ts`: 26 of 187 pages (MD&A, debt, contingent liabilities, auditor) |
+| 2. Page selection (AR) | code | `arPages.ts`: 36 of 187 pages (MD&A, debt, contingent liabilities, auditor) |
 | 3. Extraction | `gemini-3.5-flash-lite` | JSON schema output; transcripts split into presentation and Q&A; AR by topic. 10 calls |
 | 4. Verification | code | verbatim quote located on a page (typography/hyphenation normalised); page corrected if the model cited the wrong one; speaker taken from the transcript turn header, never from the model; analyst turns excluded; restatement may not add numbers/acronyms absent from the quote; structured claim (value, comparator, unit, metric words, direction, yoy/qoq basis, horizon) re-derived from the quote, dropped if any part disagrees; period set by code from the document |
 | 5. Metrics | code | `metrics.ts` from committed screener tables (FY = March column, not TTM). Operating profit is never labelled EBITDA |

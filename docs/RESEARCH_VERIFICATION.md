@@ -26,4 +26,4 @@ Problems found, and what was done:
 - Extraction recall is capped per call; not every figure on a call is captured.
 - Only one tested guidance verdict: growth basis is often unstated, revenue/EBITDA definitions differ from screener's, segment data is absent. Everything else is explicitly "not compared" or "not measurable".
 - The synthesis validator checks citations, numbers, terms, periods, direction and causal words; it does not guarantee semantic correctness. Points are labelled model-written.
-- Annual report read on selected pages only (26 of 187).
+- Annual report read on selected pages only (36 of 187).
