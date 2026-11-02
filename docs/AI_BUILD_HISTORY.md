@@ -1,4 +1,4 @@
-# Building FINN with an AI coding assistant: an engineering case study
+# Building FINN with an AI coding assistant
 
 FINN was built for the ENAM Holdings AI Engineer Build Challenge in about seven hours of elapsed development (31 Oct 2026, 20:32 IST to 1 Nov 2026, 03:26 IST) using Claude Code in the Claude desktop app, with Gemini used inside the research pipeline. This document records how the work was directed, what the assistant implemented, how its output was checked, and what remains unfinished. Live app: <https://enam-finn.vercel.app/> · Repository: `github.com/AravindSarath/ENAM-FINN`.
 
