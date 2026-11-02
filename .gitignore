@@ -16,3 +16,7 @@ build/
 
 # raw upstream responses (re-fetchable, can be large)
 data/raw/
+
+# local-only material (kept on disk, not published)
+specs/
+.claude/

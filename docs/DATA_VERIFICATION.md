@@ -1,7 +1,7 @@
 # RELIANCE ingestion: verification report (31 Oct 2026)
 
-Step 1 of Stage 2. Snapshots: `data/prices/`, `data/announcements/`, `data/fundamentals/RELIANCE.json`, `data/manifest.json`.
-Automated checks: `npm test` (71 tests; `tests/verification.reliance.test.ts` encodes the filing comparison below).
+Scope: RELIANCE ingestion, verified before the other tickers were ingested. Snapshots: `data/prices/`, `data/announcements/`, `data/fundamentals/RELIANCE.json`, `data/manifest.json`.
+Automated checks: `tests/verification.reliance.test.ts` encodes the filing comparison below (the suite had 71 tests when this report was written and has since grown). The announcement counts below are from the first ingest; the later re-ingest of the committed snapshot holds 17 RELIANCE items (see `DATA_COVERAGE.md`).
 
 ## 1. Quarterly results vs the original filing
 
@@ -21,11 +21,11 @@ Automated checks: `npm test` (71 tests; `tests/verification.reliance.test.ts` en
 
 Derived in code (not typed): Revenue QoQ +6.8%, YoY +29.8%; Operating profit +19.1% / +23.4%; PBT +26.1% / +32.6%; PAT +27.4% / +33.8%.
 
-### Findings to decide on
-- **A. Screener "Sales" is not the filing's headline revenue.** The filing reports *Revenue from Operations* (net of GST) of **332,861 / 311,850 / 258,898**. Screener's Sales is that figure **minus excise duty** (2,260 / 2,382 / 4,275): 332,861 − 2,260 = 330,601, and the same for the other two quarters. So revenue growth differs: filing basis YoY **+28.6%**, screener basis **+29.8%**. Both are defensible, but the number must be labelled. *Recommendation:* show screener's figure labelled "Revenue (net of excise duty)" for consistent 12-quarter series, and show the reported figure when the LLM stage extracts it from the filing.
+### Findings and resolutions
+- **A. Screener "Sales" is not the filing's headline revenue.** The filing reports *Revenue from Operations* (net of GST) of **332,861 / 311,850 / 258,898**. Screener's Sales is that figure **minus excise duty** (2,260 / 2,382 / 4,275): 332,861 − 2,260 = 330,601, and the same for the other two quarters. So revenue growth differs: filing basis YoY **+28.6%**, screener basis **+29.8%**. Both are defensible, but the number must be labelled. *Resolution:* the reported Revenue from Operations (filing-verified, `data/filings/RELIANCE.json`) is the primary revenue figure for RELIANCE, and screener's figure is kept separately as "Revenue net of excise duty". Growth is calculated on one definition at a time, never mixed across them or across companies.
 - **B. Operating profit** is not a line in the filing. Screener computes Revenue (ex-excise) − expenses (ex-excise, finance costs and depreciation). Recomputing from the filing: 330,601 − 273,985 = **56,616** (Sep 2026); 309,468 − 261,951 = 47,517; 254,623 − 208,738 = 45,885. All match. It is **not EBITDA**: it excludes other income (5,793 / 6,550 / 4,482). It is labelled "Operating profit" everywhere in the data layer and tests assert no "EBITDA" label.
-- **C. "PAT" = profit after tax and share of associates/JVs, including non-controlling interest** (29,550). Profit attributable to **owners** is **25,548** (Sep 2026), 20,946, 18,165. If the product's "PAT" should mean shareholders' profit, we need the owners' figure, which is only in the filing, not the screener table.
-- **D. Reconciliation against the PDF is manual for now.** Automated extraction needs the LLM stage; the test file preserves this verification so it does not rot.
+- **C. "PAT" = profit after tax and share of associates/JVs, including non-controlling interest** (29,550). Profit attributable to **owners** is **25,548** (Sep 2026), 20,946, 18,165. *Resolution:* PAT including non-controlling interest is the primary figure, and profit attributable to owners (available only from the filing) is shown separately.
+- **D. Reconciliation against the PDF was done by hand.** The test file preserves this verification. Automated extraction of reported figures is not implemented, so filing-verified figures exist for RELIANCE only.
 
 ## 2. Announcements (NSE)
 - Source: `https://www.nseindia.com/api/corporate-announcements?index=equities&symbol=RELIANCE&from_date=01-10-2026&to_date=31-10-2026`; **18 items**, status ok, none skipped.
@@ -36,7 +36,7 @@ Derived in code (not typed): Revenue QoQ +6.8%, YoY +29.8%; Operating profit +19
   - 2 items are flagged `needsReview`: the investor presentation (text is only "informed the Exchange about Investor Presentation"; assumed to be the results deck, low confidence) and the Hamleys subsidiary strike-off (`M&A`, low). Two "Updates" filings with no recognisable content are `unclassified` and are routine only because their text positively matches a newspaper-clipping rule. Nothing unrecognised is treated as routine.
   - Result for the 18 filings: 6 results, 5 M&A (mostly the Jio Platforms IPO), 1 each of earnings call, press release, credit rating, litigation and fund raise, 2 unclassified; 3 flagged routine.
   - An item can be both routine and categorised (a newspaper clipping about the Jio IPO is `M&A` + `routine`); tiering must respect `routine`.
-  - Keyword rules are coarse by design; the LLM stage will refine them.
+  - Keyword rules are coarse by design; a model could refine them, but none is used for classification.
 
 ## 3. Prices and volume (Yahoo `.NS`)
 - Source: `https://query1.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?range=6mo&interval=1d`; 126 daily bars, currency INR, Asia/Kolkata, latest bar **2026-10-30 (Friday)**; the market was closed at ingest (`lastBarPartial: false`). No weekend dates; dates are exchange-local.
@@ -46,11 +46,10 @@ Derived in code (not typed): Revenue QoQ +6.8%, YoY +29.8%; Operating profit +19
 - These real values replace the mock's "RELIANCE +1.2%, 1.1×".
 
 ## 4. Hygiene
-- `data/raw/` (raw HTML/JSON cache) is gitignored; `git check-ignore` confirms. No `.env` exists; no credentials are used by any adapter.
+- `data/raw/` (raw HTML/JSON cache) is gitignored; `git check-ignore` confirms. No credentials are used by any adapter.
 - Screener was fetched once (cached 24 h). Re-runs read the cache; `--refresh` bypasses it.
-- No existing UI file was modified in this step.
 
 ## 5. Limitations
-- Only RELIANCE ingested. Bank layouts are covered by a parser test (HDFCBANK fixture) but not yet ingested end to end.
+- When this report was written only RELIANCE had been ingested. All 22 tickers were later ingested, including banks and NBFCs, which have no Operating profit row (see `DATA_COVERAGE.md`).
 - Screener "OPM %" is rounded to integers by the source; compute margins from the rupee values instead.
 - Yahoo volumes are consolidated exchange volume as Yahoo reports it; not cross-checked against NSE bhavcopy.

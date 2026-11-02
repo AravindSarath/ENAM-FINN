@@ -1,4 +1,4 @@
-# Stage 4 — Pull research pipeline (RELIANCE)
+# Pull research pipeline (RELIANCE)
 
 Scope: RELIANCE only. Arbitrary-ticker research API is deferred. Sources are primary only: the FY26 annual report PDF and the concall transcripts (Jan, Apr, Jul 2026; the Oct 2026 transcript is not linked on screener.in and is listed as unavailable). No news, broker notes or model knowledge.
 

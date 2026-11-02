@@ -1,4 +1,4 @@
-# Stage 4 — RELIANCE dossier verification
+# RELIANCE research dossier: verification
 
 ## 1. Automated (in `npm test`, tests/research-dossier.test.ts and siblings)
 - Every fact: verbatim quote (≤400 chars, no ellipsis) contained in its stored context; page within the document; HTTPS source URL; document kind matches.

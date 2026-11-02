@@ -1,4 +1,4 @@
-# Push intelligence (Stage 3)
+# Push intelligence
 
 How FINN decides what to show, in what order, and why. Everything here is deterministic, rule-based and
 reproducible from the committed snapshots. There is no LLM, and nothing interprets a filing: the product states

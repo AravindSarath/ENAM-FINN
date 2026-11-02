@@ -32,6 +32,6 @@ No 429 (rate limit) was seen. At paid prices ($0.30 per 1M input, $2.50 per 1M o
 - Speakers are derived in code from the transcript's own headers; all 32 are management turns with a designation from the call's participant list. No analyst text was attributed to management.
 - Guardrails added after manual inspection (applied offline to the saved output, no new API call): a restatement may not add numbers or acronyms the quote lacks (caught "Rs. 1,17,000 Crores" where the speaker said "Rs.17,000 Crores", an invented "EBITDA", "RCPL", "RJIL"); structured numbers must be spoken in the quote; company-wide metrics may not be attached to a segment. 6 restatements and 4 structured fields were dropped; the quotes were kept.
 
-## Known gap
+## Gap found, and how it was addressed
 
-All 32 facts come from pages 3–20 (the presentation). None come from the Q&A (pages 21–32), where most forward-looking answers are. The model stopped at its own item cap. The fix is to extract the presentation and the Q&A in separate calls.
+All 32 facts come from pages 3–20 (the presentation). None come from the Q&A (pages 21–32), where most forward-looking answers are. The model stopped at its own item cap. The full RELIANCE run therefore extracts the presentation and the Q&A in separate calls, each with its own cap (see `RESEARCH_PIPELINE.md`).

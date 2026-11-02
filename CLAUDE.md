@@ -1,68 +1,68 @@
-# FINN — Project Instructions
+# FINN — Engineering conventions
 
-ENAM Holdings AI Engineer Build Challenge. Deadline: **Sun 1 Nov 2026, EOD**. Specs in `specs/` (challenge.pdf, reference.pdf). Plan in `IMPLEMENTATION_PLAN.md`.
+Conventions for contributors and AI coding assistants working in this repository. For the architecture see `IMPLEMENTATION_PLAN.md`; for the product overview see `README.md`.
 
-## What we are building
-FINN: a mobile-first investment-intelligence product for a public-markets investor. **Push** (what changed and why you care) and **Pull** (on-demand, primary-source research). The scarce skill is *filtering*, not aggregating. Graded on product sense, judgment, architecture, cost efficiency. **Not** on completeness. A demo that doesn't run is the worst outcome.
+> Next.js here is v16, newer than most model knowledge. Read `AGENTS.md` and `node_modules/next/dist/docs/` before using framework APIs.
 
-> Next.js here is v16 (newer than most model knowledge): read `AGENTS.md` and `node_modules/next/dist/docs/` before using framework APIs.
+## Product
+FINN is a mobile-first investment-intelligence app for a public-markets investor. **Push** shows what changed and why it matters (ranked, explainable alerts). **Pull** is on-demand research from primary sources only. The product's value is filtering, not aggregating.
 
-## Non-negotiables
-1. **Always runnable.** `main` must always deploy and demo. Every external dependency (Yahoo, BSE/NSE, screener, LLM) has a committed snapshot fallback. The UI never shows a raw error or spinner-forever.
-2. **Thin and working beats broad and broken.** Cut features before cutting stability. Scope cut-line is in the plan.
-3. **Pull is primary-source only.** Inputs to pull analysis: annual reports, concall transcripts, screener.in standardised financials. No news, broker notes, or model "knowledge" of the company. Every claim in a pull output carries a citation (doc, page, quote). Uncited claims are dropped in code, not by prompt alone.
-4. **Generalise.** Research works for any NSE ticker with data. Nothing hard-wired to the demo set; demo tickers only get a pre-warmed cache.
-5. **Numbers come from code, narrative from the LLM.** Never let an LLM compute growth rates or ratios. Extract → verify/reconcile against screener tables → compute deterministically.
-6. **Cost discipline.** Rules before LLM. Cheap model for bulk extraction/classification, strong model only for reasoning (narrative-vs-numbers, bull/bear). Cache every LLM call by content hash. Batch small items. Target: whole demo runs on free tiers.
-7. **No AI slop.** Concise, dense, designed. No generic chatbot, no walls of prose, no emoji decoration, no placeholder copy. Every screen answers "what matters, and what do I do?"
+## Principles
+1. **Always runnable.** The app builds and runs from committed snapshots alone. Every external source (Yahoo, NSE, screener.in, the LLM) has a committed snapshot, and the UI never shows a raw error.
+2. **Primary sources only for research.** Annual reports, concall transcripts and screener.in standardised financials. No news, broker notes or model knowledge of a company. Every research claim carries a citation (document, page, verbatim quote); uncited claims are dropped in code, not by prompting alone.
+3. **Numbers come from code, narrative from the model.** The model never computes growth rates or ratios. Extract, verify, then calculate deterministically.
+4. **Cost discipline.** Rules before models. A cheap model for bulk extraction, a stronger one only for synthesis. Log token counts for every call.
+5. **Concise and honest UI.** Dense, designed, no placeholder copy presented as real. Sample, real and unavailable data are always labelled.
 
-## Stack (decided)
-- Next.js (App Router) + TypeScript, single repo, deployed on Vercel. Tailwind, framer-motion, hand-rolled SVG sparklines. PWA manifest (installable on phone).
-- Data: committed JSON snapshots in `data/` (prices, announcements, fundamentals, enriched). Optional Upstash Redis for runtime cache; falls back to in-memory + committed cache.
-- Ingestion scripts in `scripts/` (TypeScript, run with `tsx`). Same code is reused by runtime routes for ad-hoc tickers.
-- LLM behind one interface `lib/llm.ts` with two tiers: `fast` and `smart`. Default provider Gemini free tier (long context suits transcripts); provider/model chosen via env, swappable. Structured output via JSON schema + zod validation.
-- Secrets in `.env.local` only (`GEMINI_API_KEY`, optional `UPSTASH_*`). Never commit. Keep `.env.example` current.
+## Stack
+- Next.js (App Router), React, TypeScript (strict), Tailwind CSS, framer-motion, hand-rolled SVG charts. Deployed on Vercel.
+- Data: committed JSON snapshots in `data/`. Raw upstream responses and downloaded PDFs live in gitignored `data/raw/`.
+- Ingestion and research scripts in `scripts/` (run with `tsx`).
+- LLM: Gemini through `lib/research/llm.ts` (a `fast` and a `smart` model, set by environment variable); structured output via JSON schema, validated with zod.
+- Secrets in `.env.local` only (`GEMINI_API_KEY`). Never commit them; keep `.env.example` current. The deployed app needs no secrets.
 
 ## Layout
 ```
-app/            routes + API route handlers (app/api/*)
-components/     UI (mobile-first, bottom-tab shell)
-lib/            llm.ts, classify.ts, score.ts, triggers.ts, sources/{yahoo,bse,nse,screener}.ts, pdf.ts, cache.ts
-scripts/        ingest-*.ts, prewarm.ts
-data/           committed snapshots; data/cache/ keyed by content hash
-specs/          the brief (read-only)
+app/          routes and API route handlers
+components/   UI (mobile-first, bottom tab bar); components/research/ for the dossier
+lib/data/     snapshot loaders, classification, grouping, scoring, digest, results, validation
+lib/research/ transcript parsing, extraction, verification, metrics, guidance, synthesis
+lib/sources/  Yahoo, NSE, screener.in and PDF adapters
+scripts/      ingest, enrich, validate, research pipeline
+data/         committed snapshots (prices, announcements, fundamentals, research)
+docs/         methodology, verification and measurements
+tests/        vitest suites and fixtures
 ```
 
 ## Engineering rules
-- TypeScript strict. Validate all external/LLM data with zod at the boundary.
-- Every source adapter returns `{data, source: "live"|"snapshot", asOf}`; the UI surfaces `asOf` subtly.
-- Network calls: timeout 8s, one retry, then snapshot. Be polite to BSE/NSE/screener (UA header, small concurrency, cache aggressively). Do not scrape LinkedIn directly.
-- Dates: store ISO UTC; display IST. Money: ₹ crore with Indian grouping; tabular numerals.
-- Demo clock: all "last 24h" windows are relative to a configurable `asOf` (default = latest ingest), so the digest is never empty on a weekend/holiday.
-- Keep files small and boring. No premature abstraction, no auth, no DB, no state libraries beyond React.
-- Commit small, working steps. Run `next build` + a smoke test before every deploy.
-- Record prompts and decisions as we go; the AI build history is a submission artifact. Keep conversation exports/links.
+- TypeScript strict. Validate all external and model data with zod at the boundary.
+- Source adapters return `{data, source: "live"|"snapshot", asOf}`; the UI shows `asOf` subtly.
+- Network calls: timeout and one retry, then snapshot. Be polite to NSE and screener.in (user agent, small concurrency, cache aggressively). Do not scrape LinkedIn.
+- Dates: store ISO UTC, display IST. Money: ₹ crore with Indian grouping, tabular numerals.
+- Demo clock: time windows are relative to a configurable `asOf` (default: the latest ingest), so the digest is never empty on a weekend.
+- Keep files small and plain. No auth, database or state library beyond React.
+- Run lint, typecheck, tests, the snapshot validator and a production build before every deploy.
 
-## Data rules (Stage 2)
+## Data rules
 - Revenue means reported Revenue from Operations from the filing. screener.in's revenue (net of excise) is a different definition and must be labelled; never mix definitions inside one row or across companies.
 - PAT means total profit after tax including non-controlling interest; owners' profit is a separate field. If unverified, label it "Net profit (screener)".
 - Operating profit is never EBITDA. A test fails if the UI says EBITDA without "not".
 - Null with a reason, never a substitute. `npm run validate` and `npm test` must pass before a commit.
 
-## Push intelligence rules (Stage 3)
+## Push intelligence rules
 - Scores are additive, itemised and deterministic. Never use portfolio weights (illustrative) or the clock. Change a weight in `lib/data/materiality.ts` and `docs/PUSH_INTELLIGENCE.md` together; a test enforces it.
 - Group filings only on strong evidence (same attachment, specific subject, near-identical text, same stated period). Keep every original reachable.
 - A failed or missing PDF read must never make a filing routine. Routine needs a positive rule.
 - Generated text states facts and sizes only: no beat/miss/strong/weak language. A test scans for it.
 
-## Research rules (Stage 4)
-- Pull content comes only from the annual report and concall transcripts. Every fact: verbatim quote + page; every call statement: speaker taken from the transcript header in code, analyst questions never attributed to management.
-- Never infer or repair a management statement's numerical meaning. Comparators (more than, at least, approximately, up to) are preserved or the structured claim is dropped.
-- Metrics and guidance verdicts are computed in code; a verdict only when definition, scope, period and basis match. Synthesis runs last, cites existing fact/metric IDs, and is badged model-written; unsupported points are discarded.
+## Research rules
+- Every fact has a verbatim quote and page. Every call statement has its speaker taken from the transcript header in code; analyst questions are never attributed to management.
+- Never infer or repair a management statement's numerical meaning. Comparators (more than, at least, approximately, up to) are preserved, or the structured claim is dropped.
+- Metrics and guidance verdicts are computed in code, and a verdict is issued only when definition, scope, period and basis match. Synthesis runs last, cites existing fact and metric IDs, is labelled model-written, and unsupported points are discarded.
 - Commands: `npm run research:extract | research:reverify | research:build`. The key lives in `.env.local` only; a test fails if it appears in any file. Log only token counts.
 
-## Definition of done (per feature)
-Works on a 390px-wide viewport, works offline-from-APIs via snapshot, has a loading + empty + error state, numbers verified against a source, no console errors.
+## Definition of done
+Works at 390px width, works from snapshots alone, has loading, empty and error states, numbers verified against a source, no console errors.
 
-## Commands (fill in as scaffolded)
-Working: `npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint` · `npm test` · `npm run ingest [-- --sym X --only prices|ann|fund --refresh]` · `npm run enrich` · `npm run validate`. Planned: `npm run prewarm`.
+## Commands
+`npm run dev` · `npm run build` · `npm run typecheck` · `npm run lint` · `npm test` · `npm run validate` · `npm run ingest [-- --sym X --only prices|ann|fund --refresh]` · `npm run enrich` · `npm run research:extract | research:reverify | research:build`
